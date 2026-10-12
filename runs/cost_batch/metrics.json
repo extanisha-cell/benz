@@ -1,0 +1,414 @@
+{
+  "overall": {
+    "n_pairs": 1,
+    "n_runs": 1,
+    "api_errors": 1,
+    "run_outcomes": {
+      "true_accept": 0,
+      "true_reject": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unsure": 0,
+      "invalid": 0,
+      "blocked": 0,
+      "error": 1
+    },
+    "negatives": {
+      "n_pairs": 0,
+      "false_accept_pairs": 0,
+      "false_accept_ids": [],
+      "pair_rate_ci95": null,
+      "upper95_one_sided": null,
+      "false_accept_runs": {
+        "num": 0,
+        "den": 0,
+        "rate": null,
+        "ci95": null
+      }
+    },
+    "positives": {
+      "n_pairs": 0,
+      "false_reject_pairs": 0,
+      "false_reject_ids": [],
+      "pair_rate_ci95": null,
+      "false_reject_runs": {
+        "num": 0,
+        "den": 0,
+        "rate": null,
+        "ci95": null
+      }
+    },
+    "unsure_runs": {
+      "num": 0,
+      "den": 0,
+      "rate": null,
+      "ci95": null
+    },
+    "invalid_runs": {
+      "num": 0,
+      "den": 0,
+      "rate": null,
+      "ci95": null
+    },
+    "blocked_runs": {
+      "num": 0,
+      "den": 0,
+      "rate": null,
+      "ci95": null
+    },
+    "strict_accuracy_runs": {
+      "num": 0,
+      "den": 0,
+      "rate": null,
+      "ci95": null
+    },
+    "decided_accuracy": null,
+    "coverage": null,
+    "pair_all_correct": {
+      "num": 0,
+      "den": 0
+    },
+    "stability": {
+      "pairs": 0,
+      "mean_agreement": null,
+      "unanimous_pairs": 0
+    }
+  },
+  "gated": {
+    "n_pairs": 1,
+    "n_runs": 1,
+    "api_errors": 1,
+    "run_outcomes": {
+      "true_accept": 0,
+      "true_reject": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unsure": 0,
+      "invalid": 0,
+      "blocked": 0,
+      "error": 1
+    },
+    "negatives": {
+      "n_pairs": 0,
+      "false_accept_pairs": 0,
+      "false_accept_ids": [],
+      "pair_rate_ci95": null,
+      "upper95_one_sided": null,
+      "false_accept_runs": {
+        "num": 0,
+        "den": 0,
+        "rate": null,
+        "ci95": null
+      }
+    },
+    "positives": {
+      "n_pairs": 0,
+      "false_reject_pairs": 0,
+      "false_reject_ids": [],
+      "pair_rate_ci95": null,
+      "false_reject_runs": {
+        "num": 0,
+        "den": 0,
+        "rate": null,
+        "ci95": null
+      }
+    },
+    "unsure_runs": {
+      "num": 0,
+      "den": 0,
+      "rate": null,
+      "ci95": null
+    },
+    "invalid_runs": {
+      "num": 0,
+      "den": 0,
+      "rate": null,
+      "ci95": null
+    },
+    "blocked_runs": {
+      "num": 0,
+      "den": 0,
+      "rate": null,
+      "ci95": null
+    },
+    "strict_accuracy_runs": {
+      "num": 0,
+      "den": 0,
+      "rate": null,
+      "ci95": null
+    },
+    "decided_accuracy": null,
+    "coverage": null,
+    "pair_all_correct": {
+      "num": 0,
+      "den": 0
+    },
+    "stability": {
+      "pairs": 0,
+      "mean_agreement": null,
+      "unanimous_pairs": 0
+    }
+  },
+  "annotated": {
+    "n_pairs": 1,
+    "n_runs": 1,
+    "api_errors": 1,
+    "run_outcomes": {
+      "true_accept": 0,
+      "true_reject": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unsure": 0,
+      "invalid": 0,
+      "blocked": 0,
+      "error": 1
+    },
+    "negatives": {
+      "n_pairs": 0,
+      "false_accept_pairs": 0,
+      "false_accept_ids": [],
+      "pair_rate_ci95": null,
+      "upper95_one_sided": null,
+      "false_accept_runs": {
+        "num": 0,
+        "den": 0,
+        "rate": null,
+        "ci95": null
+      }
+    },
+    "positives": {
+      "n_pairs": 0,
+      "false_reject_pairs": 0,
+      "false_reject_ids": [],
+      "pair_rate_ci95": null,
+      "false_reject_runs": {
+        "num": 0,
+        "den": 0,
+        "rate": null,
+        "ci95": null
+      }
+    },
+    "unsure_runs": {
+      "num": 0,
+      "den": 0,
+      "rate": null,
+      "ci95": null
+    },
+    "invalid_runs": {
+      "num": 0,
+      "den": 0,
+      "rate": null,
+      "ci95": null
+    },
+    "blocked_runs": {
+      "num": 0,
+      "den": 0,
+      "rate": null,
+      "ci95": null
+    },
+    "strict_accuracy_runs": {
+      "num": 0,
+      "den": 0,
+      "rate": null,
+      "ci95": null
+    },
+    "decided_accuracy": null,
+    "coverage": null,
+    "pair_all_correct": {
+      "num": 0,
+      "den": 0
+    },
+    "stability": {
+      "pairs": 0,
+      "mean_agreement": null,
+      "unanimous_pairs": 0
+    }
+  },
+  "by_category": {
+    "annotated_wrong": {
+      "n_pairs": 1,
+      "n_runs": 1,
+      "api_errors": 1,
+      "run_outcomes": {
+        "true_accept": 0,
+        "true_reject": 0,
+        "false_accept": 0,
+        "false_reject": 0,
+        "unsure": 0,
+        "invalid": 0,
+        "blocked": 0,
+        "error": 1
+      },
+      "negatives": {
+        "n_pairs": 0,
+        "false_accept_pairs": 0,
+        "false_accept_ids": [],
+        "pair_rate_ci95": null,
+        "upper95_one_sided": null,
+        "false_accept_runs": {
+          "num": 0,
+          "den": 0,
+          "rate": null,
+          "ci95": null
+        }
+      },
+      "positives": {
+        "n_pairs": 0,
+        "false_reject_pairs": 0,
+        "false_reject_ids": [],
+        "pair_rate_ci95": null,
+        "false_reject_runs": {
+          "num": 0,
+          "den": 0,
+          "rate": null,
+          "ci95": null
+        }
+      },
+      "unsure_runs": {
+        "num": 0,
+        "den": 0,
+        "rate": null,
+        "ci95": null
+      },
+      "invalid_runs": {
+        "num": 0,
+        "den": 0,
+        "rate": null,
+        "ci95": null
+      },
+      "blocked_runs": {
+        "num": 0,
+        "den": 0,
+        "rate": null,
+        "ci95": null
+      },
+      "strict_accuracy_runs": {
+        "num": 0,
+        "den": 0,
+        "rate": null,
+        "ci95": null
+      },
+      "decided_accuracy": null,
+      "coverage": null,
+      "pair_all_correct": {
+        "num": 0,
+        "den": 0
+      },
+      "stability": {
+        "pairs": 0,
+        "mean_agreement": null,
+        "unanimous_pairs": 0
+      }
+    }
+  },
+  "by_split": {
+    "unassigned": {
+      "n_pairs": 1,
+      "n_runs": 1,
+      "api_errors": 1,
+      "run_outcomes": {
+        "true_accept": 0,
+        "true_reject": 0,
+        "false_accept": 0,
+        "false_reject": 0,
+        "unsure": 0,
+        "invalid": 0,
+        "blocked": 0,
+        "error": 1
+      },
+      "negatives": {
+        "n_pairs": 0,
+        "false_accept_pairs": 0,
+        "false_accept_ids": [],
+        "pair_rate_ci95": null,
+        "upper95_one_sided": null,
+        "false_accept_runs": {
+          "num": 0,
+          "den": 0,
+          "rate": null,
+          "ci95": null
+        }
+      },
+      "positives": {
+        "n_pairs": 0,
+        "false_reject_pairs": 0,
+        "false_reject_ids": [],
+        "pair_rate_ci95": null,
+        "false_reject_runs": {
+          "num": 0,
+          "den": 0,
+          "rate": null,
+          "ci95": null
+        }
+      },
+      "unsure_runs": {
+        "num": 0,
+        "den": 0,
+        "rate": null,
+        "ci95": null
+      },
+      "invalid_runs": {
+        "num": 0,
+        "den": 0,
+        "rate": null,
+        "ci95": null
+      },
+      "blocked_runs": {
+        "num": 0,
+        "den": 0,
+        "rate": null,
+        "ci95": null
+      },
+      "strict_accuracy_runs": {
+        "num": 0,
+        "den": 0,
+        "rate": null,
+        "ci95": null
+      },
+      "decided_accuracy": null,
+      "coverage": null,
+      "pair_all_correct": {
+        "num": 0,
+        "den": 0
+      },
+      "stability": {
+        "pairs": 0,
+        "mean_agreement": null,
+        "unanimous_pairs": 0
+      }
+    }
+  },
+  "by_gold_error": {},
+  "flagged_correct": null,
+  "pairs": [
+    {
+      "pair_id": "BZ2256__wrong",
+      "molecule": "BZ2256",
+      "b_molecule": "BZ2256",
+      "category": "annotated_wrong",
+      "expected": 0,
+      "gated": true,
+      "outcomes": [
+        "error"
+      ],
+      "decisions": [
+        null
+      ],
+      "reasons": [
+        ""
+      ]
+    }
+  ],
+  "vote_rules": {
+    "n_calls": 0,
+    "n_negatives": 0,
+    "n_positives": 0,
+    "single_call": {
+      "false_accept_runs": 0,
+      "n_negative_runs": 0,
+      "sent_back_runs": 0,
+      "n_positive_runs": 0
+    },
+    "rules": []
+  }
+}

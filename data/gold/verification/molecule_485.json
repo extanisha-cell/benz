@@ -1,0 +1,14 @@
+{"molecule": "molecule_485", "status": "confirmed",
+ "claim_checks": [
+  {"claim": "errors_in_wrong: ether chain is O-CH2-CH2-CH2-NHAc (three carbons) instead of ref O-CH2-CH2-NHAc (two carbons)", "verdict": "confirmed", "evidence": "Wrong: from the O (~(710,700)) the chain bends at ~(800,890), ~(690,995) and ~(515,990), then a vertical bond goes down to NHAc: three carbon vertices. Ref has two vertices between O and NHAc; correct has two (~(830,1075), ~(745,1250))."},
+  {"claim": "correct_version_issues is empty (corrected drawing has no other issue)", "verdict": "confirmed", "evidence": "Correct: piperidine 6-ring with EtO solid wedge at C4 and hashed aryl at C2, N-CH2 to indole C4, MeO at C5, methyl at C7, NH and C2=C3 double bond, aryl with O-chain ortho and HO2C para to the piperidine attachment, black ink. Bond touching the piperidine N gives a small stray tick but N stays readable."},
+  {"claim": "Transcription: atom_labels [EtO,N,MeO,O,NH,HO2C,NHAc] in all three", "verdict": "confirmed", "evidence": "Same labels, written the same way, in ref, wrong and correct."},
+  {"claim": "Transcription: abbreviations [EtO,MeO,NHAc]; r_labels []", "verdict": "confirmed", "evidence": "No abbreviation expanded in either handwritten drawing; no R labels."},
+  {"claim": "Transcription: ring_sizes [6,6,6,5] in all three", "verdict": "confirmed", "evidence": "Piperidine 6, aryl 6, indole 6+5 in each image."},
+  {"claim": "Transcription: wedge_bonds 1, hashed_bonds 1 in all three", "verdict": "confirmed", "evidence": "Solid wedge to EtO and hashed bond to aryl in ref, wrong and correct."},
+  {"claim": "Transcription: ink_colour black (wrong and correct)", "verdict": "confirmed", "evidence": "Both handwritten drawings in black ink."},
+  {"claim": "Transcription: substituent_description (HO2C para, O-chain ortho to piperidine attachment; indole C4 CH2, C5 MeO, C7 methyl) in all three", "verdict": "confirmed", "evidence": "Aryl: attachment vertex to HO2C vertex is three ring bonds in each image; O on the adjacent vertex; indole substituent positions match ref."}
+ ],
+ "missed_differences": [],
+ "transcription_disputes": [],
+ "notes": "Single error (extra CH2 in the ether chain) confirmed; no other differences found between wrong/correct and ref."}

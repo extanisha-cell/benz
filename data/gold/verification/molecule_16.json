@@ -1,0 +1,22 @@
+{"molecule": "molecule_16", "status": "confirmed",
+"claim_checks": [
+{"claim": "errors_in_wrong[0]: six-ring heteroatoms rearranged - two N adjacent (N-N bond) at top, ester carbon next to fusion carbon; COOtBu no longer between the ring nitrogens (connectivity, high)", "verdict": "confirmed", "evidence": "Wrong: top of six-ring is 'N—N' (~650,375 and ~860,375) bonded to each other; left carbon (~570,505) bears the amine; right carbon (~940,495) bears COO-C(CH3)3 and is bonded to the lower-right fusion carbon (~880,605). Ref ring order is C6(H2N)-N1-C2(COOtBu)-N3-C4-C5."},
+{"claim": "errors_in_wrong[1]: COOtBu expanded to COO-C(CH3)3 (abbreviation_changed, medium)", "verdict": "confirmed", "evidence": "Wrong shows 'COO—C' with CH3 above, right and below (~1130-1740, 270-660); ref writes COOtBu."},
+{"claim": "errors_in_wrong[2]: H2N expanded to explicit vertical H-N-H (abbreviation_changed, medium)", "verdict": "confirmed", "evidence": "Wrong left side (~290-360, 380-660) shows H, N, H stacked with bond strokes between them; ref has condensed H2N."},
+{"claim": "correct_version_issues[0]: small gap between hashed bond at C4 and line to CO2H; CH2 vertex slightly ambiguous (legibility, low)", "verdict": "confirmed", "evidence": "Correct: hash strokes 'ulll' end near (~1395,455) and the line to CO2H starts at (~1430,445) after a small gap with a change in direction; still readable."},
+{"claim": "Corrected drawing otherwise matches reference", "verdict": "confirmed", "evidence": "Correct: COOtBu on top carbon between the two ring N; NH2 on lower-left carbon; N9 on the fusion carbon next to the right ring N, joined by solid wedge (wide at N) to cyclohexane C1; hashed BocNH on adjacent C2; hashed CH2CO2H at C4 (1,2,4 pattern). Black ink. Only H2N->NH2 ordering differs (see missed_differences)."},
+{"claim": "atom_labels ref: COOtBu, N, N, BocNH, H2N, N, N, CO2H", "verdict": "confirmed", "evidence": "All present in ref."},
+{"claim": "atom_labels wrong: H, N, H, N, N, COO, C, CH3 x3, N, N, BocNH, CO2H", "verdict": "confirmed", "evidence": "All visible in wrong."},
+{"claim": "atom_labels correct: COOtBu, N, N, NH2, N, N, BocNH, CO2H", "verdict": "confirmed", "evidence": "All visible; NH2 written with H2 trailing, CO2H with full-size 2."},
+{"claim": "abbreviations: ref/correct COOtBu+BocNH, wrong BocNH only", "verdict": "confirmed", "evidence": "Wrong has no tBu; BocNH present in all three."},
+{"claim": "r_labels none; ring_sizes 6,5,6 all three", "verdict": "confirmed", "evidence": "No R labels; purine 6+5 plus cyclohexane in each."},
+{"claim": "wedge_bonds 1, hashed_bonds 2 in all three; wedge wide at N, hashes widening toward substituents", "verdict": "confirmed", "evidence": "Ref: wedge N9-C1, hashes to BocNH and CH2. Wrong: wedge (~1000-1060, 810-960) wide at N; hashes to BocNH and down to CH2. Correct: wedge wide at N (~820,760); hashes to BocNH and CH2."},
+{"claim": "double_bonds: ref 4, wrong 1, correct 1 (six-ring circle in handwritten)", "verdict": "confirmed", "evidence": "Ref Kekule purine; wrong and correct use a circle in the six-ring and one explicit N=CH in the five-ring."},
+{"claim": "ink_colour black for wrong and correct", "verdict": "confirmed", "evidence": "Both drawn in black pen."},
+{"claim": "substituent_description cyclohexane C4 para to C1", "verdict": "uncertain", "evidence": "Ring path N-C1, C2(BocNH), C3, C4(CH2CO2H): C4 is 1,4 relative to C1 (para) - consistent in all three; ref layout C1 bottom-left, C2 top-left, C3 top, C4 right confirms 1,2,4. Marked uncertain only because 'para' wording is loose for cyclohexane; positions themselves match."}
+],
+"missed_differences": [
+{"category": "label_changed", "description": "Corrected drawing writes the amino group as NH2 whereas the reference has H2N. Same group, only atom order in the condensed label is flipped; minor notation-preservation point the adjudicator chose to accept.", "severity": "low"}
+],
+"transcription_disputes": [],
+"notes": "Independent viewing found the same three errors in wrong. The para-wording check is not a real disagreement on positions. Only possible additional point is H2N vs NH2 in the corrected copy (low)."}

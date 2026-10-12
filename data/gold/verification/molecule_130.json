@@ -1,0 +1,54 @@
+{
+  "molecule": "molecule_130",
+  "status": "confirmed",
+  "claim_checks": [
+    {
+      "claim": "errors_in_wrong[0] (substituent_position, high): central benzene is para in the reference but meta in the wrong drawing (piperazine N on upper-left vertex, O on upper-right vertex).",
+      "verdict": "confirmed",
+      "evidence": "Ref: piperazine N on the left vertex and O on the right vertex of the phenylene, opposite (1,4). Wrong (zoomed): the N-aryl bond lands on the upper-left vertex (~x1005,y265) and the O-bond leaves from the upper-right vertex (~x1160,y250), with only the top vertex between them, i.e. 1,3 (meta)."
+    },
+    {
+      "claim": "correct_version_issues[0] (legibility, low): both Cl labels in the corrected drawing are written in loose cursive, readable in context.",
+      "verdict": "confirmed",
+      "evidence": "Zoomed crop of correct.jpg: both labels are written as a looped cursive 'Cl' that resembles 'el'/'Ce'; readable as Cl in context on a dichlorophenyl ring, but less clear than the typeset Cl."
+    },
+    {
+      "claim": "The corrected drawing has no other issue beyond the cursive Cl note.",
+      "verdict": "confirmed",
+      "evidence": "Correct: pyrrolidine N-C(=O)-NH (H under N)-CH2CH2-piperazine (6-ring, 2 N)-N on left vertex of circled benzene, O on right vertex (para), O-CH2 hashed to dioxolane C4, dioxolane O top and O bottom, C2 bears dichlorophenyl (Cl on ortho upper-left vertex and on para upper-right vertex relative to the lower-left attachment) and a hashed bond to CH2-N1 of imidazole with C2=N3 on the left side and C4=C5 on the right side, as in the reference. Black ink."
+    },
+    {
+      "claim": "Transcription (all images): atom labels O, N, NH, N, N, O, O, O, Cl, Cl, N, N; no abbreviations; no R labels.",
+      "verdict": "confirmed",
+      "evidence": "Each image shows carbonyl O, pyrrolidine N, NH, two piperazine N, ether O, two dioxolane O, two Cl, two imidazole N; no abbreviations or R labels."
+    },
+    {
+      "claim": "Transcription (all images): ring sizes 5,6,6,5,6,5.",
+      "verdict": "confirmed",
+      "evidence": "Pyrrolidine 5, piperazine 6 (wrong drawing's piperazine has a long left edge but six vertices: N, two left/top C, N, two right/bottom C), benzene 6, dioxolane 5, dichlorophenyl 6, imidazole 5."
+    },
+    {
+      "claim": "Transcription (all images): 0 wedge bonds, 2 hashed bonds (CH2-C4 and C2-CH2 of dioxolane).",
+      "verdict": "confirmed",
+      "evidence": "Ref, wrong and correct each show two hatched bonds at the dioxolane (to the O-CH2 carbon and to the imidazolylmethyl carbon) and no solid wedges."
+    },
+    {
+      "claim": "Transcription: ink colour black for wrong and correct.",
+      "verdict": "confirmed",
+      "evidence": "Both handwritten images are in black/dark grey ink on paper; no coloured ink."
+    },
+    {
+      "claim": "Transcription: wrong drawing otherwise matches the reference (Cl ortho and para, imidazol-1-yl, dioxolane, urea chain).",
+      "verdict": "confirmed",
+      "evidence": "Wrong: dichlorophenyl attached at lower-left vertex with Cl on upper-left (ortho) and upper-right (para); imidazole N1 at top bonded to CH2, double bonds on left (C=N) and right (C=C), second N bottom-left as in ref; C=O drawn as double bond."
+    },
+    {
+      "claim": "Transcription: corrected drawing has para-disubstituted central benzene.",
+      "verdict": "confirmed",
+      "evidence": "Correct: piperazine N on left vertex (~x1020) and O on right vertex (~x1180) of the flat-topped hexagon, opposite vertices."
+    }
+  ],
+  "missed_differences": [],
+  "transcription_disputes": [],
+  "notes": "Agree with the adjudicator: the only error in the wrong drawing is meta instead of para on the central phenylene. The corrected drawing restores para; only a minor cursive-Cl legibility remark. Benzenes drawn as circles is acceptable."
+}

@@ -1,0 +1,211 @@
+{
+  "molecule": "molecule_240",
+  "images": {
+    "ref": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_240\\ref.png",
+    "wrong": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_240\\wrong.jpg",
+    "correct": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_240\\correct.jpg"
+  },
+  "transcriber_1": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Ac",
+        "N",
+        "N",
+        "OMe",
+        "EtOOC"
+      ],
+      "abbreviations": [
+        "Ac",
+        "OMe",
+        "EtOOC"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 3,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A bicyclic with a five-membered ring (N, CH, CH2, and two shared carbons) fused to a six-membered ring containing one N: the five-membered ring N bears Ac, the carbon next to that N bears EtOOC, and the next carbon is CH2. In the six-membered ring the N is separated from the fusion carbon (bonded to the Ac-N) by one CH, and the carbon adjacent to that ring N (on the other side) bears OMe.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset reference-style structure. Three double bonds all in the six-membered ring (one C=N, two C=C). No carbonyl double bonds are drawn since Ac and EtOOC are written as labels."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Ac",
+        "N",
+        "N",
+        "OMe",
+        "EtOOC"
+      ],
+      "abbreviations": [
+        "Ac",
+        "OMe",
+        "EtOOC"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 0,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A five-membered ring containing an N (bearing Ac) is fused to a six-membered circled pyridine-type ring that contains one N. EtOOC is on the five-membered ring carbon that is adjacent to the ring-fusion carbon (the one remote from N-Ac). In the six-membered ring, the N is separated from the N-bearing fusion carbon by one CH, and OMe is on the carbon directly next to that ring N, para to the fusion carbon that carries the N(Ac).",
+      "overlaps_or_ambiguities": [
+        "The Ac label is written with a capital A and a smaller c, tilted along the bond."
+      ],
+      "notes": "Handwritten on grey paper. No explicit double bonds; the six-membered ring has an aromatic circle."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Ac",
+        "N",
+        "N",
+        "OMe",
+        "EtOOC"
+      ],
+      "abbreviations": [
+        "Ac",
+        "OMe",
+        "EtOOC"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 0,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A six-membered ring with an inner circle and one ring N is fused to a five-membered ring containing an N bearing Ac. Going round the six-membered ring: fusion carbon bonded to N-Ac, CH, ring N, carbon bearing OMe (adjacent to the ring N), CH, fusion carbon bonded to the CH2 of the five-membered ring. The five-membered ring carbon next to N-Ac carries EtOOC.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Handwritten. Fused 6-5 bicycle (azaindoline type). Aromatic ring shown as a circle only, no explicit double bonds. Filled dots at some vertices are pen pressure, not charges."
+    }
+  },
+  "transcriber_2": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Ac",
+        "N",
+        "N",
+        "OMe",
+        "EtOOC"
+      ],
+      "abbreviations": [
+        "Ac",
+        "EtOOC",
+        "OMe"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 3,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Bicyclic 5-6 fused system: a five-membered ring containing an N (top left) fused to a six-membered pyridine-type ring containing one ring N at the top right. The five-ring N carries Ac; the adjacent five-ring carbon carries EtOOC; the next five-ring carbon is an unsubstituted CH2 vertex. On the six-ring, the carbon directly next to the ring N (top right) carries OMe (pyridine N and OMe carbon are adjacent, 1,2 relationship).",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset drawing. Three double bonds in the six-membered ring: one C=C at the top-left next to the fusion, one C=N at the right, one C=C at the bottom. The five-membered ring has only single bonds. No stereo bonds drawn at the EtOOC-bearing carbon."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Ac",
+        "N",
+        "N",
+        "OMe",
+        "EtOOC"
+      ],
+      "abbreviations": [
+        "Ac",
+        "OMe",
+        "EtOOC"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 0,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Fused bicyclic: a five-membered ring containing N (N bears Ac, attached to a ring-fusion carbon) fused to a six-membered ring drawn with an aromatic circle and one ring N. In the five-membered ring the carbon next to the other (lower) fusion carbon carries EtOOC; in the six-membered ring the carbon directly adjacent to the ring N (on the side away from the fusion carbon that is attached to N-Ac) carries OMe.",
+      "overlaps_or_ambiguities": [
+        "Ac is written with a capital-looking C, read as Ac"
+      ],
+      "notes": "Handwritten photo. Six-membered ring contains N at the position meta to the upper fusion carbon; OMe is on the carbon alpha to that N."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Ac",
+        "N",
+        "N",
+        "OMe",
+        "EtOOC"
+      ],
+      "abbreviations": [
+        "Ac",
+        "OMe",
+        "EtOOC"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 0,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Fused bicyclic: a six-membered ring containing one ring N and drawn with an aromatic circle, fused to a five-membered ring containing an N that carries Ac. In the six-ring, going round from the fusion carbon that is bonded to N(Ac): CH, ring N, C bearing OMe (adjacent to the ring N), CH, then the other fusion carbon. In the five-ring: N(Ac), the CH bearing EtOOC (adjacent to N(Ac)), a CH2 vertex, and the two fusion carbons.",
+      "overlaps_or_ambiguities": [
+        "dark ink blobs at the vertex bearing EtOOC and at the vertex bearing OMe (not wedges)"
+      ],
+      "notes": "No double bonds drawn other than the aromatic circle. The five-ring vertex between the EtOOC carbon and the fusion carbon is a plain CH2 vertex with no label."
+    }
+  },
+  "output_file": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\by_molecule\\molecule_240.json"
+}

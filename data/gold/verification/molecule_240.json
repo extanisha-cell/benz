@@ -1,0 +1,21 @@
+{"molecule": "molecule_240", "status": "disputed",
+ "claim_checks": [
+  {"claim": "errors_in_wrong[0]: substituent_position - EtOOC moved from C2 (adjacent to N-Ac) to C3 (bonded to the lower fusion carbon), with an unsubstituted CH2 between N(Ac) and the EtOOC carbon", "verdict": "confirmed", "evidence": "Wrong: five-membered ring runs N (~465,270) -> unsubstituted vertex (~320,405) -> vertex (~425,585) that carries the EtOOC bond -> fusion carbon (~670,545). Reference: EtOOC on the ring carbon directly bonded to N(Ac)."},
+  {"claim": "correct_version_issues is empty: the corrected drawing has no other issue", "verdict": "confirmed", "evidence": "Correct: N(Ac) -> C (~630,705) bearing EtOOC -> CH2 (~1000,830) -> fusion C (~1160,580); pyridine N two bonds from C7a via one CH (~1110,200); OMe on carbon (~1465,505) adjacent to ring N. Ac written with lower-case c; OMe, EtOOC as in ref. Black ink. Ink blobs at vertices are not wedges."},
+  {"claim": "Transcription: atom_labels Ac, N, N, OMe, EtOOC in all three images", "verdict": "uncertain", "evidence": "Ref and correct clearly show Ac. In wrong the acetyl label at top-left reads 'AC': the second letter is a C about the same height as the A, so it could be read as upper-case AC rather than Ac."},
+  {"claim": "Transcription: abbreviations Ac, OMe, EtOOC; no r_labels", "verdict": "confirmed", "evidence": "All three images use Ac (see case caveat for wrong), OMe, EtOOC; no R labels."},
+  {"claim": "Transcription: ring_sizes [5,6] in all", "verdict": "confirmed", "evidence": "Fused five-membered and six-membered rings in each image."},
+  {"claim": "Transcription: wedge_bonds 0, hashed_bonds 0 in all", "verdict": "confirmed", "evidence": "No wedge or hash bonds; correct image has small ink dots at vertices only."},
+  {"claim": "Transcription: ink_colour black for wrong and correct", "verdict": "confirmed", "evidence": "Wrong is black ink on grey-looking paper; correct is black ink on white."},
+  {"claim": "Transcription: wrong legibility 'clear'", "verdict": "uncertain", "evidence": "The pyridine ring N in wrong (~1015,400) is written rotated/slanted and looks like a 'Z' or sideways N; still inferable as N from context but not cleanly written."},
+  {"claim": "Transcription: substituent descriptions (pyridine N one CH away from C7a; OMe adjacent to ring N in all; EtOOC on C2 in ref/correct, C3 in wrong)", "verdict": "confirmed", "evidence": "Wrong six-ring: C7a (~685,320) -> CH (~890,258) -> N (~1015,400) -> C-OMe (~1050,550) -> CH (~840,640) -> C3a (~670,545); matches ref pattern."}
+ ],
+ "missed_differences": [
+  {"category": "abbreviation_changed", "description": "Wrong drawing writes the acetyl label as 'AC' with a C roughly the same size as the A, which may read as upper-case AC instead of Ac (cf. guideline example Ph -> PH). Secondary to the main error.", "severity": "low"},
+  {"category": "legibility", "description": "In the wrong drawing the pyridine ring N is written rotated so it resembles a 'Z'; readable only from context.", "severity": "low"}
+ ],
+ "transcription_disputes": [
+  {"image": "wrong", "field": "atom_labels", "adjudicator": "Ac (noted as upper-case-looking c, still readable as Ac)", "you_see": "AC, second letter about the same size as the A", "evidence": "Label at top-left above the N-Ac bond (~370,95)."},
+  {"image": "wrong", "field": "legibility", "adjudicator": "clear", "you_see": "minor_issues: pyridine N written rotated like a 'Z'", "evidence": "Ring N at ~1015,400 in wrong.jpg."}
+ ],
+ "notes": "The main error (EtOOC moved from C2 to C3) is confirmed and the corrected drawing is fine. Disputes are low severity only: the case of Ac in wrong and the rotated ring N."}

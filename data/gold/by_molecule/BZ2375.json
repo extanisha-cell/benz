@@ -1,0 +1,71 @@
+{
+  "molecule": "BZ2375",
+  "transcriptions": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": ["H2N", "O", "HN", "O", "iPr", "NH", "NHBoc", "O", "HN", "OH", "N", "Me", "O", "O"],
+      "abbreviations": ["iPr", "NHBoc", "Me"],
+      "r_labels": [],
+      "ring_sizes": [6, 6, 5, 6],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 13,
+      "triple_bonds": 0,
+      "wedge_bonds": 2,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "H2N-C(=O)-HN-CH2CH2CH2- attached by a solid wedge to an alpha carbon that bears C(=O)-HN-aryl and an amide NH (N with H below); that NH is acylated by C(=O)-CH(iPr, solid wedge)(NHBoc). On the central benzene, with the anilide HN at C1: CH2OH at C4 (para) and CH2-N(Me)-C(=O)-O-CH2-(fluoren-9-yl) at C3 (meta to HN, ortho to CH2OH).",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset. 13 double bonds = 4 C=O (urea, two amides, carbamate) + 3 x 3 Kekule bonds in the central benzene and the two fluorene benzo rings. The amide NH between the two residues is written N with H below."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": ["O", "NH2", "HN", "O", "iPr", "NH", "NHBoc", "O", "HN", "OH", "N", "Me", "O", "O"],
+      "abbreviations": ["iPr", "NHBoc", "Me"],
+      "r_labels": [],
+      "ring_sizes": [6, 6, 5, 6],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 4,
+      "triple_bonds": 0,
+      "wedge_bonds": 2,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "O=C(NH2)-HN-CH2CH2CH2- chain whose last bond is a solid wedge ending directly on the amide nitrogen (N with H below). That N is bonded to the C(=O) of the CH(iPr, solid wedge)(NHBoc) residue and to a CH2 that carries C(=O)-HN-aryl. Central benzene (circle): HN at C1, CH2OH at C4, CH2-N(Me)-C(=O)-O-CH2-(fluoren-9-yl) at C3.",
+      "overlaps_or_ambiguities": ["The amide N (N with H below) is drawn with three carbon bonds plus the H label (wedge from the side chain, the valine C=O carbon, and a CH2), which is hypervalent as drawn", "The urea amine is written NH2 to the right of the carbonyl rather than H2N"],
+      "notes": "Handwritten, black ink. Four C=O double bonds; all three benzene rings drawn with circles. The citrulline alpha carbon (the CH between the NH and the C(=O)NH-aryl) has no side chain; the side chain and its wedge are attached to the N instead."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": ["H2N", "O", "HN", "O", "iPr", "NH", "NHBoc", "O", "HN", "OH", "N", "Me", "O", "O"],
+      "abbreviations": ["iPr", "NHBoc", "Me"],
+      "r_labels": [],
+      "ring_sizes": [6, 6, 5, 6],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 4,
+      "triple_bonds": 0,
+      "wedge_bonds": 2,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "H2N-C(=O)-HN-CH2CH2CH2- attached by a solid wedge to the alpha carbon, which bears C(=O)-HN-aryl and NH (N with H below) acylated by C(=O)-CH(iPr, solid wedge)(NHBoc). Central benzene (circle): HN at C1, CH2OH at C4, CH2-N(Me)-C(=O)-O-CH2-(fluoren-9-yl) at C3.",
+      "overlaps_or_ambiguities": ["The r of iPr is written with a gamma-like shape but reads as iPr"],
+      "notes": "Handwritten, black ink. Four C=O double bonds, aromatic rings drawn with circles, two solid wedges matching the reference."
+    }
+  },
+  "errors_in_wrong": [
+    {"category": "connectivity", "description": "In the reference the CH2CH2CH2-NH-C(=O)NH2 side chain is attached (solid wedge) to the citrulline alpha carbon, which sits between the amide NH and the C(=O)NH-aryl. In the wrong drawing the side chain's wedge bond ends on the amide nitrogen (N with H below) instead, and the alpha carbon is drawn as an unsubstituted CH2 between that N and the C(=O)NH-aryl. The N is left with three carbon bonds plus an H.", "severity": "high"},
+    {"category": "stereochemistry", "description": "Because the side chain was moved, the reference's solid wedge at the citrulline alpha-carbon stereocentre is gone. The wedge now points at the amide nitrogen, and the alpha carbon (drawn as CH2) has no stereochemistry. The iPr wedge is still correct.", "severity": "high"}
+  ],
+  "correct_version_issues": [],
+  "primary_error_category": "connectivity",
+  "confidence": "high",
+  "needs_user_review": false,
+  "review_notes": "Wrong drawing: the citrulline side chain (with its wedge) is attached to the amide N instead of the alpha carbon, which becomes a plain CH2. The corrected drawing matches the reference. Its use of aromatic circles in place of Kekule bonds and the gamma-like r in iPr are only style. The wrong drawing writes the urea NH2 on the right ('NH2' rather than 'H2N'); this is just orientation and was not counted. Transcriber_2's 'wrong' transcription describes an unrelated quinoline and was ignored."
+}

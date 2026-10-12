@@ -1,0 +1,59 @@
+{
+  "molecule": "molecule_294",
+  "status": "confirmed",
+  "claim_checks": [
+    {
+      "claim": "errors_in_wrong[0] (substituent_position, high): triazolyl is para to NH in the reference but in the wrong drawing sits ortho to OEt and meta to NH (1,2,3-pattern).",
+      "verdict": "confirmed",
+      "evidence": "Ref benzene: NH on lower-right vertex, OEt on bottom vertex, triazole on upper-left vertex (para to NH). Wrong benzene: NH on lower-right vertex (~x725,y780), O-CH2 on bottom vertex (~x610,y850), triazole on lower-left vertex (~x480,y765), so triazole is ortho to the ethoxy carbon and meta to NH."
+    },
+    {
+      "claim": "errors_in_wrong[1] (connectivity, high): wrong bicycle has N-CH2-CH2-C8a and N-CH=C4a instead of the reference N-CH2-C8a and N-CH=CH-C4a.",
+      "verdict": "confirmed",
+      "evidence": "Ref: from the fusion carbon next to the azetidinyl carbon one CH2 leads to N; N-CH=CH leads to the other fusion carbon. Wrong (zoomed): from the upper fusion carbon two unlabelled vertices (~x1190,y575 and ~x1060,y625) precede the N (~x1065,y725); from N one vertex (~x1200,y800) is double-bonded (inner line) directly to the lower fusion carbon of the circled ring. Ring is still six-membered but the N is shifted and the double bond goes to the fusion carbon."
+    },
+    {
+      "claim": "errors_in_wrong[2] (abbreviation_changed, medium): Me, MeO and OEt expanded to CH3, CH3O and O-CH2-CH3.",
+      "verdict": "confirmed",
+      "evidence": "Wrong: triazole N carries 'CH3' (ref 'Me'); azetidine carbon carries 'CH3O' (ref 'MeO'); benzene carries 'O' bonded to 'CH2' bonded down to 'CH3' (ref 'OEt')."
+    },
+    {
+      "claim": "errors_in_wrong[3] (other, medium): unlabelled methyl lines in the reference (two on azetidine C2, one on the pyridine ring) are written as explicit CH3 labels.",
+      "verdict": "confirmed",
+      "evidence": "Wrong: azetidine CMe2 carbon has two labelled 'CH3' groups (~x1225,y225 and ~x1245,y465) and the pyridine carbon next to ring N has 'CH3' (~x1680,y820); in the ref these are bare line ends."
+    },
+    {
+      "claim": "correct_version_issues[0] (missing_atom_or_group, high): the corrected drawing's five-membered ring has only two N (N-Me and one other N); the vertex next to the attachment carbon on the lower side is carbon with a C=C, giving an imidazole instead of the 1,2,4-triazole.",
+      "verdict": "confirmed",
+      "evidence": "Ref five-membered ring (looked at closely): N-Me (top right), CH (top) double-bonded to N (left), single N-N bond to a second N (bottom left), that N double-bonded to C3 (attachment carbon); three N labels. Corrected drawing (zoomed): N-Me (~x365,y185 in crop), unlabelled CH vertex top-left with inner double line down to the 'N' on the left, then a single bond from that N to an UNLABELLED vertex at the bottom (~x255,y455 in crop) which carries an inner double line to the attachment carbon (~x380,y378). Only two N labels in the ring: it is N(Me)-CH=N-CH=C, an imidazol-5-yl. Small wording note: the adjudicator calls the reference ring 'an N=N side'; in the reference the N1-N2 bond is single (the double bonds are C5=N1 and N2=C3), but the substance of the claim (third N missing) is correct."
+    },
+    {
+      "claim": "correct_version_issues[1] (legibility, low): azetidine C2 is drawn as two straight lines crossing (plus-shaped), harder to read than the reference.",
+      "verdict": "confirmed",
+      "evidence": "Corrected drawing: a long vertical line runs from the MeO carbon (~x930,y100) down past the ring to a methyl end (~x935,y415), and a long horizontal line runs from a methyl end (~x740,y315) through the crossing to N (~x1055,y265); the quaternary carbon is only implied by the crossing point. Interpretable as CMe2 but less clear."
+    },
+    {
+      "claim": "Corrected drawing otherwise matches: triazole/imidazole ring para to NH, OEt ortho to NH, bicycle N-CH2-C8a and N-CH=CH-C4a, methyl line next to pyridine N, azetidin-1-yl on the carbon between ring N and C8a, abbreviations Me/MeO/OEt preserved.",
+      "verdict": "confirmed",
+      "evidence": "Correct: five-ring on upper-left benzene vertex, NH on lower-right vertex (para), OEt on bottom vertex. Bicycle: upper fusion carbon -> one CH2 -> N (bonded to NH); N -> CH = CH (inner line) -> lower fusion carbon. Pyridine ring: azetidinyl carbon, N, C=N inner line, C bearing a bare methyl line, CH, C4a with inner double line, short vertical stub for C1=C8a. Labels written Me, MeO, OEt."
+    },
+    {
+      "claim": "Transcription: ring sizes 5,6,4,6,6 in all three images.",
+      "verdict": "confirmed",
+      "evidence": "Each image: one five-membered heteroaryl ring, benzene 6, azetidine 4 (N, CMe2, C(OMe), CH2), two fused six-membered rings."
+    },
+    {
+      "claim": "Transcription: atom labels ref [MeO, Me, 6x N, NH, OEt]; wrong [CH3 x4, CH3O, 6x N, NH, O, CH2]; correct [Me, MeO, 5x N, NH, OEt].",
+      "verdict": "confirmed",
+      "evidence": "Ref: 3 triazole N + azetidine N + pyridine N + ring-B N. Wrong: same six N plus CH3 (x4), CH3O, O, CH2, NH. Correct: only 2 N in the five-ring, so 5 N total plus NH."
+    },
+    {
+      "claim": "Transcription: no wedge or hashed bonds; black ink; no R labels.",
+      "verdict": "confirmed",
+      "evidence": "No stereo bonds in any image; both handwritten drawings in black ink; no R labels."
+    }
+  ],
+  "missed_differences": [],
+  "transcription_disputes": [],
+  "notes": "Agree with all adjudicator claims. The key molecule_294 point is verified by close inspection: the reference five-membered ring is a 4-methyl-1,2,4-triazole with three ring N (N-Me, and two adjacent N on the left), while the corrected drawing's ring has only two N labels; the bottom ring vertex next to the attachment carbon is unlabelled carbon joined by a drawn C=C, so the corrected drawing shows a 1-methylimidazol-5-yl and is not fully correct. Only quibble: the adjudicator's phrase 'N=N side' is loose; in the reference the N-N bond is single."
+}

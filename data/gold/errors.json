@@ -1,0 +1,1364 @@
+{
+  "BZ2256": {
+    "primary": "substituent_position",
+    "categories": [
+      "substituent_position"
+    ],
+    "errors": [
+      {
+        "category": "substituent_position",
+        "description": "On the left benzene ring the reference has AcNH para (1,4) to the sulfonyl S; the wrong drawing places AcNH on the lower-left vertex, meta (1,3) to the S-bearing carbon.",
+        "severity": "high"
+      }
+    ],
+    "correct_version_issues": [],
+    "confidence": "high",
+    "needs_user_review": false,
+    "review_notes": "Wrong drawing moves AcNH from para to meta relative to SO2 on the left benzene; everything else matches. Corrected drawing restores para and matches the reference. Cursive Bn in both handwritten copies is readable and not counted as an error.",
+    "verification": {
+      "molecule": "BZ2256",
+      "status": "confirmed",
+      "claim_checks": [
+        {
+          "claim": "errors_in_wrong[0]: AcNH moved from para (1,4) to meta (1,3) relative to the sulfonyl S on the left benzene (substituent_position, high)",
+          "verdict": "confirmed",
+          "evidence": "Wrong: S bond leaves the right vertex of the left hexagon (~400,325); the AcNH bond leaves the lower-left vertex (~300,375), two ring bonds away = meta. Ref has AcNH on the vertex opposite S (para). Correct also has AcNH-ring-S in a straight line (para)."
+        },
+        {
+          "claim": "correct_version_issues is empty: corrected drawing has no other issue",
+          "verdict": "confirmed",
+          "evidence": "Correct: para AcNH/SO2 benzene with circle, S with two =O, N-CH2-Bn, CH2-C(=O)-NH-N=CH- to pyrrole C3, pyrrole methyls on both carbons flanking N, N-aryl ring with methyls ortho (upper-right vertex) and para (bottom vertex) to the N attachment. Black ink, legible. Only rotation of the N-aryl ring differs (allowed)."
+        },
+        {
+          "claim": "atom_labels (all three): AcNH, S, O, O, N, Bn, O, NH, N, N",
+          "verdict": "confirmed",
+          "evidence": "All labels present in ref, wrong and correct; NH written as N over H in both handwritten copies; Bn written cursively (n looks like r in wrong) but readable."
+        },
+        {
+          "claim": "abbreviations: AcNH, Bn (all three)",
+          "verdict": "confirmed",
+          "evidence": "AcNH and Bn appear in all three; no abbreviation changes."
+        },
+        {
+          "claim": "r_labels: none",
+          "verdict": "confirmed",
+          "evidence": "No R labels in any image."
+        },
+        {
+          "claim": "ring_sizes: 6,5,6 (all three)",
+          "verdict": "confirmed",
+          "evidence": "Two hexagons and one pentagon (pyrrole) in each image."
+        },
+        {
+          "claim": "wedge_bonds 0, hashed_bonds 0 (all three)",
+          "verdict": "confirmed",
+          "evidence": "No wedge or hash bonds visible in any image."
+        },
+        {
+          "claim": "ink_colour: black for wrong and correct",
+          "verdict": "confirmed",
+          "evidence": "Wrong is dark grey/black pen (thin); correct is black. No coloured ink."
+        },
+        {
+          "claim": "substituent_description wrong: N-aryl ring methyls ortho and para to N; pyrrole 2,5-dimethyl with CH= at C3",
+          "verdict": "confirmed",
+          "evidence": "Wrong: N attaches at left vertex of right ring; methyl stubs at lower-left vertex (ortho) and right vertex (para). Pyrrole methyls at the top carbon and bottom carbon, both adjacent to N; CH= on lower-left carbon next to the bottom methyl carbon."
+        },
+        {
+          "claim": "substituent_description correct/ref match: para AcNH, 2,4-dimethylphenyl on pyrrole N",
+          "verdict": "confirmed",
+          "evidence": "See above; ref shows same pattern."
+        }
+      ],
+      "missed_differences": [],
+      "transcription_disputes": [],
+      "notes": "Independent viewing before reading the adjudication found the same single difference (meta AcNH in wrong). Correct image has a dark background corner at top-right outside the drawing; not part of the structure."
+    }
+  },
+  "BZ2375": {
+    "primary": "connectivity",
+    "categories": [
+      "connectivity",
+      "stereochemistry"
+    ],
+    "errors": [
+      {
+        "category": "connectivity",
+        "description": "In the reference the CH2CH2CH2-NH-C(=O)NH2 side chain is attached (solid wedge) to the citrulline alpha carbon, which sits between the amide NH and the C(=O)NH-aryl. In the wrong drawing the side chain's wedge bond ends on the amide nitrogen (N with H below) instead, and the alpha carbon is drawn as an unsubstituted CH2 between that N and the C(=O)NH-aryl. The N is left with three carbon bonds plus an H.",
+        "severity": "high"
+      },
+      {
+        "category": "stereochemistry",
+        "description": "Because the side chain was moved, the reference's solid wedge at the citrulline alpha-carbon stereocentre is gone. The wedge now points at the amide nitrogen, and the alpha carbon (drawn as CH2) has no stereochemistry. The iPr wedge is still correct.",
+        "severity": "high"
+      }
+    ],
+    "correct_version_issues": [],
+    "confidence": "high",
+    "needs_user_review": false,
+    "review_notes": "Wrong drawing: the citrulline side chain (with its wedge) is attached to the amide N instead of the alpha carbon, which becomes a plain CH2. The corrected drawing matches the reference. Its use of aromatic circles in place of Kekule bonds and the gamma-like r in iPr are only style. The wrong drawing writes the urea NH2 on the right ('NH2' rather than 'H2N'); this is just orientation and was not counted. Transcriber_2's 'wrong' transcription describes an unrelated quinoline and was ignored.",
+    "verification": {
+      "molecule": "BZ2375",
+      "status": "confirmed",
+      "claim_checks": [
+        {
+          "claim": "errors_in_wrong[0] connectivity: the CH2CH2CH2-NH-C(=O)NH2 side chain's wedge ends on the amide N (N with H below) instead of the alpha carbon; the alpha carbon is a plain CH2 between that N and C(=O)NH-aryl; N has three carbon bonds plus H",
+          "verdict": "confirmed",
+          "evidence": "Wrong image: chain HN -> two zigzag CH2 -> CH2 whose solid wedge points straight down onto the 'N' (with 'H' below) at ~(395,700). That N also bonds left to the valine C=O carbon and right to a carbon (~490,660) which goes to C(=O) and then down to HN-aryl. No branch at that CH2. Ref and correct both have the wedge on the CH between NH and C(=O)NH."
+        },
+        {
+          "claim": "errors_in_wrong[1] stereochemistry: the alpha-carbon stereocentre wedge is lost (now points at N); iPr wedge still correct",
+          "verdict": "confirmed",
+          "evidence": "Wrong: the only wedges are iPr->alpha C (wide end at iPr, as in correct) and the side-chain wedge that terminates on N. The carbon between N and the amide C=O carries no wedge."
+        },
+        {
+          "claim": "correct_version_issues is empty: the corrected drawing has no other issue",
+          "verdict": "confirmed",
+          "evidence": "Correct: H2N-C(=O)-HN-(CH2)3-wedge to the alpha CH, which bears NH (H below) and C(=O)-HN-aryl. iPr wedge, NHBoc, CH2OH para to anilide HN, CH2-N(Me)-C(=O)-O-CH2-fluorenyl meta to HN/ortho to CH2OH. All labels match the ref, ink is black. The 'r' in iPr looks gamma-like but is readable. The carbamate C=O 'O' sits slightly apart from its double-bond strokes but is unambiguous."
+        },
+        {
+          "claim": "atom_labels ref/correct: H2N, O, HN, O, iPr, NH, NHBoc, O, HN, OH, N, Me, O, O; wrong has O, NH2 first",
+          "verdict": "confirmed",
+          "evidence": "All labels present as listed. Wrong writes 'NH2' to the right of the urea C=O with O on the left."
+        },
+        {
+          "claim": "abbreviations iPr, NHBoc, Me in all three",
+          "verdict": "confirmed",
+          "evidence": "All three images write iPr, NHBoc and Me."
+        },
+        {
+          "claim": "r_labels empty",
+          "verdict": "confirmed",
+          "evidence": "No R labels anywhere."
+        },
+        {
+          "claim": "ring_sizes [6,6,5,6]",
+          "verdict": "confirmed",
+          "evidence": "Central benzene plus fluorene (6-5-6) in all three."
+        },
+        {
+          "claim": "wedge_bonds 2, hashed_bonds 0 in all three",
+          "verdict": "confirmed",
+          "evidence": "Two solid wedges (iPr and the side chain) in each image. No hashed bonds."
+        },
+        {
+          "claim": "ink_colour black in all",
+          "verdict": "confirmed",
+          "evidence": "Both handwritten drawings are in black ink."
+        },
+        {
+          "claim": "substituent_description: anilide HN at C1, CH2OH at C4, CH2N(Me)Fmoc at C3 (all images)",
+          "verdict": "confirmed",
+          "evidence": "In ref, wrong and correct the CH2OH and CH2N groups are on adjacent ring carbons. CH2OH is para to the HN carbon, CH2N is meta."
+        }
+      ],
+      "missed_differences": [],
+      "transcription_disputes": [],
+      "notes": "I agree with the adjudicator. Wrong writes the urea as O=C-NH2 (mirrored, 'NH2' instead of 'H2N'). It is the same group in a different orientation, so I did not count it as an error. I found no further differences."
+    }
+  },
+  "BZ2435": {
+    "primary": "substituent_position",
+    "categories": [
+      "substituent_position"
+    ],
+    "errors": [
+      {
+        "category": "substituent_position",
+        "description": "The reference has Cl para (1,4) to the triazolone N1 attachment on the chlorophenyl ring (4-chlorophenyl); the wrong drawing places Cl meta (1,3) to the N1 attachment (Cl on the left vertex, N1 bond from the upper-right vertex, one carbon between them), giving a 3-chlorophenyl isomer.",
+        "severity": "high"
+      }
+    ],
+    "correct_version_issues": [],
+    "confidence": "high",
+    "needs_user_review": false,
+    "review_notes": "Wrong drawing puts Cl meta instead of para to the triazolone N on the chlorophenyl ring; the corrected drawing restores para and otherwise matches the reference. Both handwritten versions draw benzene rings as circles instead of alternating double bonds (same compound; not counted as an error).",
+    "verification": {
+      "molecule": "BZ2435",
+      "status": "confirmed",
+      "claim_checks": [
+        {
+          "claim": "errors_in_wrong[0]: substituent_position - wrong drawing has Cl meta (1,3) to the triazolone N1 attachment instead of para as in the reference",
+          "verdict": "confirmed",
+          "evidence": "Wrong: left hexagon vertices approx top (385,225), upper-right (545,320), lower-right (550,450), bottom (480,520), lower-left (325,465), left (315,340). Cl bond enters the left vertex; the N1 bond leaves the upper-right vertex (continuing the top edge to N at ~650,390). Left and upper-right are separated by only the top vertex -> 1,3 (meta). Reference has Cl and N on opposite vertices (para)."
+        },
+        {
+          "claim": "correct_version_issues is empty: the corrected drawing has no other issue",
+          "verdict": "confirmed",
+          "evidence": "Correct: Cl on left vertex and N1 bond on right vertex of the left ring (para); triazolone N1-C(=O)-NH-C(=N2)-N1 with C=O and ring C=N double bonds; exocyclic NH with H below; right ring with CO2H (subscript 2) para to the NH. Black ink, legible. Circles for aromatic rings are allowed."
+        },
+        {
+          "claim": "Transcription: atom_labels ref/wrong/correct = O, NH, Cl, N, N, NH, CO2H (all three)",
+          "verdict": "confirmed",
+          "evidence": "All three images show Cl, O, two ring N, ring NH, exocyclic N with H below, CO2H."
+        },
+        {
+          "claim": "Transcription: abbreviations [CO2H] in all; r_labels none",
+          "verdict": "confirmed",
+          "evidence": "CO2H written as C O subscript-2 H in all three; no R labels."
+        },
+        {
+          "claim": "Transcription: ring_sizes [6,5,6] in all",
+          "verdict": "confirmed",
+          "evidence": "Two benzene hexagons and a five-membered triazolone ring in each image."
+        },
+        {
+          "claim": "Transcription: wedge_bonds 0, hashed_bonds 0 in all",
+          "verdict": "confirmed",
+          "evidence": "No wedge or hash bonds visible in any image."
+        },
+        {
+          "claim": "Transcription: ink_colour black (wrong and correct)",
+          "verdict": "confirmed",
+          "evidence": "Both handwritten drawings are in black/dark grey ink on white paper."
+        },
+        {
+          "claim": "Transcription: substituent descriptions (ref para-Cl; wrong meta-Cl; correct para-Cl; CO2H para to NH in all)",
+          "verdict": "confirmed",
+          "evidence": "As described in the checks above; in wrong, CO2H on upper-right vertex and NH on lower-left vertex of the right ring (para)."
+        }
+      ],
+      "missed_differences": [],
+      "transcription_disputes": [],
+      "notes": "Wrong drawing's left ring is irregular but the meta relationship is readable. No other differences found; corrected drawing matches the reference."
+    }
+  },
+  "molecule_104": {
+    "primary": "substituent_position",
+    "categories": [
+      "abbreviation_changed",
+      "substituent_position"
+    ],
+    "errors": [
+      {
+        "category": "substituent_position",
+        "description": "Reference attaches the CH2-piperidine linker at carbazole C3 (right benzo ring carbon para to the N-bearing fusion carbon C9a); the wrong drawing attaches it at C2 (the ring carbon meta to C9a, two bonds from it along the top edge).",
+        "severity": "high"
+      },
+      {
+        "category": "abbreviation_changed",
+        "description": "Reference N-substituent is the abbreviation 'Et'; the wrong drawing expands it to 'CH2CH3'.",
+        "severity": "medium"
+      },
+      {
+        "category": "abbreviation_changed",
+        "description": "Reference indane C1 substituent is the abbreviation 'NHAc'; the wrong drawing expands it to NH-C(=O)-CH3 with explicit C, CH3 and =O.",
+        "severity": "medium"
+      }
+    ],
+    "correct_version_issues": [],
+    "confidence": "high",
+    "needs_user_review": false,
+    "review_notes": "Wrong drawing moves the CH2 linker from carbazole C3 to C2 and expands Et and NHAc. Corrected drawing restores C3, Et and NHAc with matching stereo; the H in NHAc is slightly odd but readable.",
+    "verification": {
+      "molecule": "molecule_104",
+      "status": "confirmed",
+      "claim_checks": [
+        {
+          "claim": "errors_in_wrong: CH2-piperidine linker moved from carbazole C3 (para to C9a) to C2 (meta to C9a)",
+          "verdict": "confirmed",
+          "evidence": "Ref: CH2 leaves the right benzo ring at the carbon para to the N-bearing fusion carbon. Wrong: N-bearing fusion carbon at ~(515,320); path goes to top vertex ~(610,270) then the CH2 bond leaves from the next vertex ~(685,320), i.e. two bonds from C9a (C2). The para vertex ~(685,440) has no substituent."
+        },
+        {
+          "claim": "errors_in_wrong: Et expanded to CH2CH3",
+          "verdict": "confirmed",
+          "evidence": "Wrong shows 'CH2CH3' (subscripted) above the ring N; ref and correct show 'Et'."
+        },
+        {
+          "claim": "errors_in_wrong: NHAc expanded to NH-C(=O)-CH3 with explicit C, CH3 and =O",
+          "verdict": "confirmed",
+          "evidence": "Wrong right side: 'NH' - 'C' with CH3 above and a double bond down to O; ref shows 'NHAc'."
+        },
+        {
+          "claim": "correct_version_issues is empty (corrected drawing has no other issue)",
+          "verdict": "confirmed",
+          "evidence": "Correct: Et on N, CH2 at the vertex para to C9a (~(945,505)), 6-membered piperidine spiro to indane, hashed NHAc, solid wedge OH, all aromatic rings as circles, black ink. Odd crossbar on H of NHAc still reads NHAc."
+        },
+        {
+          "claim": "Transcription: atom_labels ref/correct [Et,N,N,NHAc,OH]; wrong [CH2CH3,N,N,NH,C,CH3,O,OH]",
+          "verdict": "confirmed",
+          "evidence": "Labels read as stated in all three images."
+        },
+        {
+          "claim": "Transcription: abbreviations ref/correct [Et,NHAc], wrong []; r_labels [] everywhere",
+          "verdict": "confirmed",
+          "evidence": "No R labels; wrong writes everything out."
+        },
+        {
+          "claim": "Transcription: ring_sizes [6,5,6,6,5,6] in all three",
+          "verdict": "confirmed",
+          "evidence": "Carbazole 6-5-6, piperidine 6 (in correct, the dot left of the ring is the end of the N-C bond; N + 5 C), indane 5-membered + benzo 6 in each image."
+        },
+        {
+          "claim": "Transcription: wedge_bonds 1, hashed_bonds 1 in all three",
+          "verdict": "confirmed",
+          "evidence": "Solid wedge to OH and hashed bond to NHAc/NH in ref, wrong and correct."
+        },
+        {
+          "claim": "Transcription: ink_colour black for wrong and correct",
+          "verdict": "confirmed",
+          "evidence": "Both handwritten drawings are in black/dark ink."
+        },
+        {
+          "claim": "Transcription: substituent_description for each image (C3 linker in ref/correct, C2 in wrong; OH wedge next to spiro, NHAc hash next to benzo)",
+          "verdict": "confirmed",
+          "evidence": "Matches the observed positions in all three images."
+        }
+      ],
+      "missed_differences": [],
+      "transcription_disputes": [],
+      "notes": "All adjudicator claims match the images. Thickened ink at the benzo-CH(N) junction in wrong is not a wedge, as the adjudicator noted. No missed differences found."
+    }
+  },
+  "molecule_130": {
+    "primary": "substituent_position",
+    "categories": [
+      "substituent_position"
+    ],
+    "errors": [
+      {
+        "category": "substituent_position",
+        "description": "Reference central benzene is para (1,4)-disubstituted: piperazine N and the O-CH2 ether on opposite vertices. In the wrong drawing the piperazine N is on the upper-left vertex and the O on the upper-right vertex, i.e. meta (1,3) positions.",
+        "severity": "high"
+      }
+    ],
+    "correct_version_issues": [
+      {
+        "category": "legibility",
+        "description": "Both Cl labels on the dichlorophenyl ring are written in a loose cursive form that is readable in context but less clear than the reference Cl.",
+        "severity": "low"
+      }
+    ],
+    "confidence": "high",
+    "needs_user_review": false,
+    "review_notes": "Wrong drawing puts the piperazine and the O-CH2 meta on the central benzene instead of para. Everything else (rings, Cl positions, imidazole, both hashed bonds) matches. Corrected drawing restores para; only a minor cursive-Cl legibility note.",
+    "verification": {
+      "molecule": "molecule_130",
+      "status": "confirmed",
+      "claim_checks": [
+        {
+          "claim": "errors_in_wrong[0] (substituent_position, high): central benzene is para in the reference but meta in the wrong drawing (piperazine N on upper-left vertex, O on upper-right vertex).",
+          "verdict": "confirmed",
+          "evidence": "Ref: piperazine N on the left vertex and O on the right vertex of the phenylene, opposite (1,4). Wrong (zoomed): the N-aryl bond lands on the upper-left vertex (~x1005,y265) and the O-bond leaves from the upper-right vertex (~x1160,y250), with only the top vertex between them, i.e. 1,3 (meta)."
+        },
+        {
+          "claim": "correct_version_issues[0] (legibility, low): both Cl labels in the corrected drawing are written in loose cursive, readable in context.",
+          "verdict": "confirmed",
+          "evidence": "Zoomed crop of correct.jpg: both labels are written as a looped cursive 'Cl' that resembles 'el'/'Ce'; readable as Cl in context on a dichlorophenyl ring, but less clear than the typeset Cl."
+        },
+        {
+          "claim": "The corrected drawing has no other issue beyond the cursive Cl note.",
+          "verdict": "confirmed",
+          "evidence": "Correct: pyrrolidine N-C(=O)-NH (H under N)-CH2CH2-piperazine (6-ring, 2 N)-N on left vertex of circled benzene, O on right vertex (para), O-CH2 hashed to dioxolane C4, dioxolane O top and O bottom, C2 bears dichlorophenyl (Cl on ortho upper-left vertex and on para upper-right vertex relative to the lower-left attachment) and a hashed bond to CH2-N1 of imidazole with C2=N3 on the left side and C4=C5 on the right side, as in the reference. Black ink."
+        },
+        {
+          "claim": "Transcription (all images): atom labels O, N, NH, N, N, O, O, O, Cl, Cl, N, N; no abbreviations; no R labels.",
+          "verdict": "confirmed",
+          "evidence": "Each image shows carbonyl O, pyrrolidine N, NH, two piperazine N, ether O, two dioxolane O, two Cl, two imidazole N; no abbreviations or R labels."
+        },
+        {
+          "claim": "Transcription (all images): ring sizes 5,6,6,5,6,5.",
+          "verdict": "confirmed",
+          "evidence": "Pyrrolidine 5, piperazine 6 (wrong drawing's piperazine has a long left edge but six vertices: N, two left/top C, N, two right/bottom C), benzene 6, dioxolane 5, dichlorophenyl 6, imidazole 5."
+        },
+        {
+          "claim": "Transcription (all images): 0 wedge bonds, 2 hashed bonds (CH2-C4 and C2-CH2 of dioxolane).",
+          "verdict": "confirmed",
+          "evidence": "Ref, wrong and correct each show two hatched bonds at the dioxolane (to the O-CH2 carbon and to the imidazolylmethyl carbon) and no solid wedges."
+        },
+        {
+          "claim": "Transcription: ink colour black for wrong and correct.",
+          "verdict": "confirmed",
+          "evidence": "Both handwritten images are in black/dark grey ink on paper; no coloured ink."
+        },
+        {
+          "claim": "Transcription: wrong drawing otherwise matches the reference (Cl ortho and para, imidazol-1-yl, dioxolane, urea chain).",
+          "verdict": "confirmed",
+          "evidence": "Wrong: dichlorophenyl attached at lower-left vertex with Cl on upper-left (ortho) and upper-right (para); imidazole N1 at top bonded to CH2, double bonds on left (C=N) and right (C=C), second N bottom-left as in ref; C=O drawn as double bond."
+        },
+        {
+          "claim": "Transcription: corrected drawing has para-disubstituted central benzene.",
+          "verdict": "confirmed",
+          "evidence": "Correct: piperazine N on left vertex (~x1020) and O on right vertex (~x1180) of the flat-topped hexagon, opposite vertices."
+        }
+      ],
+      "missed_differences": [],
+      "transcription_disputes": [],
+      "notes": "Agree with the adjudicator: the only error in the wrong drawing is meta instead of para on the central phenylene. The corrected drawing restores para; only a minor cursive-Cl legibility remark. Benzenes drawn as circles is acceptable."
+    }
+  },
+  "molecule_135": {
+    "primary": "substituent_position",
+    "categories": [
+      "substituent_position"
+    ],
+    "errors": [
+      {
+        "category": "substituent_position",
+        "description": "The reference has the CH2-C(=O)-N(3,3-difluoropiperidinyl) group at indole C5 (benzo-ring carbon para to the N-bearing fusion carbon C7a, meta to C3a). The wrong drawing attaches it to the benzo-ring carbon directly adjacent to the N-bearing fusion carbon (indole C7).",
+        "severity": "high"
+      }
+    ],
+    "correct_version_issues": [],
+    "confidence": "high",
+    "needs_user_review": false,
+    "review_notes": "Wrong drawing moves the CH2C(=O)-difluoropiperidine amide from indole C5 to C7; everything else matches. The wrong photo is cropped at the right edge with an unreadable stub at C5, which does not change the finding. Corrected drawing has the group at C5 and matches the reference; Cl and Ac are written loosely but readable.",
+    "verification": {
+      "molecule": "molecule_135",
+      "status": "confirmed",
+      "claim_checks": [
+        {
+          "claim": "errors_in_wrong[0] substituent_position: CH2-C(=O)-N(3,3-difluoropiperidinyl) moved from indole C5 (ref) to C7 (wrong)",
+          "verdict": "confirmed",
+          "evidence": "In wrong, the benzo ring runs C3a (~965,325) - C4 (~1105,280) - C5 (~1185,390, edge vertex with cut-off stub) - C6 (~1100,595) - C7 (~950,610) - C7a (~900,465, bonded to N). The CH2 chain to the amide descends from the bottom vertex (~950,610), which is next to the N-bearing fusion carbon, i.e. C7. Ref has it on C5 (para to C7a)."
+        },
+        {
+          "claim": "correct_version_issues is empty: the corrected drawing has no other issue",
+          "verdict": "confirmed",
+          "evidence": "Correct: indole with C2=C3, Ac on C3, N1-CH2-C(=O)-N(iPr)-CH2-C(=O)-NH-CH2-aryl; aryl has F ortho and Cl meta to CH2; CH2-C(=O)-N chain leaves the benzo vertex at ~(1140,460), which is C5 (C3a ~1050,325 -> C4 ~1160,365 -> C5). Piperidine has 6 vertices with CF2 at C3. Black ink. Only stray dots/a small mark near top-left, not chemical."
+        },
+        {
+          "claim": "ref atom_labels/abbreviations: Ac, iPr, 3x O, N, N(indole), NH, F, Cl, N, F, F; abbreviations Ac, iPr; r_labels none",
+          "verdict": "confirmed",
+          "evidence": "All labels visible in ref.png; no R labels."
+        },
+        {
+          "claim": "ring_sizes: ref [6,5,6,6], wrong [5,6,6,6], correct [6,5,6,6]",
+          "verdict": "confirmed",
+          "evidence": "Halophenyl 6, indole 5+6, piperidine 6 in all three; the wrong and correct piperidines each have six vertices (wrong: N, ~790/1100, ~745/1240, ~855/1385, ~965/1370, ~1030/1260)."
+        },
+        {
+          "claim": "wedge_bonds 0 and hashed_bonds 0 in all images",
+          "verdict": "confirmed",
+          "evidence": "No wedge or hash bonds; dark dots at bond ends in the handwritten copies are pen pressure."
+        },
+        {
+          "claim": "ink_colour black for wrong and correct",
+          "verdict": "confirmed",
+          "evidence": "Both handwritten drawings are in black ink."
+        },
+        {
+          "claim": "wrong substituent_description: Ac at C3, N1 chain, 2-F/3-Cl benzyl, piperidine amide at C7",
+          "verdict": "confirmed",
+          "evidence": "Ac on top pyrrole carbon; F on ring carbon next to the CH2-bearing carbon, Cl on the next one; amide chain at C7 as above."
+        },
+        {
+          "claim": "correct substituent_description: matches the ref with the group at C5",
+          "verdict": "confirmed",
+          "evidence": "See the correct-version check above."
+        },
+        {
+          "claim": "correct legibility minor_issues: Cl in cursive, Ac loose",
+          "verdict": "confirmed",
+          "evidence": "Cl at bottom-left (~280,930) is cursive and reads 'cl'; Ac at top (~1090,110) has a loose c. Both are still readable."
+        }
+      ],
+      "missed_differences": [],
+      "transcription_disputes": [],
+      "notes": "I agree with the adjudicator. The wrong photo is cropped at the right edge through indole C5 and shows a short stub there; the full amide chain is clearly drawn from C7, so the finding stands."
+    }
+  },
+  "molecule_16": {
+    "primary": "connectivity",
+    "categories": [
+      "abbreviation_changed",
+      "connectivity"
+    ],
+    "errors": [
+      {
+        "category": "connectivity",
+        "description": "Six-membered ring heteroatoms rearranged: the reference ring is N1-C2(COOtBu)-N3-C4(fusion, bears N9)-C5-C6(NH2); the wrong drawing has the two N atoms adjacent (N-N bond) at the top, and the ester-bearing carbon sits next to the fusion carbon where N3 should be, so COOtBu is no longer on the carbon between the two ring nitrogens.",
+        "severity": "high"
+      },
+      {
+        "category": "abbreviation_changed",
+        "description": "Reference label COOtBu is expanded in the wrong drawing to COO-C(CH3)3 (tBu written out as C with three CH3).",
+        "severity": "medium"
+      },
+      {
+        "category": "abbreviation_changed",
+        "description": "Reference condensed label H2N is expanded to an explicit H-N-H drawn vertically with bonds on the left six-ring carbon.",
+        "severity": "medium"
+      }
+    ],
+    "correct_version_issues": [
+      {
+        "category": "legibility",
+        "description": "The hashed bond from cyclohexane C4 stops short of the line leading to CO2H, leaving a small gap; the CH2 vertex (reference CH2-CO2H) is readable from the change in direction but slightly ambiguous.",
+        "severity": "low"
+      }
+    ],
+    "confidence": "high",
+    "needs_user_review": true,
+    "review_notes": "Wrong drawing turns the pyrimidine part of the purine into an N-N ring with the ester moved next to the fusion carbon, and expands tBu and H2N. Corrected drawing matches the reference; only a small gap at the CH2-CO2H hashed bond. Both handwritten copies use an aromatic circle in the six-ring instead of the reference Kekule bonds; treated as acceptable depiction.",
+    "verification": {
+      "molecule": "molecule_16",
+      "status": "disputed",
+      "claim_checks": [
+        {
+          "claim": "errors_in_wrong[0]: six-ring heteroatoms rearranged - two N adjacent (N-N bond) at top, ester carbon next to fusion carbon; COOtBu no longer between the ring nitrogens (connectivity, high)",
+          "verdict": "confirmed",
+          "evidence": "Wrong: top of six-ring is 'N\u2014N' (~650,375 and ~860,375) bonded to each other; left carbon (~570,505) bears the amine; right carbon (~940,495) bears COO-C(CH3)3 and is bonded to the lower-right fusion carbon (~880,605). Ref ring order is C6(H2N)-N1-C2(COOtBu)-N3-C4-C5."
+        },
+        {
+          "claim": "errors_in_wrong[1]: COOtBu expanded to COO-C(CH3)3 (abbreviation_changed, medium)",
+          "verdict": "confirmed",
+          "evidence": "Wrong shows 'COO\u2014C' with CH3 above, right and below (~1130-1740, 270-660); ref writes COOtBu."
+        },
+        {
+          "claim": "errors_in_wrong[2]: H2N expanded to explicit vertical H-N-H (abbreviation_changed, medium)",
+          "verdict": "confirmed",
+          "evidence": "Wrong left side (~290-360, 380-660) shows H, N, H stacked with bond strokes between them; ref has condensed H2N."
+        },
+        {
+          "claim": "correct_version_issues[0]: small gap between hashed bond at C4 and line to CO2H; CH2 vertex slightly ambiguous (legibility, low)",
+          "verdict": "confirmed",
+          "evidence": "Correct: hash strokes 'ulll' end near (~1395,455) and the line to CO2H starts at (~1430,445) after a small gap with a change in direction; still readable."
+        },
+        {
+          "claim": "Corrected drawing otherwise matches reference",
+          "verdict": "confirmed",
+          "evidence": "Correct: COOtBu on top carbon between the two ring N; NH2 on lower-left carbon; N9 on the fusion carbon next to the right ring N, joined by solid wedge (wide at N) to cyclohexane C1; hashed BocNH on adjacent C2; hashed CH2CO2H at C4 (1,2,4 pattern). Black ink. Only H2N->NH2 ordering differs (see missed_differences)."
+        },
+        {
+          "claim": "atom_labels ref: COOtBu, N, N, BocNH, H2N, N, N, CO2H",
+          "verdict": "confirmed",
+          "evidence": "All present in ref."
+        },
+        {
+          "claim": "atom_labels wrong: H, N, H, N, N, COO, C, CH3 x3, N, N, BocNH, CO2H",
+          "verdict": "confirmed",
+          "evidence": "All visible in wrong."
+        },
+        {
+          "claim": "atom_labels correct: COOtBu, N, N, NH2, N, N, BocNH, CO2H",
+          "verdict": "confirmed",
+          "evidence": "All visible; NH2 written with H2 trailing, CO2H with full-size 2."
+        },
+        {
+          "claim": "abbreviations: ref/correct COOtBu+BocNH, wrong BocNH only",
+          "verdict": "confirmed",
+          "evidence": "Wrong has no tBu; BocNH present in all three."
+        },
+        {
+          "claim": "r_labels none; ring_sizes 6,5,6 all three",
+          "verdict": "confirmed",
+          "evidence": "No R labels; purine 6+5 plus cyclohexane in each."
+        },
+        {
+          "claim": "wedge_bonds 1, hashed_bonds 2 in all three; wedge wide at N, hashes widening toward substituents",
+          "verdict": "confirmed",
+          "evidence": "Ref: wedge N9-C1, hashes to BocNH and CH2. Wrong: wedge (~1000-1060, 810-960) wide at N; hashes to BocNH and down to CH2. Correct: wedge wide at N (~820,760); hashes to BocNH and CH2."
+        },
+        {
+          "claim": "double_bonds: ref 4, wrong 1, correct 1 (six-ring circle in handwritten)",
+          "verdict": "confirmed",
+          "evidence": "Ref Kekule purine; wrong and correct use a circle in the six-ring and one explicit N=CH in the five-ring."
+        },
+        {
+          "claim": "ink_colour black for wrong and correct",
+          "verdict": "confirmed",
+          "evidence": "Both drawn in black pen."
+        },
+        {
+          "claim": "substituent_description cyclohexane C4 para to C1",
+          "verdict": "uncertain",
+          "evidence": "Ring path N-C1, C2(BocNH), C3, C4(CH2CO2H): C4 is 1,4 relative to C1 (para) - consistent in all three; ref layout C1 bottom-left, C2 top-left, C3 top, C4 right confirms 1,2,4. Marked uncertain only because 'para' wording is loose for cyclohexane; positions themselves match."
+        }
+      ],
+      "missed_differences": [
+        {
+          "category": "label_changed",
+          "description": "Corrected drawing writes the amino group as NH2 whereas the reference has H2N. Same group, only atom order in the condensed label is flipped; minor notation-preservation point the adjudicator chose to accept.",
+          "severity": "low"
+        }
+      ],
+      "transcription_disputes": [],
+      "notes": "Independent viewing found the same three errors in wrong. The para-wording check is not a real disagreement on positions. Only possible additional point is H2N vs NH2 in the corrected copy (low)."
+    }
+  },
+  "molecule_195": {
+    "primary": "substituent_position",
+    "categories": [
+      "abbreviation_changed",
+      "substituent_position"
+    ],
+    "errors": [
+      {
+        "category": "substituent_position",
+        "description": "In the reference the alkene carbon is attached to C2 of the tetramethyltetralin (an aromatic carbon one CH away from the ring-fusion carbon). In the wrong drawing it is attached to the aromatic carbon directly adjacent to the ring-fusion carbon (C1, peri to a gem-dimethyl carbon).",
+        "severity": "high"
+      },
+      {
+        "category": "abbreviation_changed",
+        "description": "The reference label EtOOC on the left benzene ring is expanded in the wrong drawing to a drawn carbonyl (C=O with the C written as a letter) plus an OEt label, so the reference abbreviation is not preserved.",
+        "severity": "medium"
+      }
+    ],
+    "correct_version_issues": [],
+    "confidence": "medium",
+    "needs_user_review": true,
+    "review_notes": "The wrong drawing has two problems: EtOOC is expanded to C(=O)OEt, and the vinyl group sits on the tetralin carbon next to the ring fusion instead of one carbon further along. The ring-position call comes from a freehand hexagon, but the edge from the attachment vertex to the fusion carbon looks clear. Please confirm which error was the intended one; it decides the primary category. The corrected drawing matches the reference; its O that looks like a D is only cosmetic.",
+    "verification": {
+      "molecule": "molecule_195",
+      "status": "confirmed",
+      "claim_checks": [
+        {
+          "claim": "errors_in_wrong[0] substituent_position: the alkene carbon is attached to the tetralin aromatic carbon directly adjacent to the ring-fusion carbon (C1) instead of C2",
+          "verdict": "confirmed",
+          "evidence": "Wrong: the bond from the methyl-bearing alkene carbon (~1080,635) goes to the ring vertex ~(1225,730). That vertex is bonded directly to ~(1425,690), a fusion carbon that also bonds up to the top gem-dimethyl carbon (~1515,515). In the ref and the correct drawing, the attachment vertex is separated from the fusion carbon by one CH (correct: (1080,465) -> (1230,355) -> fusion (1355,430))."
+        },
+        {
+          "claim": "errors_in_wrong[1] abbreviation_changed: EtOOC is expanded to a drawn C=O plus an OEt label",
+          "verdict": "confirmed",
+          "evidence": "Wrong: at the left there is an 'O' at the top, a double bond ('||') going down to a curled C, and a bond to 'OEt' below. The ring bonds to that C. The ref writes the single label 'EtOOC'."
+        },
+        {
+          "claim": "correct_version_issues is empty: the corrected drawing has no other issue",
+          "verdict": "confirmed",
+          "evidence": "Correct: 'EtOOC' bonded to the benzene para to the CH=C(CH3) unit, and the alkene geometry matches the ref (aryl groups trans, methyl up). The attachment is at the tetralin beta carbon, the saturated ring is six-membered, there are two gem-dimethyl stubs on each carbon next to a fusion carbon, and the ink is black. The first O looks a bit like D, but the label is readable as EtOOC."
+        },
+        {
+          "claim": "atom_labels/abbreviations: ref and correct EtOOC; wrong O, C, OEt",
+          "verdict": "confirmed",
+          "evidence": "As seen in the images."
+        },
+        {
+          "claim": "r_labels empty in all",
+          "verdict": "confirmed",
+          "evidence": "There are no R labels."
+        },
+        {
+          "claim": "ring_sizes [6,6,6] in all",
+          "verdict": "confirmed",
+          "evidence": "Each image has a benzene and a fused 6-6 tetralin."
+        },
+        {
+          "claim": "wedge_bonds 0, hashed_bonds 0",
+          "verdict": "confirmed",
+          "evidence": "No wedge or hashed bonds in any image."
+        },
+        {
+          "claim": "ink_colour black (all)",
+          "verdict": "confirmed",
+          "evidence": "Both handwritten drawings are in black ink."
+        },
+        {
+          "claim": "double bond counts: wrong 2 (C=O + C=C), correct 1 (C=C)",
+          "verdict": "confirmed",
+          "evidence": "Wrong shows a doubled stroke for C=O and a doubled stroke for the alkene. Correct shows only the alkene double stroke. The aromatic rings are drawn as circles."
+        }
+      ],
+      "missed_differences": [],
+      "transcription_disputes": [],
+      "notes": "I agree with both errors in the wrong drawing. Both are real: a ring-position change, plus EtOOC expanded to C(=O)OEt. I found no further differences, and the alkene geometry is the same in all three images. In the corrected drawing the bond from EtOOC starts just below the label's final C. This is cosmetic."
+    }
+  },
+  "molecule_240": {
+    "primary": "substituent_position",
+    "categories": [
+      "substituent_position"
+    ],
+    "errors": [
+      {
+        "category": "substituent_position",
+        "description": "The reference has EtOOC on C2 of the five-membered ring, directly adjacent to N(Ac); the wrong drawing places EtOOC on C3 (the carbon bonded to the lower ring-fusion carbon), with an unsubstituted CH2 between N(Ac) and the EtOOC-bearing carbon.",
+        "severity": "high"
+      }
+    ],
+    "correct_version_issues": [],
+    "confidence": "high",
+    "needs_user_review": true,
+    "review_notes": "Wrong drawing moves the ethyl ester from C2 (next to N-Ac) to C3 of the five-membered ring; the pyridine N and OMe positions are right. The corrected drawing puts EtOOC back on C2 and matches the reference. Aromatic ring drawn as a circle in both handwritten versions (same compound).",
+    "verification": {
+      "molecule": "molecule_240",
+      "status": "disputed",
+      "claim_checks": [
+        {
+          "claim": "errors_in_wrong[0]: substituent_position - EtOOC moved from C2 (adjacent to N-Ac) to C3 (bonded to the lower fusion carbon), with an unsubstituted CH2 between N(Ac) and the EtOOC carbon",
+          "verdict": "confirmed",
+          "evidence": "Wrong: five-membered ring runs N (~465,270) -> unsubstituted vertex (~320,405) -> vertex (~425,585) that carries the EtOOC bond -> fusion carbon (~670,545). Reference: EtOOC on the ring carbon directly bonded to N(Ac)."
+        },
+        {
+          "claim": "correct_version_issues is empty: the corrected drawing has no other issue",
+          "verdict": "confirmed",
+          "evidence": "Correct: N(Ac) -> C (~630,705) bearing EtOOC -> CH2 (~1000,830) -> fusion C (~1160,580); pyridine N two bonds from C7a via one CH (~1110,200); OMe on carbon (~1465,505) adjacent to ring N. Ac written with lower-case c; OMe, EtOOC as in ref. Black ink. Ink blobs at vertices are not wedges."
+        },
+        {
+          "claim": "Transcription: atom_labels Ac, N, N, OMe, EtOOC in all three images",
+          "verdict": "uncertain",
+          "evidence": "Ref and correct clearly show Ac. In wrong the acetyl label at top-left reads 'AC': the second letter is a C about the same height as the A, so it could be read as upper-case AC rather than Ac."
+        },
+        {
+          "claim": "Transcription: abbreviations Ac, OMe, EtOOC; no r_labels",
+          "verdict": "confirmed",
+          "evidence": "All three images use Ac (see case caveat for wrong), OMe, EtOOC; no R labels."
+        },
+        {
+          "claim": "Transcription: ring_sizes [5,6] in all",
+          "verdict": "confirmed",
+          "evidence": "Fused five-membered and six-membered rings in each image."
+        },
+        {
+          "claim": "Transcription: wedge_bonds 0, hashed_bonds 0 in all",
+          "verdict": "confirmed",
+          "evidence": "No wedge or hash bonds; correct image has small ink dots at vertices only."
+        },
+        {
+          "claim": "Transcription: ink_colour black for wrong and correct",
+          "verdict": "confirmed",
+          "evidence": "Wrong is black ink on grey-looking paper; correct is black ink on white."
+        },
+        {
+          "claim": "Transcription: wrong legibility 'clear'",
+          "verdict": "uncertain",
+          "evidence": "The pyridine ring N in wrong (~1015,400) is written rotated/slanted and looks like a 'Z' or sideways N; still inferable as N from context but not cleanly written."
+        },
+        {
+          "claim": "Transcription: substituent descriptions (pyridine N one CH away from C7a; OMe adjacent to ring N in all; EtOOC on C2 in ref/correct, C3 in wrong)",
+          "verdict": "confirmed",
+          "evidence": "Wrong six-ring: C7a (~685,320) -> CH (~890,258) -> N (~1015,400) -> C-OMe (~1050,550) -> CH (~840,640) -> C3a (~670,545); matches ref pattern."
+        }
+      ],
+      "missed_differences": [
+        {
+          "category": "abbreviation_changed",
+          "description": "Wrong drawing writes the acetyl label as 'AC' with a C roughly the same size as the A, which may read as upper-case AC instead of Ac (cf. guideline example Ph -> PH). Secondary to the main error.",
+          "severity": "low"
+        },
+        {
+          "category": "legibility",
+          "description": "In the wrong drawing the pyridine ring N is written rotated so it resembles a 'Z'; readable only from context.",
+          "severity": "low"
+        }
+      ],
+      "transcription_disputes": [
+        {
+          "image": "wrong",
+          "field": "atom_labels",
+          "adjudicator": "Ac (noted as upper-case-looking c, still readable as Ac)",
+          "you_see": "AC, second letter about the same size as the A",
+          "evidence": "Label at top-left above the N-Ac bond (~370,95)."
+        },
+        {
+          "image": "wrong",
+          "field": "legibility",
+          "adjudicator": "clear",
+          "you_see": "minor_issues: pyridine N written rotated like a 'Z'",
+          "evidence": "Ring N at ~1015,400 in wrong.jpg."
+        }
+      ],
+      "notes": "The main error (EtOOC moved from C2 to C3) is confirmed and the corrected drawing is fine. Disputes are low severity only: the case of Ac in wrong and the rotated ring N."
+    }
+  },
+  "molecule_263": {
+    "primary": "wrong_atom_or_label",
+    "categories": [
+      "abbreviation_changed",
+      "wrong_atom_or_label"
+    ],
+    "errors": [
+      {
+        "category": "wrong_atom_or_label",
+        "description": "Reference six-membered fused ring is a pyridine with ring N adjacent to the fusion carbon bearing the lactam N (7-aza position); the wrong drawing omits this N and draws an all-carbon benzene ring, so the 7-azaoxindole becomes an oxindole.",
+        "severity": "high"
+      },
+      {
+        "category": "abbreviation_changed",
+        "description": "Reference para substituent on the benzyl ring is the abbreviation 'OMe'; the wrong drawing expands it to 'OCH3'.",
+        "severity": "medium"
+      }
+    ],
+    "correct_version_issues": [],
+    "confidence": "high",
+    "needs_user_review": false,
+    "review_notes": "Wrong drawing leaves out the pyridine N (drawn as benzene) and writes OMe as OCH3. Corrected drawing restores the ring N in the right place and uses OMe; everything else matches.",
+    "verification": {
+      "molecule": "molecule_263",
+      "status": "confirmed",
+      "claim_checks": [
+        {
+          "claim": "errors_in_wrong: pyridine ring N (7-aza position) omitted; fused six-membered ring drawn as all-carbon benzene (oxindole instead of 7-azaoxindole)",
+          "verdict": "confirmed",
+          "evidence": "Ref has 'N' in the fused six-membered ring adjacent to the carbon bonded to the lactam N. Wrong: the fused six-membered ring (bottom centre, ~(710-1095, 575-890)) is a plain hexagon with a circle and no N label anywhere in it."
+        },
+        {
+          "claim": "errors_in_wrong: OMe expanded to OCH3",
+          "verdict": "confirmed",
+          "evidence": "Wrong far right: 'O' with 'CH3' written below it; ref and correct show 'OMe'."
+        },
+        {
+          "claim": "correct_version_issues is empty (corrected drawing has no other issue)",
+          "verdict": "confirmed",
+          "evidence": "Correct: Boc-N pyrrolidine (5), spiro to lactam (C=O, N-CH2), pyridine N at ~(1020,720) adjacent to C7a, Kekule pyridine double bonds C7a=N, C3a=C4, C5=C6 matching ref, PMB ring with circle and OMe para to CH2, black ink."
+        },
+        {
+          "claim": "Transcription: atom_labels ref/correct [Boc,N,O,N,N,OMe]; wrong [Boc,N,O,N,OCH3]",
+          "verdict": "confirmed",
+          "evidence": "Labels read as stated."
+        },
+        {
+          "claim": "Transcription: abbreviations ref/correct [Boc,OMe], wrong [Boc]; r_labels []",
+          "verdict": "confirmed",
+          "evidence": "Boc kept in all; OMe only in ref/correct; no R labels."
+        },
+        {
+          "claim": "Transcription: ring_sizes [5,5,6,6] in all three",
+          "verdict": "confirmed",
+          "evidence": "Pyrrolidine 5, lactam 5, fused 6, benzyl 6 in every image."
+        },
+        {
+          "claim": "Transcription: no wedge or hashed bonds",
+          "verdict": "confirmed",
+          "evidence": "No stereo bonds in any image."
+        },
+        {
+          "claim": "Transcription: ink_colour black (wrong and correct)",
+          "verdict": "confirmed",
+          "evidence": "Both drawn in black ink."
+        },
+        {
+          "claim": "Transcription: substituent_description (spiro N-Boc pyrrolidine/lactam; ring N adjacent to C7a in ref/correct, none in wrong; OMe/OCH3 para to CH2)",
+          "verdict": "confirmed",
+          "evidence": "PMB ring: CH2 vertex to OMe/OCH3 vertex is three ring bonds (para) in all images; ring N position as stated."
+        }
+      ],
+      "missed_differences": [],
+      "transcription_disputes": [],
+      "notes": "All claims hold. In correct, 'Boc' is written with a capital-looking B and smallish o/c ('BOC'-like) but still reads as Boc; the C7a=N inner stroke is detached but readable. Not counted as issues."
+    }
+  },
+  "molecule_294": {
+    "primary": "substituent_position",
+    "categories": [
+      "abbreviation_changed",
+      "connectivity",
+      "other",
+      "substituent_position"
+    ],
+    "errors": [
+      {
+        "category": "substituent_position",
+        "description": "Reference benzene has the triazolyl para to the NH (and meta to OEt). Wrong drawing attaches the triazolyl to the vertex adjacent to the OEt carbon, i.e. ortho to OEt and meta to NH (1,2,3-trisubstituted pattern).",
+        "severity": "high"
+      },
+      {
+        "category": "connectivity",
+        "description": "Reference partially saturated ring of the bicycle is N-CH2-C8a and N-CH=CH-C4a. Wrong drawing has N-CH2-CH2-C8a (two sp3 carbons on the C8a side) and N-CH=C4a, with the double bond going to the aromatic fusion carbon; ring atoms are arranged differently and the CH=CH double bond is misplaced.",
+        "severity": "high"
+      },
+      {
+        "category": "abbreviation_changed",
+        "description": "Reference abbreviations Me (on triazole N), MeO (azetidine) and OEt (benzene) are expanded to CH3, CH3O and O-CH2-CH3.",
+        "severity": "medium"
+      },
+      {
+        "category": "other",
+        "description": "Methyl groups drawn as unlabelled skeletal lines in the reference (two on azetidine C2, one on the pyridine ring) are written out as explicit CH3 labels, so the reference notation is not preserved.",
+        "severity": "medium"
+      }
+    ],
+    "correct_version_issues": [
+      {
+        "category": "missing_atom_or_group",
+        "description": "Reference has a 4-methyl-1,2,4-triazol-3-yl (three ring N: N-Me plus an N=N side). Corrected drawing's five-membered ring has only two N (N-Me and one other N); the ring atom adjacent to the attachment carbon on the lower side is drawn as carbon with a C=C double bond instead of N, giving an imidazole.",
+        "severity": "high"
+      },
+      {
+        "category": "legibility",
+        "description": "Azetidine C2 quaternary carbon is drawn as two straight lines crossing (methyl line running straight through to N), making the vertex harder to read than in the reference.",
+        "severity": "low"
+      }
+    ],
+    "confidence": "medium",
+    "needs_user_review": true,
+    "review_notes": "Wrong has several errors: triazole moved to meta of NH (ortho to OEt), bicycle ring atoms rearranged (CH2-CH2 / CH=C fusion), and Me/MeO/OEt and methyl lines written out as CH3. The corrected drawing fixes these but its triazole has only two ring N (drawn as an imidazole), so it is not fully correct.",
+    "verification": {
+      "molecule": "molecule_294",
+      "status": "confirmed",
+      "claim_checks": [
+        {
+          "claim": "errors_in_wrong[0] (substituent_position, high): triazolyl is para to NH in the reference but in the wrong drawing sits ortho to OEt and meta to NH (1,2,3-pattern).",
+          "verdict": "confirmed",
+          "evidence": "Ref benzene: NH on lower-right vertex, OEt on bottom vertex, triazole on upper-left vertex (para to NH). Wrong benzene: NH on lower-right vertex (~x725,y780), O-CH2 on bottom vertex (~x610,y850), triazole on lower-left vertex (~x480,y765), so triazole is ortho to the ethoxy carbon and meta to NH."
+        },
+        {
+          "claim": "errors_in_wrong[1] (connectivity, high): wrong bicycle has N-CH2-CH2-C8a and N-CH=C4a instead of the reference N-CH2-C8a and N-CH=CH-C4a.",
+          "verdict": "confirmed",
+          "evidence": "Ref: from the fusion carbon next to the azetidinyl carbon one CH2 leads to N; N-CH=CH leads to the other fusion carbon. Wrong (zoomed): from the upper fusion carbon two unlabelled vertices (~x1190,y575 and ~x1060,y625) precede the N (~x1065,y725); from N one vertex (~x1200,y800) is double-bonded (inner line) directly to the lower fusion carbon of the circled ring. Ring is still six-membered but the N is shifted and the double bond goes to the fusion carbon."
+        },
+        {
+          "claim": "errors_in_wrong[2] (abbreviation_changed, medium): Me, MeO and OEt expanded to CH3, CH3O and O-CH2-CH3.",
+          "verdict": "confirmed",
+          "evidence": "Wrong: triazole N carries 'CH3' (ref 'Me'); azetidine carbon carries 'CH3O' (ref 'MeO'); benzene carries 'O' bonded to 'CH2' bonded down to 'CH3' (ref 'OEt')."
+        },
+        {
+          "claim": "errors_in_wrong[3] (other, medium): unlabelled methyl lines in the reference (two on azetidine C2, one on the pyridine ring) are written as explicit CH3 labels.",
+          "verdict": "confirmed",
+          "evidence": "Wrong: azetidine CMe2 carbon has two labelled 'CH3' groups (~x1225,y225 and ~x1245,y465) and the pyridine carbon next to ring N has 'CH3' (~x1680,y820); in the ref these are bare line ends."
+        },
+        {
+          "claim": "correct_version_issues[0] (missing_atom_or_group, high): the corrected drawing's five-membered ring has only two N (N-Me and one other N); the vertex next to the attachment carbon on the lower side is carbon with a C=C, giving an imidazole instead of the 1,2,4-triazole.",
+          "verdict": "confirmed",
+          "evidence": "Ref five-membered ring (looked at closely): N-Me (top right), CH (top) double-bonded to N (left), single N-N bond to a second N (bottom left), that N double-bonded to C3 (attachment carbon); three N labels. Corrected drawing (zoomed): N-Me (~x365,y185 in crop), unlabelled CH vertex top-left with inner double line down to the 'N' on the left, then a single bond from that N to an UNLABELLED vertex at the bottom (~x255,y455 in crop) which carries an inner double line to the attachment carbon (~x380,y378). Only two N labels in the ring: it is N(Me)-CH=N-CH=C, an imidazol-5-yl. Small wording note: the adjudicator calls the reference ring 'an N=N side'; in the reference the N1-N2 bond is single (the double bonds are C5=N1 and N2=C3), but the substance of the claim (third N missing) is correct."
+        },
+        {
+          "claim": "correct_version_issues[1] (legibility, low): azetidine C2 is drawn as two straight lines crossing (plus-shaped), harder to read than the reference.",
+          "verdict": "confirmed",
+          "evidence": "Corrected drawing: a long vertical line runs from the MeO carbon (~x930,y100) down past the ring to a methyl end (~x935,y415), and a long horizontal line runs from a methyl end (~x740,y315) through the crossing to N (~x1055,y265); the quaternary carbon is only implied by the crossing point. Interpretable as CMe2 but less clear."
+        },
+        {
+          "claim": "Corrected drawing otherwise matches: triazole/imidazole ring para to NH, OEt ortho to NH, bicycle N-CH2-C8a and N-CH=CH-C4a, methyl line next to pyridine N, azetidin-1-yl on the carbon between ring N and C8a, abbreviations Me/MeO/OEt preserved.",
+          "verdict": "confirmed",
+          "evidence": "Correct: five-ring on upper-left benzene vertex, NH on lower-right vertex (para), OEt on bottom vertex. Bicycle: upper fusion carbon -> one CH2 -> N (bonded to NH); N -> CH = CH (inner line) -> lower fusion carbon. Pyridine ring: azetidinyl carbon, N, C=N inner line, C bearing a bare methyl line, CH, C4a with inner double line, short vertical stub for C1=C8a. Labels written Me, MeO, OEt."
+        },
+        {
+          "claim": "Transcription: ring sizes 5,6,4,6,6 in all three images.",
+          "verdict": "confirmed",
+          "evidence": "Each image: one five-membered heteroaryl ring, benzene 6, azetidine 4 (N, CMe2, C(OMe), CH2), two fused six-membered rings."
+        },
+        {
+          "claim": "Transcription: atom labels ref [MeO, Me, 6x N, NH, OEt]; wrong [CH3 x4, CH3O, 6x N, NH, O, CH2]; correct [Me, MeO, 5x N, NH, OEt].",
+          "verdict": "confirmed",
+          "evidence": "Ref: 3 triazole N + azetidine N + pyridine N + ring-B N. Wrong: same six N plus CH3 (x4), CH3O, O, CH2, NH. Correct: only 2 N in the five-ring, so 5 N total plus NH."
+        },
+        {
+          "claim": "Transcription: no wedge or hashed bonds; black ink; no R labels.",
+          "verdict": "confirmed",
+          "evidence": "No stereo bonds in any image; both handwritten drawings in black ink; no R labels."
+        }
+      ],
+      "missed_differences": [],
+      "transcription_disputes": [],
+      "notes": "Agree with all adjudicator claims. The key molecule_294 point is verified by close inspection: the reference five-membered ring is a 4-methyl-1,2,4-triazole with three ring N (N-Me, and two adjacent N on the left), while the corrected drawing's ring has only two N labels; the bottom ring vertex next to the attachment carbon is unlabelled carbon joined by a drawn C=C, so the corrected drawing shows a 1-methylimidazol-5-yl and is not fully correct. Only quibble: the adjudicator's phrase 'N=N side' is loose; in the reference the N-N bond is single."
+    }
+  },
+  "molecule_32": {
+    "primary": "substituent_position",
+    "categories": [
+      "substituent_position"
+    ],
+    "errors": [
+      {
+        "category": "substituent_position",
+        "description": "The reference has OPh para (1,4) to the CH2 side chain on the benzene ring. The wrong drawing puts OPh at the top vertex and the CH2 at the lower-left vertex, i.e. meta (1,3).",
+        "severity": "high"
+      }
+    ],
+    "correct_version_issues": [],
+    "confidence": "high",
+    "needs_user_review": false,
+    "review_notes": "Wrong drawing has OPh meta to the side chain instead of para. Labels, hashed bond and chain otherwise match. Corrected drawing restores para and matches the reference; handwriting is loose but readable.",
+    "verification": {
+      "molecule": "molecule_32",
+      "status": "confirmed",
+      "claim_checks": [
+        {
+          "claim": "errors_in_wrong[0] substituent_position: OPh meta (1,3) to the CH2 side chain instead of para",
+          "verdict": "confirmed",
+          "evidence": "Wrong ring vertices: CH2-bearing (~1290,910), top-left (~1280,580), top (~1510,445, bears OPh), right-upper (~1710,585), right-lower (~1705,845), bottom (~1535,1010). OPh carbon is a neighbour of the top-left vertex, which is ortho to the CH2 carbon, so OPh is meta. Ref has OPh para."
+        },
+        {
+          "claim": "correct_version_issues is empty: the corrected drawing has no other issue",
+          "verdict": "confirmed",
+          "evidence": "Correct: CH2 at the lower-left vertex (~940,550); OPh at the upper-right vertex (~1275,330), which is opposite it (para). NHBoc on a plain bond up; MeOOC on a hashed bond with the wide end at MeOOC, as in the ref. Circle inside the ring. Black ink. Small gap at the upper-left vertex and an ink blot on the right ring bond do not change the structure."
+        },
+        {
+          "claim": "atom_labels/abbreviations NHBoc, MeOOC, OPh in all three; no r_labels",
+          "verdict": "confirmed",
+          "evidence": "All three labels are present and spelled the same in each image; no case changes (OPh, not OPH)."
+        },
+        {
+          "claim": "ring_sizes [6] in all three",
+          "verdict": "confirmed",
+          "evidence": "One hexagon in each image."
+        },
+        {
+          "claim": "wedge_bonds 0, hashed_bonds 1 in all three",
+          "verdict": "confirmed",
+          "evidence": "Hashed bond from the stereocentre to MeOOC in ref, wrong (~'||||'' strokes at 600-760,940-1010) and correct (~430-600,570-680); no solid wedges."
+        },
+        {
+          "claim": "ink_colour black for wrong and correct",
+          "verdict": "confirmed",
+          "evidence": "Wrong ink is very dark purple-black, which I accept as black; correct is black."
+        },
+        {
+          "claim": "legibility minor_issues for wrong (OO retraced) and correct (open-loop OOC)",
+          "verdict": "confirmed",
+          "evidence": "Wrong: 'MeOOC' has a heavily retraced O. Correct: the 'OOC' letters run together. Both still read as MeOOC."
+        },
+        {
+          "claim": "substituent_description for wrong (meta) and correct (para), NHBoc plain up, MeOOC hashed left",
+          "verdict": "confirmed",
+          "evidence": "As described in the position checks above."
+        }
+      ],
+      "missed_differences": [],
+      "transcription_disputes": [],
+      "notes": "I agree with the adjudicator. The hashed bond direction (wide end at MeOOC) matches the ref in both handwritten copies."
+    }
+  },
+  "molecule_324": {
+    "primary": "ring_size_or_fusion",
+    "categories": [
+      "ring_size_or_fusion"
+    ],
+    "errors": [
+      {
+        "category": "ring_size_or_fusion",
+        "description": "The 3,4-difluorophenyl ring of the reference (six-membered) is drawn as a five-membered ring with three double bonds; one ring vertex is missing between the NH-bearing carbon and the F-bearing carbon, so as drawn the two F atoms sit ortho and meta to the NH carbon instead of meta and para.",
+        "severity": "high"
+      }
+    ],
+    "correct_version_issues": [],
+    "confidence": "high",
+    "needs_user_review": false,
+    "review_notes": "Wrong drawing's difluorophenyl ring has only five vertices; the F positions shift as a consequence. Corrected drawing has a six-membered ring with F meta/para and matches the reference (circle depiction instead of Kekule).",
+    "verification": {
+      "molecule": "molecule_324",
+      "status": "confirmed",
+      "claim_checks": [
+        {
+          "claim": "errors_in_wrong[0]: difluorophenyl ring drawn as five-membered ring with three double bonds; F atoms end up ortho and meta to the NH carbon instead of meta and para (ring_size_or_fusion, high)",
+          "verdict": "confirmed",
+          "evidence": "Wrong left ring has five vertices (~360,215 top; ~520,330 right with NH bond; ~410,495 lower-right with F; ~250,465 lower-left with F; ~230,295 left) and three inner double lines (top-right edge, lower-right edge, left edge). F on lower-right vertex is adjacent (ortho) to the NH carbon, the other F one further (meta). Ref ring is six-membered with F at meta/para."
+        },
+        {
+          "claim": "correct_version_issues empty: corrected drawing has no other issue",
+          "verdict": "confirmed",
+          "evidence": "Correct: six-membered ring with circle, NH at top-right vertex, F at lower-right (meta) and lower-left (para) vertices; NH-C(=O)-CH(hashed methyl up)-O-C(=O)-CH2-CH2-N; benzoxazinone N-C(=O)-CH2-O fused to circled benzene. Black ink, legible."
+        },
+        {
+          "claim": "atom_labels (all three): NH, O, O, O, N, O, O, F, F",
+          "verdict": "confirmed",
+          "evidence": "All present in each image; NH written with H above N in all three."
+        },
+        {
+          "claim": "abbreviations none; r_labels none",
+          "verdict": "confirmed",
+          "evidence": "No abbreviations or R labels in any image."
+        },
+        {
+          "claim": "ring_sizes: ref 6,6,6; wrong 5,6,6; correct 6,6,6",
+          "verdict": "confirmed",
+          "evidence": "As described above; oxazinone ring and benzo ring are six-membered in all three."
+        },
+        {
+          "claim": "wedge_bonds 0, hashed_bonds 1 (methyl on the CH) in all three",
+          "verdict": "confirmed",
+          "evidence": "Ref hashed methyl pointing up from the CH; wrong hash (~880-910, 65-145) widening upward; correct hash (~930-1000, 60-140) widening upward. No wedges."
+        },
+        {
+          "claim": "aromatic depiction: ref Kekule, wrong Kekule, correct circles; double_bonds ref 9, wrong 9, correct 3",
+          "verdict": "confirmed",
+          "evidence": "Ref both rings with inner double lines; wrong left 5-ring with three inner lines and benzo ring with three inner lines; correct both benzene rings with circles plus three C=O."
+        },
+        {
+          "claim": "ink_colour black for wrong and correct",
+          "verdict": "confirmed",
+          "evidence": "Both drawn in black pen (correct benzoxazinone strokes slightly lighter but still black)."
+        },
+        {
+          "claim": "substituent_description: benzoxazinone N-C(=O)-CH2-O fused to benzene, chain CH2CH2 from N",
+          "verdict": "confirmed",
+          "evidence": "Wrong and correct both show N bonded to fused carbon, C=O below N, CH2, O bonded to the other fused carbon; matches ref."
+        }
+      ],
+      "missed_differences": [],
+      "transcription_disputes": [],
+      "notes": "Independent viewing found the same single error (five-membered aryl ring with shifted F positions). Correct copy has a tiny pen overshoot at the top-right vertex of the benzo ring and a small mark at the base of the hashed bond; neither affects legibility, so not counted."
+    }
+  },
+  "molecule_387": {
+    "primary": "substituent_position",
+    "categories": [
+      "abbreviation_changed",
+      "substituent_position"
+    ],
+    "errors": [
+      {
+        "category": "substituent_position",
+        "description": "In the reference the C(=O)NHBn carboxamide is at quinoline C4, next to the ring-fusion carbon. In the wrong drawing the carboxamide is at C3, the carbon adjacent to the NH-bearing C2.",
+        "severity": "high"
+      },
+      {
+        "category": "abbreviation_changed",
+        "description": "The reference label NHBn is expanded in the wrong drawing to NH-CH2 with a fully drawn phenyl ring.",
+        "severity": "medium"
+      },
+      {
+        "category": "abbreviation_changed",
+        "description": "The reference label Me on the tolyl ring (ortho to NH) is written as CH3 in the wrong drawing.",
+        "severity": "medium"
+      }
+    ],
+    "correct_version_issues": [],
+    "confidence": "high",
+    "needs_user_review": true,
+    "review_notes": "Wrong drawing: the carboxamide is at quinoline C3 instead of C4, and Me/NHBn are expanded to CH3 and CH2-phenyl. The corrected drawing restores C4, Me and NHBn. It mixes a circle (pyridine ring) with two Kekule lines (benzo ring) in the quinoline. That still reads as aromatic and was not counted as an error. Transcriber_2's 'wrong' transcription describes an unrelated molecule and was ignored.",
+    "verification": {
+      "molecule": "molecule_387",
+      "status": "disputed",
+      "claim_checks": [
+        {
+          "claim": "errors_in_wrong[0] substituent_position: the carboxamide is at quinoline C3 (adjacent to the NH-bearing C2) instead of C4",
+          "verdict": "confirmed",
+          "evidence": "Wrong: pyridine ring = C8a(~995,380)-N(~895,570)-C2(~1010,710)-C3(~1245,670)-C4(~1360,490)-C4a(~1235,380). The amide carbon (~1440,770) is bonded to C3 at (1245,670), which is also bonded to C2, and C2 carries the NH. C4 has no substituent. In the ref and the correct drawing the amide is on the carbon bonded to the fusion carbon."
+        },
+        {
+          "claim": "errors_in_wrong[1] abbreviation_changed: NHBn is expanded to NH-CH2-phenyl",
+          "verdict": "confirmed",
+          "evidence": "Wrong: below the C=O carbon it shows 'NH', a vertical bond, 'CH2', and a bond to a drawn benzene with a circle. The ref writes 'NHBn'."
+        },
+        {
+          "claim": "errors_in_wrong[2] abbreviation_changed: Me written as CH3",
+          "verdict": "confirmed",
+          "evidence": "Wrong: the tolyl methyl is labelled 'CH3' (subscript 3). The ref has 'Me'."
+        },
+        {
+          "claim": "correct_version_issues is empty: the corrected drawing has no other issue",
+          "verdict": "confirmed",
+          "evidence": "Correct: the tolyl ring has NH and Me on adjacent carbons, and NH is bonded to quinoline C2 (next to the ring N). C(=O)NHBn is on C4 (~1265,590), which is bonded to C4a (~1265,410). The labels Me, NH, N, O and NHBn are preserved, and the ink is black. The pyridine ring has a circle while the benzo ring has two Kekule lines. This mixed depiction is a valid aromatic picture, the same as a Clar structure of naphthalene, and does not change the compound. Writing 'NH' inline instead of stacked is only layout."
+        },
+        {
+          "claim": "atom_labels/abbreviations: ref and correct N, NH, Me, O, NHBn; wrong N, NH, CH3, O, NH, CH2 with no abbreviations",
+          "verdict": "confirmed",
+          "evidence": "As seen. In the wrong drawing the NH linker is written N with H below, as in the ref."
+        },
+        {
+          "claim": "r_labels empty",
+          "verdict": "confirmed",
+          "evidence": "There are no R labels."
+        },
+        {
+          "claim": "ring_sizes: ref and correct [6,6,6], wrong [6,6,6,6] (expanded phenyl)",
+          "verdict": "confirmed",
+          "evidence": "The wrong drawing has an extra drawn benzene ring from the expanded benzyl."
+        },
+        {
+          "claim": "wedge_bonds 0, hashed_bonds 0",
+          "verdict": "confirmed",
+          "evidence": "None in any image."
+        },
+        {
+          "claim": "ink_colour black for correct",
+          "verdict": "confirmed",
+          "evidence": "Correct drawing is in dark/black pen."
+        },
+        {
+          "claim": "ink_colour black for wrong (dark grey/graphite counted as black)",
+          "verdict": "uncertain",
+          "evidence": "Wrong strokes have a grainy dark-grey texture that looks like pencil or graphite. I could not measure the pixel colour because PIL is unavailable. This does not change the verdict, since the wrong drawing already has real errors."
+        },
+        {
+          "claim": "substituent_description ref: NH at C2 to o-tolyl, C(=O)NHBn at C4",
+          "verdict": "confirmed",
+          "evidence": "Ref: NH on the carbon next to N, Me ortho to the NH-bearing carbon of the benzene, and the amide on the carbon next to the fusion carbon."
+        }
+      ],
+      "missed_differences": [],
+      "transcription_disputes": [],
+      "notes": "I confirm all three errors in the wrong drawing. The corrected drawing matches the reference. The only point I could not settle is whether the wrong drawing is in pencil/graphite rather than black ink, and it has no effect on the labels."
+    }
+  },
+  "molecule_476": {
+    "primary": "wrong_atom_or_label",
+    "categories": [
+      "wrong_atom_or_label"
+    ],
+    "errors": [
+      {
+        "category": "wrong_atom_or_label",
+        "description": "The reference has a urea linkage: piperidine N-C(=O)-NH-aryl, with an explicit NH between the carbonyl and the dimethylaminophenyl ring. The wrong drawing replaces that NH with an unlabelled carbon vertex, giving piperidine N-C(=O)-CH2-aryl (an acetamide instead of a urea).",
+        "severity": "high"
+      }
+    ],
+    "correct_version_issues": [],
+    "confidence": "high",
+    "needs_user_review": false,
+    "review_notes": "Wrong drawing turns the urea NH (between the piperidine carbonyl and the dimethylaminophenyl ring) into a CH2 vertex. Could also be filed as missing_atom_or_group (the NH label is missing). Chain length (10 vertices after Et) matches in all three images. The corrected drawing restores the NH and matches the reference.",
+    "verification": {
+      "molecule": "molecule_476",
+      "status": "confirmed",
+      "claim_checks": [
+        {
+          "claim": "errors_in_wrong[0]: wrong_atom_or_label - the urea NH between the piperidine carbonyl and the dimethylaminophenyl ring is replaced by an unlabelled carbon vertex (N-C(=O)-CH2-aryl instead of N-C(=O)-NH-aryl)",
+          "verdict": "confirmed",
+          "evidence": "Wrong (right-hand crop): piperidine N -> carbonyl C with double-bonded O above -> bond down-right to a bare vertex (no label) -> bond up to the left vertex of the dimethylaminophenyl ring. The reference shows an NH (H below N) at that position."
+        },
+        {
+          "claim": "correct_version_issues is empty: the corrected drawing has no other issue",
+          "verdict": "confirmed",
+          "evidence": "Correct: piperidine N -> C(=O) (double line to O) -> 'NH' -> ring, with NMe2 para (upper-right vertex vs lower-left vertex). Chain Et + 10 vertices -> NH -> C(=O) (double) on a para benzene; CH2CH2 to piperidine C4. Black ink, legible; NH written inline rather than with H above N (allowed)."
+        },
+        {
+          "claim": "Transcription: atom_labels ref/correct = Et, NH, O, N, O, NH, N, Me, Me; wrong lacks the second NH",
+          "verdict": "confirmed",
+          "evidence": "Labels as listed are visible; wrong has only the amide NH (H above N) and no NH at the urea position."
+        },
+        {
+          "claim": "Transcription: abbreviations Et, Me, Me; no r_labels",
+          "verdict": "confirmed",
+          "evidence": "Et at the chain end and two Me on the terminal N in all three images; no R labels."
+        },
+        {
+          "claim": "Transcription: ring_sizes [6,6,6] in all",
+          "verdict": "confirmed",
+          "evidence": "Benzene, piperidine and benzene hexagons in each image."
+        },
+        {
+          "claim": "Transcription: wedge_bonds 0, hashed_bonds 0 in all",
+          "verdict": "confirmed",
+          "evidence": "No stereo bonds visible."
+        },
+        {
+          "claim": "Transcription: ink_colour black for wrong and correct",
+          "verdict": "confirmed",
+          "evidence": "Both handwritten images are black ink (wrong photographed on grey-looking paper)."
+        },
+        {
+          "claim": "Transcription: chain of 10 unlabelled vertices between Et and NH in all three images; para substitution on both benzenes; CH2CH2 linker to piperidine C4",
+          "verdict": "confirmed",
+          "evidence": "Magnified crops: ref vertices at ~10 zigzag turns before NH; wrong 10 vertices (330,70 ... 1135,320 in crop); correct 10 vertices (210,42 ... 920,272 in crop). Linker is two vertices in wrong and correct; benzene substituents on opposite vertices."
+        }
+      ],
+      "missed_differences": [],
+      "transcription_disputes": [],
+      "notes": "Error confirmed. As the adjudicator says, missing_atom_or_group would also fit. I found no other differences."
+    }
+  },
+  "molecule_485": {
+    "primary": "extra_atom_or_group",
+    "categories": [
+      "extra_atom_or_group"
+    ],
+    "errors": [
+      {
+        "category": "extra_atom_or_group",
+        "description": "Reference ether side chain on the aryl ring (ortho to the piperidine attachment) is O-CH2-CH2-NHAc (two carbons); the wrong drawing has O-CH2-CH2-CH2-NHAc (three carbon vertices), adding an extra CH2.",
+        "severity": "high"
+      }
+    ],
+    "correct_version_issues": [],
+    "confidence": "high",
+    "needs_user_review": false,
+    "review_notes": "Wrong drawing has one extra CH2 in the O-...-NHAc chain (propyl instead of ethyl linker). Corrected drawing has the right two-carbon chain and matches the reference in everything else. Transcriber_2's ref transcription described a different molecule and was ignored.",
+    "verification": {
+      "molecule": "molecule_485",
+      "status": "confirmed",
+      "claim_checks": [
+        {
+          "claim": "errors_in_wrong: ether chain is O-CH2-CH2-CH2-NHAc (three carbons) instead of ref O-CH2-CH2-NHAc (two carbons)",
+          "verdict": "confirmed",
+          "evidence": "Wrong: from the O (~(710,700)) the chain bends at ~(800,890), ~(690,995) and ~(515,990), then a vertical bond goes down to NHAc: three carbon vertices. Ref has two vertices between O and NHAc; correct has two (~(830,1075), ~(745,1250))."
+        },
+        {
+          "claim": "correct_version_issues is empty (corrected drawing has no other issue)",
+          "verdict": "confirmed",
+          "evidence": "Correct: piperidine 6-ring with EtO solid wedge at C4 and hashed aryl at C2, N-CH2 to indole C4, MeO at C5, methyl at C7, NH and C2=C3 double bond, aryl with O-chain ortho and HO2C para to the piperidine attachment, black ink. Bond touching the piperidine N gives a small stray tick but N stays readable."
+        },
+        {
+          "claim": "Transcription: atom_labels [EtO,N,MeO,O,NH,HO2C,NHAc] in all three",
+          "verdict": "confirmed",
+          "evidence": "Same labels, written the same way, in ref, wrong and correct."
+        },
+        {
+          "claim": "Transcription: abbreviations [EtO,MeO,NHAc]; r_labels []",
+          "verdict": "confirmed",
+          "evidence": "No abbreviation expanded in either handwritten drawing; no R labels."
+        },
+        {
+          "claim": "Transcription: ring_sizes [6,6,6,5] in all three",
+          "verdict": "confirmed",
+          "evidence": "Piperidine 6, aryl 6, indole 6+5 in each image."
+        },
+        {
+          "claim": "Transcription: wedge_bonds 1, hashed_bonds 1 in all three",
+          "verdict": "confirmed",
+          "evidence": "Solid wedge to EtO and hashed bond to aryl in ref, wrong and correct."
+        },
+        {
+          "claim": "Transcription: ink_colour black (wrong and correct)",
+          "verdict": "confirmed",
+          "evidence": "Both handwritten drawings in black ink."
+        },
+        {
+          "claim": "Transcription: substituent_description (HO2C para, O-chain ortho to piperidine attachment; indole C4 CH2, C5 MeO, C7 methyl) in all three",
+          "verdict": "confirmed",
+          "evidence": "Aryl: attachment vertex to HO2C vertex is three ring bonds in each image; O on the adjacent vertex; indole substituent positions match ref."
+        }
+      ],
+      "missed_differences": [],
+      "transcription_disputes": [],
+      "notes": "Single error (extra CH2 in the ether chain) confirmed; no other differences found between wrong/correct and ref."
+    }
+  },
+  "molecule_89": {
+    "primary": "missing_atom_or_group",
+    "categories": [
+      "legibility",
+      "missing_atom_or_group"
+    ],
+    "errors": [
+      {
+        "category": "missing_atom_or_group",
+        "description": "Reference pyrrole N (N7) carries a Me group; in the wrong drawing that N has no substituent, so the N-methyl is missing.",
+        "severity": "high"
+      },
+      {
+        "category": "legibility",
+        "description": "The hashed wedge from piperidine C3 to Ph is drawn as a detached dense fan of lines that does not clearly join the ring carbon or the Ph label.",
+        "severity": "low"
+      }
+    ],
+    "correct_version_issues": [],
+    "confidence": "high",
+    "needs_user_review": true,
+    "review_notes": "Wrong drawing omits the Me on the pyrrole N; otherwise the skeleton, I, HO, Boc, Ph and both stereo bonds match. Corrected drawing restores N-Me and matches the reference.",
+    "verification": {
+      "molecule": "molecule_89",
+      "status": "disputed",
+      "claim_checks": [
+        {
+          "claim": "errors_in_wrong[0] (missing_atom_or_group, high): the pyrrole N carries Me in the reference but has no substituent in the wrong drawing.",
+          "verdict": "confirmed",
+          "evidence": "Ref: 'Me' bonded to the pyrrole N (upper left of the bicycle). Wrong: the pyrrole 'N' (~x380,y110) has only its two ring bonds; no Me label or methyl line anywhere near it."
+        },
+        {
+          "claim": "errors_in_wrong[1] (legibility, low): hashed wedge from piperidine C3 to Ph is a detached dense fan of lines that does not clearly join the ring carbon or the Ph label.",
+          "verdict": "uncertain",
+          "evidence": "Zoomed wrong.jpg: the hashed bond is an oversized dense fan of ~15 parallel strokes spanning ~x1545-1700, y165-275. Its narrow end does come down to the C3 vertex (~x1565,y275), so it is attached to the ring carbon reasonably; the wide end stops short of 'Ph', which is normal for a label. It is clearly unusual and less tidy than the reference, so a low legibility note is defensible, but the 'detached / does not join the ring carbon' part is not clearly what is drawn."
+        },
+        {
+          "claim": "Corrected drawing has no issues (correct_version_issues empty).",
+          "verdict": "confirmed",
+          "evidence": "Correct: Me on pyrrole N, I (written with an underline) on the adjacent carbon, C=C inner lines in the five-ring and at the fusion, N=CH, C4=O double, N3-CH2 to the quaternary C bearing HO of the piperidine, piperidine N-C(=O) double, solid wedge to C4 of the N-Boc piperidine, hashed bond to Ph on C3. Black ink, legible."
+        },
+        {
+          "claim": "Transcription: atom labels ref/correct [Me, N, N, N, I, O, HO, N, O, Ph, N, Boc]; wrong the same without Me.",
+          "verdict": "confirmed",
+          "evidence": "All labels present as listed in ref and correct; wrong lacks Me only."
+        },
+        {
+          "claim": "Transcription: ring sizes 5,6,6,6 in all three images; 5 double bonds each.",
+          "verdict": "confirmed",
+          "evidence": "Pyrrole 5, pyrimidinone 6, two piperidines 6. Double bonds in each: N=CH, fusion C=C, C(I)=CH, ring C=O, amide C=O."
+        },
+        {
+          "claim": "Transcription: 1 solid wedge and 1 hashed bond in all three images.",
+          "verdict": "confirmed",
+          "evidence": "Zoomed: in ref, wrong and correct the solid wedge between the amide carbon and piperidine C4 is wide at the carbonyl carbon and narrow at the ring carbon (same orientation in all three); hashed bond from C3 to Ph, narrow at the ring carbon, in all three."
+        },
+        {
+          "claim": "Transcription: abbreviations Me, Ph, Boc (ref, correct); Ph, Boc (wrong); ink black.",
+          "verdict": "confirmed",
+          "evidence": "Ph and Boc written as abbreviations in both handwritten drawings; Me only in the corrected one; both in black ink."
+        }
+      ],
+      "missed_differences": [],
+      "transcription_disputes": [],
+      "notes": "Agree with the main finding: the wrong drawing omits the N-methyl on the pyrrole N; the corrected drawing restores it and matches the reference. I checked the solid wedge orientation closely and it is the same in all three images. The only point I could not fully confirm is the low-severity claim that the hashed fan is detached from the ring carbon; it looks attached at its narrow end, just oversized."
+    }
+  }
+}

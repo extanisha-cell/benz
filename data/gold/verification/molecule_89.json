@@ -1,0 +1,44 @@
+{
+  "molecule": "molecule_89",
+  "status": "confirmed",
+  "claim_checks": [
+    {
+      "claim": "errors_in_wrong[0] (missing_atom_or_group, high): the pyrrole N carries Me in the reference but has no substituent in the wrong drawing.",
+      "verdict": "confirmed",
+      "evidence": "Ref: 'Me' bonded to the pyrrole N (upper left of the bicycle). Wrong: the pyrrole 'N' (~x380,y110) has only its two ring bonds; no Me label or methyl line anywhere near it."
+    },
+    {
+      "claim": "errors_in_wrong[1] (legibility, low): hashed wedge from piperidine C3 to Ph is a detached dense fan of lines that does not clearly join the ring carbon or the Ph label.",
+      "verdict": "uncertain",
+      "evidence": "Zoomed wrong.jpg: the hashed bond is an oversized dense fan of ~15 parallel strokes spanning ~x1545-1700, y165-275. Its narrow end does come down to the C3 vertex (~x1565,y275), so it is attached to the ring carbon reasonably; the wide end stops short of 'Ph', which is normal for a label. It is clearly unusual and less tidy than the reference, so a low legibility note is defensible, but the 'detached / does not join the ring carbon' part is not clearly what is drawn."
+    },
+    {
+      "claim": "Corrected drawing has no issues (correct_version_issues empty).",
+      "verdict": "confirmed",
+      "evidence": "Correct: Me on pyrrole N, I (written with an underline) on the adjacent carbon, C=C inner lines in the five-ring and at the fusion, N=CH, C4=O double, N3-CH2 to the quaternary C bearing HO of the piperidine, piperidine N-C(=O) double, solid wedge to C4 of the N-Boc piperidine, hashed bond to Ph on C3. Black ink, legible."
+    },
+    {
+      "claim": "Transcription: atom labels ref/correct [Me, N, N, N, I, O, HO, N, O, Ph, N, Boc]; wrong the same without Me.",
+      "verdict": "confirmed",
+      "evidence": "All labels present as listed in ref and correct; wrong lacks Me only."
+    },
+    {
+      "claim": "Transcription: ring sizes 5,6,6,6 in all three images; 5 double bonds each.",
+      "verdict": "confirmed",
+      "evidence": "Pyrrole 5, pyrimidinone 6, two piperidines 6. Double bonds in each: N=CH, fusion C=C, C(I)=CH, ring C=O, amide C=O."
+    },
+    {
+      "claim": "Transcription: 1 solid wedge and 1 hashed bond in all three images.",
+      "verdict": "confirmed",
+      "evidence": "Zoomed: in ref, wrong and correct the solid wedge between the amide carbon and piperidine C4 is wide at the carbonyl carbon and narrow at the ring carbon (same orientation in all three); hashed bond from C3 to Ph, narrow at the ring carbon, in all three."
+    },
+    {
+      "claim": "Transcription: abbreviations Me, Ph, Boc (ref, correct); Ph, Boc (wrong); ink black.",
+      "verdict": "confirmed",
+      "evidence": "Ph and Boc written as abbreviations in both handwritten drawings; Me only in the corrected one; both in black ink."
+    }
+  ],
+  "missed_differences": [],
+  "transcription_disputes": [],
+  "notes": "Agree with the main finding: the wrong drawing omits the N-methyl on the pyrrole N; the corrected drawing restores it and matches the reference. I checked the solid wedge orientation closely and it is the same in all three images. The only point I could not fully confirm is the low-severity claim that the hashed fan is detached from the ring carbon; it looks attached at its narrow end, just oversized."
+}

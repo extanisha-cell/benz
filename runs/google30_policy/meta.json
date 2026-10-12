@@ -1,0 +1,26 @@
+{
+  "name": "google30_policy",
+  "kind": "pairs",
+  "prompt_name": "chem_equiv_policy_v1",
+  "prompt_sha": "c610ced5ea8bf3d8",
+  "format": "verdict_json",
+  "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "temperature": null,
+    "thinking_level": "low",
+    "media_resolution": null,
+    "max_output_tokens": null,
+    "seed_base": null,
+    "response_mime_type": null,
+    "backend": "openrouter",
+    "route_to": null,
+    "data_collection": null
+  },
+  "settings_fp": "bea468497233",
+  "runs": 1,
+  "created": "2026-10-11T13:59:43+00:00",
+  "data": "google30",
+  "labelled": false,
+  "labels": "on",
+  "policy": "chem-equiv-1"
+}

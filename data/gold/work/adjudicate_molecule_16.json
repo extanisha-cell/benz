@@ -1,0 +1,239 @@
+{
+  "molecule": "molecule_16",
+  "images": {
+    "ref": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_16\\ref.png",
+    "wrong": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_16\\wrong.jpg",
+    "correct": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_16\\correct.jpg"
+  },
+  "transcriber_1": {
+    "ref": {
+      "drawing_style": "mixed",
+      "atom_labels": [
+        "COOtBu",
+        "N",
+        "N",
+        "BocNH",
+        "H2N",
+        "N",
+        "N",
+        "CO2H"
+      ],
+      "abbreviations": [
+        "COOtBu",
+        "BocNH"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 4,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 2,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A purine (fused 6-5 ring system with four N atoms) has COOtBu on the carbon between the two six-ring nitrogens (C2), H2N on C6, and N9 bonded through a solid wedge to a cyclohexane carbon. On that cyclohexane the adjacent carbon bears BocNH (hashed bond) and the carbon one further around the ring (1,3 to the NHBoc carbon, 1,4-related to the purine-bearing carbon) bears a hashed bond to CH2-CO2H.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset structure with condensed labels (COOtBu, BocNH, CO2H, H2N) on a skeletal framework. Four purine double bonds (two C=N in the six-ring, C=C fusion bond, C=N in the five-ring); carbonyls inside COOtBu and CO2H are not drawn as bonds."
+    },
+    "wrong": {
+      "drawing_style": "mixed",
+      "atom_labels": [
+        "NH2",
+        "N",
+        "N",
+        "COO",
+        "C",
+        "CH3",
+        "CH3",
+        "CH3",
+        "N",
+        "N",
+        "BocNH",
+        "CO2H"
+      ],
+      "abbreviations": [
+        "BocNH"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 1,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 2,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A fused 6-5 bicycle: the circled six-membered ring has two adjacent ring N atoms at the top; the ring carbon next to one N carries NH2 and the ring carbon next to the other N carries COO-C(CH3)3 (tert-butyl ester written out with C and three CH3). The fused five-membered ring has two N atoms (one N=C double bond drawn); its N next to the fusion carbon that is adjacent to the COO carbon is attached by a solid wedge to a cyclohexane. On the cyclohexane (C1 = wedge carbon), the adjacent C2 carries BocNH on a hashed bond and C4 (para to C1) carries a hashed bond to a CH2 that bears CO2H.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Handwritten black ink on white paper. NH2 is drawn vertically as H over N over H. Ring with N-N is drawn with a circle; the five-membered ring has a single inner double line. The hashed bond on the lower right ends at a plain-bond vertex before CO2H."
+    },
+    "correct": {
+      "drawing_style": "mixed",
+      "atom_labels": [
+        "COOtBu",
+        "N",
+        "N",
+        "NH2",
+        "N",
+        "N",
+        "BocNH",
+        "CO2H"
+      ],
+      "abbreviations": [
+        "COOtBu",
+        "BocNH"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 1,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 2,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "A purine-like fused bicycle: the 6-ring (circle inside, two ring N) has COOtBu on the carbon between the two N and NH2 on the carbon adjacent to one ring N; the 5-ring (one N=C double bond drawn) has its ring N bonded through a solid wedge to a cyclohexane carbon. On the cyclohexane, going round from that N-bearing carbon: the next carbon carries BocNH via a hashed bond, and the carbon para (1,4) to the N-bearing carbon carries a hashed bond to a vertex that is joined by a plain bond to CO2H (reads as CH2-CO2H).",
+      "overlaps_or_ambiguities": [
+        "hashed bond to the right side ends at a vertex before a plain bond to CO2H, so it is unclear whether a CH2 is intended",
+        "solid wedge between the five-ring N and the cyclohexane is thick and blurs into the N label"
+      ],
+      "notes": "Six-ring drawn with an aromatic circle while the five-ring uses one explicit double bond. Handwritten; letters COOtBu and CO2H legible."
+    }
+  },
+  "transcriber_2": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "COOtBu",
+        "N",
+        "N",
+        "BocNH",
+        "H2N",
+        "N",
+        "N",
+        "CO2H"
+      ],
+      "abbreviations": [
+        "COOtBu",
+        "BocNH"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 4,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 2,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Purine-type fused six/five ring system drawn with alternating double bonds: the carbon between the two six-ring N atoms carries COOtBu, the carbon at the opposite lower-left side carries H2N, and the five-ring N at the bottom of the six-ring junction (right five-ring N) is bonded by a solid wedge to a cyclohexane carbon. On the cyclohexane, the carbon adjacent to the N-bearing carbon carries BocNH by a hashed bond, and the carbon 1,4 (para) to the N-bearing carbon carries a hashed bond to CH2-CO2H.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset structure. Four double bonds are all inside the fused heteroaromatic bicycle. COOtBu and CO2H are written condensed with no drawn C=O."
+    },
+    "wrong": {
+      "drawing_style": "mixed",
+      "atom_labels": [
+        "NH2",
+        "N",
+        "N",
+        "N",
+        "N",
+        "COO",
+        "C",
+        "CH3",
+        "CH3",
+        "CH3",
+        "BocNH",
+        "CO2H"
+      ],
+      "abbreviations": [
+        "BocNH"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 1,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 2,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A six-membered ring with two adjacent ring N atoms at the top (N-N bond) and a circle inside is fused to a five-membered ring with two more N atoms; the five-ring has an explicit N=CH double bond at lower left and an N at lower right. The six-ring carbon at the far left bears NH2 (drawn as H, N, H stacked vertically); the six-ring carbon at the right bears COO-C(CH3)3 (tert-butyl ester written as COO, a C label and three CH3). The lower-right five-ring N is attached through a solid wedge to a cyclohexane ring; on the cyclohexane, the carbon adjacent to the wedge carbon carries BocNH via a hashed bond, and the carbon on the opposite side of the ring (1,4 to the wedge carbon) carries a hashed bond to a CH2 vertex followed by CO2H.",
+      "overlaps_or_ambiguities": [
+        "NH2 on the left is written as three stacked characters H / N / H with short bonds between them.",
+        "The hashed bond at the bottom of the cyclohexane ends at an unlabelled vertex, then a plain line goes to CO2H, so the group reads as CH2CO2H.",
+        "Wedge on the upper cyclohexane carbon is wide at the heteroaryl N end and narrow at the ring carbon."
+      ],
+      "notes": "Handwritten black pen. One small circle inside the six-membered aza-ring (circle depiction) while the five-membered ring shows one explicit double bond (N=CH), hence both. Four ring N atoms are labelled. Cyclohexane ring has no other double bonds."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "COOtBu",
+        "N",
+        "N",
+        "BocNH",
+        "NH2",
+        "N",
+        "CO2H",
+        "N"
+      ],
+      "abbreviations": [
+        "COOtBu",
+        "BocNH"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 1,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 2,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Purine-like bicycle: six-membered ring with an aromatic circle and two ring N atoms; the carbon between the two N atoms carries COOtBu and the carbon at the opposite lower-left corner carries NH2. The five-membered ring (N=CH drawn with one double bond) has its N at the junction side joined by a solid wedge to a cyclohexane carbon; the adjacent (ortho, 1,2) cyclohexane carbon carries BocNH on a hashed wedge, and the cyclohexane carbon para (1,4) to the N-bearing carbon carries CO2H on a hashed bond.",
+      "overlaps_or_ambiguities": [
+        "bond between the lower-right fusion carbon and the imidazole N may be drawn doubled or overdrawn, counted as single",
+        "five-membered ring has one double bond drawn (N=C) while the six-membered ring is a circle"
+      ],
+      "notes": "Handwritten, scanned. Cyclohexane is a plain six-membered ring with three stereo bonds: solid wedge to N, hashed to BocNH, hashed to CO2H."
+    }
+  },
+  "output_file": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\by_molecule\\molecule_16.json"
+}

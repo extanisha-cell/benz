@@ -1,0 +1,16 @@
+{"molecule": "BZ2256", "status": "confirmed",
+"claim_checks": [
+{"claim": "errors_in_wrong[0]: AcNH moved from para (1,4) to meta (1,3) relative to the sulfonyl S on the left benzene (substituent_position, high)", "verdict": "confirmed", "evidence": "Wrong: S bond leaves the right vertex of the left hexagon (~400,325); the AcNH bond leaves the lower-left vertex (~300,375), two ring bonds away = meta. Ref has AcNH on the vertex opposite S (para). Correct also has AcNH-ring-S in a straight line (para)."},
+{"claim": "correct_version_issues is empty: corrected drawing has no other issue", "verdict": "confirmed", "evidence": "Correct: para AcNH/SO2 benzene with circle, S with two =O, N-CH2-Bn, CH2-C(=O)-NH-N=CH- to pyrrole C3, pyrrole methyls on both carbons flanking N, N-aryl ring with methyls ortho (upper-right vertex) and para (bottom vertex) to the N attachment. Black ink, legible. Only rotation of the N-aryl ring differs (allowed)."},
+{"claim": "atom_labels (all three): AcNH, S, O, O, N, Bn, O, NH, N, N", "verdict": "confirmed", "evidence": "All labels present in ref, wrong and correct; NH written as N over H in both handwritten copies; Bn written cursively (n looks like r in wrong) but readable."},
+{"claim": "abbreviations: AcNH, Bn (all three)", "verdict": "confirmed", "evidence": "AcNH and Bn appear in all three; no abbreviation changes."},
+{"claim": "r_labels: none", "verdict": "confirmed", "evidence": "No R labels in any image."},
+{"claim": "ring_sizes: 6,5,6 (all three)", "verdict": "confirmed", "evidence": "Two hexagons and one pentagon (pyrrole) in each image."},
+{"claim": "wedge_bonds 0, hashed_bonds 0 (all three)", "verdict": "confirmed", "evidence": "No wedge or hash bonds visible in any image."},
+{"claim": "ink_colour: black for wrong and correct", "verdict": "confirmed", "evidence": "Wrong is dark grey/black pen (thin); correct is black. No coloured ink."},
+{"claim": "substituent_description wrong: N-aryl ring methyls ortho and para to N; pyrrole 2,5-dimethyl with CH= at C3", "verdict": "confirmed", "evidence": "Wrong: N attaches at left vertex of right ring; methyl stubs at lower-left vertex (ortho) and right vertex (para). Pyrrole methyls at the top carbon and bottom carbon, both adjacent to N; CH= on lower-left carbon next to the bottom methyl carbon."},
+{"claim": "substituent_description correct/ref match: para AcNH, 2,4-dimethylphenyl on pyrrole N", "verdict": "confirmed", "evidence": "See above; ref shows same pattern."}
+],
+"missed_differences": [],
+"transcription_disputes": [],
+"notes": "Independent viewing before reading the adjudication found the same single difference (meta AcNH in wrong). Correct image has a dark background corner at top-right outside the drawing; not part of the structure."}

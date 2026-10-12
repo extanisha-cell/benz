@@ -1,0 +1,217 @@
+{
+  "molecule": "molecule_263",
+  "images": {
+    "ref": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_263\\ref.png",
+    "wrong": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_263\\wrong.jpg",
+    "correct": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_263\\correct.jpg"
+  },
+  "transcriber_1": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Boc",
+        "N",
+        "O",
+        "N",
+        "N",
+        "OMe"
+      ],
+      "abbreviations": [
+        "Boc",
+        "OMe"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        5,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 7,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A spiro carbon joins an N-Boc pyrrolidine to a five-membered lactam ring (C=O next to the spiro carbon, lactam N) that is fused to a pyridine (ring N adjacent to the carbon bearing the lactam N; 7-azaoxindole type). The lactam N carries a CH2 to a benzene ring bearing OMe para to the CH2 (4-methoxybenzyl).",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset drawing. Double bonds: lactam C=O (1), pyridine ring (3), methoxyphenyl ring (3)."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Boc",
+        "N",
+        "O",
+        "N",
+        "OCH3"
+      ],
+      "abbreviations": [
+        "Boc"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        5,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 1,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A five-membered N-ring (pyrrolidine) bearing Boc on its N is spiro-fused at one carbon with a second five-membered ring that contains a C=O and an N and is fused to a circle-depicted benzene ring (oxindole-like). The N of that lactam ring carries a CH2 linked to a circle-depicted benzene ring bearing OCH3 para (position 4) to the CH2.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Handwritten black ink. The only drawn double bond is the C=O (two parallel strokes, with the O written as a separate circle at the top). OCH3 is written with O stacked above CH3 at the lower right."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Boc",
+        "N",
+        "O",
+        "N",
+        "N",
+        "OMe"
+      ],
+      "abbreviations": [
+        "Boc",
+        "OMe"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        5,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 4,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A five-membered ring (pyrrolidine) with Boc on its ring N shares a spiro carbon with a five-membered lactam ring (C=O, then ring N) that is fused to a pyridine ring; the lactam N sits next to the fusion carbon that is adjacent to the pyridine N. The lactam N carries a CH2 linked to a circled benzene ring with OMe para (1,4) to the CH2 attachment.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Handwritten. The fused pyridine ring is drawn with three inner double-bond lines (Kekule style), the benzyl ring with an aromatic circle; plus one C=O, so 4 double bonds."
+    }
+  },
+  "transcriber_2": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Boc",
+        "N",
+        "O",
+        "N",
+        "N",
+        "OMe"
+      ],
+      "abbreviations": [
+        "Boc",
+        "OMe"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        5,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 7,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Spiro carbon shared by an N-Boc pyrrolidine ring and a five-membered lactam ring (C=O, N) that is fused to a pyridine ring whose ring N is adjacent to the fusion carbon bonded to the lactam N. The lactam N carries a CH2 attached to a benzene ring bearing OMe para (1,4) to the CH2.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset. Double bonds: one C=O, three in the pyridine ring, three in the benzene ring."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Boc",
+        "N",
+        "O",
+        "N",
+        "OCH3"
+      ],
+      "abbreviations": [
+        "Boc",
+        "OCH3"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        5,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 1,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Spiro compound: a pyrrolidine ring with N-Boc shares its spiro carbon with a five-membered lactam ring that also contains C(=O), N and two carbons of a fused benzene ring (circle). The lactam N carries a CH2 bonded to a second benzene ring (circle) that has OCH3 at the para position relative to the CH2.",
+      "overlaps_or_ambiguities": [],
+      "notes": "OCH3 is written vertically with O above CH3. The only double bond drawn is the lactam C=O."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Boc",
+        "N",
+        "O",
+        "N",
+        "N",
+        "OMe"
+      ],
+      "abbreviations": [
+        "Boc",
+        "OMe"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        5,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 4,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A spiro carbon joins a pyrrolidine ring (ring N bearing Boc) and a five-membered lactam ring (C=O above, ring N to the right). The lactam ring is fused to a six-membered ring with one ring N (drawn at the lower right, adjacent to the carbon bonded to the lactam N). The lactam N carries a CH2 attached to a benzene ring (circle) that has OMe para to the CH2 attachment.",
+      "overlaps_or_ambiguities": [
+        "Spiro carbon is drawn as four lines meeting at one point (crossing look).",
+        "The C=N bond in the six-membered ring is drawn as a short inner stroke rather than a full parallel line."
+      ],
+      "notes": "Handwritten black pen. 4 double bonds: lactam C=O plus 3 in the pyridine ring (alternating style). The benzyl ring uses a hand-drawn circle."
+    }
+  },
+  "output_file": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\by_molecule\\molecule_263.json"
+}

@@ -1,0 +1,15 @@
+{"molecule": "molecule_135", "status": "confirmed",
+ "claim_checks": [
+  {"claim": "errors_in_wrong[0] substituent_position: CH2-C(=O)-N(3,3-difluoropiperidinyl) moved from indole C5 (ref) to C7 (wrong)", "verdict": "confirmed", "evidence": "In wrong, the benzo ring runs C3a (~965,325) - C4 (~1105,280) - C5 (~1185,390, edge vertex with cut-off stub) - C6 (~1100,595) - C7 (~950,610) - C7a (~900,465, bonded to N). The CH2 chain to the amide descends from the bottom vertex (~950,610), which is next to the N-bearing fusion carbon, i.e. C7. Ref has it on C5 (para to C7a)."},
+  {"claim": "correct_version_issues is empty: the corrected drawing has no other issue", "verdict": "confirmed", "evidence": "Correct: indole with C2=C3, Ac on C3, N1-CH2-C(=O)-N(iPr)-CH2-C(=O)-NH-CH2-aryl; aryl has F ortho and Cl meta to CH2; CH2-C(=O)-N chain leaves the benzo vertex at ~(1140,460), which is C5 (C3a ~1050,325 -> C4 ~1160,365 -> C5). Piperidine has 6 vertices with CF2 at C3. Black ink. Only stray dots/a small mark near top-left, not chemical."},
+  {"claim": "ref atom_labels/abbreviations: Ac, iPr, 3x O, N, N(indole), NH, F, Cl, N, F, F; abbreviations Ac, iPr; r_labels none", "verdict": "confirmed", "evidence": "All labels visible in ref.png; no R labels."},
+  {"claim": "ring_sizes: ref [6,5,6,6], wrong [5,6,6,6], correct [6,5,6,6]", "verdict": "confirmed", "evidence": "Halophenyl 6, indole 5+6, piperidine 6 in all three; the wrong and correct piperidines each have six vertices (wrong: N, ~790/1100, ~745/1240, ~855/1385, ~965/1370, ~1030/1260)."},
+  {"claim": "wedge_bonds 0 and hashed_bonds 0 in all images", "verdict": "confirmed", "evidence": "No wedge or hash bonds; dark dots at bond ends in the handwritten copies are pen pressure."},
+  {"claim": "ink_colour black for wrong and correct", "verdict": "confirmed", "evidence": "Both handwritten drawings are in black ink."},
+  {"claim": "wrong substituent_description: Ac at C3, N1 chain, 2-F/3-Cl benzyl, piperidine amide at C7", "verdict": "confirmed", "evidence": "Ac on top pyrrole carbon; F on ring carbon next to the CH2-bearing carbon, Cl on the next one; amide chain at C7 as above."},
+  {"claim": "correct substituent_description: matches the ref with the group at C5", "verdict": "confirmed", "evidence": "See the correct-version check above."},
+  {"claim": "correct legibility minor_issues: Cl in cursive, Ac loose", "verdict": "confirmed", "evidence": "Cl at bottom-left (~280,930) is cursive and reads 'cl'; Ac at top (~1090,110) has a loose c. Both are still readable."}
+ ],
+ "missed_differences": [],
+ "transcription_disputes": [],
+ "notes": "I agree with the adjudicator. The wrong photo is cropped at the right edge through indole C5 and shows a short stub there; the full amide chain is clearly drawn from C7, so the finding stands."}

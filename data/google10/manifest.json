@@ -1,0 +1,325 @@
+{
+  "version": 1,
+  "molecules": [
+    {
+      "id": "molecule_213",
+      "images": {
+        "ref": {
+          "file": "images/molecule_213/ref.png",
+          "sha256": "e9db1c142a40e3a345ac7d390994cc640b4f4ee1c44530d68edfb9368cd3c45c",
+          "bytes": 29179,
+          "format": "png",
+          "mime": "image/png",
+          "width": 768,
+          "height": 429,
+          "has_alpha": false,
+          "complete": true,
+          "gemini_supported": true,
+          "source": "https://drive.google.com/file/d/10PtbjCBmE440Rpi-iiPqjdPZQyqkFb6n/view"
+        },
+        "annotated": {
+          "file": "images/molecule_213/annotated.jpg",
+          "sha256": "14837bb66c5959be11fb0a5e13ab36d1ff95cecd82e16093a4a14042181843c7",
+          "bytes": 902723,
+          "format": "jpeg",
+          "mime": "image/jpeg",
+          "width": 3262,
+          "height": 1505,
+          "has_alpha": false,
+          "complete": true,
+          "gemini_supported": true,
+          "source": "https://drive.google.com/file/d/1kaheLf1d9J_m6VO9Y4rqQoRUS8ctelvo/view"
+        }
+      },
+      "complete": true
+    },
+    {
+      "id": "molecule_470",
+      "images": {
+        "ref": {
+          "file": "images/molecule_470/ref.png",
+          "sha256": "7b849cb1e5d4ae59b227fc1afb0413dd6c7bbbfd1a2c442f77814520c88c56a0",
+          "bytes": 22443,
+          "format": "png",
+          "mime": "image/png",
+          "width": 770,
+          "height": 300,
+          "has_alpha": false,
+          "complete": true,
+          "gemini_supported": true,
+          "source": "https://drive.google.com/file/d/111nRGSZIv8Vvw0LEL3F0QxNnLq4bywwf/view"
+        },
+        "annotated": {
+          "file": "images/molecule_470/annotated.jpg",
+          "sha256": "6df4c71614ba2edfb5b0989c7d193731503ad8a64455748842861057448c8774",
+          "bytes": 645920,
+          "format": "jpeg",
+          "mime": "image/jpeg",
+          "width": 3072,
+          "height": 1298,
+          "has_alpha": false,
+          "complete": true,
+          "gemini_supported": true,
+          "source": "https://drive.google.com/file/d/19mSrcTXEBJ2rIrR7JcxpCy0jJ9b-D_0Y/view"
+        }
+      },
+      "complete": true
+    },
+    {
+      "id": "molecule_5",
+      "images": {
+        "ref": {
+          "file": "images/molecule_5/ref.png",
+          "sha256": "039f2053219076da8ef28ab846f651246ffd712d8a1e0cc337944f396efed32d",
+          "bytes": 47535,
+          "format": "png",
+          "mime": "image/png",
+          "width": 769,
+          "height": 748,
+          "has_alpha": false,
+          "complete": true,
+          "gemini_supported": true,
+          "source": "https://drive.google.com/file/d/11F8kjjRScoWzKl4-XYgReenzavT6GUe3/view"
+        },
+        "annotated": {
+          "file": "images/molecule_5/annotated.jpg",
+          "sha256": "7d009f356f60b10311d68bafa5e408f9bd5e6350400a1be3f7278bd5b4b2c724",
+          "bytes": 146112,
+          "format": "jpeg",
+          "mime": "image/jpeg",
+          "width": 2211,
+          "height": 2065,
+          "has_alpha": false,
+          "complete": true,
+          "gemini_supported": true,
+          "source": "https://drive.google.com/file/d/1PfKHDPJzcspF_WNgggUHsp5u-e5qDXuO/view"
+        }
+      },
+      "complete": true
+    },
+    {
+      "id": "molecule_252",
+      "images": {
+        "ref": {
+          "file": "images/molecule_252/ref.png",
+          "sha256": "c7a44678b037139035297eba6d1e561377bd4378ef61c708e93615c108dbd8ee",
+          "bytes": 38877,
+          "format": "png",
+          "mime": "image/png",
+          "width": 768,
+          "height": 468,
+          "has_alpha": false,
+          "complete": true,
+          "gemini_supported": true,
+          "source": "https://drive.google.com/file/d/11h2fW6BS-eufXaxhBPt7_eyH07lBI_J4/view"
+        },
+        "annotated": {
+          "file": "images/molecule_252/annotated.jpg",
+          "sha256": "c64a367f98dd4362073144cf923db0956a91530bd06f4d42c93fda4f6b5dc03f",
+          "bytes": 206020,
+          "format": "jpeg",
+          "mime": "image/jpeg",
+          "width": 2126,
+          "height": 2227,
+          "has_alpha": false,
+          "complete": true,
+          "gemini_supported": true,
+          "source": "https://drive.google.com/file/d/1UY03s1LfMRm9O07J4qWVSNEj83PS4x30/view"
+        }
+      },
+      "complete": true
+    },
+    {
+      "id": "molecule_25",
+      "images": {
+        "ref": {
+          "file": "images/molecule_25/ref.png",
+          "sha256": "e36b785589b6b7a326522e5057bc9df8e623a89d34680b9552cb1c90580842ab",
+          "bytes": 27251,
+          "format": "png",
+          "mime": "image/png",
+          "width": 768,
+          "height": 419,
+          "has_alpha": false,
+          "complete": true,
+          "gemini_supported": true,
+          "source": "https://drive.google.com/file/d/12Jqrt1MZfc18EjYp353Fe-cWHVBT4f8B/view"
+        },
+        "annotated": {
+          "file": "images/molecule_25/annotated.jpg",
+          "sha256": "cfc5021828e7d87e7d7130ece36253f03599d6b9a329d4a96f642bf80f71899c",
+          "bytes": 878577,
+          "format": "jpeg",
+          "mime": "image/jpeg",
+          "width": 2536,
+          "height": 1542,
+          "has_alpha": false,
+          "complete": true,
+          "gemini_supported": true,
+          "source": "https://drive.google.com/file/d/1L8eG1jCOJs6eyZDng0Iup-PDLE4ZY-DM/view"
+        }
+      },
+      "complete": true
+    },
+    {
+      "id": "molecule_132",
+      "images": {
+        "ref": {
+          "file": "images/molecule_132/ref.png",
+          "sha256": "74ec76126d3ce5a00401e5b4114652ea0c5fcf40c6c4d76701bf4ffa35b48f9b",
+          "bytes": 19289,
+          "format": "png",
+          "mime": "image/png",
+          "width": 769,
+          "height": 352,
+          "has_alpha": false,
+          "complete": true,
+          "gemini_supported": true,
+          "source": "https://drive.google.com/file/d/12wtefpBiSWw7dTtXYqmLr8x6ziDwRqY7/view"
+        },
+        "annotated": {
+          "file": "images/molecule_132/annotated.jpg",
+          "sha256": "2c648b9c988d8c7928d1562dc39d5912fee173a59132c33e20d1ee5629c01244",
+          "bytes": 405392,
+          "format": "jpeg",
+          "mime": "image/jpeg",
+          "width": 3111,
+          "height": 1443,
+          "has_alpha": false,
+          "complete": true,
+          "gemini_supported": true,
+          "source": "https://drive.google.com/file/d/1eyPIJpuFLBusPgzj0EUw7OtXtPUDDfle/view"
+        }
+      },
+      "complete": true
+    },
+    {
+      "id": "molecule_353",
+      "images": {
+        "ref": {
+          "file": "images/molecule_353/ref.png",
+          "sha256": "e8635199f45d0a702358604dcd9534665d173ff18674717761974aff099c91d9",
+          "bytes": 26716,
+          "format": "png",
+          "mime": "image/png",
+          "width": 768,
+          "height": 363,
+          "has_alpha": false,
+          "complete": true,
+          "gemini_supported": true,
+          "source": "https://drive.google.com/file/d/13EODkFBzIOKcl_RirPFfrL5C6k53zR_K/view"
+        },
+        "annotated": {
+          "file": "images/molecule_353/annotated.jpg",
+          "sha256": "0bb323a3dc5f90fbf6a324d53027844c337d011c8b1c99fb92422273b7dedb60",
+          "bytes": 177698,
+          "format": "jpeg",
+          "mime": "image/jpeg",
+          "width": 2388,
+          "height": 1412,
+          "has_alpha": false,
+          "complete": true,
+          "gemini_supported": true,
+          "source": "https://drive.google.com/file/d/12YP7O76nUtYndbxADoJNz8LSMrvDNUcw/view"
+        }
+      },
+      "complete": true
+    },
+    {
+      "id": "molecule_118",
+      "images": {
+        "ref": {
+          "file": "images/molecule_118/ref.png",
+          "sha256": "25c780420719fcf7847ef88e4978c8405957865127d7fb4c83a51aaa71994656",
+          "bytes": 23322,
+          "format": "png",
+          "mime": "image/png",
+          "width": 769,
+          "height": 331,
+          "has_alpha": false,
+          "complete": true,
+          "gemini_supported": true,
+          "source": "https://drive.google.com/file/d/14NChWJ5e-86bQMYcSKuGyJZODzzvh5wF/view"
+        },
+        "annotated": {
+          "file": "images/molecule_118/annotated.jpg",
+          "sha256": "460b71f618a63765a1f96c26a38893af00012e10ed27d91f583e95b186a5277b",
+          "bytes": 127690,
+          "format": "jpeg",
+          "mime": "image/jpeg",
+          "width": 3254,
+          "height": 1263,
+          "has_alpha": false,
+          "complete": true,
+          "gemini_supported": true,
+          "source": "https://drive.google.com/file/d/1kYJkLd-LWTkAgfGhrOGwyP1S5YVEYi-z/view"
+        }
+      },
+      "complete": true
+    },
+    {
+      "id": "molecule_390",
+      "images": {
+        "ref": {
+          "file": "images/molecule_390/ref.png",
+          "sha256": "dfb283e32100d37e3379e61d189bb4c692573eb6f67ea39b0b37ee9b41b91680",
+          "bytes": 19559,
+          "format": "png",
+          "mime": "image/png",
+          "width": 752,
+          "height": 444,
+          "has_alpha": false,
+          "complete": true,
+          "gemini_supported": true,
+          "source": "https://drive.google.com/file/d/14oPK7mIRctFd-ZAIEX-waZRosByG9Hnz/view"
+        },
+        "annotated": {
+          "file": "images/molecule_390/annotated.jpg",
+          "sha256": "cef68a638e6bf6142508cec87fed6d343ac1f662bed366baca986c8b11e17a0f",
+          "bytes": 74788,
+          "format": "jpeg",
+          "mime": "image/jpeg",
+          "width": 2066,
+          "height": 1202,
+          "has_alpha": false,
+          "complete": true,
+          "gemini_supported": true,
+          "source": "https://drive.google.com/file/d/1Sawxf5PJAIm0Ulx81FOESs3ckJFM6UcE/view"
+        }
+      },
+      "complete": true
+    },
+    {
+      "id": "molecule_455",
+      "images": {
+        "ref": {
+          "file": "images/molecule_455/ref.png",
+          "sha256": "34258f328af05a857e591dd6d9bd3e36b08385892a2221bf5f47b122095ee56c",
+          "bytes": 29665,
+          "format": "png",
+          "mime": "image/png",
+          "width": 769,
+          "height": 443,
+          "has_alpha": false,
+          "complete": true,
+          "gemini_supported": true,
+          "source": "https://drive.google.com/file/d/152RySd0nRlKwNBnAnSpu8vUT3dhCd7lx/view"
+        },
+        "annotated": {
+          "file": "images/molecule_455/annotated.jpg",
+          "sha256": "a5f2a5e0af05f48aeb8393e32ce3f005b042e7dac9bafd9a9fe142922ba621e5",
+          "bytes": 3378944,
+          "format": "jpeg",
+          "mime": "image/jpeg",
+          "width": 4080,
+          "height": 3072,
+          "has_alpha": false,
+          "complete": true,
+          "gemini_supported": true,
+          "source": "https://drive.google.com/file/d/1z332Ikyj_Eukjhn8QrCh7m2nCR7NUUnd/view"
+        }
+      },
+      "complete": true
+    }
+  ]
+}

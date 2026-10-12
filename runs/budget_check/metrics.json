@@ -1,0 +1,443 @@
+{
+  "overall": {
+    "n_pairs": 4,
+    "n_runs": 4,
+    "api_errors": 0,
+    "run_outcomes": {
+      "true_accept": 4,
+      "true_reject": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unsure": 0,
+      "invalid": 0,
+      "blocked": 0,
+      "error": 0
+    },
+    "negatives": {
+      "n_pairs": 0,
+      "false_accept_pairs": 0,
+      "false_accept_ids": [],
+      "pair_rate_ci95": null,
+      "upper95_one_sided": null,
+      "false_accept_runs": {
+        "num": 0,
+        "den": 0,
+        "rate": null,
+        "ci95": null
+      }
+    },
+    "positives": {
+      "n_pairs": 4,
+      "false_reject_pairs": 0,
+      "false_reject_ids": [],
+      "pair_rate_ci95": [
+        0.0,
+        0.6023646356164747
+      ],
+      "false_reject_runs": {
+        "num": 0,
+        "den": 4,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "unsure_runs": {
+      "num": 0,
+      "den": 4,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "invalid_runs": {
+      "num": 0,
+      "den": 4,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "blocked_runs": {
+      "num": 0,
+      "den": 4,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "strict_accuracy_runs": {
+      "num": 4,
+      "den": 4,
+      "rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "decided_accuracy": 1.0,
+    "coverage": 1.0,
+    "pair_all_correct": {
+      "num": 4,
+      "den": 4
+    },
+    "stability": {
+      "pairs": 0,
+      "mean_agreement": null,
+      "unanimous_pairs": 0
+    }
+  },
+  "gated": {
+    "n_pairs": 0,
+    "n_runs": 0,
+    "api_errors": 0,
+    "run_outcomes": {
+      "true_accept": 0,
+      "true_reject": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unsure": 0,
+      "invalid": 0,
+      "blocked": 0,
+      "error": 0
+    },
+    "negatives": {
+      "n_pairs": 0,
+      "false_accept_pairs": 0,
+      "false_accept_ids": [],
+      "pair_rate_ci95": null,
+      "upper95_one_sided": null,
+      "false_accept_runs": {
+        "num": 0,
+        "den": 0,
+        "rate": null,
+        "ci95": null
+      }
+    },
+    "positives": {
+      "n_pairs": 0,
+      "false_reject_pairs": 0,
+      "false_reject_ids": [],
+      "pair_rate_ci95": null,
+      "false_reject_runs": {
+        "num": 0,
+        "den": 0,
+        "rate": null,
+        "ci95": null
+      }
+    },
+    "unsure_runs": {
+      "num": 0,
+      "den": 0,
+      "rate": null,
+      "ci95": null
+    },
+    "invalid_runs": {
+      "num": 0,
+      "den": 0,
+      "rate": null,
+      "ci95": null
+    },
+    "blocked_runs": {
+      "num": 0,
+      "den": 0,
+      "rate": null,
+      "ci95": null
+    },
+    "strict_accuracy_runs": {
+      "num": 0,
+      "den": 0,
+      "rate": null,
+      "ci95": null
+    },
+    "decided_accuracy": null,
+    "coverage": null,
+    "pair_all_correct": {
+      "num": 0,
+      "den": 0
+    },
+    "stability": {
+      "pairs": 0,
+      "mean_agreement": null,
+      "unanimous_pairs": 0
+    }
+  },
+  "annotated": {
+    "n_pairs": 0,
+    "n_runs": 0,
+    "api_errors": 0,
+    "run_outcomes": {
+      "true_accept": 0,
+      "true_reject": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unsure": 0,
+      "invalid": 0,
+      "blocked": 0,
+      "error": 0
+    },
+    "negatives": {
+      "n_pairs": 0,
+      "false_accept_pairs": 0,
+      "false_accept_ids": [],
+      "pair_rate_ci95": null,
+      "upper95_one_sided": null,
+      "false_accept_runs": {
+        "num": 0,
+        "den": 0,
+        "rate": null,
+        "ci95": null
+      }
+    },
+    "positives": {
+      "n_pairs": 0,
+      "false_reject_pairs": 0,
+      "false_reject_ids": [],
+      "pair_rate_ci95": null,
+      "false_reject_runs": {
+        "num": 0,
+        "den": 0,
+        "rate": null,
+        "ci95": null
+      }
+    },
+    "unsure_runs": {
+      "num": 0,
+      "den": 0,
+      "rate": null,
+      "ci95": null
+    },
+    "invalid_runs": {
+      "num": 0,
+      "den": 0,
+      "rate": null,
+      "ci95": null
+    },
+    "blocked_runs": {
+      "num": 0,
+      "den": 0,
+      "rate": null,
+      "ci95": null
+    },
+    "strict_accuracy_runs": {
+      "num": 0,
+      "den": 0,
+      "rate": null,
+      "ci95": null
+    },
+    "decided_accuracy": null,
+    "coverage": null,
+    "pair_all_correct": {
+      "num": 0,
+      "den": 0
+    },
+    "stability": {
+      "pairs": 0,
+      "mean_agreement": null,
+      "unanimous_pairs": 0
+    }
+  },
+  "by_category": {
+    "identity": {
+      "n_pairs": 4,
+      "n_runs": 4,
+      "api_errors": 0,
+      "run_outcomes": {
+        "true_accept": 4,
+        "true_reject": 0,
+        "false_accept": 0,
+        "false_reject": 0,
+        "unsure": 0,
+        "invalid": 0,
+        "blocked": 0,
+        "error": 0
+      },
+      "negatives": {
+        "n_pairs": 0,
+        "false_accept_pairs": 0,
+        "false_accept_ids": [],
+        "pair_rate_ci95": null,
+        "upper95_one_sided": null,
+        "false_accept_runs": {
+          "num": 0,
+          "den": 0,
+          "rate": null,
+          "ci95": null
+        }
+      },
+      "positives": {
+        "n_pairs": 4,
+        "false_reject_pairs": 0,
+        "false_reject_ids": [],
+        "pair_rate_ci95": [
+          0.0,
+          0.6023646356164747
+        ],
+        "false_reject_runs": {
+          "num": 0,
+          "den": 4,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "unsure_runs": {
+        "num": 0,
+        "den": 4,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "invalid_runs": {
+        "num": 0,
+        "den": 4,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "blocked_runs": {
+        "num": 0,
+        "den": 4,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "strict_accuracy_runs": {
+        "num": 4,
+        "den": 4,
+        "rate": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "decided_accuracy": 1.0,
+      "coverage": 1.0,
+      "pair_all_correct": {
+        "num": 4,
+        "den": 4
+      },
+      "stability": {
+        "pairs": 0,
+        "mean_agreement": null,
+        "unanimous_pairs": 0
+      }
+    }
+  },
+  "by_split": {},
+  "by_gold_error": {},
+  "flagged_correct": {
+    "n_correct_pairs": 0,
+    "n_flagged": 0,
+    "accepted_by_any": [],
+    "rejected_by_any": [],
+    "pairs": [],
+    "unflagged": {
+      "n_pairs": 0,
+      "false_reject_pairs": 0,
+      "false_reject_ids": [],
+      "pair_rate_ci95": null,
+      "false_reject_runs": {
+        "num": 0,
+        "den": 0,
+        "rate": null,
+        "ci95": null
+      }
+    }
+  },
+  "pairs": [
+    {
+      "pair_id": "molecule_135__self",
+      "molecule": "molecule_135",
+      "b_molecule": "molecule_135",
+      "category": "identity",
+      "expected": 1,
+      "gated": false,
+      "outcomes": [
+        "true_accept"
+      ],
+      "decisions": [
+        1
+      ],
+      "reasons": [
+        "Image B is an exact reproduction of Image A and follows all guidelines."
+      ]
+    },
+    {
+      "pair_id": "molecule_240__self",
+      "molecule": "molecule_240",
+      "b_molecule": "molecule_240",
+      "category": "identity",
+      "expected": 1,
+      "gated": false,
+      "outcomes": [
+        "true_accept"
+      ],
+      "decisions": [
+        1
+      ],
+      "reasons": [
+        "Image B is an exact and accurate reproduction of Image A, following all guidelines."
+      ]
+    },
+    {
+      "pair_id": "molecule_294__self",
+      "molecule": "molecule_294",
+      "b_molecule": "molecule_294",
+      "category": "identity",
+      "expected": 1,
+      "gated": false,
+      "outcomes": [
+        "true_accept"
+      ],
+      "decisions": [
+        1
+      ],
+      "reasons": [
+        "Image B is the same compound as Image A and follows every guideline."
+      ]
+    },
+    {
+      "pair_id": "molecule_89__self",
+      "molecule": "molecule_89",
+      "b_molecule": "molecule_89",
+      "category": "identity",
+      "expected": 1,
+      "gated": false,
+      "outcomes": [
+        "true_accept"
+      ],
+      "decisions": [
+        1
+      ],
+      "reasons": [
+        "Image B is an exact reproduction of Image A, matching all chemical structures, stereochemistry, and labels."
+      ]
+    }
+  ],
+  "vote_rules": {
+    "n_calls": 0,
+    "n_negatives": 0,
+    "n_positives": 0,
+    "single_call": {
+      "false_accept_runs": 0,
+      "n_negative_runs": 0,
+      "sent_back_runs": 0,
+      "n_positive_runs": 0
+    },
+    "rules": []
+  }
+}

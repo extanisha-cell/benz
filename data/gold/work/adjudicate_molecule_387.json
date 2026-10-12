@@ -1,0 +1,212 @@
+{
+  "molecule": "molecule_387",
+  "images": {
+    "ref": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_387\\ref.png",
+    "wrong": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_387\\wrong.jpg",
+    "correct": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_387\\correct.jpg"
+  },
+  "transcriber_1": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "N",
+        "NH",
+        "Me",
+        "O",
+        "NHBn"
+      ],
+      "abbreviations": [
+        "Me",
+        "NHBn"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 9,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A quinoline (ring N labelled N) carries, at C2 (the carbon adjacent to the ring N), an NH linker (N with H below) to a benzene ring that has a Me on the carbon ortho to the NH-bearing carbon (1,2-disubstituted). At C4 of the quinoline there is a C(=O)NHBn amide (C=O drawn as O with a double bond, then NHBn).",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset drawing. Quinoline drawn with Kekule double bonds (5 in the bicycle), tolyl ring 3, plus the amide C=O. The NH linker is written with H stacked below N."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "N",
+        "O",
+        "NH",
+        "NH",
+        "CH3",
+        "CH2"
+      ],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 6,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A quinoline-type bicyclic (benzo ring with alternating double bonds fused to a pyridine ring containing N) carries, on the carbon next to ring N, an NH linked to a circle-depicted benzene ring that has a CH3 on the ring carbon directly adjacent (ortho) to the NH-bearing carbon. On the next ring carbon (adjacent to the NH-bearing one) there is a C(=O)-NH-CH2 group, the CH2 being attached to an unsubstituted circle-depicted benzene ring.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Pencil-style handwritten drawing. In the bicycle the benzo ring has 2 inner double lines and the N-containing ring has 3, giving 5 ring double bonds, plus one C=O. The two plain benzene rings are drawn with circles. NH labels are written with H below N."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "N",
+        "NH",
+        "Me",
+        "O",
+        "NHBn"
+      ],
+      "abbreviations": [
+        "Me",
+        "NHBn"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 3,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A left benzene ring (drawn with a circle) carries Me on the ring carbon directly adjacent (ortho) to the ring carbon that bears the NH linker. The NH connects to the carbon next to the ring N (position 2) of a right-hand bicyclic six-six ring system (quinoline-like: N in the middle ring, a benzo ring on the right); the carbon two positions further round (adjacent to the ring-fusion carbon, position 4) carries C(=O)NHBn.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Handwritten. The N-containing ring has an aromatic circle; the fused benzo ring is drawn with two inner double-bond lines (top and right edges) only. Plus the single C=O double bond gives 3 double bonds in total."
+    }
+  },
+  "transcriber_2": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "N",
+        "NH",
+        "Me",
+        "O",
+        "NHBn"
+      ],
+      "abbreviations": [
+        "Me",
+        "NHBn"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 9,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A quinoline (ring N at position 1) carries an NH-aryl substituent on C2 (the carbon next to N) and a C(=O)NHBn carboxamide on C4. The aryl on the NH is a benzene ring with a Me on the carbon ortho to the carbon bearing NH.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset structure. Double bonds: 5 in the quinoline, 3 in the tolyl ring, 1 C=O."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "EtO",
+        "N",
+        "MeO",
+        "NH",
+        "O",
+        "HO2C",
+        "NHAc"
+      ],
+      "abbreviations": [
+        "EtO",
+        "MeO",
+        "NHAc"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        6,
+        5
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 7,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A piperidine with EtO on C4 (solid wedge), an aryl group on C2 (hashed bond) and CH2-indol-4-yl on N1. The aryl ring has the piperidine on one carbon, an O-CH2CH2-NHAc group on the adjacent carbon (ortho) and HO2C on the carbon para to the piperidine attachment. The indole (NH) has the CH2 on C4, MeO on C5, and an unlabeled methyl line on C7.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset structure. Double bonds: 3 in the aryl ring, 3 in the indole benzo ring and 1 in the indole five-membered ring."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "NH",
+        "Me",
+        "N",
+        "O",
+        "NHBn"
+      ],
+      "abbreviations": [
+        "Me",
+        "NHBn"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 3,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "A benzene ring (circle) bears an NH at one carbon and a Me on the adjacent carbon (ortho to the NH). The NH is attached to C2 of a quinoline-type bicycle (ring N next to the NH-bearing carbon; the N-containing ring is drawn with a circle and the fused benzo ring with two inner double lines), and C4 of that bicycle bears a C(=O)NHBn group.",
+      "overlaps_or_ambiguities": [
+        "ring N label is slightly detached from its ring",
+        "ring shapes are irregular/distorted",
+        "benzo ring shows only two inner double lines"
+      ],
+      "notes": "Handwritten. Double bonds: two inner lines in the fused benzo ring plus the C=O of the amide. Pyridine ring and left benzene ring are drawn with circles."
+    }
+  },
+  "output_file": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\by_molecule\\molecule_387.json"
+}

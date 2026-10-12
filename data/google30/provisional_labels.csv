@@ -1,0 +1,31 @@
+IDs,correct,source,note
+molecule_144,yes,Claude blind visual check 2026-10-11 (not gold),chain lengths p-tolyl morpholine both stereo wedges match; circle for Kekule only
+molecule_79,yes,Claude blind visual check 2026-10-11 (not gold),piperazine N1 COOBn N4 Boc and Et plus COOMe on C2 match; C2H5 and OCH3 spelled out only
+molecule_484,yes,Claude blind visual check 2026-10-11 (not gold),quinoline 6-OMe pyrrolidine and cyclopenta-pyridazinone all match
+molecule_55,yes,Claude blind visual check 2026-10-11 (not gold),Ph Bn Me; both wedges hashed OH proline and indole-3-carbonyl match
+molecule_218,yes,Claude blind visual check 2026-10-11 (not gold),dihydronaphthalene C1=C2 7-OMe para-linked piperidine and cyanomethyl match
+molecule_123,yes,Claude blind visual check 2026-10-11 (not gold),butoxy cyclohexane spiro-imidazolinone piperidine sulfonyl and ortho-Me para-NHAc aryl match
+molecule_249,no,Claude visual check 2026-10-11 (not gold); CORRECTED after the blind pass,"stereochemistry: annotated drawing is a left-right mirror of the reference with the same wedge types, so both stereocentres (Trp alpha and Leu alpha) are inverted (enantiomer). Original blind label was yes: I compared wedge types but not layout; the pipeline flagged the Leu centre"
+molecule_2,yes,Claude blind visual check 2026-10-11 (not gold),6-hydroxy tetrahydroisoquinoline-3-COOBn matches
+molecule_149,yes,Claude blind visual check 2026-10-11 (not gold),aryl substituent pattern and decahydronaphthyridine wedged H and OH match
+molecule_475,yes,Claude blind visual check 2026-10-11 (not gold),thienoquinoline 1H-1;2;4-triazole 2-F-5-O aryl and morpholinoethoxy match
+molecule_334,yes,Claude blind visual check 2026-10-11 (not gold),spiro-oxindole THF with hashed Si bold Me and prolinamide match; SiFC2H6 is SiF(CH3)2 as a formula
+molecule_65,yes,Claude blind visual check 2026-10-11 (not gold),benzimidazole N1 propanoate C2 phenyl match
+molecule_191,yes,Claude blind visual check 2026-10-11 (not gold),checked enlarged: all five chain double bonds and their cis geometry and the methyl branch match
+molecule_48,yes,Claude blind visual check 2026-10-11 (not gold),checked enlarged: bicyclo[2.2.1] with CN on the one-carbon bridge matches; meta-CF3 phenyl and cyclopentadiene match
+molecule_423,yes,Claude blind visual check 2026-10-11 (not gold),8-bromo-1;3-dimethyl purinedione with saturated fusion carbons matches
+molecule_419,yes,Claude blind visual check 2026-10-11 (not gold),protonated piperazine N+H ortho-Cl aryl and sec-butyl amide stereocentre (same configuration; wedge on ethyl) match
+molecule_273,yes,Claude blind visual check 2026-10-11 (not gold),3;5-dimethylpyrazole pyrrolidine and imidazo[1;2-a]pyridine with all double bonds match
+molecule_53,yes,Claude blind visual check 2026-10-11 (not gold),pyrroline-fused indole with N-Et 2-Me and CH2CH(NH2)iPr chain match
+molecule_14,yes,Claude blind visual check 2026-10-11 (not gold),indol-4-yl 6-ethylthienopyrimidine and hashed benzyl amino ester match
+molecule_22,yes,Claude blind visual check 2026-10-11 (not gold),6-methoxybenzofuran with two-carbon aminoethyl chain matches
+molecule_461,yes,Claude blind visual check 2026-10-11 (not gold),benzodioxole 5;6-substitution trisubstituted imidazole and 3-methyl-1;2;4-oxadiazole match
+molecule_499,yes,Claude blind visual check 2026-10-11 (not gold),benzhydryl on N 8-OMe and 3-COOEt tetrahydroisoquinoline match
+molecule_36,yes,Claude blind visual check 2026-10-11 (not gold),ortho-Cl para-NO2 benzyl and P+ with three Ph match
+molecule_236,yes,Claude blind visual check 2026-10-11 (not gold),chlorothienopyrimidine 1-naphthyl and cis-propenyl geometry match
+molecule_416,yes,Claude blind visual check 2026-10-11 (not gold),diazabicyclo[2.2.1] topology and both bold bridgehead H wedges match
+molecule_257,yes,Claude blind visual check 2026-10-11 (not gold),Z exocyclic alkene 3;4;5-trimethoxyphenyl and ring substituent positions match
+molecule_316,yes,Claude blind visual check 2026-10-11 (not gold),3-Ph hashed and 4-COOEt bold same enantiomer (ring traversed clockwise in both)
+molecule_326,yes,Claude blind visual check 2026-10-11 (not gold),3;3-diethyl lactam 2-alkoxy-5-N-pyridine and CF3 stereocentre match; annotated adds explicit H wedge which is consistent
+molecule_75,yes,Claude blind visual check 2026-10-11 (not gold),pyrazolopyrimidine 1;3-cyclopentane stereo and 3-F-4-Me aryl match
+molecule_172,yes,Claude blind visual check 2026-10-11 (not gold),macrocycle with both stereo marks pyridone and aryl substituent positions match; most complex pair so lower confidence

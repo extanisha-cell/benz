@@ -1,0 +1,214 @@
+{
+ "_note": "Recorded model responses (no images, no keys). legacy = runs/google10_verify (baseline_v0.txt, digit + reason); structured = runs/google10_policy (prompts/chem_equiv_policy_v1.txt). Regenerate with the scratchpad make_fixture.py.",
+ "molecules": {
+  "molecule_25": {
+   "legacy": [
+    {
+     "run_idx": 0,
+     "status": "ok",
+     "valid": true,
+     "decision": 1,
+     "reason": "Image B is the same compound as Image A and follows every guideline."
+    },
+    {
+     "run_idx": 1,
+     "status": "ok",
+     "valid": true,
+     "decision": 0,
+     "reason": "Image B uses a circle to represent the aromatic rings instead of the alternating double bonds shown in Image A."
+    },
+    {
+     "run_idx": 2,
+     "status": "ok",
+     "valid": true,
+     "decision": 1,
+     "reason": "Image B is the same compound as Image A and follows every guideline."
+    },
+    {
+     "run_idx": 3,
+     "status": "ok",
+     "valid": true,
+     "decision": 1,
+     "reason": "Image B is the same compound as Image A and follows every guideline."
+    },
+    {
+     "run_idx": 4,
+     "status": "ok",
+     "valid": true,
+     "decision": 1,
+     "reason": "Image B is the same compound as Image A and follows every guideline."
+    }
+   ],
+   "structured": [
+    {
+     "run_idx": 0,
+     "status": "ok",
+     "raw_text": "```json\n{\n  \"verdict\": \"ACCEPT\",\n  \"chemical_equivalence\": true,\n  \"checklist\": {\n    \"atoms\": \"match\",\n    \"bonds\": \"match\",\n    \"connectivity\": \"match\",\n    \"substituents\": \"match\",\n    \"charges\": \"not_present\",\n    \"stereochemistry\": \"match\"\n  },\n  \"discrepancies\": [],\n  \"notation_differences\": [\n    {\n      \"category\": \"aromatic_depiction\",\n      \"detail\": \"Reference uses Kekule alternating double bonds for the phenyl rings, whereas the annotator uses aromatic circles.\"\n    }\n  ],\n  \"unreadable_regions\": [],\n  \"mismatch_type\": null,\n  \"specific_evidence\": \"The structures are chemically identical. All atoms, bonds, substituents, and the single stereocenter (wedged methyl group) are correctly reproduced.\",\n  \"confidence\": 1.0,\n  \"requires_review\": false\n}\n```"
+    },
+    {
+     "run_idx": 1,
+     "status": "ok",
+     "raw_text": "```json\n{\n  \"verdict\": \"ACCEPT\",\n  \"chemical_equivalence\": true,\n  \"checklist\": {\n    \"atoms\": \"match\",\n    \"bonds\": \"match\",\n    \"connectivity\": \"match\",\n    \"substituents\": \"match\",\n    \"charges\": \"not_present\",\n    \"stereochemistry\": \"match\"\n  },\n  \"discrepancies\": [],\n  \"notation_differences\": [\n    {\n      \"category\": \"aromatic_depiction\",\n      \"detail\": \"Image A uses Kekule alternating double bonds for the phenyl rings, whereas Image B uses aromatic circles.\"\n    }\n  ],\n  \"unreadable_regions\": [],\n  \"mismatch_type\": null,\n  \"specific_evidence\": \"All atoms, bonds, substituents, stereochemical wedges, and ring structures match exactly between the reference and the annotated image.\",\n  \"confidence\": 0.99,\n  \"requires_review\": false\n}\n```"
+    }
+   ]
+  },
+  "molecule_132": {
+   "legacy": [
+    {
+     "run_idx": 0,
+     "status": "ok",
+     "valid": true,
+     "decision": 0,
+     "reason": "The annotator replaced the explicit alternating double bonds of the benzene rings with circles, violating the guideline to preserve chemical notation exactly as represented."
+    },
+    {
+     "run_idx": 1,
+     "status": "ok",
+     "valid": true,
+     "decision": 0,
+     "reason": "The aromatic rings are drawn with circles instead of the alternating double bonds shown in the reference."
+    },
+    {
+     "run_idx": 2,
+     "status": "ok",
+     "valid": true,
+     "decision": 0,
+     "reason": "The annotator changed the alternating double bonds in the benzene rings to a circle representation, violating the guideline to preserve chemical notation exactly."
+    },
+    {
+     "run_idx": 3,
+     "status": "ok",
+     "valid": true,
+     "decision": 0,
+     "reason": "Image B uses a circle to represent the aromatic rings instead of the alternating double bonds (Kekule structure) shown in Image A."
+    },
+    {
+     "run_idx": 4,
+     "status": "ok",
+     "valid": true,
+     "decision": 0,
+     "reason": "The benzene rings are drawn with circles instead of the alternating double bonds shown in the reference."
+    }
+   ],
+   "structured": [
+    {
+     "run_idx": 0,
+     "status": "ok",
+     "raw_text": "```json\n{\n  \"verdict\": \"ACCEPT\",\n  \"chemical_equivalence\": true,\n  \"checklist\": {\n    \"atoms\": \"match\",\n    \"bonds\": \"match\",\n    \"connectivity\": \"match\",\n    \"substituents\": \"match\",\n    \"charges\": \"not_present\",\n    \"stereochemistry\": \"not_present\"\n  },\n  \"discrepancies\": [],\n  \"notation_differences\": [\n    {\n      \"category\": \"aromatic_depiction\",\n      \"detail\": \"Image A uses Kekule alternating double bonds for the phenyl rings, whereas Image B uses aromatic circles.\"\n    }\n  ],\n  \"unreadable_regions\": [],\n  \"mismatch_type\": null,\n  \"specific_evidence\": \"The annotator has accurately reproduced the chemical structure, with the only difference being the use of aromatic circles instead of Kekule bonds for the phenyl rings, which is a valid notation difference.\",\n  \"confidence\": 1.0,\n  \"requires_review\": false\n}\n```"
+    },
+    {
+     "run_idx": 1,
+     "status": "ok",
+     "raw_text": "```json\n{\n  \"verdict\": \"ACCEPT\",\n  \"chemical_equivalence\": true,\n  \"checklist\": {\n    \"atoms\": \"match\",\n    \"bonds\": \"match\",\n    \"connectivity\": \"match\",\n    \"substituents\": \"match\",\n    \"charges\": \"not_present\",\n    \"stereochemistry\": \"not_present\"\n  },\n  \"discrepancies\": [],\n  \"notation_differences\": [\n    {\n      \"category\": \"aromatic_depiction\",\n      \"detail\": \"Reference uses Kekule bonds for aromatic rings, annotator uses aromatic circles.\"\n    }\n  ],\n  \"unreadable_regions\": [],\n  \"mismatch_type\": null,\n  \"specific_evidence\": \"The structures are chemically identical. The only difference is the use of aromatic circles in the hand-drawn image instead of alternating double bonds.\",\n  \"confidence\": 1.0,\n  \"requires_review\": false\n}\n```"
+    }
+   ]
+  },
+  "molecule_353": {
+   "legacy": [
+    {
+     "run_idx": 0,
+     "status": "ok",
+     "valid": true,
+     "decision": 0,
+     "reason": "Image B uses a circle to represent the aromatic ring, whereas Image A uses alternating double bonds."
+    },
+    {
+     "run_idx": 1,
+     "status": "ok",
+     "valid": true,
+     "decision": 0,
+     "reason": "The rightmost benzene ring is drawn with explicit double bonds in the reference, but with an aromatic circle in the reproduction."
+    },
+    {
+     "run_idx": 2,
+     "status": "ok",
+     "valid": true,
+     "decision": 0,
+     "reason": "The annotator used a circle to represent the aromatic ring instead of the alternating double bonds shown in the reference."
+    },
+    {
+     "run_idx": 3,
+     "status": "ok",
+     "valid": true,
+     "decision": 0,
+     "reason": "The benzene ring is drawn with a circle instead of the alternating double bonds shown in the reference."
+    },
+    {
+     "run_idx": 4,
+     "status": "ok",
+     "valid": true,
+     "decision": 0,
+     "reason": "Image B uses a delocalized circle to represent the benzene ring, whereas Image A uses alternating double bonds."
+    }
+   ],
+   "structured": [
+    {
+     "run_idx": 0,
+     "status": "ok",
+     "raw_text": "```json\n{\n  \"verdict\": \"ACCEPT\",\n  \"chemical_equivalence\": true,\n  \"checklist\": {\n    \"atoms\": \"match\",\n    \"bonds\": \"match\",\n    \"connectivity\": \"match\",\n    \"substituents\": \"match\",\n    \"charges\": \"not_present\",\n    \"stereochemistry\": \"not_present\"\n  },\n  \"discrepancies\": [],\n  \"notation_differences\": [\n    {\n      \"category\": \"aromatic_depiction\",\n      \"detail\": \"Reference uses Kekule representation for the benzene ring, while the annotator used an aromatic circle.\"\n    }\n  ],\n  \"unreadable_regions\": [],\n  \"mismatch_type\": null,\n  \"specific_evidence\": \"The annotator's drawing exactly matches the reference chemical structure. The use of an aromatic circle instead of alternating double bonds is a valid equivalent representation.\",\n  \"confidence\": 1.0,\n  \"requires_review\": false\n}\n```"
+    },
+    {
+     "run_idx": 1,
+     "status": "ok",
+     "raw_text": "```json\n{\n  \"verdict\": \"ACCEPT\",\n  \"chemical_equivalence\": true,\n  \"checklist\": {\n    \"atoms\": \"match\",\n    \"bonds\": \"match\",\n    \"connectivity\": \"match\",\n    \"substituents\": \"match\",\n    \"charges\": \"not_present\",\n    \"stereochemistry\": \"not_present\"\n  },\n  \"discrepancies\": [],\n  \"notation_differences\": [\n    {\n      \"category\": \"aromatic_depiction\",\n      \"detail\": \"Aromatic ring drawn with a circle in Image B, instead of Kekule double bonds.\"\n    },\n    {\n      \"category\": \"drawing_style\",\n      \"detail\": \"Slightly different geometric orientation of the benzene ring, but preserving identical connectivity and substituent positions.\"\n    }\n  ],\n  \"unreadable_regions\": [],\n  \"mismatch_type\": null,\n  \"specific_evidence\": \"The structures are chemically equivalent. The annotator correctly reproduced the core tricyclic ring system and correctly positioned all substituents (two methoxy groups and a carboxylic acid). The use of an aromatic circle in Image B is a valid alternative to the Kekule representation in Image A.\",\n  \"confidence\": 0.95,\n  \"requires_review\": false\n}\n```"
+    }
+   ]
+  },
+  "molecule_213": {
+   "legacy": [
+    {
+     "run_idx": 0,
+     "status": "ok",
+     "valid": true,
+     "decision": 0,
+     "reason": "Image B replaces the explicit alternating double bonds in the benzene rings with aromatic circles, violating the guideline to preserve chemical notation exactly."
+    },
+    {
+     "run_idx": 1,
+     "status": "ok",
+     "valid": true,
+     "decision": 0,
+     "reason": "Image B represents the benzene rings with delocalized circles instead of the alternating double bonds shown in Image A, which alters the chemical notation."
+    },
+    {
+     "run_idx": 2,
+     "status": "ok",
+     "valid": true,
+     "decision": 0,
+     "reason": "The right phenyl ring is drawn as a pentagon with the chlorine atom ortho to the NH group, rather than a hexagon with meta substitution."
+    },
+    {
+     "run_idx": 3,
+     "status": "ok",
+     "valid": true,
+     "decision": 1,
+     "reason": "Image B is a precise reproduction of Image A, using chemically equivalent circles for the aromatic rings instead of alternating double bonds."
+    },
+    {
+     "run_idx": 4,
+     "status": "ok",
+     "valid": true,
+     "decision": 1,
+     "reason": "Image B represents the same chemical compound and correctly follows all guidelines, with the acceptable use of circles to represent the aromatic rings."
+    }
+   ],
+   "structured": [
+    {
+     "run_idx": 0,
+     "status": "ok",
+     "raw_text": "```json\n{\n  \"verdict\": \"ACCEPT\",\n  \"chemical_equivalence\": true,\n  \"checklist\": {\n    \"atoms\": \"match\",\n    \"bonds\": \"match\",\n    \"connectivity\": \"match\",\n    \"substituents\": \"match\",\n    \"charges\": \"not_present\",\n    \"stereochemistry\": \"match\"\n  },\n  \"discrepancies\": [],\n  \"notation_differences\": [\n    {\n      \"category\": \"aromatic_depiction\",\n      \"detail\": \"Aromatic rings are drawn with Kekule double bonds in the reference and with circles in the annotator's drawing.\"\n    }\n  ],\n  \"unreadable_regions\": [],\n  \"mismatch_type\": null,\n  \"specific_evidence\": \"The annotator's drawing matches the reference structure perfectly in connectivity, stereochemistry, and substituents. The only difference is the use of aromatic circles instead of Kekule alternating double bonds, which is a valid equivalent depiction.\",\n  \"confidence\": 1.0,\n  \"requires_review\": false\n}\n```"
+    },
+    {
+     "run_idx": 1,
+     "status": "ok",
+     "raw_text": "```json\n{\n  \"verdict\": \"ACCEPT\",\n  \"chemical_equivalence\": true,\n  \"checklist\": {\n    \"atoms\": \"match\",\n    \"bonds\": \"match\",\n    \"connectivity\": \"match\",\n    \"substituents\": \"match\",\n    \"charges\": \"not_present\",\n    \"stereochemistry\": \"match\"\n  },\n  \"discrepancies\": [],\n  \"notation_differences\": [\n    {\n      \"category\": \"aromatic_depiction\",\n      \"detail\": \"Image A uses Kekule bonds for aromatic rings, while Image B uses aromatic circles.\"\n    }\n  ],\n  \"unreadable_regions\": [],\n  \"mismatch_type\": null,\n  \"specific_evidence\": \"All parts of the molecule, including the stereocentre and substituents, match perfectly between the two images. The only difference is the use of aromatic circles in Image B instead of Kekule bonds.\",\n  \"confidence\": 0.99,\n  \"requires_review\": false\n}\n```"
+    },
+    {
+     "run_idx": 2,
+     "status": "ok",
+     "raw_text": "```json\n{\n  \"verdict\": \"ACCEPT\",\n  \"chemical_equivalence\": true,\n  \"checklist\": {\n    \"atoms\": \"match\",\n    \"bonds\": \"match\",\n    \"connectivity\": \"match\",\n    \"substituents\": \"match\",\n    \"charges\": \"not_present\",\n    \"stereochemistry\": \"match\"\n  },\n  \"discrepancies\": [],\n  \"notation_differences\": [\n    {\n      \"category\": \"aromatic_depiction\",\n      \"detail\": \"Image A uses Kekule alternating double bonds for the aromatic rings, whereas Image B uses aromatic circles.\"\n    },\n    {\n      \"category\": \"label_format\",\n      \"detail\": \"NH group is written as HN in one place in Image B.\"\n    }\n  ],\n  \"unreadable_regions\": [],\n  \"mismatch_type\": null,\n  \"specific_evidence\": \"The annotator has correctly reproduced the entire chemical structure. The use of aromatic circles instead of Kekule bonds is a valid notation difference.\",\n  \"confidence\": 0.99,\n  \"requires_review\": false\n}\n```"
+    }
+   ]
+  }
+ }
+}

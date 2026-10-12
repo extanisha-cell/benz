@@ -1,0 +1,136 @@
+{
+  "molecule": "BZ2256",
+  "transcriptions": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "AcNH",
+        "S",
+        "O",
+        "O",
+        "N",
+        "Bn",
+        "O",
+        "NH",
+        "N",
+        "N"
+      ],
+      "abbreviations": [
+        "AcNH",
+        "Bn"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 6,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Left benzene (circle) is para-disubstituted: AcNH at C1 and S(=O)2 at C4. The sulfonamide N bears CH2-Bn and CH2-C(=O)-NH-N=CH-, the CH attached to C3 of a 2,5-dimethylpyrrole whose N1 is bonded to a 2,4-dimethylphenyl ring (circle; methyls ortho and para to the N attachment).",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset. Both benzene rings drawn with circles (verified by zoom; not Kekule); pyrrole uses two explicit C=C. Double bonds: two S=O, C=O, C=N, two pyrrole C=C. Four methyls are unlabelled line stubs."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "AcNH",
+        "S",
+        "O",
+        "O",
+        "N",
+        "Bn",
+        "O",
+        "NH",
+        "N",
+        "N"
+      ],
+      "abbreviations": [
+        "AcNH",
+        "Bn"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 6,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Left benzene (circle) has S(=O)2 at the right vertex and AcNH at the lower-left vertex, i.e. meta (1,3) to each other. Sulfonamide N bears CH2-Bn and CH2-C(=O)-NH-N=CH- to C3 of a 2,5-dimethylpyrrole; pyrrole N bonded to a phenyl (circle) with methyls ortho and para to the N.",
+      "overlaps_or_ambiguities": [
+        "The n of Bn is written cursively and resembles an r",
+        "Methyls drawn as unlabelled stubs",
+        "Thin dark-grey ink, some strokes faint"
+      ],
+      "notes": "Handwritten, dark grey/black pen. NH written as N over H. Double bonds: two S=O, C=O, C=N, two pyrrole C=C."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "AcNH",
+        "S",
+        "O",
+        "O",
+        "N",
+        "Bn",
+        "O",
+        "NH",
+        "N",
+        "N"
+      ],
+      "abbreviations": [
+        "AcNH",
+        "Bn"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 6,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Left benzene (circle) para-disubstituted with AcNH and S(=O)2. Sulfonamide N bears CH2-Bn and CH2-C(=O)-NH-N=CH- to C3 of a 2,5-dimethylpyrrole; pyrrole N bonded to a phenyl (circle) with methyls ortho and para to the N attachment.",
+      "overlaps_or_ambiguities": [
+        "The n of Bn is written cursively",
+        "Methyls drawn as unlabelled stubs",
+        "Right aryl ring sits near the image edge"
+      ],
+      "notes": "Handwritten black pen. NH written as N over H. Same content as reference."
+    }
+  },
+  "errors_in_wrong": [
+    {
+      "category": "substituent_position",
+      "description": "On the left benzene ring the reference has AcNH para (1,4) to the sulfonyl S; the wrong drawing places AcNH on the lower-left vertex, meta (1,3) to the S-bearing carbon.",
+      "severity": "high"
+    }
+  ],
+  "correct_version_issues": [],
+  "primary_error_category": "substituent_position",
+  "confidence": "high",
+  "needs_user_review": false,
+  "review_notes": "Wrong drawing moves AcNH from para to meta relative to SO2 on the left benzene; everything else matches. Corrected drawing restores para and matches the reference. Cursive Bn in both handwritten copies is readable and not counted as an error."
+}

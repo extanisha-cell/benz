@@ -1,0 +1,16 @@
+{"molecule": "molecule_104", "status": "confirmed",
+ "claim_checks": [
+  {"claim": "errors_in_wrong: CH2-piperidine linker moved from carbazole C3 (para to C9a) to C2 (meta to C9a)", "verdict": "confirmed", "evidence": "Ref: CH2 leaves the right benzo ring at the carbon para to the N-bearing fusion carbon. Wrong: N-bearing fusion carbon at ~(515,320); path goes to top vertex ~(610,270) then the CH2 bond leaves from the next vertex ~(685,320), i.e. two bonds from C9a (C2). The para vertex ~(685,440) has no substituent."},
+  {"claim": "errors_in_wrong: Et expanded to CH2CH3", "verdict": "confirmed", "evidence": "Wrong shows 'CH2CH3' (subscripted) above the ring N; ref and correct show 'Et'."},
+  {"claim": "errors_in_wrong: NHAc expanded to NH-C(=O)-CH3 with explicit C, CH3 and =O", "verdict": "confirmed", "evidence": "Wrong right side: 'NH' - 'C' with CH3 above and a double bond down to O; ref shows 'NHAc'."},
+  {"claim": "correct_version_issues is empty (corrected drawing has no other issue)", "verdict": "confirmed", "evidence": "Correct: Et on N, CH2 at the vertex para to C9a (~(945,505)), 6-membered piperidine spiro to indane, hashed NHAc, solid wedge OH, all aromatic rings as circles, black ink. Odd crossbar on H of NHAc still reads NHAc."},
+  {"claim": "Transcription: atom_labels ref/correct [Et,N,N,NHAc,OH]; wrong [CH2CH3,N,N,NH,C,CH3,O,OH]", "verdict": "confirmed", "evidence": "Labels read as stated in all three images."},
+  {"claim": "Transcription: abbreviations ref/correct [Et,NHAc], wrong []; r_labels [] everywhere", "verdict": "confirmed", "evidence": "No R labels; wrong writes everything out."},
+  {"claim": "Transcription: ring_sizes [6,5,6,6,5,6] in all three", "verdict": "confirmed", "evidence": "Carbazole 6-5-6, piperidine 6 (in correct, the dot left of the ring is the end of the N-C bond; N + 5 C), indane 5-membered + benzo 6 in each image."},
+  {"claim": "Transcription: wedge_bonds 1, hashed_bonds 1 in all three", "verdict": "confirmed", "evidence": "Solid wedge to OH and hashed bond to NHAc/NH in ref, wrong and correct."},
+  {"claim": "Transcription: ink_colour black for wrong and correct", "verdict": "confirmed", "evidence": "Both handwritten drawings are in black/dark ink."},
+  {"claim": "Transcription: substituent_description for each image (C3 linker in ref/correct, C2 in wrong; OH wedge next to spiro, NHAc hash next to benzo)", "verdict": "confirmed", "evidence": "Matches the observed positions in all three images."}
+ ],
+ "missed_differences": [],
+ "transcription_disputes": [],
+ "notes": "All adjudicator claims match the images. Thickened ink at the benzo-CH(N) junction in wrong is not a wedge, as the adjudicator noted. No missed differences found."}

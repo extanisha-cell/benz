@@ -1,0 +1,74 @@
+{
+  "molecule": "molecule_476",
+  "transcriptions": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": ["Et", "NH", "O", "N", "O", "NH", "N", "Me", "Me"],
+      "abbreviations": ["Et", "Me", "Me"],
+      "r_labels": [],
+      "ring_sizes": [6, 6, 6],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 8,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Et then a zigzag chain of 10 unlabelled vertices to an amide NH-C(=O) on a para-disubstituted benzene; the para position carries CH2CH2 to C4 of a piperidine. The piperidine N forms a urea N-C(=O)-NH to a second benzene bearing N(Me)2 para to the NH.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset. Chain vertex count (10 between Et and NH) checked on a magnified crop. Double bonds: 3 + 3 aromatic, 2 C=O. Amide NH written with H above N."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": ["Et", "NH", "O", "N", "O", "N", "Me", "Me"],
+      "abbreviations": ["Et", "Me", "Me"],
+      "r_labels": [],
+      "ring_sizes": [6, 6, 6],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 2,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Et then a zigzag chain of 10 unlabelled vertices to NH-C(=O) on a para-disubstituted benzene (circle); para CH2CH2 to C4 of a piperidine. The piperidine N bears C(=O)-CH2- (an unlabelled vertex, no NH) attached to a second benzene (circle) bearing N(Me)2 para to it.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Handwritten black ink on grey paper. NH written with H above N. Chain vertex count (10) checked on a magnified crop."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": ["Et", "NH", "O", "N", "O", "NH", "N", "Me", "Me"],
+      "abbreviations": ["Et", "Me", "Me"],
+      "r_labels": [],
+      "ring_sizes": [6, 6, 6],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 2,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Et then a zigzag chain of 10 unlabelled vertices to NH-C(=O) on a para-disubstituted benzene (circle); para CH2CH2 to C4 of a piperidine. The piperidine N forms a urea N-C(=O)-NH to a second benzene (circle) bearing N(Me)2 para to the NH.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Handwritten black ink, thin lines with small dots at some vertices. Chain vertex count (10) checked on a magnified crop."
+    }
+  },
+  "errors_in_wrong": [
+    {
+      "category": "wrong_atom_or_label",
+      "description": "The reference has a urea linkage: piperidine N-C(=O)-NH-aryl, with an explicit NH between the carbonyl and the dimethylaminophenyl ring. The wrong drawing replaces that NH with an unlabelled carbon vertex, giving piperidine N-C(=O)-CH2-aryl (an acetamide instead of a urea).",
+      "severity": "high"
+    }
+  ],
+  "correct_version_issues": [],
+  "primary_error_category": "wrong_atom_or_label",
+  "confidence": "high",
+  "needs_user_review": false,
+  "review_notes": "Wrong drawing turns the urea NH (between the piperidine carbonyl and the dimethylaminophenyl ring) into a CH2 vertex. Could also be filed as missing_atom_or_group (the NH label is missing). Chain length (10 vertices after Et) matches in all three images. The corrected drawing restores the NH and matches the reference."
+}

@@ -1,0 +1,25 @@
+{
+  "name": "cost_low",
+  "kind": "pairs",
+  "prompt_name": "baseline_v0",
+  "prompt_sha": "8097ebde279ec2d8",
+  "format": "number",
+  "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "temperature": null,
+    "thinking_level": "low",
+    "media_resolution": null,
+    "max_output_tokens": null,
+    "seed_base": null,
+    "response_mime_type": null,
+    "backend": "openrouter",
+    "route_to": null,
+    "data_collection": null
+  },
+  "settings_fp": "bea468497233",
+  "runs": 1,
+  "created": "2026-10-11T08:34:03+00:00",
+  "split": "all",
+  "include": "annotated,cross",
+  "labels": "on"
+}

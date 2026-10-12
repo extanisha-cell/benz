@@ -1,0 +1,15 @@
+{"molecule": "molecule_324", "status": "confirmed",
+"claim_checks": [
+{"claim": "errors_in_wrong[0]: difluorophenyl ring drawn as five-membered ring with three double bonds; F atoms end up ortho and meta to the NH carbon instead of meta and para (ring_size_or_fusion, high)", "verdict": "confirmed", "evidence": "Wrong left ring has five vertices (~360,215 top; ~520,330 right with NH bond; ~410,495 lower-right with F; ~250,465 lower-left with F; ~230,295 left) and three inner double lines (top-right edge, lower-right edge, left edge). F on lower-right vertex is adjacent (ortho) to the NH carbon, the other F one further (meta). Ref ring is six-membered with F at meta/para."},
+{"claim": "correct_version_issues empty: corrected drawing has no other issue", "verdict": "confirmed", "evidence": "Correct: six-membered ring with circle, NH at top-right vertex, F at lower-right (meta) and lower-left (para) vertices; NH-C(=O)-CH(hashed methyl up)-O-C(=O)-CH2-CH2-N; benzoxazinone N-C(=O)-CH2-O fused to circled benzene. Black ink, legible."},
+{"claim": "atom_labels (all three): NH, O, O, O, N, O, O, F, F", "verdict": "confirmed", "evidence": "All present in each image; NH written with H above N in all three."},
+{"claim": "abbreviations none; r_labels none", "verdict": "confirmed", "evidence": "No abbreviations or R labels in any image."},
+{"claim": "ring_sizes: ref 6,6,6; wrong 5,6,6; correct 6,6,6", "verdict": "confirmed", "evidence": "As described above; oxazinone ring and benzo ring are six-membered in all three."},
+{"claim": "wedge_bonds 0, hashed_bonds 1 (methyl on the CH) in all three", "verdict": "confirmed", "evidence": "Ref hashed methyl pointing up from the CH; wrong hash (~880-910, 65-145) widening upward; correct hash (~930-1000, 60-140) widening upward. No wedges."},
+{"claim": "aromatic depiction: ref Kekule, wrong Kekule, correct circles; double_bonds ref 9, wrong 9, correct 3", "verdict": "confirmed", "evidence": "Ref both rings with inner double lines; wrong left 5-ring with three inner lines and benzo ring with three inner lines; correct both benzene rings with circles plus three C=O."},
+{"claim": "ink_colour black for wrong and correct", "verdict": "confirmed", "evidence": "Both drawn in black pen (correct benzoxazinone strokes slightly lighter but still black)."},
+{"claim": "substituent_description: benzoxazinone N-C(=O)-CH2-O fused to benzene, chain CH2CH2 from N", "verdict": "confirmed", "evidence": "Wrong and correct both show N bonded to fused carbon, C=O below N, CH2, O bonded to the other fused carbon; matches ref."}
+],
+"missed_differences": [],
+"transcription_disputes": [],
+"notes": "Independent viewing found the same single error (five-membered aryl ring with shifted F positions). Correct copy has a tiny pen overshoot at the top-right vertex of the benzo ring and a small mark at the base of the hashed bond; neither affects legibility, so not counted."}

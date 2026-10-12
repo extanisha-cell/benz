@@ -1,0 +1,199 @@
+{
+  "molecule": "molecule_32",
+  "images": {
+    "ref": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_32\\ref.png",
+    "wrong": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_32\\wrong.jpg",
+    "correct": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_32\\correct.jpg"
+  },
+  "transcriber_1": {
+    "ref": {
+      "drawing_style": "mixed",
+      "atom_labels": [
+        "NHBoc",
+        "MeOOC",
+        "OPh"
+      ],
+      "abbreviations": [
+        "NHBoc",
+        "MeOOC",
+        "OPh"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 3,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A CH carbon carries NHBoc (plain bond up) and MeOOC (hashed bond to the left) and is bonded to a CH2 that attaches to a benzene ring; the ring carries OPh at the para position relative to the CH2.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset. Benzene drawn with three Kekule double bonds. The only stereo mark is the hashed bond to MeOOC."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "OPh",
+        "NHBoc",
+        "MeOOC"
+      ],
+      "abbreviations": [
+        "OPh",
+        "NHBoc",
+        "MeOOC"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 0,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "A benzene ring (circle) has OPh at one position and a CH2 chain at a position meta to it (1,3). The chain is ring-CH2-CH, and the CH carries NHBoc (plain bond, pointing up) and MeOOC (hashed bond, pointing left).",
+      "overlaps_or_ambiguities": [
+        "The OO in MeOOC is overwritten and looks smudged",
+        "The hashed bond to MeOOC is drawn as a few vertical strokes with small ticks, so the hash count is rough",
+        "Ink is very dark purple-black on grey paper"
+      ],
+      "notes": "Handwritten drawing, photographed on grey paper. The ink looks dark purple or black, recorded as black. Small ink dots sit on some ring vertices."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "NHBoc",
+        "OPh",
+        "MeOOC"
+      ],
+      "abbreviations": [
+        "NHBoc",
+        "OPh",
+        "MeOOC"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 0,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A para-disubstituted circled benzene: OPh on one ring carbon and, on the opposite (para) carbon, a CH2 that leads to a CH carrying NHBoc (on a plain bond going up) and MeOOC (on a hashed bond going left); i.e. Ar-CH2-CH(NHBoc)(MeOOC).",
+      "overlaps_or_ambiguities": [],
+      "notes": "Handwritten black ink on white paper. The phenyl of OPh is written as the label Ph, not drawn as a ring. There is a dark smudge on a ring bond at the lower right of the benzene."
+    }
+  },
+  "transcriber_2": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "NHBoc",
+        "MeOOC",
+        "OPh"
+      ],
+      "abbreviations": [
+        "NHBoc",
+        "MeOOC",
+        "OPh"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 3,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Para-disubstituted benzene ring: OPh on one ring carbon and a CH2 on the carbon directly opposite (para). The CH2 connects to a stereocentre carbon that bears NHBoc (plain bond, upward) and MeOOC (hashed wedge bond, to the left).",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset. Hashed wedge runs from the stereocentre carbon to the MeOOC label."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "NHBoc",
+        "OPh",
+        "MeOOC"
+      ],
+      "abbreviations": [
+        "NHBoc",
+        "OPh",
+        "MeOOC"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 0,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "A benzene ring (circle) bearing OPh at the top vertex and, at the lower-left vertex, a CH2 group: this is meta (1,3) to the OPh. The CH2 is bonded to a chain CH that carries NHBoc (vertical bond upward) and MeOOC (hashed bond to the lower left).",
+      "overlaps_or_ambiguities": [
+        "hashed bond lines run right up against the C of MeOOC",
+        "the two O letters of MeOOC are heavily retraced",
+        "ink looks very dark purple-black"
+      ],
+      "notes": "Hashed bond is drawn as about five short parallel strokes from the chain CH to MeOOC. The chain is ring-CH2-CH(NHBoc)(MeOOC)."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "NHBoc",
+        "OPh",
+        "MeOOC"
+      ],
+      "abbreviations": [
+        "NHBoc",
+        "OPh",
+        "MeOOC"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 0,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "A six-membered ring drawn as a hexagon with a small circle inside. It carries OPh at the upper-right vertex and, para to it (lower-left vertex), a CH2 vertex leading to a chain carbon. That chain carbon bears MeOOC through a hashed bond and is bonded by a plain line straight up to NHBoc (so the chain is ring-CH2-CH(MeOOC, hashed)-NHBoc).",
+      "overlaps_or_ambiguities": [
+        "The final C of MeOOC is written like an open 'c'/alpha shape and the OO look like open circles, so the label is read as MeOOC with slight doubt.",
+        "A dark ink blob sits on the lower-right ring vertex and could be mistaken for a wedge but looks like a pen blot.",
+        "The 'h' of OPh is written like a lowercase 'h' with a long ascender."
+      ],
+      "notes": "Handwritten, black pen on white paper. The aromatic ring is shown with a small hand-drawn circle (no alternating double bonds). The hashed bond is a set of about 5-6 short strokes between the stereocentre and MeOOC."
+    }
+  },
+  "output_file": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\by_molecule\\molecule_32.json"
+}

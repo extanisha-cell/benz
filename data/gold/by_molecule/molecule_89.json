@@ -1,0 +1,146 @@
+{
+  "molecule": "molecule_89",
+  "transcriptions": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Me",
+        "N",
+        "N",
+        "N",
+        "I",
+        "O",
+        "HO",
+        "N",
+        "O",
+        "Ph",
+        "N",
+        "Boc"
+      ],
+      "abbreviations": [
+        "Me",
+        "Ph",
+        "Boc"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 5,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Pyrrolo[2,3-d]pyrimidin-4-one: pyrrole N bears Me, the adjacent carbon bears I; pyrimidinone N3 carries CH2 to C4 of a 4-hydroxypiperidine. The piperidine N is acylated by C(=O) attached by a solid wedge to C4 of a second piperidine, whose C3 bears Ph on a hashed bond and whose N bears Boc.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset. Double bonds: N=CH, C7a=C4a, C(I)=CH, ring C=O, amide C=O."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "I",
+        "N",
+        "N",
+        "N",
+        "O",
+        "HO",
+        "N",
+        "O",
+        "Ph",
+        "N",
+        "Boc"
+      ],
+      "abbreviations": [
+        "Ph",
+        "Boc"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 5,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Same pyrrolopyrimidinone with I on the carbon next to the pyrrole N, but the pyrrole N has no substituent (no Me). N3-CH2 to C4 of 4-hydroxypiperidine; amide C(=O) on a solid wedge to C4 of N-Boc piperidine with Ph on a hashed bond at C3.",
+      "overlaps_or_ambiguities": [
+        "I drawn as a bare vertical stroke",
+        "hashed wedge to Ph is a dense fan of lines that does not clearly touch the ring carbon or Ph"
+      ],
+      "notes": "Handwritten, black. Double bonds: N=CH, fusion C=C, C(I)=CH, ring C=O, amide C=O."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Me",
+        "N",
+        "N",
+        "N",
+        "I",
+        "O",
+        "HO",
+        "N",
+        "O",
+        "Ph",
+        "N",
+        "Boc"
+      ],
+      "abbreviations": [
+        "Me",
+        "Ph",
+        "Boc"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 5,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Pyrrole N bears Me, adjacent carbon bears I; pyrimidinone N3-CH2 to C4 of 4-hydroxypiperidine; piperidine N-C(=O) on a solid wedge to C4 of N-Boc piperidine with Ph on a hashed bond at C3.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Handwritten, black. Double bonds: N=CH, fusion C=C, C(I)=CH, ring C=O, amide C=O."
+    }
+  },
+  "errors_in_wrong": [
+    {
+      "category": "missing_atom_or_group",
+      "description": "Reference pyrrole N (N7) carries a Me group; in the wrong drawing that N has no substituent, so the N-methyl is missing.",
+      "severity": "high"
+    },
+    {
+      "category": "legibility",
+      "description": "The hashed wedge from piperidine C3 to Ph is drawn as a detached dense fan of lines that does not clearly join the ring carbon or the Ph label.",
+      "severity": "low"
+    }
+  ],
+  "correct_version_issues": [],
+  "primary_error_category": "missing_atom_or_group",
+  "confidence": "high",
+  "needs_user_review": false,
+  "review_notes": "Wrong drawing omits the Me on the pyrrole N; otherwise the skeleton, I, HO, Boc, Ph and both stereo bonds match. Corrected drawing restores N-Me and matches the reference."
+}

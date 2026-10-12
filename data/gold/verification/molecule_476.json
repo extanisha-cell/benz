@@ -1,0 +1,14 @@
+{"molecule": "molecule_476", "status": "confirmed",
+ "claim_checks": [
+  {"claim": "errors_in_wrong[0]: wrong_atom_or_label - the urea NH between the piperidine carbonyl and the dimethylaminophenyl ring is replaced by an unlabelled carbon vertex (N-C(=O)-CH2-aryl instead of N-C(=O)-NH-aryl)", "verdict": "confirmed", "evidence": "Wrong (right-hand crop): piperidine N -> carbonyl C with double-bonded O above -> bond down-right to a bare vertex (no label) -> bond up to the left vertex of the dimethylaminophenyl ring. The reference shows an NH (H below N) at that position."},
+  {"claim": "correct_version_issues is empty: the corrected drawing has no other issue", "verdict": "confirmed", "evidence": "Correct: piperidine N -> C(=O) (double line to O) -> 'NH' -> ring, with NMe2 para (upper-right vertex vs lower-left vertex). Chain Et + 10 vertices -> NH -> C(=O) (double) on a para benzene; CH2CH2 to piperidine C4. Black ink, legible; NH written inline rather than with H above N (allowed)."},
+  {"claim": "Transcription: atom_labels ref/correct = Et, NH, O, N, O, NH, N, Me, Me; wrong lacks the second NH", "verdict": "confirmed", "evidence": "Labels as listed are visible; wrong has only the amide NH (H above N) and no NH at the urea position."},
+  {"claim": "Transcription: abbreviations Et, Me, Me; no r_labels", "verdict": "confirmed", "evidence": "Et at the chain end and two Me on the terminal N in all three images; no R labels."},
+  {"claim": "Transcription: ring_sizes [6,6,6] in all", "verdict": "confirmed", "evidence": "Benzene, piperidine and benzene hexagons in each image."},
+  {"claim": "Transcription: wedge_bonds 0, hashed_bonds 0 in all", "verdict": "confirmed", "evidence": "No stereo bonds visible."},
+  {"claim": "Transcription: ink_colour black for wrong and correct", "verdict": "confirmed", "evidence": "Both handwritten images are black ink (wrong photographed on grey-looking paper)."},
+  {"claim": "Transcription: chain of 10 unlabelled vertices between Et and NH in all three images; para substitution on both benzenes; CH2CH2 linker to piperidine C4", "verdict": "confirmed", "evidence": "Magnified crops: ref vertices at ~10 zigzag turns before NH; wrong 10 vertices (330,70 ... 1135,320 in crop); correct 10 vertices (210,42 ... 920,272 in crop). Linker is two vertices in wrong and correct; benzene substituents on opposite vertices."}
+ ],
+ "missed_differences": [],
+ "transcription_disputes": [],
+ "notes": "Error confirmed. As the adjudicator says, missing_atom_or_group would also fit. I found no other differences."}

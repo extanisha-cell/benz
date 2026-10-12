@@ -1,0 +1,72 @@
+{
+  "molecule": "molecule_387",
+  "transcriptions": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": ["N", "NH", "Me", "O", "NHBn"],
+      "abbreviations": ["Me", "NHBn"],
+      "r_labels": [],
+      "ring_sizes": [6, 6, 6],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 9,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Quinoline with NH (N with H below) at C2, linking to a benzene that has Me ortho to the NH-bearing carbon, and C(=O)NHBn at C4.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset. 9 double bonds: 5 in the quinoline, 3 in the tolyl ring and 1 C=O."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": ["N", "NH", "CH3", "O", "NH", "CH2"],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [6, 6, 6, 6],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 6,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Quinoline (Kekule lines) with NH (N with H below) at C2, linking to a benzene (circle) that has CH3 ortho to the NH-bearing carbon. C(=O)-NH-CH2-phenyl (phenyl drawn as a circled benzene) sits at C3, the carbon next to C2, not at C4.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Handwritten in dark grey/graphite (counted as black). Quinoline double bonds: 2 in the benzo ring and 3 in the pyridine ring, plus 1 C=O."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": ["NH", "Me", "N", "O", "NHBn"],
+      "abbreviations": ["Me", "NHBn"],
+      "r_labels": [],
+      "ring_sizes": [6, 6, 6],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 3,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Benzene (circle) with NH on one carbon and Me on the adjacent (ortho) carbon. The NH is bonded to C2 of a quinoline, the carbon next to the ring N; C(=O)NHBn is at C4, the carbon next to the ring-fusion carbon.",
+      "overlaps_or_ambiguities": ["The ring N label is slightly detached from the C2 bond line", "The pyridine ring is drawn with a circle while the fused benzo ring has two explicit double-bond lines (mixed depiction)"],
+      "notes": "Handwritten. NH written inline (not stacked). Double bonds: 2 inner lines in the benzo ring plus C=O."
+    }
+  },
+  "errors_in_wrong": [
+    {"category": "substituent_position", "description": "In the reference the C(=O)NHBn carboxamide is at quinoline C4, next to the ring-fusion carbon. In the wrong drawing the carboxamide is at C3, the carbon adjacent to the NH-bearing C2.", "severity": "high"},
+    {"category": "abbreviation_changed", "description": "The reference label NHBn is expanded in the wrong drawing to NH-CH2 with a fully drawn phenyl ring.", "severity": "medium"},
+    {"category": "abbreviation_changed", "description": "The reference label Me on the tolyl ring (ortho to NH) is written as CH3 in the wrong drawing.", "severity": "medium"}
+  ],
+  "correct_version_issues": [],
+  "primary_error_category": "substituent_position",
+  "confidence": "high",
+  "needs_user_review": false,
+  "review_notes": "Wrong drawing: the carboxamide is at quinoline C3 instead of C4, and Me/NHBn are expanded to CH3 and CH2-phenyl. The corrected drawing restores C4, Me and NHBn. It mixes a circle (pyridine ring) with two Kekule lines (benzo ring) in the quinoline. That still reads as aromatic and was not counted as an error. Transcriber_2's 'wrong' transcription describes an unrelated molecule and was ignored."
+}

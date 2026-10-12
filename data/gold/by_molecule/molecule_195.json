@@ -1,0 +1,71 @@
+{
+  "molecule": "molecule_195",
+  "transcriptions": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": ["EtOOC"],
+      "abbreviations": ["EtOOC"],
+      "r_labels": [],
+      "ring_sizes": [6, 6, 6],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 7,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Benzene with EtOOC at C1 and, para to it, CH=C(CH3)-. The methyl-bearing alkene carbon is bonded to C2 of 5,5,8,8-tetramethyl-5,6,7,8-tetrahydronaphthalene, the aromatic carbon one CH away from a ring-fusion carbon. Each saturated carbon next to a fusion carbon carries two methyl stubs.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset. 7 double bonds: 3 + 3 Kekule aromatic bonds and 1 C=C. All methyls are unlabelled line stubs. No E/Z label."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": ["O", "C", "OEt"],
+      "abbreviations": ["OEt"],
+      "r_labels": [],
+      "ring_sizes": [6, 6, 6],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 2,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Benzene (circle) carrying an expanded ester (a C-shaped carbonyl carbon with =O above and OEt below) and, para to it, CH=C(CH3)-. The methyl-bearing alkene carbon is bonded to the aromatic carbon directly adjacent to a ring-fusion carbon (position 1, next to the gem-dimethyl carbon) of a tetramethyl-tetrahydronaphthalene whose aromatic ring is drawn with a circle.",
+      "overlaps_or_ambiguities": ["The carbonyl carbon is drawn as a curled C-shaped stroke", "The t of OEt looks like a plus sign", "Several methyl stubs end in small hooks or arrow-like tips"],
+      "notes": "Handwritten, black ink. Double bonds: C=O (two parallel strokes) and the alkene C=C. Aromatic rings drawn as irregular circles."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": ["EtOOC"],
+      "abbreviations": ["EtOOC"],
+      "r_labels": [],
+      "ring_sizes": [6, 6, 6],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 1,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Benzene (circle) with EtOOC at C1 and, para to it, CH=C(CH3)-. The methyl-bearing alkene carbon is bonded to the tetralin aromatic carbon one CH away from a ring-fusion carbon (position 2), as in the reference. Two gem-dimethyl carbons sit next to the fusion carbons.",
+      "overlaps_or_ambiguities": ["The first O of EtOOC is a tall oval resembling D"],
+      "notes": "Handwritten, black ink. One drawn double bond (alkene); aromatic rings drawn with circles. No E/Z label, same as the reference."
+    }
+  },
+  "errors_in_wrong": [
+    {"category": "substituent_position", "description": "In the reference the alkene carbon is attached to C2 of the tetramethyltetralin (an aromatic carbon one CH away from the ring-fusion carbon). In the wrong drawing it is attached to the aromatic carbon directly adjacent to the ring-fusion carbon (C1, peri to a gem-dimethyl carbon).", "severity": "high"},
+    {"category": "abbreviation_changed", "description": "The reference label EtOOC on the left benzene ring is expanded in the wrong drawing to a drawn carbonyl (C=O with the C written as a letter) plus an OEt label, so the reference abbreviation is not preserved.", "severity": "medium"}
+  ],
+  "correct_version_issues": [],
+  "primary_error_category": "substituent_position",
+  "confidence": "medium",
+  "needs_user_review": true,
+  "review_notes": "The wrong drawing has two problems: EtOOC is expanded to C(=O)OEt, and the vinyl group sits on the tetralin carbon next to the ring fusion instead of one carbon further along. The ring-position call comes from a freehand hexagon, but the edge from the attachment vertex to the fusion carbon looks clear. Please confirm which error was the intended one; it decides the primary category. The corrected drawing matches the reference; its O that looks like a D is only cosmetic."
+}

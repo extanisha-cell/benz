@@ -1,0 +1,625 @@
+{
+  "schema_version": "2",
+  "policy_version": "chem-equiv-1",
+  "decision_version": "chem-decision-2",
+  "evidence_source": "fresh:google10_v2_policy",
+  "prompt_sha": {
+    "policy": "c610ced5ea8b",
+    "confirm": "e7bacc7f70c5"
+  },
+  "cost": {
+    "policy_calls": 19,
+    "policy_cost_usd": 0.7726,
+    "confirm_calls": 2,
+    "confirm_cost_usd": 0.0607,
+    "total_cost_usd": 0.8333,
+    "made_in_this_invocation": {
+      "policy_calls": 2,
+      "policy_usd": 0.2755,
+      "confirm_calls": 2,
+      "confirm_usd": 0.0607
+    },
+    "per_pair": {
+      "molecule_213": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.0356,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_470": {
+        "policy_calls": 1,
+        "policy_cost_usd": 0.1272,
+        "confirm_calls": 1,
+        "confirm_cost_usd": 0.0497
+      },
+      "molecule_5": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.0587,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_252": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.0941,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_25": {
+        "policy_calls": 3,
+        "policy_cost_usd": 0.0535,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_132": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.0318,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_353": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.291,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_118": {
+        "policy_calls": 1,
+        "policy_cost_usd": 0.0196,
+        "confirm_calls": 1,
+        "confirm_cost_usd": 0.011
+      },
+      "molecule_390": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.0266,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_455": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.0345,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      }
+    }
+  },
+  "decisions": {
+    "molecule_213": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 0.99,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.99,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: aromatic_depiction. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_470": {
+      "outcome": "REJECT",
+      "rule": "confirmed_reject",
+      "failure_categories": [
+        "ring_size_or_fusion"
+      ],
+      "evidence": [
+        {
+          "category": "ring_size_or_fusion",
+          "location": "spiro-fused aliphatic ring on the right",
+          "reference": "6-membered ring (cyclohexane)",
+          "annotated": "5-membered ring (cyclopentane)",
+          "detail": "",
+          "votes": 1
+        }
+      ],
+      "notation_differences": [
+        "abbreviation_expansion"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 0,
+        "REJECT": 1,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 0.0,
+      "model_confidence": 0.9,
+      "structured_calls": 1,
+      "verified_accepts": 0,
+      "graph": "not_provided",
+      "claim": {
+        "category": "ring_size_or_fusion",
+        "location": "spiro-fused aliphatic ring on the right",
+        "reference": "6-membered ring (cyclohexane)",
+        "annotated": "5-membered ring (cyclopentane)",
+        "detail": "",
+        "votes": 1
+      },
+      "evidence_status": "confirmed",
+      "confirmation": {
+        "status": "confirmed",
+        "reference": "The spiro-fused aliphatic ring on the right is a 6-membered ring (cyclohexane).",
+        "annotated": "The spiro-fused aliphatic ring on the right is drawn as a 5-membered ring (cyclopentane).",
+        "confidence": 0.95,
+        "run_idx": 0
+      },
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "REJECT",
+          "verified": false,
+          "confidence": 0.9,
+          "flags": []
+        }
+      ],
+      "explanation": "REJECT (confirmed_reject): reported ring_size_or_fusion at \"spiro-fused aliphatic ring on the right\" (Image A: 6-membered ring (cyclohexane); Image B: 5-membered ring (cyclopentane)), cited by 1 of 1 policy-prompt call(s). A separate confirming call (different prompt) observed Image A: The spiro-fused aliphatic ring on the right is a 6-membered ring (cyclohexane).; Image B: The spiro-fused aliphatic ring on the right is drawn as a 5-membered ring (cyclopentane)., and confirmed that the difference is chemical. Confirmed by a second Gemini check, not by an independent structural tool. Notation differences noted, not counted as errors: abbreviation_expansion.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_5": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "abbreviation_expansion",
+        "label_format"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 0.99,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.99,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.99,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: abbreviation_expansion, label_format. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_252": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "abbreviation_expansion",
+        "aromatic_depiction",
+        "label_format"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 0.97,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.99,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.95,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: abbreviation_expansion, aromatic_depiction, label_format. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_25": {
+      "outcome": "UNCERTAIN",
+      "rule": "contested_reject",
+      "failure_categories": [
+        "contested_reject",
+        "escalation_exhausted"
+      ],
+      "evidence": [
+        {
+          "category": "substituent_position",
+          "location": "left aromatic ring",
+          "reference": "iPr group is para to the ether oxygen",
+          "annotated": "iPr group is meta to the ether oxygen (and para to the Br)",
+          "detail": "",
+          "votes": 1
+        }
+      ],
+      "notation_differences": [
+        "aromatic_depiction",
+        "drawing_style"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": true,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 1,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 0.67,
+      "model_confidence": null,
+      "structured_calls": 3,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": {
+        "category": "substituent_position",
+        "location": "left aromatic ring",
+        "reference": "iPr group is para to the ether oxygen",
+        "annotated": "iPr group is meta to the ether oxygen (and para to the Br)",
+        "detail": "",
+        "votes": 1
+      },
+      "evidence_status": "asserted",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.99,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "REJECT",
+          "verified": false,
+          "confidence": 0.99,
+          "flags": []
+        },
+        {
+          "run_idx": 2,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "explanation": "UNCERTAIN (contested_reject): a policy call reported substituent_position at \"left aromatic ring\" (Image A: iPr group is para to the ether oxygen; Image B: iPr group is meta to the ether oxygen (and para to the Br)), but 2 call(s) judged the drawings equivalent and the disagreement was not resolved. Notation differences noted, not counted as errors: aromatic_depiction, drawing_style. Review required.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_132": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 1.0,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: aromatic_depiction. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_353": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction",
+        "drawing_style"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 0.97,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.99,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.95,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: aromatic_depiction, drawing_style. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_118": {
+      "outcome": "REJECT",
+      "rule": "confirmed_reject",
+      "failure_categories": [
+        "ring_size_or_fusion"
+      ],
+      "evidence": [
+        {
+          "category": "ring_size_or_fusion",
+          "location": "leftmost ring (expanded from PhOOC group)",
+          "reference": "Ph abbreviation, implying a 6-membered phenyl ring",
+          "annotated": "a 5-membered ring with an aromatic circle",
+          "detail": "",
+          "votes": 1
+        }
+      ],
+      "notation_differences": [
+        "abbreviation_expansion",
+        "aromatic_depiction"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 0,
+        "REJECT": 1,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 0.0,
+      "model_confidence": 0.95,
+      "structured_calls": 1,
+      "verified_accepts": 0,
+      "graph": "not_provided",
+      "claim": {
+        "category": "ring_size_or_fusion",
+        "location": "leftmost ring (expanded from PhOOC group)",
+        "reference": "Ph abbreviation, implying a 6-membered phenyl ring",
+        "annotated": "a 5-membered ring with an aromatic circle",
+        "detail": "",
+        "votes": 1
+      },
+      "evidence_status": "confirmed",
+      "confirmation": {
+        "status": "confirmed",
+        "reference": "The left side shows the text 'PhOOC-', where 'Ph' implies a 6-membered phenyl ring.",
+        "annotated": "The 'Ph' group has been drawn out as a ring attached to an oxygen atom. Counting the vertices of this drawn ring, there are 5 members with an inner aromatic circle.",
+        "confidence": 1.0,
+        "run_idx": 0
+      },
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "REJECT",
+          "verified": false,
+          "confidence": 0.95,
+          "flags": []
+        }
+      ],
+      "explanation": "REJECT (confirmed_reject): reported ring_size_or_fusion at \"leftmost ring (expanded from PhOOC group)\" (Image A: Ph abbreviation, implying a 6-membered phenyl ring; Image B: a 5-membered ring with an aromatic circle), cited by 1 of 1 policy-prompt call(s). A separate confirming call (different prompt) observed Image A: The left side shows the text 'PhOOC-', where 'Ph' implies a 6-membered phenyl ring.; Image B: The 'Ph' group has been drawn out as a ring attached to an oxygen atom. Counting the vertices of this drawn ring, there are 5 members with an inner aromatic circle., and confirmed that the difference is chemical. Confirmed by a second Gemini check, not by an independent structural tool. Notation differences noted, not counted as errors: abbreviation_expansion, aromatic_depiction.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_390": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "abbreviation_expansion"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 1.0,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: abbreviation_expansion. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_455": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "abbreviation_expansion",
+        "implicit_explicit_atoms",
+        "label_format"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 1.0,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: abbreviation_expansion, implicit_explicit_atoms, label_format. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    }
+  }
+}

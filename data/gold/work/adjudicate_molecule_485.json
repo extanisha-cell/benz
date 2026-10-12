@@ -1,0 +1,232 @@
+{
+  "molecule": "molecule_485",
+  "images": {
+    "ref": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_485\\ref.png",
+    "wrong": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_485\\wrong.jpg",
+    "correct": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_485\\correct.jpg"
+  },
+  "transcriber_1": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "EtO",
+        "MeO",
+        "N",
+        "O",
+        "NH",
+        "HO2C",
+        "NHAc"
+      ],
+      "abbreviations": [
+        "EtO",
+        "MeO",
+        "NHAc"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        6,
+        5
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 7,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A piperidine ring: the carbon at position 4 (opposite the N) bears EtO by a solid wedge, and the carbon next to N (position 2) bears a benzene ring by a hashed bond; the piperidine N is bonded to a CH2 attached to C4 of an indole. On the indole: MeO on C5 (next to the CH2-bearing carbon), a plain methyl stub on C7, and NH in the five-membered ring. The benzene ring has, taking the piperidine-bearing carbon as 1: O-CH2-CH2-NHAc at position 2 (ortho) and HO2C at position 4 (para).",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset. Aromatic rings drawn with Kekule double bonds: benzene 3, indole 4. Methyl on the indole is an unlabeled stub."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "EtO",
+        "N",
+        "MeO",
+        "NH",
+        "O",
+        "HO2C",
+        "NHAc"
+      ],
+      "abbreviations": [
+        "EtO",
+        "MeO",
+        "NHAc"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        6,
+        5
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 1,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A piperidine ring has EtO on C4 (solid wedge) and, on C2 next to N, a hashed bond to a circled benzene ring. That benzene ring carries, relative to the piperidine attachment at C1, an O-CH2CH2CH2-NHAc chain at C2 (ortho) and HO2C at C4 (para). The piperidine N is bonded through a CH2 to C4 of an indole (circled benzo ring) bearing MeO at C5 and an unlabelled methyl at C7, with NH in the five-membered ring and a drawn C2=C3 double bond.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Handwritten drawing in black pen on white paper. Benzene rings drawn with circles; the only Kekule-style double bond is the indole five-membered ring C=C."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "EtO",
+        "N",
+        "MeO",
+        "O",
+        "NH",
+        "HO2C",
+        "NHAc"
+      ],
+      "abbreviations": [
+        "EtO",
+        "MeO",
+        "NHAc"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        6,
+        5
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 1,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A piperidine has EtO on a solid wedge at C4, a hashed bond from C2 (next to the ring N) to C1 of a circled benzene, and the ring N bonded to CH2 that is attached to an indole benzo ring. The benzene has O-CH2-CH2-NHAc at C2 (ortho to the piperidine attachment) and HO2C at C4 (para to the piperidine attachment). On the indole (circled benzo ring fused to a five-membered ring with NH and one drawn C=C), the CH2 link is at C4 (next to the fusion carbon C3a), MeO is at C5, and C7 (next to the NH-bearing fusion carbon) carries an unlabelled plain-line methyl stub.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Handwritten black ink on white paper. The ring N label has small stray tick marks. Two benzene rings are drawn as circles (the substituted phenyl and the indole benzo ring); the five-membered ring of the indole has one inner double line."
+    }
+  },
+  "transcriber_2": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "O",
+        "OEt"
+      ],
+      "abbreviations": [
+        "OEt"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 2,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "A benzene ring (aromatic circle) bears C(=O)OEt on one carbon and, para to it, a CH=C(unlabeled methyl line)- double-bonded vinyl linker leading to a second aromatic-circle benzene ring. That second ring is fused to a saturated six-membered ring carrying two pairs of unlabeled line stubs (gem-dimethyl groups) on the two carbons flanking the ring; the vinyl linker is attached to the aromatic carbon adjacent to a ring-fusion carbon.",
+      "overlaps_or_ambiguities": [
+        "Carbonyl carbon is drawn as a loop/curl rather than a clean vertex",
+        "Unlabeled line ends (methyl groups) with small hook/arrow-like ticks at the ends of some",
+        "Exact attachment position of the vinyl linker on the fused aromatic ring is hard to judge"
+      ],
+      "notes": "Handwritten, black ink, rough. Double bonds: 1 C=O and 1 C=C (alkene)."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "EtO",
+        "N",
+        "MeO",
+        "NH",
+        "O",
+        "HO2C",
+        "NHAc"
+      ],
+      "abbreviations": [
+        "EtO",
+        "MeO",
+        "NHAc"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        6,
+        5
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 1,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A piperidine has EtO on C4 via a solid wedge and, on C2 (adjacent to N), a benzene ring attached through a hashed bond. That benzene ring (circle) has, relative to the piperidine-bearing carbon C1: an O-CH2CH2CH2-NHAc chain at C2 (ortho) and HO2C at C4 (para to C1, meta to the O). The piperidine N is attached through a CH2 to C4 of an indole (benzene ring with circle; pyrrole ring with one drawn C=C and an NH), where the indole ring carries MeO on C5 (next to the CH2-bearing carbon) and an unlabelled methyl line on C7 (next to the NH-bearing ring fusion carbon).",
+      "overlaps_or_ambiguities": [
+        "number of CH2 groups in the O-chain read as three from hand-drawn zigzag",
+        "methyl on indole is an unlabelled line end"
+      ],
+      "notes": "Handwritten. Aromatic rings: both benzene rings have circles; the five-membered ring has one drawn double bond."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "EtO",
+        "N",
+        "MeO",
+        "O",
+        "NH",
+        "NHAc",
+        "HO2C"
+      ],
+      "abbreviations": [
+        "EtO",
+        "MeO",
+        "NHAc"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        6,
+        5
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 1,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A piperidine (6-ring with N) has EtO on a solid wedge on C4 (counting N as 1 and going through the carbon next to the aryl-bearing carbon: N1, C2 bears aryl on a hashed bond, C3 CH2, C4 bears EtO), and the ring N is attached through a CH2 to C4 of an indole. The aryl on piperidine C2 is a benzene (circle) bearing, relative to the piperidine attachment at C1, an O-CH2-CH2-NHAc chain at C2 (ortho) and HO2C at C4 (para). The indole (benzene circle fused to a pyrrole ring with NH and a C=C double bond) has the CH2N at C4, MeO at C5 (adjacent to C4) and an unlabeled methyl line at C7.",
+      "overlaps_or_ambiguities": [
+        "Methyl at the right of the indole is only a short unlabeled line",
+        "Stray tick mark beside the piperidine N label",
+        "Indole is drawn with a circle in the six-ring but a Kekule C=C in the five-ring"
+      ],
+      "notes": "Handwritten, black ink on white. One double bond (indole C2=C3). One solid wedge (EtO) and one hashed bond (to the aryl). No written stereo descriptors."
+    }
+  },
+  "output_file": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\by_molecule\\molecule_485.json"
+}

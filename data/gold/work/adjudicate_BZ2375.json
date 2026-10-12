@@ -1,0 +1,269 @@
+{
+  "molecule": "BZ2375",
+  "images": {
+    "ref": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\BZ2375\\ref.png",
+    "wrong": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\BZ2375\\wrong.jpg",
+    "correct": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\BZ2375\\correct.jpg"
+  },
+  "transcriber_1": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "H2N",
+        "O",
+        "HN",
+        "iPr",
+        "O",
+        "NH",
+        "O",
+        "NHBoc",
+        "HN",
+        "OH",
+        "N",
+        "Me",
+        "O",
+        "O"
+      ],
+      "abbreviations": [
+        "iPr",
+        "NHBoc",
+        "Me"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 13,
+      "triple_bonds": 0,
+      "wedge_bonds": 2,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "(iPr)(NHBoc)CH-C(=O)-NH-CH(CH2CH2CH2-NH-C(=O)-NH2)-C(=O)-NH-aryl, with a solid wedge to iPr on the first stereocentre and a solid wedge to the CH2 chain on the second. The aryl benzene has HN (amide) at C1, CH2-N(Me)-C(=O)-O-CH2-(9-fluorenyl) at C3 (meta to the HN) and CH2OH at C4 (para to the HN, ortho to the CH2N group).",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset reference-style drawing. 13 double bonds = 4 C=O (urea, valine C=O, citrulline C=O, carbamate) + 3 in the central benzene + 3 in each of the two fluorene benzene rings. The fluorene central ring is five-membered with no double bonds. The label under the citrulline alpha-N is N with H beneath it."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "O",
+        "NH2",
+        "HN",
+        "iPr",
+        "O",
+        "NH",
+        "NHBoc",
+        "O",
+        "HN",
+        "OH",
+        "N",
+        "Me",
+        "O",
+        "O"
+      ],
+      "abbreviations": [
+        "iPr",
+        "NHBoc",
+        "Me"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 4,
+      "triple_bonds": 0,
+      "wedge_bonds": 2,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Chain from the top: H2N-C(=O)-HN-CH2-CH2-CH2 (the last bond is a solid wedge) to a nitrogen written N with H below it; that N is also bonded to a C(=O) that carries a carbon bearing iPr (solid wedge) and NHBoc, and to a CH2-C(=O)-HN- group joined to a benzene ring (circle). On the benzene ring, taking the HN-bearing carbon as 1: CH2OH at position 4 (para) and CH2-N(Me)-C(=O)-O-CH2- at position 3 (meta to HN, ortho to the CH2OH); the CH2 of the carbamate is bonded to C9 of a fluorene (two benzene circles plus a five-membered ring).",
+      "overlaps_or_ambiguities": [
+        "the nitrogen written N with H beneath it has three carbon bonds (wedge-bonded chain carbon, a C=O and a CH2) in addition to the H label",
+        "benzene ring substitution positions read from a freehand hexagon",
+        "Boc written as Boc in NHBoc; hand-lettering is slightly small"
+      ],
+      "notes": "Two solid wedges: one from the carbon bearing iPr, one from the chain CH2 to the N(H). Four C=O drawn as double bonds (urea, valine-type C=O, glycine-type C=O, carbamate). OH written as OH on the CH2OH; Me written on the carbamate N."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "H2N",
+        "O",
+        "HN",
+        "O",
+        "iPr",
+        "NH",
+        "O",
+        "HN",
+        "NHBoc",
+        "OH",
+        "Me",
+        "N",
+        "O",
+        "O"
+      ],
+      "abbreviations": [
+        "iPr",
+        "NHBoc",
+        "Me"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 4,
+      "triple_bonds": 0,
+      "wedge_bonds": 2,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Chain from the top: H2N-C(=O)-HN-CH2CH2CH2-CH(wedge to chain carbon)-C(=O)-HN attached to a benzene ring; the CH is also bonded to NH-C(=O)-CH(NHBoc)(solid wedge to iPr). The benzene ring (circle) has the HN at C1, a CH2-OH at C4 (para) and a CH2-N(Me)-C(=O)-O-CH2 group at C3 (meta to HN, ortho to CH2OH); the carbamate O-CH2 is attached to C9 of a fluorene (two circled benzene rings joined by a five-membered ring).",
+      "overlaps_or_ambiguities": [
+        "The r in iPr is written like a gamma-shaped r",
+        "The amide NH is written stacked, N with H directly beneath it"
+      ],
+      "notes": "Handwritten skeletal drawing in black pen on white paper. Two solid wedges: one from the Val-type alpha carbon to iPr and one from the second alpha carbon up to the chain CH2. All aromatic rings drawn with circles. The OH label is attached through a one-carbon CH2 stub."
+    }
+  },
+  "transcriber_2": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "H2N",
+        "O",
+        "HN",
+        "O",
+        "iPr",
+        "NHBoc",
+        "NH",
+        "O",
+        "HN",
+        "OH",
+        "N",
+        "Me",
+        "O",
+        "O"
+      ],
+      "abbreviations": [
+        "iPr",
+        "NHBoc",
+        "Me"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 13,
+      "triple_bonds": 0,
+      "wedge_bonds": 2,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A chain reads H2N-C(=O)-NH-CH2CH2CH2- to a stereocentre (solid wedge to the chain) that carries C(=O)NH-aryl and an NH which acylates the next residue: a CH with iPr on a solid wedge and NHBoc, then C(=O)-NH. The aryl is a benzene with the amide NH at one vertex, CH2OH at the para vertex, and CH2-N(Me)-C(=O)-O-CH2- at the position ortho to the CH2OH and meta to the NH; the carbamate O-CH2 is attached to C9 of a fluorene (two benzene rings joined through a five-membered ring, the C9 carbon being sp3 CH).",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset structure. Double bonds: 4 C=O (urea, two amides, carbamate) and 3 in each of three benzene rings. Two solid wedges (iPr carbon and the CH2 side chain of the other stereocentre). No stereo descriptors written."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "N",
+        "NH",
+        "CH3",
+        "O",
+        "NH",
+        "CH2"
+      ],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 6,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A quinoline (benzene fused to a pyridine ring with N, drawn with alternating double bonds): the carbon next to the ring N carries an NH linked to a phenyl ring (aromatic circle) that bears CH3 on the carbon ortho to the NH-bearing carbon; the next ring carbon (position 3 of the quinoline) carries C(=O)NH-CH2- bonded to a second phenyl ring (aromatic circle, unsubstituted).",
+      "overlaps_or_ambiguities": [],
+      "notes": "Handwritten in graphite/pencil (dark grey, treated as black). Double bonds: 5 in the quinoline plus 1 C=O. N and H of the left NH are stacked vertically (H below N)."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "H2N",
+        "O",
+        "HN",
+        "O",
+        "iPr",
+        "NH",
+        "O",
+        "NHBoc",
+        "HN",
+        "OH",
+        "Me",
+        "N",
+        "O",
+        "O"
+      ],
+      "abbreviations": [
+        "iPr",
+        "NHBoc",
+        "Me"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 4,
+      "triple_bonds": 0,
+      "wedge_bonds": 2,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A citrulline-like unit (H2N-C(=O)-NH-CH2CH2CH2-CH, with a solid wedge on the chain bond at the alpha carbon) is acylated on its N by a valine-like unit (iPr on a solid wedge, alpha carbon bearing NHBoc), and its C(=O) is bonded to an anilide NH on a benzene ring (circle). On that ring, relative to the NH at C1: a CH2OH at C4 (para) and a CH2-N(Me)-C(=O)-O-CH2-fluorenyl (fluorenylmethyl carbamate) at C3 (meta to NH, ortho to the CH2OH).",
+      "overlaps_or_ambiguities": [
+        "NH in the amide chain written as N with H stacked below",
+        "ring position of CH2OH versus CH2N(Me)Fmoc carbon relative to the NH read from hand-drawn ring, moderately confident"
+      ],
+      "notes": "Handwritten. Four C=O double bonds (urea, valine C=O, second amide C=O, carbamate C=O). Two solid wedges. Fluorene drawn as 6-5-6 with circles in both benzene rings; the iPr r looks like a gamma."
+    }
+  },
+  "output_file": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\by_molecule\\BZ2375.json"
+}

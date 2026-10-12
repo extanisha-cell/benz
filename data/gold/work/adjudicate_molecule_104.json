@@ -1,0 +1,235 @@
+{
+  "molecule": "molecule_104",
+  "images": {
+    "ref": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_104\\ref.png",
+    "wrong": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_104\\wrong.jpg",
+    "correct": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_104\\correct.jpg"
+  },
+  "transcriber_1": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Et",
+        "N",
+        "N",
+        "NHAc",
+        "OH"
+      ],
+      "abbreviations": [
+        "Et",
+        "NHAc"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6,
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 9,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A carbazole (benzo-pyrrole-benzo tricycle) has an Et on its ring N and, at the carbon of the right-hand benzo ring para to the N-bearing ring carbon (carbazole 3-position), a CH2 linking to the N of a piperidine. The carbon opposite the piperidine N is a spiro carbon shared with a five-membered ring fused to a benzene ring (indane-type); the ring carbon next to the spiro carbon bears OH on a solid wedge, and the next carbon (adjacent to the benzo ring) bears NHAc on a hashed bond.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset reference-style structure. Three aromatic rings each drawn with 3 alternating double bonds (9 total). One solid wedge (to OH) and one hashed wedge (to NHAc)."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "CH2CH3",
+        "N",
+        "N",
+        "OH",
+        "NH",
+        "C",
+        "CH3",
+        "O"
+      ],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6,
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 1,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Left: a carbazole-type tricycle (6-5-6, two circled benzene rings) with CH2CH3 on the central five-ring N. A one-carbon vertex (CH2) joins the right-hand benzene ring of the carbazole (the carbon two bonds from the N-bearing fusion carbon) to the N of a piperidine. The piperidine carbon opposite N is spiro to a five-membered ring fused to a circled benzene ring (indane-like); on that five-membered ring the carbon adjacent to the spiro carbon bears OH on a solid wedge, and the carbon next to the aryl ring bears NH-C(=O)CH3 via a hashed bond (acetyl drawn as NH, C, CH3 on top, =O below).",
+      "overlaps_or_ambiguities": [
+        "Short thickened tapered stroke at the aryl end of the bond between the benzene ring and the CH(NH) carbon in the five-membered ring; could be an ink blob or a tiny wedge, not counted as a wedge bond.",
+        "The acetyl carbon is written as an explicit C."
+      ],
+      "notes": "Handwritten. Wedge count: one solid wedge (to OH) and one hashed wedge (to NH). Three circled aromatic rings; no alternating double bonds. Only double bond is the acetyl C=O."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Et",
+        "N",
+        "N",
+        "NHAc",
+        "OH"
+      ],
+      "abbreviations": [
+        "Et",
+        "NHAc"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6,
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 0,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Left part is a carbazole-type tricycle (benzene circle, five-membered ring with N, second benzene circle) with Et on the ring N. The central benzene ring carries a CH2 on the carbon para to the carbon bonded to N, and that CH2 goes to the N of a piperidine whose carbon opposite the N is a spiro centre shared with a five-membered ring fused to a third benzene ring (circle). In the five-membered ring, the carbon next to the benzo ring bears NHAc on a hashed bond, and the carbon next to the spiro centre bears OH on a solid wedge.",
+      "overlaps_or_ambiguities": [
+        "NHAc label has a stray stroke across the H",
+        "Aromatic rings are small irregular circles inside irregular hexagons"
+      ],
+      "notes": "Handwritten. All three benzene-type rings are drawn with circles; no explicit double bonds. One solid wedge (to OH) and one hashed bond (to NHAc)."
+    }
+  },
+  "transcriber_2": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Et",
+        "N",
+        "N",
+        "NHAc",
+        "OH"
+      ],
+      "abbreviations": [
+        "Et",
+        "NHAc"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6,
+        6,
+        6,
+        5
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 9,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A carbazole whose ring N carries Et and whose 3-position carries a CH2 linked to the N of a piperidine; the piperidine C4 is the spiro carbon of an indane (benzo-fused five-membered ring). In the indane ring, the carbon next to the spiro carbon carries OH on a solid wedge, and the next carbon (attached to the benzo ring) carries NHAc on a hashed bond.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset structure. Double bonds: 3 in each of the two carbazole benzene rings and 3 in the indane benzene ring."
+    },
+    "wrong": {
+      "drawing_style": "mixed",
+      "atom_labels": [
+        "CH2CH3",
+        "N",
+        "N",
+        "OH",
+        "NH",
+        "C",
+        "CH3",
+        "O"
+      ],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6,
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 1,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "A carbazole (two benzene rings with circles fused to a central five-membered ring bearing N) has CH2CH3 on the carbazole N and, on the outer benzene ring at the position corresponding to C2 of the carbazole (meta to the carbon bonded to N), a CH2 linked to the N of a piperidine. The piperidine C4 is a spiro carbon shared with a five-membered carbocycle fused to a benzene ring (circle); the carbon next to the spiro carbon bears OH on a solid wedge, and the other five-ring carbon (attached to the benzene) bears NH-C(=O)-CH3 via a hashed bond.",
+      "overlaps_or_ambiguities": [
+        "a small thickened wedge-like stroke appears at the benzene-to-CH bond near the hashed bond carbon (not counted as a wedge)",
+        "carbonyl carbon written explicitly as C"
+      ],
+      "notes": "Handwritten. One solid wedge to OH, one hashed bond to NH. Acetamide drawn as NH-C(CH3)=O with the C written explicitly."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Et",
+        "N",
+        "N",
+        "NHAc",
+        "OH"
+      ],
+      "abbreviations": [
+        "Et",
+        "NHAc"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6,
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 0,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A carbazole-type tricycle (benzene circle, 5-membered ring with N, benzene circle) has Et on the ring N, and a CH2 on the right-hand benzene ring that links to the N of a 6-membered N-ring (piperidine). The carbon opposite that N in the piperidine is a spiro carbon shared with a 5-membered ring fused to a third benzene ring (circle); in the five-membered ring the carbon next to the spiro carbon bears OH on a solid bold wedge, and the next carbon (attached to the benzene) bears NHAc on a hashed bond.",
+      "overlaps_or_ambiguities": [
+        "Small stray dot on the left edge of the piperidine ring could be read as an extra vertex (ring read as 6-membered)",
+        "H of NHAc has a crossbar that makes it look like N+HAc"
+      ],
+      "notes": "Handwritten, black ink on white. No explicit double bonds; all aromatic rings drawn as circles, the N-containing five-ring has no double bonds. One solid wedge (OH) and one hashed bond (NHAc)."
+    }
+  },
+  "output_file": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\by_molecule\\molecule_104.json"
+}

@@ -1,0 +1,11 @@
+IDs,correct,source,note
+molecule_25,yes,Claude visual check 2026-10-11 (not gold),circles for Kekule only; wedge methyl and all substituents match
+molecule_213,yes,Claude visual check 2026-10-11 (not gold),circles for Kekule only; right ring is six-membered with Cl meta to NH; hashed Bn and vinyl match
+molecule_5,yes,Claude visual check 2026-10-11 (not gold),HO2C/CO2H and Me/CH3 only; pyrrole substituents hashed methyl and Boc match
+molecule_252,unknown,Claude visual check 2026-10-11 (not gold),could not verify: tangled Et/O region; probe saw one fewer 5-membered ring in the annotated drawing
+molecule_132,yes,Claude visual check 2026-10-11 (not gold),circles for Kekule only; CN ortho; piperazine six-membered; F para
+molecule_353,yes,Claude visual check 2026-10-11 (not gold),circles for Kekule only; fused rings CO2H and both OMe positions match
+molecule_118,yes,Claude visual check 2026-10-11 (not gold),Ph drawn out as a six-membered ring plus circles and CH3 for Me; benzocyclobutene piperidine and N-methyl match
+molecule_390,yes,Claude visual check 2026-10-11 (not gold),NHMe to NHCH3 and CF3 drawn out only; chain length and para position match
+molecule_455,yes,Claude visual check 2026-10-11 (not gold),OEt to OC2H5 and explicit CH2 only; meta OEt ortho Cl para F and hashed bond match
+molecule_470,yes,Claude visual check 2026-10-11 (not gold),Me drawn as H3C only; spiro ring is six-membered in both drawings

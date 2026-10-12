@@ -1,0 +1,1850 @@
+{
+  "schema_version": "2",
+  "policy_version": "chem-equiv-1",
+  "decision_version": "chem-decision-2",
+  "evidence_source": "fresh:google30_v2_policy",
+  "prompt_sha": {
+    "policy": "c610ced5ea8b",
+    "confirm": "e7bacc7f70c5"
+  },
+  "cost": {
+    "policy_calls": 50,
+    "policy_cost_usd": 2.3284,
+    "confirm_calls": 11,
+    "confirm_cost_usd": 0.3484,
+    "total_cost_usd": 2.6768,
+    "made_in_this_invocation": {
+      "policy_calls": 0,
+      "policy_usd": 0.0,
+      "confirm_calls": 11,
+      "confirm_usd": 0.3486
+    },
+    "per_pair": {
+      "molecule_144": {
+        "policy_calls": 1,
+        "policy_cost_usd": 0.019,
+        "confirm_calls": 1,
+        "confirm_cost_usd": 0.01
+      },
+      "molecule_79": {
+        "policy_calls": 1,
+        "policy_cost_usd": 0.0216,
+        "confirm_calls": 1,
+        "confirm_cost_usd": 0.0101
+      },
+      "molecule_484": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.0193,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_55": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.0376,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_218": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.1378,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_123": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.048,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_249": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.0491,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_2": {
+        "policy_calls": 1,
+        "policy_cost_usd": 0.2286,
+        "confirm_calls": 1,
+        "confirm_cost_usd": 0.0137
+      },
+      "molecule_149": {
+        "policy_calls": 1,
+        "policy_cost_usd": 0.1171,
+        "confirm_calls": 1,
+        "confirm_cost_usd": 0.016
+      },
+      "molecule_475": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.1077,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_334": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.0694,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_65": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.0243,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_191": {
+        "policy_calls": 1,
+        "policy_cost_usd": 0.074,
+        "confirm_calls": 1,
+        "confirm_cost_usd": 0.0148
+      },
+      "molecule_48": {
+        "policy_calls": 1,
+        "policy_cost_usd": 0.1199,
+        "confirm_calls": 1,
+        "confirm_cost_usd": 0.0183
+      },
+      "molecule_423": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.0359,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_419": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.03,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_273": {
+        "policy_calls": 3,
+        "policy_cost_usd": 0.1016,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_53": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.0293,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_14": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.0434,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_22": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.0247,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_461": {
+        "policy_calls": 1,
+        "policy_cost_usd": 0.0472,
+        "confirm_calls": 1,
+        "confirm_cost_usd": 0.0365
+      },
+      "molecule_499": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.0408,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_36": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.2854,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_236": {
+        "policy_calls": 1,
+        "policy_cost_usd": 0.0313,
+        "confirm_calls": 1,
+        "confirm_cost_usd": 0.0175
+      },
+      "molecule_416": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.0332,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_257": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.0573,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_316": {
+        "policy_calls": 1,
+        "policy_cost_usd": 0.1994,
+        "confirm_calls": 1,
+        "confirm_cost_usd": 0.0824
+      },
+      "molecule_326": {
+        "policy_calls": 2,
+        "policy_cost_usd": 0.0385,
+        "confirm_calls": 0,
+        "confirm_cost_usd": 0
+      },
+      "molecule_75": {
+        "policy_calls": 1,
+        "policy_cost_usd": 0.0654,
+        "confirm_calls": 1,
+        "confirm_cost_usd": 0.0309
+      },
+      "molecule_172": {
+        "policy_calls": 1,
+        "policy_cost_usd": 0.1916,
+        "confirm_calls": 1,
+        "confirm_cost_usd": 0.0982
+      }
+    }
+  },
+  "decisions": {
+    "molecule_144": {
+      "outcome": "REJECT",
+      "rule": "confirmed_reject",
+      "failure_categories": [
+        "substituent_position"
+      ],
+      "evidence": [
+        {
+          "category": "substituent_position",
+          "location": "aromatic ring at the bottom left",
+          "reference": "para-substituted (1,4-disubstituted) phenyl ring",
+          "annotated": "meta-substituted (1,3-disubstituted) phenyl ring",
+          "detail": "",
+          "votes": 1
+        }
+      ],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 0,
+        "REJECT": 1,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 0.0,
+      "model_confidence": 0.95,
+      "structured_calls": 1,
+      "verified_accepts": 0,
+      "graph": "not_provided",
+      "claim": {
+        "category": "substituent_position",
+        "location": "aromatic ring at the bottom left",
+        "reference": "para-substituted (1,4-disubstituted) phenyl ring",
+        "annotated": "meta-substituted (1,3-disubstituted) phenyl ring",
+        "detail": "",
+        "votes": 1
+      },
+      "evidence_status": "confirmed",
+      "confirmation": {
+        "status": "confirmed",
+        "reference": "The aromatic ring at the bottom left has an alkyl chain and a methyl group attached at opposite positions (para or 1,4-substituted).",
+        "annotated": "The aromatic ring at the bottom left has an alkyl chain and a methyl group attached at positions separated by one carbon (meta or 1,3-substituted).",
+        "confidence": 1.0,
+        "run_idx": 0
+      },
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "REJECT",
+          "verified": false,
+          "confidence": 0.95,
+          "flags": []
+        }
+      ],
+      "explanation": "REJECT (confirmed_reject): reported substituent_position at \"aromatic ring at the bottom left\" (Image A: para-substituted (1,4-disubstituted) phenyl ring; Image B: meta-substituted (1,3-disubstituted) phenyl ring), cited by 1 of 1 policy-prompt call(s). A separate confirming call (different prompt) observed Image A: The aromatic ring at the bottom left has an alkyl chain and a methyl group attached at opposite positions (para or 1,4-substituted).; Image B: The aromatic ring at the bottom left has an alkyl chain and a methyl group attached at positions separated by one carbon (meta or 1,3-substituted)., and confirmed that the difference is chemical. Confirmed by a second Gemini check, not by an independent structural tool. Notation differences noted, not counted as errors: aromatic_depiction.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_79": {
+      "outcome": "REJECT",
+      "rule": "confirmed_reject",
+      "failure_categories": [
+        "element_mismatch"
+      ],
+      "evidence": [
+        {
+          "category": "element_mismatch",
+          "location": "substituent on the right nitrogen",
+          "reference": "COOBn (benzyl ester)",
+          "annotated": "C(=O)-OBr (hypobromite/miswritten abbreviation)",
+          "detail": "",
+          "votes": 1
+        }
+      ],
+      "notation_differences": [
+        "abbreviation_expansion"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 0,
+        "REJECT": 1,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 0.0,
+      "model_confidence": 0.95,
+      "structured_calls": 1,
+      "verified_accepts": 0,
+      "graph": "not_provided",
+      "claim": {
+        "category": "element_mismatch",
+        "location": "substituent on the right nitrogen",
+        "reference": "COOBn (benzyl ester)",
+        "annotated": "C(=O)-OBr (hypobromite/miswritten abbreviation)",
+        "detail": "",
+        "votes": 1
+      },
+      "evidence_status": "confirmed",
+      "confirmation": {
+        "status": "confirmed",
+        "reference": "The right-hand nitrogen is substituted with a -COOBn group.",
+        "annotated": "The right-hand nitrogen is substituted with a -C(=O)-OBr group.",
+        "confidence": 0.99,
+        "run_idx": 0
+      },
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "REJECT",
+          "verified": false,
+          "confidence": 0.95,
+          "flags": []
+        }
+      ],
+      "explanation": "REJECT (confirmed_reject): reported element_mismatch at \"substituent on the right nitrogen\" (Image A: COOBn (benzyl ester); Image B: C(=O)-OBr (hypobromite/miswritten abbreviation)), cited by 1 of 1 policy-prompt call(s). A separate confirming call (different prompt) observed Image A: The right-hand nitrogen is substituted with a -COOBn group.; Image B: The right-hand nitrogen is substituted with a -C(=O)-OBr group., and confirmed that the difference is chemical. Confirmed by a second Gemini check, not by an independent structural tool. Notation differences noted, not counted as errors: abbreviation_expansion.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_484": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 0.99,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.99,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: aromatic_depiction. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_55": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 0.99,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.99,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: aromatic_depiction. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_218": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction",
+        "label_format"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 0.97,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.95,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.99,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: aromatic_depiction, label_format. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_123": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction",
+        "drawing_style"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 0.99,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.99,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: aromatic_depiction, drawing_style. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_249": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "abbreviation_expansion",
+        "aromatic_depiction"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 0.99,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.99,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.99,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: abbreviation_expansion, aromatic_depiction. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_2": {
+      "outcome": "REJECT",
+      "rule": "confirmed_reject",
+      "failure_categories": [
+        "ring_size_or_fusion"
+      ],
+      "evidence": [
+        {
+          "category": "ring_size_or_fusion",
+          "location": "left ring",
+          "reference": "6-membered aromatic ring",
+          "annotated": "5-membered aromatic ring",
+          "detail": "",
+          "votes": 1
+        }
+      ],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 0,
+        "REJECT": 1,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 0.0,
+      "model_confidence": 0.95,
+      "structured_calls": 1,
+      "verified_accepts": 0,
+      "graph": "not_provided",
+      "claim": {
+        "category": "ring_size_or_fusion",
+        "location": "left ring",
+        "reference": "6-membered aromatic ring",
+        "annotated": "5-membered aromatic ring",
+        "detail": "",
+        "votes": 1
+      },
+      "evidence_status": "confirmed",
+      "confirmation": {
+        "status": "confirmed",
+        "reference": "The left ring fused to the nitrogen-containing ring is a 6-membered aromatic ring (benzene).",
+        "annotated": "The left ring fused to the nitrogen-containing ring is drawn as a 5-membered ring with an aromatic circle.",
+        "confidence": 1.0,
+        "run_idx": 0
+      },
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "REJECT",
+          "verified": false,
+          "confidence": 0.95,
+          "flags": []
+        }
+      ],
+      "explanation": "REJECT (confirmed_reject): reported ring_size_or_fusion at \"left ring\" (Image A: 6-membered aromatic ring; Image B: 5-membered aromatic ring), cited by 1 of 1 policy-prompt call(s). A separate confirming call (different prompt) observed Image A: The left ring fused to the nitrogen-containing ring is a 6-membered aromatic ring (benzene).; Image B: The left ring fused to the nitrogen-containing ring is drawn as a 5-membered ring with an aromatic circle., and confirmed that the difference is chemical. Confirmed by a second Gemini check, not by an independent structural tool. Notation differences noted, not counted as errors: aromatic_depiction.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_149": {
+      "outcome": "REJECT",
+      "rule": "confirmed_reject",
+      "failure_categories": [
+        "substituent_position"
+      ],
+      "evidence": [
+        {
+          "category": "substituent_position",
+          "location": "benzene ring",
+          "reference": "1,2,4,5-tetrasubstituted (EtO is para to the CH2 linker, iPr is para to Me)",
+          "annotated": "1,2,3,4-tetrasubstituted (iPr, EtO, Me, and the CH2 linker are on consecutive carbons)",
+          "detail": "",
+          "votes": 1
+        }
+      ],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 0,
+        "REJECT": 1,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 0.0,
+      "model_confidence": 0.95,
+      "structured_calls": 1,
+      "verified_accepts": 0,
+      "graph": "not_provided",
+      "claim": {
+        "category": "substituent_position",
+        "location": "benzene ring",
+        "reference": "1,2,4,5-tetrasubstituted (EtO is para to the CH2 linker, iPr is para to Me)",
+        "annotated": "1,2,3,4-tetrasubstituted (iPr, EtO, Me, and the CH2 linker are on consecutive carbons)",
+        "detail": "",
+        "votes": 1
+      },
+      "evidence_status": "confirmed",
+      "confirmation": {
+        "status": "confirmed",
+        "reference": "The benzene ring is 1,2,4,5-tetrasubstituted, with an unsubstituted carbon between the methyl group and the ethoxy group.",
+        "annotated": "The benzene ring is 1,2,3,4-tetrasubstituted, with the iPr, EtO, Me, and CH2-linker groups attached to consecutive carbons.",
+        "confidence": 1.0,
+        "run_idx": 0
+      },
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "REJECT",
+          "verified": false,
+          "confidence": 0.95,
+          "flags": []
+        }
+      ],
+      "explanation": "REJECT (confirmed_reject): reported substituent_position at \"benzene ring\" (Image A: 1,2,4,5-tetrasubstituted (EtO is para to the CH2 linker, iPr is para to Me); Image B: 1,2,3,4-tetrasubstituted (iPr, EtO, Me, and the CH2 linker are on consecutive carbons)), cited by 1 of 1 policy-prompt call(s). A separate confirming call (different prompt) observed Image A: The benzene ring is 1,2,4,5-tetrasubstituted, with an unsubstituted carbon between the methyl group and the ethoxy group.; Image B: The benzene ring is 1,2,3,4-tetrasubstituted, with the iPr, EtO, Me, and CH2-linker groups attached to consecutive carbons., and confirmed that the difference is chemical. Confirmed by a second Gemini check, not by an independent structural tool. Notation differences noted, not counted as errors: aromatic_depiction.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_475": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 0.99,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.99,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.99,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: aromatic_depiction. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_334": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "abbreviation_expansion",
+        "aromatic_depiction"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 0.95,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.95,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.95,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: abbreviation_expansion, aromatic_depiction. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_65": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "abbreviation_expansion",
+        "aromatic_depiction"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 1.0,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: abbreviation_expansion, aromatic_depiction. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_191": {
+      "outcome": "REJECT",
+      "rule": "confirmed_reject",
+      "failure_categories": [
+        "bond_order"
+      ],
+      "evidence": [
+        {
+          "category": "bond_order",
+          "location": "leftmost six-membered ring",
+          "reference": "has double bonds at positions 1 and 3 relative to the attachment point (cyclohexa-1,3-dien-1-yl)",
+          "annotated": "lacks a double bond at the attachment point; the double bonds are drawn elsewhere in the ring",
+          "detail": "",
+          "votes": 1
+        }
+      ],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 0,
+        "REJECT": 1,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 0.0,
+      "model_confidence": 0.95,
+      "structured_calls": 1,
+      "verified_accepts": 0,
+      "graph": "not_provided",
+      "claim": {
+        "category": "bond_order",
+        "location": "leftmost six-membered ring",
+        "reference": "has double bonds at positions 1 and 3 relative to the attachment point (cyclohexa-1,3-dien-1-yl)",
+        "annotated": "lacks a double bond at the attachment point; the double bonds are drawn elsewhere in the ring",
+        "detail": "",
+        "votes": 1
+      },
+      "evidence_status": "confirmed",
+      "confirmation": {
+        "status": "confirmed",
+        "reference": "The leftmost six-membered ring has a double bond originating at the carbon atom where the ring attaches to the rest of the molecule.",
+        "annotated": "The leftmost six-membered ring has only single bonds originating at the carbon atom where the ring attaches to the rest of the molecule; the two double bonds are located elsewhere in the ring.",
+        "confidence": 1.0,
+        "run_idx": 0
+      },
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "REJECT",
+          "verified": false,
+          "confidence": 0.95,
+          "flags": []
+        }
+      ],
+      "explanation": "REJECT (confirmed_reject): reported bond_order at \"leftmost six-membered ring\" (Image A: has double bonds at positions 1 and 3 relative to the attachment point (cyclohexa-1,3-dien-1-yl); Image B: lacks a double bond at the attachment point; the double bonds are drawn elsewhere in the ring), cited by 1 of 1 policy-prompt call(s). A separate confirming call (different prompt) observed Image A: The leftmost six-membered ring has a double bond originating at the carbon atom where the ring attaches to the rest of the molecule.; Image B: The leftmost six-membered ring has only single bonds originating at the carbon atom where the ring attaches to the rest of the molecule; the two double bonds are located elsewhere in the ring., and confirmed that the difference is chemical. Confirmed by a second Gemini check, not by an independent structural tool. Notation differences noted, not counted as errors: aromatic_depiction.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_48": {
+      "outcome": "REJECT",
+      "rule": "confirmed_reject",
+      "failure_categories": [
+        "bond_order"
+      ],
+      "evidence": [
+        {
+          "category": "bond_order",
+          "location": "central cyclopentadiene ring",
+          "reference": "double bonds are located at the edges connected to the left (phenyl) and bottom vertices",
+          "annotated": "double bonds are located at the edges connected to the left (phenyl) and top-right vertices",
+          "detail": "",
+          "votes": 1
+        }
+      ],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 0,
+        "REJECT": 1,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 0.0,
+      "model_confidence": 0.9,
+      "structured_calls": 1,
+      "verified_accepts": 0,
+      "graph": "not_provided",
+      "claim": {
+        "category": "bond_order",
+        "location": "central cyclopentadiene ring",
+        "reference": "double bonds are located at the edges connected to the left (phenyl) and bottom vertices",
+        "annotated": "double bonds are located at the edges connected to the left (phenyl) and top-right vertices",
+        "detail": "",
+        "votes": 1
+      },
+      "evidence_status": "confirmed",
+      "confirmation": {
+        "status": "confirmed",
+        "reference": "The central cyclopentadiene ring has double bonds on the left edge (between the carbon attached to the phenyl ring and the top-left carbon) and the bottom-right edge (between the bottom carbon and the right carbon attached to the -CH2- group).",
+        "annotated": "The central cyclopentadiene ring has double bonds on the left edge (between the carbon attached to the phenyl ring and the top-left carbon) and the top-right edge (between the top-right carbon and the right carbon attached to the -CH2- group).",
+        "confidence": 1.0,
+        "run_idx": 0
+      },
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "REJECT",
+          "verified": false,
+          "confidence": 0.9,
+          "flags": []
+        }
+      ],
+      "explanation": "REJECT (confirmed_reject): reported bond_order at \"central cyclopentadiene ring\" (Image A: double bonds are located at the edges connected to the left (phenyl) and bottom vertices; Image B: double bonds are located at the edges connected to the left (phenyl) and top-right vertices), cited by 1 of 1 policy-prompt call(s). A separate confirming call (different prompt) observed Image A: The central cyclopentadiene ring has double bonds on the left edge (between the carbon attached to the phenyl ring and the top-left carbon) and the bottom-right edge (between the bottom carbon and the right carbon attached to the -CH2- group).; Image B: The central cyclopentadiene ring has double bonds on the left edge (between the carbon attached to the phenyl ring and the top-left carbon) and the top-right edge (between the top-right carbon and the right carbon attached to the -CH2- group)., and confirmed that the difference is chemical. Confirmed by a second Gemini check, not by an independent structural tool. Notation differences noted, not counted as errors: aromatic_depiction.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_423": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "abbreviation_expansion",
+        "drawing_style"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 0.99,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.99,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: abbreviation_expansion, drawing_style. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_419": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "abbreviation_expansion",
+        "drawing_style",
+        "implicit_explicit_atoms"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 1.0,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: abbreviation_expansion, drawing_style, implicit_explicit_atoms. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_273": {
+      "outcome": "UNCERTAIN",
+      "rule": "contested_reject",
+      "failure_categories": [
+        "contested_reject",
+        "escalation_exhausted"
+      ],
+      "evidence": [
+        {
+          "category": "bond_order",
+          "location": "imidazo[1,2-a]pyridine ring system",
+          "reference": "fully conjugated system with 4 double bonds (C5=C6, C7=C8, C8a=N1, C2=C3)",
+          "annotated": "only 3 double bonds are drawn (C5=C6, C7=C8, N1=C2), leaving the system under-conjugated",
+          "detail": "",
+          "votes": 1
+        }
+      ],
+      "notation_differences": [
+        "drawing_style"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": true,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 1,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 0.67,
+      "model_confidence": null,
+      "structured_calls": 3,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": {
+        "category": "bond_order",
+        "location": "imidazo[1,2-a]pyridine ring system",
+        "reference": "fully conjugated system with 4 double bonds (C5=C6, C7=C8, C8a=N1, C2=C3)",
+        "annotated": "only 3 double bonds are drawn (C5=C6, C7=C8, N1=C2), leaving the system under-conjugated",
+        "detail": "",
+        "votes": 1
+      },
+      "evidence_status": "asserted",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.95,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "REJECT",
+          "verified": false,
+          "confidence": 0.9,
+          "flags": []
+        },
+        {
+          "run_idx": 2,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.99,
+          "flags": []
+        }
+      ],
+      "explanation": "UNCERTAIN (contested_reject): a policy call reported bond_order at \"imidazo[1,2-a]pyridine ring system\" (Image A: fully conjugated system with 4 double bonds (C5=C6, C7=C8, C8a=N1, C2=C3); Image B: only 3 double bonds are drawn (C5=C6, C7=C8, N1=C2), leaving the system under-conjugated), but 2 call(s) judged the drawings equivalent and the disagreement was not resolved. Notation differences noted, not counted as errors: drawing_style. Review required.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_53": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "drawing_style"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 1.0,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: drawing_style. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_14": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction",
+        "drawing_style"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 0.99,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.99,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.99,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: aromatic_depiction, drawing_style. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_22": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 1.0,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 1.0,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: aromatic_depiction. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_461": {
+      "outcome": "REJECT",
+      "rule": "confirmed_reject",
+      "failure_categories": [
+        "bond_order"
+      ],
+      "evidence": [
+        {
+          "category": "bond_order",
+          "location": "central imidazole ring",
+          "reference": "two double bonds (Kekule representation)",
+          "annotated": "only one double bond drawn (missing the C=N double bond)",
+          "detail": "",
+          "votes": 1
+        }
+      ],
+      "notation_differences": [
+        "abbreviation_expansion",
+        "implicit_explicit_atoms"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 0,
+        "REJECT": 1,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 0.0,
+      "model_confidence": 0.95,
+      "structured_calls": 1,
+      "verified_accepts": 0,
+      "graph": "not_provided",
+      "claim": {
+        "category": "bond_order",
+        "location": "central imidazole ring",
+        "reference": "two double bonds (Kekule representation)",
+        "annotated": "only one double bond drawn (missing the C=N double bond)",
+        "detail": "",
+        "votes": 1
+      },
+      "evidence_status": "confirmed",
+      "confirmation": {
+        "status": "confirmed",
+        "reference": "The central imidazole ring has two double bonds: a C=C bond on the left and a C=N bond on the right.",
+        "annotated": "The central imidazole ring is drawn with only one double bond (the C=C bond on the left); the C=N double bond on the right is missing, leaving single bonds.",
+        "confidence": 0.99,
+        "run_idx": 0
+      },
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "REJECT",
+          "verified": false,
+          "confidence": 0.95,
+          "flags": []
+        }
+      ],
+      "explanation": "REJECT (confirmed_reject): reported bond_order at \"central imidazole ring\" (Image A: two double bonds (Kekule representation); Image B: only one double bond drawn (missing the C=N double bond)), cited by 1 of 1 policy-prompt call(s). A separate confirming call (different prompt) observed Image A: The central imidazole ring has two double bonds: a C=C bond on the left and a C=N bond on the right.; Image B: The central imidazole ring is drawn with only one double bond (the C=C bond on the left); the C=N double bond on the right is missing, leaving single bonds., and confirmed that the difference is chemical. Confirmed by a second Gemini check, not by an independent structural tool. Notation differences noted, not counted as errors: abbreviation_expansion, implicit_explicit_atoms.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_499": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "abbreviation_expansion",
+        "aromatic_depiction",
+        "label_format"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 0.99,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.99,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: abbreviation_expansion, aromatic_depiction, label_format. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_36": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction",
+        "drawing_style"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 0.97,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.95,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: aromatic_depiction, drawing_style. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_236": {
+      "outcome": "UNCERTAIN",
+      "rule": "checks_disagree",
+      "failure_categories": [
+        "checks_disagree"
+      ],
+      "evidence": [
+        {
+          "category": "bond_order",
+          "location": "left ring of the naphthyl group",
+          "reference": "an aromatic ring (drawn with 3 alternating double bonds)",
+          "annotated": "drawn with only two double bonds (a diene), lacking full aromaticity",
+          "detail": "",
+          "votes": 1
+        }
+      ],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": true,
+      "votes": {
+        "ACCEPT": 0,
+        "REJECT": 1,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 0.0,
+      "model_confidence": null,
+      "structured_calls": 1,
+      "verified_accepts": 0,
+      "graph": "not_provided",
+      "claim": {
+        "category": "bond_order",
+        "location": "left ring of the naphthyl group",
+        "reference": "an aromatic ring (drawn with 3 alternating double bonds)",
+        "annotated": "drawn with only two double bonds (a diene), lacking full aromaticity",
+        "detail": "",
+        "votes": 1
+      },
+      "evidence_status": "refuted",
+      "confirmation": {
+        "status": "refuted",
+        "reference": "The left ring of the naphthyl group is drawn with two double bonds in a Kekule representation (the right ring contains three).",
+        "annotated": "The left ring of the naphthyl group is drawn with two double bonds, while the fused right ring contains an aromatic circle.",
+        "confidence": 1.0,
+        "run_idx": 0
+      },
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "REJECT",
+          "verified": false,
+          "confidence": 0.95,
+          "flags": []
+        }
+      ],
+      "explanation": "UNCERTAIN (checks_disagree): a policy call reported bond_order at \"left ring of the naphthyl group\" (Image A: an aromatic ring (drawn with 3 alternating double bonds); Image B: drawn with only two double bonds (a diene), lacking full aromaticity), but the confirming call did not confirm it (Image A: The left ring of the naphthyl group is drawn with two double bonds in a Kekule representation (the right ring contains three).; Image B: The left ring of the naphthyl group is drawn with two double bonds, while the fused right ring contains an aromatic circle.). Notation differences noted, not counted as errors: aromatic_depiction. Review required.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_416": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "drawing_style"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 0.99,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 1.0,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.99,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: drawing_style. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_257": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 0.99,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.99,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.99,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: aromatic_depiction. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_316": {
+      "outcome": "REJECT",
+      "rule": "confirmed_reject",
+      "failure_categories": [
+        "ring_size_or_fusion"
+      ],
+      "evidence": [
+        {
+          "category": "ring_size_or_fusion",
+          "location": "central ring",
+          "reference": "a 5-membered pyrrolidine ring",
+          "annotated": "a 6-membered piperidine ring",
+          "detail": "",
+          "votes": 1
+        }
+      ],
+      "notation_differences": [],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 0,
+        "REJECT": 1,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 0.0,
+      "model_confidence": 0.95,
+      "structured_calls": 1,
+      "verified_accepts": 0,
+      "graph": "not_provided",
+      "claim": {
+        "category": "ring_size_or_fusion",
+        "location": "central ring",
+        "reference": "a 5-membered pyrrolidine ring",
+        "annotated": "a 6-membered piperidine ring",
+        "detail": "",
+        "votes": 1
+      },
+      "evidence_status": "confirmed",
+      "confirmation": {
+        "status": "confirmed",
+        "reference": "The central ring is a 5-membered ring containing one nitrogen atom.",
+        "annotated": "The central ring is drawn as a 6-membered ring (a hexagon) containing one nitrogen atom.",
+        "confidence": 0.99,
+        "run_idx": 0
+      },
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "REJECT",
+          "verified": false,
+          "confidence": 0.95,
+          "flags": []
+        }
+      ],
+      "explanation": "REJECT (confirmed_reject): reported ring_size_or_fusion at \"central ring\" (Image A: a 5-membered pyrrolidine ring; Image B: a 6-membered piperidine ring), cited by 1 of 1 policy-prompt call(s). A separate confirming call (different prompt) observed Image A: The central ring is a 5-membered ring containing one nitrogen atom.; Image B: The central ring is drawn as a 6-membered ring (a hexagon) containing one nitrogen atom., and confirmed that the difference is chemical. Confirmed by a second Gemini check, not by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_326": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "abbreviation_expansion",
+        "implicit_explicit_atoms"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 1.0,
+      "model_confidence": 0.99,
+      "structured_calls": 2,
+      "verified_accepts": 2,
+      "graph": "not_provided",
+      "claim": null,
+      "evidence_status": "none",
+      "confirmation": null,
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.99,
+          "flags": []
+        },
+        {
+          "run_idx": 1,
+          "vote": "ACCEPT",
+          "verified": true,
+          "confidence": 0.99,
+          "flags": []
+        }
+      ],
+      "explanation": "ACCEPT (verified_equivalence): 2 of 2 policy-prompt call(s) judged the drawings chemically equivalent with every checklist item matching, and none reported a supported chemical discrepancy. Notation differences noted, not counted as errors: abbreviation_expansion, implicit_explicit_atoms. Model-assessed from the images; not verified by an independent structural tool.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_75": {
+      "outcome": "UNCERTAIN",
+      "rule": "checks_disagree",
+      "failure_categories": [
+        "checks_disagree"
+      ],
+      "evidence": [
+        {
+          "category": "bond_order",
+          "location": "pyrimidine ring (bond between top carbon with NH attached and right nitrogen)",
+          "reference": "double bond",
+          "annotated": "single bond",
+          "detail": "",
+          "votes": 1
+        }
+      ],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": true,
+      "votes": {
+        "ACCEPT": 0,
+        "REJECT": 1,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 0.0,
+      "model_confidence": null,
+      "structured_calls": 1,
+      "verified_accepts": 0,
+      "graph": "not_provided",
+      "claim": {
+        "category": "bond_order",
+        "location": "pyrimidine ring (bond between top carbon with NH attached and right nitrogen)",
+        "reference": "double bond",
+        "annotated": "single bond",
+        "detail": "",
+        "votes": 1
+      },
+      "evidence_status": "refuted",
+      "confirmation": {
+        "status": "refuted",
+        "reference": "a double bond between the top carbon (with the NH attached) and the right nitrogen in the pyrimidine ring",
+        "annotated": "a single bond between the top carbon (with the NH attached) and the right nitrogen, with the double bonds shifted",
+        "confidence": 1.0,
+        "run_idx": 0
+      },
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "REJECT",
+          "verified": false,
+          "confidence": 0.99,
+          "flags": []
+        }
+      ],
+      "explanation": "UNCERTAIN (checks_disagree): a policy call reported bond_order at \"pyrimidine ring (bond between top carbon with NH attached and right nitrogen)\" (Image A: double bond; Image B: single bond), but the confirming call did not confirm it (Image A: a double bond between the top carbon (with the NH attached) and the right nitrogen in the pyrimidine ring; Image B: a single bond between the top carbon (with the NH attached) and the right nitrogen, with the double bonds shifted). Notation differences noted, not counted as errors: aromatic_depiction. Review required.",
+      "consistency_status": "ok",
+      "consistency": []
+    },
+    "molecule_172": {
+      "outcome": "UNCERTAIN",
+      "rule": "checks_disagree",
+      "failure_categories": [
+        "checks_disagree"
+      ],
+      "evidence": [
+        {
+          "category": "substituent_position",
+          "location": "bottom-right fluorophenyl ring",
+          "reference": "methyl group is para (1,4) to the biaryl bond, and ortho to the fluorine atom",
+          "annotated": "methyl group is meta (1,3) to the biaryl bond, and meta to the fluorine atom",
+          "detail": "",
+          "votes": 1
+        },
+        {
+          "category": "substituent_position",
+          "location": "top-left fluorophenyl ring",
+          "reference": "fluorine atom is meta (1,3) to the stereocenter",
+          "annotated": "fluorine atom is ortho (1,2) to the stereocenter",
+          "detail": "",
+          "votes": 1
+        }
+      ],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [],
+      "needs_escalation": false,
+      "needs_confirmation": false,
+      "requires_review": true,
+      "votes": {
+        "ACCEPT": 0,
+        "REJECT": 1,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "accept_share": 0.0,
+      "model_confidence": null,
+      "structured_calls": 1,
+      "verified_accepts": 0,
+      "graph": "not_provided",
+      "claim": {
+        "category": "substituent_position",
+        "location": "bottom-right fluorophenyl ring",
+        "reference": "methyl group is para (1,4) to the biaryl bond, and ortho to the fluorine atom",
+        "annotated": "methyl group is meta (1,3) to the biaryl bond, and meta to the fluorine atom",
+        "detail": "",
+        "votes": 1
+      },
+      "evidence_status": "refuted",
+      "confirmation": {
+        "status": "refuted",
+        "reference": "The methyl group is at the bottom-right vertex, which is meta (1,3) to the biaryl bond at the top vertex. The fluorine atom is at the bottom vertex (ortho to the methyl group and para to the biaryl bond).",
+        "annotated": "The methyl group is at the bottom-right vertex, which is para (1,4) to the biaryl bond at the top-left vertex. The fluorine atom is at the bottom vertex (ortho to the methyl group and meta to the biaryl bond).",
+        "confidence": 0.95,
+        "run_idx": 0
+      },
+      "calls": [
+        {
+          "run_idx": 0,
+          "vote": "REJECT",
+          "verified": false,
+          "confidence": 0.95,
+          "flags": []
+        }
+      ],
+      "explanation": "UNCERTAIN (checks_disagree): a policy call reported substituent_position at \"bottom-right fluorophenyl ring\" (Image A: methyl group is para (1,4) to the biaryl bond, and ortho to the fluorine atom; Image B: methyl group is meta (1,3) to the biaryl bond, and meta to the fluorine atom), but the confirming call did not confirm it (Image A: The methyl group is at the bottom-right vertex, which is meta (1,3) to the biaryl bond at the top vertex. The fluorine atom is at the bottom vertex (ortho to the methyl group and para to the biaryl bond).; Image B: The methyl group is at the bottom-right vertex, which is para (1,4) to the biaryl bond at the top-left vertex. The fluorine atom is at the bottom vertex (ortho to the methyl group and meta to the biaryl bond).). Notation differences noted, not counted as errors: aromatic_depiction. Review required.",
+      "consistency_status": "ok",
+      "consistency": []
+    }
+  }
+}

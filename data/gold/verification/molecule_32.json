@@ -1,0 +1,14 @@
+{"molecule": "molecule_32", "status": "confirmed",
+ "claim_checks": [
+  {"claim": "errors_in_wrong[0] substituent_position: OPh meta (1,3) to the CH2 side chain instead of para", "verdict": "confirmed", "evidence": "Wrong ring vertices: CH2-bearing (~1290,910), top-left (~1280,580), top (~1510,445, bears OPh), right-upper (~1710,585), right-lower (~1705,845), bottom (~1535,1010). OPh carbon is a neighbour of the top-left vertex, which is ortho to the CH2 carbon, so OPh is meta. Ref has OPh para."},
+  {"claim": "correct_version_issues is empty: the corrected drawing has no other issue", "verdict": "confirmed", "evidence": "Correct: CH2 at the lower-left vertex (~940,550); OPh at the upper-right vertex (~1275,330), which is opposite it (para). NHBoc on a plain bond up; MeOOC on a hashed bond with the wide end at MeOOC, as in the ref. Circle inside the ring. Black ink. Small gap at the upper-left vertex and an ink blot on the right ring bond do not change the structure."},
+  {"claim": "atom_labels/abbreviations NHBoc, MeOOC, OPh in all three; no r_labels", "verdict": "confirmed", "evidence": "All three labels are present and spelled the same in each image; no case changes (OPh, not OPH)."},
+  {"claim": "ring_sizes [6] in all three", "verdict": "confirmed", "evidence": "One hexagon in each image."},
+  {"claim": "wedge_bonds 0, hashed_bonds 1 in all three", "verdict": "confirmed", "evidence": "Hashed bond from the stereocentre to MeOOC in ref, wrong (~'||||'' strokes at 600-760,940-1010) and correct (~430-600,570-680); no solid wedges."},
+  {"claim": "ink_colour black for wrong and correct", "verdict": "confirmed", "evidence": "Wrong ink is very dark purple-black, which I accept as black; correct is black."},
+  {"claim": "legibility minor_issues for wrong (OO retraced) and correct (open-loop OOC)", "verdict": "confirmed", "evidence": "Wrong: 'MeOOC' has a heavily retraced O. Correct: the 'OOC' letters run together. Both still read as MeOOC."},
+  {"claim": "substituent_description for wrong (meta) and correct (para), NHBoc plain up, MeOOC hashed left", "verdict": "confirmed", "evidence": "As described in the position checks above."}
+ ],
+ "missed_differences": [],
+ "transcription_disputes": [],
+ "notes": "I agree with the adjudicator. The hashed bond direction (wide end at MeOOC) matches the ref in both handwritten copies."}

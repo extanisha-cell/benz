@@ -1,0 +1,143 @@
+{
+  "molecule": "molecule_130",
+  "transcriptions": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "O",
+        "N",
+        "NH",
+        "N",
+        "N",
+        "O",
+        "O",
+        "O",
+        "Cl",
+        "Cl",
+        "N",
+        "N"
+      ],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        6,
+        5,
+        6,
+        5
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 9,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 2,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Pyrrolidine N acylated as a urea C(=O)-NH-CH2CH2- to one N of a piperazine; the other piperazine N is on a para-disubstituted benzene whose para position carries O-CH2, joined by a hashed bond to C4 of a 1,3-dioxolane. Dioxolane C2 bears a 2,4-dichlorophenyl (Cl ortho and para) and, via a hashed bond, CH2 to N1 of an imidazole.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset. Double bonds: urea C=O, 3+3 in the two benzene rings, 2 in imidazole (C2=N3, C4=C5). Two hashed bonds on the dioxolane carbons."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "O",
+        "N",
+        "NH",
+        "N",
+        "N",
+        "O",
+        "O",
+        "O",
+        "Cl",
+        "Cl",
+        "N",
+        "N"
+      ],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        6,
+        5,
+        6,
+        5
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 3,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 2,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Same pyrrolidine-N-C(=O)-NH-CH2CH2-piperazine chain as the reference, but the piperazine N and the O-CH2 are on the central benzene in a 1,3 (meta) relationship (upper-left and upper-right vertices, separated by the top vertex). Dioxolane with two hashed bonds, 2,4-dichlorophenyl (Cl ortho and para) and CH2-imidazol-1-yl as in the reference.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Handwritten, black. Benzene rings drawn with circles; imidazole drawn with explicit C=N and C=C. NH written as N with H below. Double bonds: C=O plus two in imidazole."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "O",
+        "N",
+        "NH",
+        "N",
+        "N",
+        "O",
+        "O",
+        "O",
+        "Cl",
+        "Cl",
+        "N",
+        "N"
+      ],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        6,
+        5,
+        6,
+        5
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 3,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 2,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Pyrrolidine N-C(=O)-NH-CH2CH2- to a piperazine N; the other piperazine N on a para-disubstituted benzene (circle) whose para position carries O-CH2 hashed to C4 of a 1,3-dioxolane; dioxolane C2 bears 2,4-dichlorophenyl (Cl ortho and para) and a hashed bond to CH2-imidazol-1-yl.",
+      "overlaps_or_ambiguities": [
+        "Cl labels written in a loose cursive style, readable in context",
+        "hashed bonds drawn as hatch fans with small gaps to the adjoining bond lines"
+      ],
+      "notes": "Handwritten, black. Double bonds: C=O and two in imidazole; benzene rings as circles."
+    }
+  },
+  "errors_in_wrong": [
+    {
+      "category": "substituent_position",
+      "description": "Reference central benzene is para (1,4)-disubstituted: piperazine N and the O-CH2 ether on opposite vertices. In the wrong drawing the piperazine N is on the upper-left vertex and the O on the upper-right vertex, i.e. meta (1,3) positions.",
+      "severity": "high"
+    }
+  ],
+  "correct_version_issues": [
+    {
+      "category": "legibility",
+      "description": "Both Cl labels on the dichlorophenyl ring are written in a loose cursive form that is readable in context but less clear than the reference Cl.",
+      "severity": "low"
+    }
+  ],
+  "primary_error_category": "substituent_position",
+  "confidence": "high",
+  "needs_user_review": false,
+  "review_notes": "Wrong drawing puts the piperazine and the O-CH2 meta on the central benzene instead of para. Everything else (rings, Cl positions, imidazole, both hashed bonds) matches. Corrected drawing restores para; only a minor cursive-Cl legibility note."
+}

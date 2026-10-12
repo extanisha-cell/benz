@@ -1,0 +1,308 @@
+[
+  {
+    "token": "2ab46bead4",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_2ab46bead4.png",
+    "molecule": "BZ2256",
+    "role": "ref"
+  },
+  {
+    "token": "abab5cb525",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_abab5cb525.jpg",
+    "molecule": "BZ2256",
+    "role": "wrong"
+  },
+  {
+    "token": "2fe459ecfd",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_2fe459ecfd.jpg",
+    "molecule": "BZ2256",
+    "role": "correct"
+  },
+  {
+    "token": "62d62d3a8a",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_62d62d3a8a.png",
+    "molecule": "BZ2375",
+    "role": "ref"
+  },
+  {
+    "token": "03e4153f2b",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_03e4153f2b.jpg",
+    "molecule": "BZ2375",
+    "role": "wrong"
+  },
+  {
+    "token": "14b36be44c",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_14b36be44c.jpg",
+    "molecule": "BZ2375",
+    "role": "correct"
+  },
+  {
+    "token": "55a55602dd",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_55a55602dd.png",
+    "molecule": "BZ2435",
+    "role": "ref"
+  },
+  {
+    "token": "cef9f795ec",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_cef9f795ec.jpg",
+    "molecule": "BZ2435",
+    "role": "wrong"
+  },
+  {
+    "token": "c9a3df35bd",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_c9a3df35bd.jpg",
+    "molecule": "BZ2435",
+    "role": "correct"
+  },
+  {
+    "token": "a3700ffaac",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_a3700ffaac.png",
+    "molecule": "molecule_104",
+    "role": "ref"
+  },
+  {
+    "token": "7e2111266d",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_7e2111266d.jpg",
+    "molecule": "molecule_104",
+    "role": "wrong"
+  },
+  {
+    "token": "1556a913f3",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_1556a913f3.jpg",
+    "molecule": "molecule_104",
+    "role": "correct"
+  },
+  {
+    "token": "4be595da7b",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_4be595da7b.png",
+    "molecule": "molecule_130",
+    "role": "ref"
+  },
+  {
+    "token": "0437307d9d",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_0437307d9d.jpg",
+    "molecule": "molecule_130",
+    "role": "wrong"
+  },
+  {
+    "token": "003b281edc",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_003b281edc.jpg",
+    "molecule": "molecule_130",
+    "role": "correct"
+  },
+  {
+    "token": "58738dee0a",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_58738dee0a.png",
+    "molecule": "molecule_135",
+    "role": "ref"
+  },
+  {
+    "token": "76aca7380e",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_76aca7380e.jpg",
+    "molecule": "molecule_135",
+    "role": "wrong"
+  },
+  {
+    "token": "e5490087e7",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_e5490087e7.jpg",
+    "molecule": "molecule_135",
+    "role": "correct"
+  },
+  {
+    "token": "4e89d6d1bb",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_4e89d6d1bb.png",
+    "molecule": "molecule_16",
+    "role": "ref"
+  },
+  {
+    "token": "968ab97411",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_968ab97411.jpg",
+    "molecule": "molecule_16",
+    "role": "wrong"
+  },
+  {
+    "token": "8e0448b408",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_8e0448b408.jpg",
+    "molecule": "molecule_16",
+    "role": "correct"
+  },
+  {
+    "token": "015d4074cd",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_015d4074cd.png",
+    "molecule": "molecule_195",
+    "role": "ref"
+  },
+  {
+    "token": "a6e343fa47",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_a6e343fa47.jpg",
+    "molecule": "molecule_195",
+    "role": "wrong"
+  },
+  {
+    "token": "c39d5add3f",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_c39d5add3f.jpg",
+    "molecule": "molecule_195",
+    "role": "correct"
+  },
+  {
+    "token": "98f2b877ee",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_98f2b877ee.png",
+    "molecule": "molecule_240",
+    "role": "ref"
+  },
+  {
+    "token": "adc16d08ef",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_adc16d08ef.jpg",
+    "molecule": "molecule_240",
+    "role": "wrong"
+  },
+  {
+    "token": "743899565b",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_743899565b.jpg",
+    "molecule": "molecule_240",
+    "role": "correct"
+  },
+  {
+    "token": "50310605c6",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_50310605c6.png",
+    "molecule": "molecule_263",
+    "role": "ref"
+  },
+  {
+    "token": "5fa2ce62c7",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_5fa2ce62c7.jpg",
+    "molecule": "molecule_263",
+    "role": "wrong"
+  },
+  {
+    "token": "21a13e4218",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_21a13e4218.jpg",
+    "molecule": "molecule_263",
+    "role": "correct"
+  },
+  {
+    "token": "3c35c81739",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_3c35c81739.png",
+    "molecule": "molecule_294",
+    "role": "ref"
+  },
+  {
+    "token": "5ee4188f2a",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_5ee4188f2a.jpg",
+    "molecule": "molecule_294",
+    "role": "wrong"
+  },
+  {
+    "token": "3c5298bd36",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_3c5298bd36.jpg",
+    "molecule": "molecule_294",
+    "role": "correct"
+  },
+  {
+    "token": "b2ffb616b2",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_b2ffb616b2.png",
+    "molecule": "molecule_32",
+    "role": "ref"
+  },
+  {
+    "token": "69cefac752",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_69cefac752.jpg",
+    "molecule": "molecule_32",
+    "role": "wrong"
+  },
+  {
+    "token": "fa07a7f70b",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_fa07a7f70b.jpg",
+    "molecule": "molecule_32",
+    "role": "correct"
+  },
+  {
+    "token": "988abb63de",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_988abb63de.png",
+    "molecule": "molecule_324",
+    "role": "ref"
+  },
+  {
+    "token": "8fd667f569",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_8fd667f569.jpg",
+    "molecule": "molecule_324",
+    "role": "wrong"
+  },
+  {
+    "token": "333791d901",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_333791d901.jpg",
+    "molecule": "molecule_324",
+    "role": "correct"
+  },
+  {
+    "token": "8b3fbdaaf8",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_8b3fbdaaf8.png",
+    "molecule": "molecule_387",
+    "role": "ref"
+  },
+  {
+    "token": "104a6a00af",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_104a6a00af.jpg",
+    "molecule": "molecule_387",
+    "role": "wrong"
+  },
+  {
+    "token": "7dbdc3e204",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_7dbdc3e204.jpg",
+    "molecule": "molecule_387",
+    "role": "correct"
+  },
+  {
+    "token": "6f62db5183",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_6f62db5183.png",
+    "molecule": "molecule_476",
+    "role": "ref"
+  },
+  {
+    "token": "906ac61923",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_906ac61923.jpg",
+    "molecule": "molecule_476",
+    "role": "wrong"
+  },
+  {
+    "token": "c252ca16c1",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_c252ca16c1.jpg",
+    "molecule": "molecule_476",
+    "role": "correct"
+  },
+  {
+    "token": "fc0fe786ea",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_fc0fe786ea.png",
+    "molecule": "molecule_485",
+    "role": "ref"
+  },
+  {
+    "token": "478fcf2668",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_478fcf2668.jpg",
+    "molecule": "molecule_485",
+    "role": "wrong"
+  },
+  {
+    "token": "64cc25c179",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_64cc25c179.jpg",
+    "molecule": "molecule_485",
+    "role": "correct"
+  },
+  {
+    "token": "44593476fa",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_44593476fa.png",
+    "molecule": "molecule_89",
+    "role": "ref"
+  },
+  {
+    "token": "6cd6b42df5",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_6cd6b42df5.jpg",
+    "molecule": "molecule_89",
+    "role": "wrong"
+  },
+  {
+    "token": "ab90ded6b9",
+    "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_ab90ded6b9.jpg",
+    "molecule": "molecule_89",
+    "role": "correct"
+  }
+]

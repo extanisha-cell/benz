@@ -1,0 +1,210 @@
+{
+  "molecule": "molecule_195",
+  "images": {
+    "ref": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_195\\ref.png",
+    "wrong": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_195\\wrong.jpg",
+    "correct": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_195\\correct.jpg"
+  },
+  "transcriber_1": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "EtOOC"
+      ],
+      "abbreviations": [
+        "EtOOC"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 7,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A benzene ring has EtOOC at one carbon and, para to it, a CH=C(CH3) alkene; the alkene carbon bearing a methyl is bonded to the aromatic ring of a tetrahydronaphthalene. That aromatic carbon is separated by one CH from the ring-fusion carbon attached to the top C(CH3)2; the saturated ring has two methyl stubs on each of the two carbons next to the aromatic ring (four methyls in total) and two CH2 between them.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset drawing. Double bonds: alkene (1), benzene (3), tetralin aromatic ring (3). Methyls are drawn only as bond stubs: one on the alkene carbon and four on the tetralin ring. No E/Z label written."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "O",
+        "C",
+        "OEt"
+      ],
+      "abbreviations": [
+        "OEt"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 2,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "A circle-depicted benzene ring has, at one position, a carbonyl carbon (drawn as =O above and OEt below) and, para (position 4) to it, a vinyl linkage CH=C(line methyl)-; the alkene carbon bearing a short methyl line is bonded to a second circle-depicted benzene ring at the ring carbon directly adjacent to a ring-fusion carbon. That benzene ring is fused to a saturated six-membered ring whose two carbons next to the fusion each carry two short unlabelled lines (four methyl lines in total: two on the carbon at the top, two on the carbon at the bottom right).",
+      "overlaps_or_ambiguities": [
+        "The carbonyl carbon is drawn as a curled C-like stroke, probably a written C label",
+        "The t of OEt is written like a plus sign",
+        "The aromatic circles are irregular teardrop or D shapes",
+        "Methyl lines have small hooked tips and carry no label",
+        "The vinyl-bearing carbon of the second ring is attached adjacent to a ring-fusion carbon (exact position on that ring is slightly hard to judge from hand-drawn hexagon)"
+      ],
+      "notes": "Handwritten black ink on white. Double bonds: one C=O (two vertical strokes) and one alkene C=C (inner short line). The tetralin-like ring system has two aromatic-style circles plus a saturated ring with four plain line substituents."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "EtOOC"
+      ],
+      "abbreviations": [
+        "EtOOC"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 1,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A circled benzene ring carries EtOOC at one carbon and, para (1,4) to it, a CH=C(stub) alkene whose far carbon carries one unlabelled line stub (methyl) and is bonded to a second circled benzene ring. That second benzene ring is fused to a saturated six-membered ring; the ring attachment to the alkene is on the carbon two bonds from a fusion carbon, and the two saturated carbons next to the fusion carbons each carry two unlabelled line stubs (four methyl-type stubs in total).",
+      "overlaps_or_ambiguities": [
+        "Unlabelled short line stubs (one on the alkene carbon and four on the saturated ring carbons) are drawn as plain lines with no Me label.",
+        "The first O of EtOOC is a tall oval, written like a D/O."
+      ],
+      "notes": "Handwritten. Alkene C=C drawn with one inner double-bond line; no E/Z label. Two aromatic circles."
+    }
+  },
+  "transcriber_2": {
+    "ref": {
+      "drawing_style": "mixed",
+      "atom_labels": [
+        "EtOOC"
+      ],
+      "abbreviations": [
+        "EtOOC"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 7,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A benzene ring bears EtOOC on one vertex and, at the para vertex, a CH=C(CH3)- unit (the C=C double bond is drawn, with a plain methyl line on the carbon attached to the second aryl). That second aryl is the aromatic ring of a tetrahydronaphthalene fused to a saturated 6-membered ring that has two quaternary carbons, each bearing two methyl lines (four methyls in total); the vinyl carbon is attached to the aromatic carbon adjacent to the CH that sits next to a ring-fusion carbon (position 2 of the 5,5,8,8-tetramethyl-5,6,7,8-tetrahydronaphthalene).",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset structure. Double bonds: 3 in the phenyl, 3 in the tetralin aromatic ring, 1 C=C. All methyls are unlabeled plain lines. No stereo descriptors written."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "O",
+        "NH2",
+        "HN",
+        "O",
+        "iPr",
+        "NHBoc",
+        "NH",
+        "O",
+        "HN",
+        "OH",
+        "N",
+        "Me",
+        "O",
+        "O"
+      ],
+      "abbreviations": [
+        "iPr",
+        "NHBoc",
+        "Me"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 4,
+      "triple_bonds": 0,
+      "wedge_bonds": 2,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "A peptide-like chain: H2N-C(=O)-NH-CH2CH2-CH(bold wedge to NH)-... and an iPr (bold wedge) / NHBoc substituted alpha carbon with a C(=O) bonded to that NH; the NH is then bonded to CH2-C(=O)-HN attached to a benzene ring (aromatic circle). On that ring the HN is on one carbon, a CH2OH on the carbon para to it, and a CH2-N(Me)-C(=O)-O-CH2 on the carbon adjacent to the CH2OH carbon (meta to the HN); the CH2 ends at a fluorene (9-fluorenyl) group with two aromatic-circle benzene rings and a five-membered ring.",
+      "overlaps_or_ambiguities": [
+        "Exact ring positions of CH2OH and CH2N(Me) relative to the HN on the middle benzene ring are hard to be certain of",
+        "The upper bold wedge sits between the chain carbon and the NH nitrogen; its narrow end and the stereocentre it belongs to are unclear",
+        "H of the NH is written below N; NHBoc written as one label"
+      ],
+      "notes": "Handwritten, black ink on white. Double bonds: 4 C=O (urea, two amides, carbamate)."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "EtOOC"
+      ],
+      "abbreviations": [
+        "EtOOC"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 1,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "A para-disubstituted benzene ring (circle) has EtOOC at one position and, para to it, a CH=C(CH3) vinyl group (one C=C, methyl drawn as an unlabelled line on the second alkene carbon). The alkene carbon bearing the methyl is attached to an aromatic ring (circle) that is fused to a saturated six-membered ring carrying two gem-dimethyl carbons (four unlabelled methyl lines, one pair on each carbon adjacent to the ring fusion on opposite sides), i.e. a tetramethyl-tetrahydronaphthalene attached at a beta position (meta to one fusion carbon, para to the other).",
+      "overlaps_or_ambiguities": [
+        "first O of EtOOC looks like a D",
+        "alkene geometry not specified",
+        "ring bonds are irregular so ring junction details are hard to confirm"
+      ],
+      "notes": "Handwritten. Only one double bond (the alkene); the benzene rings are drawn with circles. Methyl groups are unlabelled line ends."
+    }
+  },
+  "output_file": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\by_molecule\\molecule_195.json"
+}

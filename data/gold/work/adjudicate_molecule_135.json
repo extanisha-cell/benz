@@ -1,0 +1,272 @@
+{
+  "molecule": "molecule_135",
+  "images": {
+    "ref": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_135\\ref.png",
+    "wrong": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_135\\wrong.jpg",
+    "correct": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_135\\correct.jpg"
+  },
+  "transcriber_1": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "O",
+        "Ac",
+        "iPr",
+        "N",
+        "N",
+        "O",
+        "NH",
+        "F",
+        "Cl",
+        "O",
+        "N",
+        "F",
+        "F"
+      ],
+      "abbreviations": [
+        "Ac",
+        "iPr"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 10,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A 3-chloro-2-fluorophenyl ring (C1 bears CH2-NH, F at C2 ortho to the CH2, Cl at C3 meta to the CH2) is linked via CH2NH-C(=O)-CH2-N(iPr)-C(=O)-CH2 to the N1 of an indole. The indole carries an acetyl (Ac) at C3 and, at C5 of the benzo ring, a CH2-C(=O) group joined to the nitrogen of a piperidine ring that has two F atoms on the same carbon (3,3-difluoro, the carbon two atoms from N).",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset skeletal structure; three C=O, one indole C2=C3 and six Kekule double bonds in the two benzene rings."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Ac",
+        "N",
+        "O",
+        "iPr",
+        "N",
+        "O",
+        "NH",
+        "F",
+        "Cl",
+        "O",
+        "N",
+        "F",
+        "F"
+      ],
+      "abbreviations": [
+        "Ac",
+        "iPr"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 4,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "An indole-type bicycle (five-membered ring with N and one drawn C=C, fused to a circled benzene) carries Ac on the pyrrole carbon next to the ring-fusion carbon; the ring N carries CH2-C(=O)-N(iPr)-CH2-C(=O)-NH-CH2-aryl, where the aryl is a circled benzene attached at C1 with F at C2 (ortho) and Cl at C3 (meta, next to F). On the benzo ring, the carbon next to the N-bearing fusion carbon (indole C7) carries CH2-C(=O)-N of a piperidine that has two F on the carbon next to the ring N (3,3-difluoro); a bond stub at the right image edge (indole C5) may carry a cut-off substituent.",
+      "overlaps_or_ambiguities": [
+        "The right edge of the image cuts through the indole benzo ring: a dark bond stub at the ring vertex on the edge (indole C5) suggests a substituent that is cropped off and cannot be read",
+        "iPr label: the r is smudged against a dot"
+      ],
+      "notes": "Handwritten black ink on grey paper, photographed at an angle. Dark blobs at some bond ends (e.g. at N to ring carbon) are pen pressure, not wedges. Both benzene rings are circles; the five-membered ring has one inner double line (C2=C3). Three C=O double bonds (two amides plus the ketone-type C=O to the piperidine N)."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "O",
+        "iPr",
+        "N",
+        "O",
+        "NH",
+        "F",
+        "Cl",
+        "N",
+        "Ac",
+        "N",
+        "O",
+        "F",
+        "F"
+      ],
+      "abbreviations": [
+        "iPr",
+        "Ac"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 4,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Left benzene ring (circle) carries a CH2 (leading to NH-C(=O)-CH2-N(iPr)-C(=O)-CH2-) at one carbon, F on the adjacent (ortho) carbon, and Cl on the next carbon after that (meta to the CH2, ortho to the F), i.e. 2-F, 3-Cl relative to the CH2. The chain ends on the N of a bicyclic indole-like ring (5-ring with N and a C2=C3 double bond; fused 6-ring drawn with a circle) that has Ac on C3 and a CH2-C(=O)-N group at C5 of the benzo ring, where the N belongs to a 6-membered ring (N, CH2, CF2, CH2, CH2, CH2) carrying two F on the carbon beta to N (3,3-difluoro).",
+      "overlaps_or_ambiguities": [
+        "Cl label is rotated and hand-written, reads as Cl",
+        "exact ring positions of Cl on the left ring and of the CH2 substituent on the indole benzo ring are read from rough freehand hexagons"
+      ],
+      "notes": "Three C=O drawn as double bonds plus one C=C in the five-membered ring of the indole-like unit; no stereo marks. Atoms bearing no label are skeletal vertices."
+    }
+  },
+  "transcriber_2": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Ac",
+        "O",
+        "iPr",
+        "N",
+        "N",
+        "O",
+        "NH",
+        "F",
+        "Cl",
+        "O",
+        "N",
+        "F",
+        "F"
+      ],
+      "abbreviations": [
+        "Ac",
+        "iPr"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 10,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A 3-chloro-2-fluorobenzyl group (CH2 at C1, F at C2, Cl at C3) is bonded through NH-C(=O)-CH2- to an N(iPr)-C(=O)-CH2- unit whose CH2 is on the N1 of an indole. The indole has Ac at C3 and, at C5, a CH2-C(=O) group acylating the N of a piperidine that carries two F on C3 (the second ring atom away from N, via the CH2 next to N).",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset reference-style drawing. Double bonds: 3 in the benzene ring, 4 in the indole (C2=C3 plus three in the benzo ring), 3 C=O."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Ac",
+        "N",
+        "O",
+        "iPr",
+        "N",
+        "O",
+        "NH",
+        "O",
+        "N",
+        "F",
+        "F",
+        "F",
+        "Cl"
+      ],
+      "abbreviations": [
+        "Ac",
+        "iPr"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 4,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "partially_illegible",
+      "substituent_description": "An indole (benzene circle fused to a pyrrole ring with a C=C) has Ac on the pyrrole carbon C3, and the indole N is alkylated with CH2-C(=O)-N(iPr)-CH2-C(=O)-NH-CH2-aryl. The aryl is a benzene (circle) with the CH2 at C1, F at C2 (ortho) and Cl at C3 (meta). A CH2-C(=O)- chain from the benzo ring carbon next to the indole N-bearing carbon (C7) leads to the N of a piperidine whose carbon beta to N (position 3) carries two F atoms.",
+      "overlaps_or_ambiguities": [
+        "The photo is cropped at the right edge: the indole benzo ring is cut off with a short stub at its right vertex, so any substituent there cannot be seen",
+        "iPr label is small and smudged",
+        "Image is rotated and has perspective distortion"
+      ],
+      "notes": "Handwritten, black ink on grey paper photo. Double bonds: 3 C=O and 1 indole C=C. Benzene rings drawn as circles."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Ac",
+        "O",
+        "iPr",
+        "N",
+        "N",
+        "O",
+        "NH",
+        "N",
+        "O",
+        "F",
+        "F",
+        "F",
+        "Cl"
+      ],
+      "abbreviations": [
+        "Ac",
+        "iPr"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 4,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Left benzene ring (aromatic circle) has a CH2 on one carbon, F on the adjacent carbon and Cl on the next carbon (2-fluoro-3-chlorobenzyl); the CH2 goes to NH-C(=O)-CH2-N(iPr)-C(=O)-CH2- attached to the N of an indole. The indole has Ac on C3 (pyrrole C2=C3 double bond drawn) and its benzo ring (aromatic circle) carries CH2-C(=O)- on a carbon of the benzo ring (position 5), whose C(=O) is bonded to the N of a six-membered ring (piperidine) bearing two F on the carbon beta to N (3,3-difluoro).",
+      "overlaps_or_ambiguities": [
+        "Cl label is cursive and small",
+        "Position of the CH2C(=O) substituent on the indole benzo ring is hard to confirm"
+      ],
+      "notes": "Handwritten, black ink. Double bonds: 3 C=O and 1 C=C in the pyrrole ring; benzene rings drawn with aromatic circles."
+    }
+  },
+  "output_file": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\by_molecule\\molecule_135.json"
+}

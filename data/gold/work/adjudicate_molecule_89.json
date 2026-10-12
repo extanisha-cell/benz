@@ -1,0 +1,264 @@
+{
+  "molecule": "molecule_89",
+  "images": {
+    "ref": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_89\\ref.png",
+    "wrong": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_89\\wrong.jpg",
+    "correct": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_89\\correct.jpg"
+  },
+  "transcriber_1": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Me",
+        "N",
+        "N",
+        "I",
+        "N",
+        "O",
+        "HO",
+        "N",
+        "O",
+        "Ph",
+        "N",
+        "Boc"
+      ],
+      "abbreviations": [
+        "Me",
+        "Ph",
+        "Boc"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 5,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A fused five-six bicycle (pyrrole ring with N-Me and I on the carbon next to that N, fused to a ring with a ring N=CH, a ring N and a C=O) has its ring N attached through CH2 to the carbon of a piperidine that also bears HO. That piperidine N is acylated by a C(=O) bonded (solid wedge) to the 4-position of a second piperidine, which bears Ph (hashed bond) on the adjacent 3-position and Boc on its ring N.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset reference-style structure. Five double bonds: C=O on the bicycle, ring C=N, two ring C=C in the bicycle, and the amide C=O. Solid wedge goes from the carbonyl-bearing ring carbon toward the C(=O); hashed bond goes to Ph."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "I",
+        "N",
+        "N",
+        "N",
+        "O",
+        "HO",
+        "N",
+        "O",
+        "Ph",
+        "N",
+        "Boc"
+      ],
+      "abbreviations": [
+        "Ph",
+        "Boc"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 5,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Left: a fused 5-6 bicycle with three ring Ns and a C=O below the six-membered ring; I is on the five-membered ring carbon next to the five-ring N. The six-ring N next to the C=O carbon carries a CH2 that is attached to the 4-position of a piperidine, which also carries HO on the same carbon. The piperidine N is acylated by a C(=O) that is attached by a solid wedge to a second piperidine ring at the carbon next to a carbon bearing Ph on a hashed wedge; that second piperidine N carries Boc.",
+      "overlaps_or_ambiguities": [
+        "The I label is a plain vertical stroke separated slightly from its bond, could be read as I or a line.",
+        "The solid wedge and the hashed wedge on the right piperidine are both drawn adjacent to each other, with the hashed wedge widening toward Ph."
+      ],
+      "notes": "Handwritten. Double bonds: C=C in five-ring, fused C=C, N=C, ring C=O, and the amide C=O (two lines). Heteroaromatic bicycle drawn with alternating inner lines."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Me",
+        "N",
+        "N",
+        "N",
+        "I",
+        "O",
+        "HO",
+        "N",
+        "O",
+        "Ph",
+        "N",
+        "Boc"
+      ],
+      "abbreviations": [
+        "Me",
+        "Ph",
+        "Boc"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 5,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Left is a fused five/six bicycle (pyrrolo-pyrimidinone type): the five-membered ring N bears Me and the neighbouring carbon bears I; the six-membered ring contains N=CH, a substituted ring N and a C=O carbon. The ring N between the CH and the C=O carries a CH2 attached to C4 of a piperidine that also has HO on that carbon; the piperidine N is acylated by a C(=O) whose carbon is attached on a solid wedge to C4 of a second piperidine bearing N-Boc, with Ph on the adjacent C3 on a hashed bond.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Handwritten. Double bonds: C=N, ring C=O, fusion C=C, C=C next to C-I, and amide C=O. Rings: bicycle 5 and 6, then two piperidines. No stereo descriptors written."
+    }
+  },
+  "transcriber_2": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Me",
+        "N",
+        "I",
+        "N",
+        "N",
+        "O",
+        "HO",
+        "N",
+        "O",
+        "Ph",
+        "N",
+        "Boc"
+      ],
+      "abbreviations": [
+        "Me",
+        "Ph",
+        "Boc"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 5,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Left: a bicyclic pyrrole-fused pyrimidinone: the pyrrole N carries Me, the pyrrole carbon next to it carries I, the pyrimidine ring has a ring N at the top, a C=O at the bottom and a ring N (right) bonded to a CH2. That CH2 is attached to C4 of a first piperidine ring, which also carries HO on the same carbon (4-hydroxy-4-CH2-piperidine); its ring N is acylated by a C(=O). The carbonyl carbon is attached by a solid wedge to C4 of a second piperidine ring, whose adjacent C3 bears Ph via a hashed bond and whose ring N bears Boc.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset drawing. Double bonds: C=N and C=C (shared fusion bond) and C=C in the bicyclic core, C=O on the pyrimidinone ring, and the amide C=O. Solid wedge is narrow at the second piperidine ring carbon; hashed bond to Ph is narrow at the ring carbon."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "I",
+        "N",
+        "N",
+        "N",
+        "O",
+        "HO",
+        "N",
+        "O",
+        "Ph",
+        "N",
+        "Boc"
+      ],
+      "abbreviations": [
+        "Ph",
+        "Boc"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 5,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Fused bicycle of a five-membered ring (one N, carbon bearing I next to that N) and a six-membered ring with two N atoms and a ring C=O; the ring N next to the C=O is joined through a CH2 to the 4-position of a piperidine that also carries HO on the same carbon. The piperidine N is bonded to a C(=O) which is attached via a solid wedge to a second piperidine ring carbon; the adjacent ring carbon bears Ph on a hashed wedge, and that ring N carries Boc.",
+      "overlaps_or_ambiguities": [
+        "iodine label is a bare vertical stroke, read as I",
+        "possible N=C double bond in the six-membered ring top right is faint",
+        "hashed wedge to Ph is a dense fan of lines"
+      ],
+      "notes": "Handwritten, scanned. Double bonds counted: two C=O, one in the five-membered ring, one at the ring fusion, one C=N in the six-membered ring."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Me",
+        "N",
+        "N",
+        "N",
+        "I",
+        "O",
+        "HO",
+        "N",
+        "O",
+        "Ph",
+        "N",
+        "Boc"
+      ],
+      "abbreviations": [
+        "Me",
+        "Ph",
+        "Boc"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 5,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Fused five/six bicycle: the five-ring has N-Me and a carbon bearing I adjacent to that N; the six-ring has a ring N, a C=N, a second ring N and a C=O. That second ring N is bonded through a CH2 to C4 of a piperidine ring, which carries HO on the same carbon and whose N is acylated by a C(=O). The C(=O) is bonded by a solid wedge to C4 of a second piperidine whose neighbouring carbon C3 carries Ph by a hashed bond, and whose N carries Boc.",
+      "overlaps_or_ambiguities": [
+        "double-bond line pairs in the fused bicycle are drawn close together"
+      ],
+      "notes": "Double bonds counted: N=C and C=O in the six-ring, the fusion C=C, the C=C next to the I-bearing carbon, and the amide C=O. The HO piperidine carbon is quaternary (HO and CH2 on the same vertex)."
+    }
+  },
+  "output_file": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\by_molecule\\molecule_89.json"
+}

@@ -1,0 +1,206 @@
+{
+  "2ab46bead4": {
+    "molecule": "BZ2256",
+    "role": "ref"
+  },
+  "abab5cb525": {
+    "molecule": "BZ2256",
+    "role": "wrong"
+  },
+  "2fe459ecfd": {
+    "molecule": "BZ2256",
+    "role": "correct"
+  },
+  "62d62d3a8a": {
+    "molecule": "BZ2375",
+    "role": "ref"
+  },
+  "03e4153f2b": {
+    "molecule": "BZ2375",
+    "role": "wrong"
+  },
+  "14b36be44c": {
+    "molecule": "BZ2375",
+    "role": "correct"
+  },
+  "55a55602dd": {
+    "molecule": "BZ2435",
+    "role": "ref"
+  },
+  "cef9f795ec": {
+    "molecule": "BZ2435",
+    "role": "wrong"
+  },
+  "c9a3df35bd": {
+    "molecule": "BZ2435",
+    "role": "correct"
+  },
+  "a3700ffaac": {
+    "molecule": "molecule_104",
+    "role": "ref"
+  },
+  "7e2111266d": {
+    "molecule": "molecule_104",
+    "role": "wrong"
+  },
+  "1556a913f3": {
+    "molecule": "molecule_104",
+    "role": "correct"
+  },
+  "4be595da7b": {
+    "molecule": "molecule_130",
+    "role": "ref"
+  },
+  "0437307d9d": {
+    "molecule": "molecule_130",
+    "role": "wrong"
+  },
+  "003b281edc": {
+    "molecule": "molecule_130",
+    "role": "correct"
+  },
+  "58738dee0a": {
+    "molecule": "molecule_135",
+    "role": "ref"
+  },
+  "76aca7380e": {
+    "molecule": "molecule_135",
+    "role": "wrong"
+  },
+  "e5490087e7": {
+    "molecule": "molecule_135",
+    "role": "correct"
+  },
+  "4e89d6d1bb": {
+    "molecule": "molecule_16",
+    "role": "ref"
+  },
+  "968ab97411": {
+    "molecule": "molecule_16",
+    "role": "wrong"
+  },
+  "8e0448b408": {
+    "molecule": "molecule_16",
+    "role": "correct"
+  },
+  "015d4074cd": {
+    "molecule": "molecule_195",
+    "role": "ref"
+  },
+  "a6e343fa47": {
+    "molecule": "molecule_195",
+    "role": "wrong"
+  },
+  "c39d5add3f": {
+    "molecule": "molecule_195",
+    "role": "correct"
+  },
+  "98f2b877ee": {
+    "molecule": "molecule_240",
+    "role": "ref"
+  },
+  "adc16d08ef": {
+    "molecule": "molecule_240",
+    "role": "wrong"
+  },
+  "743899565b": {
+    "molecule": "molecule_240",
+    "role": "correct"
+  },
+  "50310605c6": {
+    "molecule": "molecule_263",
+    "role": "ref"
+  },
+  "5fa2ce62c7": {
+    "molecule": "molecule_263",
+    "role": "wrong"
+  },
+  "21a13e4218": {
+    "molecule": "molecule_263",
+    "role": "correct"
+  },
+  "3c35c81739": {
+    "molecule": "molecule_294",
+    "role": "ref"
+  },
+  "5ee4188f2a": {
+    "molecule": "molecule_294",
+    "role": "wrong"
+  },
+  "3c5298bd36": {
+    "molecule": "molecule_294",
+    "role": "correct"
+  },
+  "b2ffb616b2": {
+    "molecule": "molecule_32",
+    "role": "ref"
+  },
+  "69cefac752": {
+    "molecule": "molecule_32",
+    "role": "wrong"
+  },
+  "fa07a7f70b": {
+    "molecule": "molecule_32",
+    "role": "correct"
+  },
+  "988abb63de": {
+    "molecule": "molecule_324",
+    "role": "ref"
+  },
+  "8fd667f569": {
+    "molecule": "molecule_324",
+    "role": "wrong"
+  },
+  "333791d901": {
+    "molecule": "molecule_324",
+    "role": "correct"
+  },
+  "8b3fbdaaf8": {
+    "molecule": "molecule_387",
+    "role": "ref"
+  },
+  "104a6a00af": {
+    "molecule": "molecule_387",
+    "role": "wrong"
+  },
+  "7dbdc3e204": {
+    "molecule": "molecule_387",
+    "role": "correct"
+  },
+  "6f62db5183": {
+    "molecule": "molecule_476",
+    "role": "ref"
+  },
+  "906ac61923": {
+    "molecule": "molecule_476",
+    "role": "wrong"
+  },
+  "c252ca16c1": {
+    "molecule": "molecule_476",
+    "role": "correct"
+  },
+  "fc0fe786ea": {
+    "molecule": "molecule_485",
+    "role": "ref"
+  },
+  "478fcf2668": {
+    "molecule": "molecule_485",
+    "role": "wrong"
+  },
+  "64cc25c179": {
+    "molecule": "molecule_485",
+    "role": "correct"
+  },
+  "44593476fa": {
+    "molecule": "molecule_89",
+    "role": "ref"
+  },
+  "6cd6b42df5": {
+    "molecule": "molecule_89",
+    "role": "wrong"
+  },
+  "ab90ded6b9": {
+    "molecule": "molecule_89",
+    "role": "correct"
+  }
+}

@@ -1,0 +1,1881 @@
+{
+  "BZ2256/ref": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "AcNH",
+      "S",
+      "O",
+      "O",
+      "N",
+      "Bn",
+      "O",
+      "NH",
+      "N",
+      "N"
+    ],
+    "abbreviations": [
+      "AcNH",
+      "Bn"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      5,
+      6
+    ],
+    "aromatic_ring_depiction": "both",
+    "double_bonds": 6,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Left benzene (circle) is para-disubstituted: AcNH at C1 and S(=O)2 at C4. The sulfonamide N bears CH2-Bn and CH2-C(=O)-NH-N=CH-, the CH attached to C3 of a 2,5-dimethylpyrrole whose N1 is bonded to a 2,4-dimethylphenyl ring (circle; methyls ortho and para to the N attachment).",
+    "overlaps_or_ambiguities": [],
+    "notes": "Typeset. Both benzene rings drawn with circles (verified by zoom; not Kekule); pyrrole uses two explicit C=C. Double bonds: two S=O, C=O, C=N, two pyrrole C=C. Four methyls are unlabelled line stubs."
+  },
+  "BZ2256/wrong": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "AcNH",
+      "S",
+      "O",
+      "O",
+      "N",
+      "Bn",
+      "O",
+      "NH",
+      "N",
+      "N"
+    ],
+    "abbreviations": [
+      "AcNH",
+      "Bn"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      5,
+      6
+    ],
+    "aromatic_ring_depiction": "both",
+    "double_bonds": 6,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "minor_issues",
+    "substituent_description": "Left benzene (circle) has S(=O)2 at the right vertex and AcNH at the lower-left vertex, i.e. meta (1,3) to each other. Sulfonamide N bears CH2-Bn and CH2-C(=O)-NH-N=CH- to C3 of a 2,5-dimethylpyrrole; pyrrole N bonded to a phenyl (circle) with methyls ortho and para to the N.",
+    "overlaps_or_ambiguities": [
+      "The n of Bn is written cursively and resembles an r",
+      "Methyls drawn as unlabelled stubs",
+      "Thin dark-grey ink, some strokes faint"
+    ],
+    "notes": "Handwritten, dark grey/black pen. NH written as N over H. Double bonds: two S=O, C=O, C=N, two pyrrole C=C."
+  },
+  "BZ2256/correct": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "AcNH",
+      "S",
+      "O",
+      "O",
+      "N",
+      "Bn",
+      "O",
+      "NH",
+      "N",
+      "N"
+    ],
+    "abbreviations": [
+      "AcNH",
+      "Bn"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      5,
+      6
+    ],
+    "aromatic_ring_depiction": "both",
+    "double_bonds": 6,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "minor_issues",
+    "substituent_description": "Left benzene (circle) para-disubstituted with AcNH and S(=O)2. Sulfonamide N bears CH2-Bn and CH2-C(=O)-NH-N=CH- to C3 of a 2,5-dimethylpyrrole; pyrrole N bonded to a phenyl (circle) with methyls ortho and para to the N attachment.",
+    "overlaps_or_ambiguities": [
+      "The n of Bn is written cursively",
+      "Methyls drawn as unlabelled stubs",
+      "Right aryl ring sits near the image edge"
+    ],
+    "notes": "Handwritten black pen. NH written as N over H. Same content as reference."
+  },
+  "BZ2375/ref": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "H2N",
+      "O",
+      "HN",
+      "O",
+      "iPr",
+      "NH",
+      "NHBoc",
+      "O",
+      "HN",
+      "OH",
+      "N",
+      "Me",
+      "O",
+      "O"
+    ],
+    "abbreviations": [
+      "iPr",
+      "NHBoc",
+      "Me"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      6,
+      5,
+      6
+    ],
+    "aromatic_ring_depiction": "alternating_double_bonds",
+    "double_bonds": 13,
+    "triple_bonds": 0,
+    "wedge_bonds": 2,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "H2N-C(=O)-HN-CH2CH2CH2- attached by a solid wedge to an alpha carbon that bears C(=O)-HN-aryl and an amide NH (N with H below); that NH is acylated by C(=O)-CH(iPr, solid wedge)(NHBoc). On the central benzene, with the anilide HN at C1: CH2OH at C4 (para) and CH2-N(Me)-C(=O)-O-CH2-(fluoren-9-yl) at C3 (meta to HN, ortho to CH2OH).",
+    "overlaps_or_ambiguities": [],
+    "notes": "Typeset. 13 double bonds = 4 C=O (urea, two amides, carbamate) + 3 x 3 Kekule bonds in the central benzene and the two fluorene benzo rings. The amide NH between the two residues is written N with H below."
+  },
+  "BZ2375/wrong": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "O",
+      "NH2",
+      "HN",
+      "O",
+      "iPr",
+      "NH",
+      "NHBoc",
+      "O",
+      "HN",
+      "OH",
+      "N",
+      "Me",
+      "O",
+      "O"
+    ],
+    "abbreviations": [
+      "iPr",
+      "NHBoc",
+      "Me"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      6,
+      5,
+      6
+    ],
+    "aromatic_ring_depiction": "circle",
+    "double_bonds": 4,
+    "triple_bonds": 0,
+    "wedge_bonds": 2,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "minor_issues",
+    "substituent_description": "O=C(NH2)-HN-CH2CH2CH2- chain whose last bond is a solid wedge ending directly on the amide nitrogen (N with H below). That N is bonded to the C(=O) of the CH(iPr, solid wedge)(NHBoc) residue and to a CH2 that carries C(=O)-HN-aryl. Central benzene (circle): HN at C1, CH2OH at C4, CH2-N(Me)-C(=O)-O-CH2-(fluoren-9-yl) at C3.",
+    "overlaps_or_ambiguities": [
+      "The amide N (N with H below) is drawn with three carbon bonds plus the H label (wedge from the side chain, the valine C=O carbon, and a CH2), which is hypervalent as drawn",
+      "The urea amine is written NH2 to the right of the carbonyl rather than H2N"
+    ],
+    "notes": "Handwritten, black ink. Four C=O double bonds; all three benzene rings drawn with circles. The citrulline alpha carbon (the CH between the NH and the C(=O)NH-aryl) has no side chain; the side chain and its wedge are attached to the N instead."
+  },
+  "BZ2375/correct": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "H2N",
+      "O",
+      "HN",
+      "O",
+      "iPr",
+      "NH",
+      "NHBoc",
+      "O",
+      "HN",
+      "OH",
+      "N",
+      "Me",
+      "O",
+      "O"
+    ],
+    "abbreviations": [
+      "iPr",
+      "NHBoc",
+      "Me"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      6,
+      5,
+      6
+    ],
+    "aromatic_ring_depiction": "circle",
+    "double_bonds": 4,
+    "triple_bonds": 0,
+    "wedge_bonds": 2,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "H2N-C(=O)-HN-CH2CH2CH2- attached by a solid wedge to the alpha carbon, which bears C(=O)-HN-aryl and NH (N with H below) acylated by C(=O)-CH(iPr, solid wedge)(NHBoc). Central benzene (circle): HN at C1, CH2OH at C4, CH2-N(Me)-C(=O)-O-CH2-(fluoren-9-yl) at C3.",
+    "overlaps_or_ambiguities": [
+      "The r of iPr is written with a gamma-like shape but reads as iPr"
+    ],
+    "notes": "Handwritten, black ink. Four C=O double bonds, aromatic rings drawn with circles, two solid wedges matching the reference."
+  },
+  "BZ2435/ref": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "O",
+      "NH",
+      "Cl",
+      "N",
+      "N",
+      "NH",
+      "CO2H"
+    ],
+    "abbreviations": [
+      "CO2H"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      5,
+      6
+    ],
+    "aromatic_ring_depiction": "alternating_double_bonds",
+    "double_bonds": 8,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "1,2,4-Triazol-3-one ring: N1 carries a 4-chlorophenyl (Cl para to the N attachment), C(=O) between N1 and ring NH, ring C=N bonded to N2; the C=N carbon bears an exocyclic NH (H drawn below N) linked to a benzene ring carrying CO2H para to the NH.",
+    "overlaps_or_ambiguities": [],
+    "notes": "Typeset. Double bonds: 3 + 3 in the benzene rings, 1 C=O, 1 ring C=N."
+  },
+  "BZ2435/wrong": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "Cl",
+      "O",
+      "N",
+      "NH",
+      "N",
+      "NH",
+      "CO2H"
+    ],
+    "abbreviations": [
+      "CO2H"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      5,
+      6
+    ],
+    "aromatic_ring_depiction": "circle",
+    "double_bonds": 2,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "minor_issues",
+    "substituent_description": "Left benzene ring (circle): Cl on the left vertex and the bond to triazolone N1 on the upper-right vertex, separated by one ring carbon (meta, 1,3). Triazolone ring N1-C(=O)-NH-C(=N-N1)-: the C=N carbon bears an exocyclic NH (H below N) linked to a second benzene ring (circle) with CO2H para to the NH.",
+    "overlaps_or_ambiguities": [
+      "Left benzene ring is irregularly drawn and the N1 bond appears to continue the ring's upper edge; the meta relationship is still clear from the vertex order"
+    ],
+    "notes": "Handwritten, black ink. Double bonds: C=O and ring C=N."
+  },
+  "BZ2435/correct": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "Cl",
+      "O",
+      "N",
+      "NH",
+      "N",
+      "NH",
+      "CO2H"
+    ],
+    "abbreviations": [
+      "CO2H"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      5,
+      6
+    ],
+    "aromatic_ring_depiction": "circle",
+    "double_bonds": 2,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Left benzene ring (circle) has Cl and triazolone N1 on opposite vertices (para, 4-chlorophenyl). Triazolone N1-C(=O)-NH-C(=N-N1): the C=N carbon bears an exocyclic NH (H below N) to a second benzene ring (circle) with CO2H para to the NH.",
+    "overlaps_or_ambiguities": [],
+    "notes": "Handwritten, black ink. Double bonds: C=O and ring C=N. Cl written in cursive (Cl)."
+  },
+  "molecule_104/ref": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "Et",
+      "N",
+      "N",
+      "NHAc",
+      "OH"
+    ],
+    "abbreviations": [
+      "Et",
+      "NHAc"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      5,
+      6,
+      6,
+      5,
+      6
+    ],
+    "aromatic_ring_depiction": "alternating_double_bonds",
+    "double_bonds": 9,
+    "triple_bonds": 0,
+    "wedge_bonds": 1,
+    "hashed_bonds": 1,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "9-Ethylcarbazole (Et on ring N) whose 3-position (right benzo ring carbon para to the N-bearing fusion carbon C9a) carries a CH2 to the N of a piperidine. Piperidine C4 is the spiro carbon of an indane; the indane C2 (next to spiro) bears OH on a solid wedge and C1 (next to the benzo ring) bears NHAc on a hashed bond.",
+    "overlaps_or_ambiguities": [],
+    "notes": "Typeset. Three benzene rings each with 3 alternating double bonds (9 total). One solid wedge (OH), one hashed wedge (NHAc)."
+  },
+  "molecule_104/wrong": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "CH2CH3",
+      "N",
+      "N",
+      "NH",
+      "C",
+      "CH3",
+      "O",
+      "OH"
+    ],
+    "abbreviations": [],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      5,
+      6,
+      6,
+      5,
+      6
+    ],
+    "aromatic_ring_depiction": "circle",
+    "double_bonds": 1,
+    "triple_bonds": 0,
+    "wedge_bonds": 1,
+    "hashed_bonds": 1,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Carbazole (two circled benzo rings) with CH2CH3 on the ring N. The CH2 linker to the piperidine N is on the right benzo ring at the carbon two bonds from the N-bearing fusion carbon (carbazole 2-position, meta to C9a). Piperidine C4 is spiro to an indane; indane carbon next to spiro bears OH on a solid wedge, and the carbon next to the benzo ring bears NH-C(=O)-CH3 (written out, explicit C) on a hashed bond.",
+    "overlaps_or_ambiguities": [
+      "Small thickened ink mark at the aryl end of the bond from the benzo ring to the CH(NH) carbon; not a wedge.",
+      "Acetyl drawn out as NH-C(CH3)=O with explicit C."
+    ],
+    "notes": "Handwritten, black ink. Only drawn double bond is the acetyl C=O."
+  },
+  "molecule_104/correct": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "Et",
+      "N",
+      "N",
+      "NHAc",
+      "OH"
+    ],
+    "abbreviations": [
+      "Et",
+      "NHAc"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      5,
+      6,
+      6,
+      5,
+      6
+    ],
+    "aromatic_ring_depiction": "circle",
+    "double_bonds": 0,
+    "triple_bonds": 0,
+    "wedge_bonds": 1,
+    "hashed_bonds": 1,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "minor_issues",
+    "substituent_description": "Carbazole (circled benzo rings) with Et on ring N; CH2 on the right benzo ring at the carbon para to the N-bearing fusion carbon (3-position) links to piperidine N. Piperidine C4 is spiro to an indane; carbon next to spiro bears OH on a solid wedge, carbon next to the benzo ring bears NHAc on a hashed bond.",
+    "overlaps_or_ambiguities": [
+      "H of NHAc has a slightly odd crossbar but reads as NHAc",
+      "Small gap/dot on the left edge of the piperidine ring; ring is still 6-membered"
+    ],
+    "notes": "Handwritten black ink. Aromatic rings drawn as circles, no explicit double bonds."
+  },
+  "molecule_130/ref": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "O",
+      "N",
+      "NH",
+      "N",
+      "N",
+      "O",
+      "O",
+      "O",
+      "Cl",
+      "Cl",
+      "N",
+      "N"
+    ],
+    "abbreviations": [],
+    "r_labels": [],
+    "ring_sizes": [
+      5,
+      6,
+      6,
+      5,
+      6,
+      5
+    ],
+    "aromatic_ring_depiction": "alternating_double_bonds",
+    "double_bonds": 9,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 2,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Pyrrolidine N acylated as a urea C(=O)-NH-CH2CH2- to one N of a piperazine; the other piperazine N is on a para-disubstituted benzene whose para position carries O-CH2, joined by a hashed bond to C4 of a 1,3-dioxolane. Dioxolane C2 bears a 2,4-dichlorophenyl (Cl ortho and para) and, via a hashed bond, CH2 to N1 of an imidazole.",
+    "overlaps_or_ambiguities": [],
+    "notes": "Typeset. Double bonds: urea C=O, 3+3 in the two benzene rings, 2 in imidazole (C2=N3, C4=C5). Two hashed bonds on the dioxolane carbons."
+  },
+  "molecule_130/wrong": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "O",
+      "N",
+      "NH",
+      "N",
+      "N",
+      "O",
+      "O",
+      "O",
+      "Cl",
+      "Cl",
+      "N",
+      "N"
+    ],
+    "abbreviations": [],
+    "r_labels": [],
+    "ring_sizes": [
+      5,
+      6,
+      6,
+      5,
+      6,
+      5
+    ],
+    "aromatic_ring_depiction": "both",
+    "double_bonds": 3,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 2,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Same pyrrolidine-N-C(=O)-NH-CH2CH2-piperazine chain as the reference, but the piperazine N and the O-CH2 are on the central benzene in a 1,3 (meta) relationship (upper-left and upper-right vertices, separated by the top vertex). Dioxolane with two hashed bonds, 2,4-dichlorophenyl (Cl ortho and para) and CH2-imidazol-1-yl as in the reference.",
+    "overlaps_or_ambiguities": [],
+    "notes": "Handwritten, black. Benzene rings drawn with circles; imidazole drawn with explicit C=N and C=C. NH written as N with H below. Double bonds: C=O plus two in imidazole."
+  },
+  "molecule_130/correct": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "O",
+      "N",
+      "NH",
+      "N",
+      "N",
+      "O",
+      "O",
+      "O",
+      "Cl",
+      "Cl",
+      "N",
+      "N"
+    ],
+    "abbreviations": [],
+    "r_labels": [],
+    "ring_sizes": [
+      5,
+      6,
+      6,
+      5,
+      6,
+      5
+    ],
+    "aromatic_ring_depiction": "both",
+    "double_bonds": 3,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 2,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "minor_issues",
+    "substituent_description": "Pyrrolidine N-C(=O)-NH-CH2CH2- to a piperazine N; the other piperazine N on a para-disubstituted benzene (circle) whose para position carries O-CH2 hashed to C4 of a 1,3-dioxolane; dioxolane C2 bears 2,4-dichlorophenyl (Cl ortho and para) and a hashed bond to CH2-imidazol-1-yl.",
+    "overlaps_or_ambiguities": [
+      "Cl labels written in a loose cursive style, readable in context",
+      "hashed bonds drawn as hatch fans with small gaps to the adjoining bond lines"
+    ],
+    "notes": "Handwritten, black. Double bonds: C=O and two in imidazole; benzene rings as circles."
+  },
+  "molecule_135/ref": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "Ac",
+      "O",
+      "iPr",
+      "N",
+      "N",
+      "O",
+      "NH",
+      "F",
+      "Cl",
+      "O",
+      "N",
+      "F",
+      "F"
+    ],
+    "abbreviations": [
+      "Ac",
+      "iPr"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      5,
+      6,
+      6
+    ],
+    "aromatic_ring_depiction": "alternating_double_bonds",
+    "double_bonds": 10,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "A 3-chloro-2-fluorobenzyl group (CH2 at C1, F at C2, Cl at C3) is joined via NH-C(=O)-CH2-N(iPr)-C(=O)-CH2- to indole N1. The indole has Ac at C3 and, at C5 of the benzo ring, a CH2-C(=O)- group acylating the N of a 3,3-difluoropiperidine.",
+    "overlaps_or_ambiguities": [],
+    "notes": "Typeset. Double bonds: 3 C=O, indole C2=C3, 3 Kekule in the indole benzo ring, 3 Kekule in the halophenyl ring."
+  },
+  "molecule_135/wrong": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "Ac",
+      "N",
+      "O",
+      "iPr",
+      "N",
+      "O",
+      "NH",
+      "F",
+      "Cl",
+      "O",
+      "N",
+      "F",
+      "F"
+    ],
+    "abbreviations": [
+      "Ac",
+      "iPr"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      5,
+      6,
+      6,
+      6
+    ],
+    "aromatic_ring_depiction": "both",
+    "double_bonds": 4,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "minor_issues",
+    "substituent_description": "Indole (pyrrole ring with one drawn C2=C3, benzo ring drawn with a circle) has Ac at C3; N1 carries CH2-C(=O)-N(iPr)-CH2-C(=O)-NH-CH2-aryl, the aryl being a circled benzene with F ortho (C2) and Cl meta (C3) to the CH2. The CH2-C(=O)-N(3,3-difluoropiperidine) group is drawn on the benzo-ring carbon adjacent to the N-bearing fusion carbon (indole C7), not C5.",
+    "overlaps_or_ambiguities": [
+      "Photo is cropped at the right edge through the indole benzo ring; a short bond stub at the edge vertex (indole C5) may be a cut-off line and cannot be read",
+      "iPr label is small and the r is smudged",
+      "Photo is rotated with slight perspective"
+    ],
+    "notes": "Handwritten black ink on grey paper. Three C=O plus the pyrrole C=C drawn as double bonds; both benzene rings shown as circles. Dark dots at some bond ends are pen pressure, not wedges."
+  },
+  "molecule_135/correct": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "O",
+      "iPr",
+      "N",
+      "O",
+      "NH",
+      "F",
+      "Cl",
+      "N",
+      "Ac",
+      "N",
+      "O",
+      "F",
+      "F"
+    ],
+    "abbreviations": [
+      "iPr",
+      "Ac"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      5,
+      6,
+      6
+    ],
+    "aromatic_ring_depiction": "both",
+    "double_bonds": 4,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "minor_issues",
+    "substituent_description": "Circled benzene with CH2 at C1, F at C2 and Cl at C3; the CH2 leads to NH-C(=O)-CH2-N(iPr)-C(=O)-CH2- on indole N1. The indole (C2=C3 drawn, circled benzo ring) has Ac at C3 and CH2-C(=O)-N(3,3-difluoropiperidine) at C5 of the benzo ring.",
+    "overlaps_or_ambiguities": [
+      "Cl is written in cursive and looks like 'cl'",
+      "Ac is written loosely (c looks like an 'L')",
+      "Piperidine ring is irregular freehand but has six vertices"
+    ],
+    "notes": "Handwritten black ink on white paper. Three C=O plus pyrrole C=C as double bonds; both benzene rings drawn with circles."
+  },
+  "molecule_16/ref": {
+    "drawing_style": "mixed",
+    "atom_labels": [
+      "COOtBu",
+      "N",
+      "N",
+      "BocNH",
+      "H2N",
+      "N",
+      "N",
+      "CO2H"
+    ],
+    "abbreviations": [
+      "COOtBu",
+      "BocNH"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      5,
+      6
+    ],
+    "aromatic_ring_depiction": "alternating_double_bonds",
+    "double_bonds": 4,
+    "triple_bonds": 0,
+    "wedge_bonds": 1,
+    "hashed_bonds": 2,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Purine: COOtBu on C2 (between N1 and N3), H2N on C6, N9 bonded by a solid wedge to cyclohexane C1. Cyclohexane C2 carries BocNH on a hashed bond; C4 (para to C1) carries a hashed bond to CH2-CO2H.",
+    "overlaps_or_ambiguities": [],
+    "notes": "Typeset. Four double bonds in the purine (two C=N in six-ring, C4=C5, N7=C8); carbonyls of COOtBu/CO2H implicit in labels."
+  },
+  "molecule_16/wrong": {
+    "drawing_style": "mixed",
+    "atom_labels": [
+      "H",
+      "N",
+      "H",
+      "N",
+      "N",
+      "COO",
+      "C",
+      "CH3",
+      "CH3",
+      "CH3",
+      "N",
+      "N",
+      "BocNH",
+      "CO2H"
+    ],
+    "abbreviations": [
+      "BocNH"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      5,
+      6
+    ],
+    "aromatic_ring_depiction": "both",
+    "double_bonds": 1,
+    "triple_bonds": 0,
+    "wedge_bonds": 1,
+    "hashed_bonds": 2,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Fused 6-5 bicycle: six-ring (circle) has two adjacent N atoms at the top (N-N bond); left carbon bears NH2 (drawn H-N-H vertically), right carbon (adjacent to the lower-right fusion carbon) bears COO-C(CH3)3. Five-ring: N=CH-N, the right N joined by a solid wedge to cyclohexane C1; C2 has hashed BocNH; C4 (para to C1) has hashed bond to CH2-CO2H.",
+    "overlaps_or_ambiguities": [
+      "Amino group drawn as H, N, H stacked vertically with bonds"
+    ],
+    "notes": "Handwritten black pen. tert-butyl written out as C with three CH3. Six-ring uses a circle, five-ring one explicit N=C."
+  },
+  "molecule_16/correct": {
+    "drawing_style": "mixed",
+    "atom_labels": [
+      "COOtBu",
+      "N",
+      "N",
+      "NH2",
+      "N",
+      "N",
+      "BocNH",
+      "CO2H"
+    ],
+    "abbreviations": [
+      "COOtBu",
+      "BocNH"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      5,
+      6
+    ],
+    "aromatic_ring_depiction": "both",
+    "double_bonds": 1,
+    "triple_bonds": 0,
+    "wedge_bonds": 1,
+    "hashed_bonds": 2,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "minor_issues",
+    "substituent_description": "Purine: COOtBu on the carbon between the two six-ring N atoms, NH2 on C6, N9 (bonded to the fusion carbon next to N3) joined by a solid wedge to cyclohexane C1; C2 has hashed BocNH; C4 (para to C1) has a hashed bond to a CH2 vertex then CO2H.",
+    "overlaps_or_ambiguities": [
+      "Small gap between the end of the hashed bond and the line to CO2H, so the CH2 vertex is slightly ambiguous",
+      "Solid wedge blurs into the N label"
+    ],
+    "notes": "Handwritten black pen. Six-ring drawn with a circle, five-ring with one explicit N7=C8. Amino written NH2 (reference H2N, same group)."
+  },
+  "molecule_195/ref": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "EtOOC"
+    ],
+    "abbreviations": [
+      "EtOOC"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      6,
+      6
+    ],
+    "aromatic_ring_depiction": "alternating_double_bonds",
+    "double_bonds": 7,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Benzene with EtOOC at C1 and, para to it, CH=C(CH3)-. The methyl-bearing alkene carbon is bonded to C2 of 5,5,8,8-tetramethyl-5,6,7,8-tetrahydronaphthalene, the aromatic carbon one CH away from a ring-fusion carbon. Each saturated carbon next to a fusion carbon carries two methyl stubs.",
+    "overlaps_or_ambiguities": [],
+    "notes": "Typeset. 7 double bonds: 3 + 3 Kekule aromatic bonds and 1 C=C. All methyls are unlabelled line stubs. No E/Z label."
+  },
+  "molecule_195/wrong": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "O",
+      "C",
+      "OEt"
+    ],
+    "abbreviations": [
+      "OEt"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      6,
+      6
+    ],
+    "aromatic_ring_depiction": "circle",
+    "double_bonds": 2,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "minor_issues",
+    "substituent_description": "Benzene (circle) carrying an expanded ester (a C-shaped carbonyl carbon with =O above and OEt below) and, para to it, CH=C(CH3)-. The methyl-bearing alkene carbon is bonded to the aromatic carbon directly adjacent to a ring-fusion carbon (position 1, next to the gem-dimethyl carbon) of a tetramethyl-tetrahydronaphthalene whose aromatic ring is drawn with a circle.",
+    "overlaps_or_ambiguities": [
+      "The carbonyl carbon is drawn as a curled C-shaped stroke",
+      "The t of OEt looks like a plus sign",
+      "Several methyl stubs end in small hooks or arrow-like tips"
+    ],
+    "notes": "Handwritten, black ink. Double bonds: C=O (two parallel strokes) and the alkene C=C. Aromatic rings drawn as irregular circles."
+  },
+  "molecule_195/correct": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "EtOOC"
+    ],
+    "abbreviations": [
+      "EtOOC"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      6,
+      6
+    ],
+    "aromatic_ring_depiction": "circle",
+    "double_bonds": 1,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "minor_issues",
+    "substituent_description": "Benzene (circle) with EtOOC at C1 and, para to it, CH=C(CH3)-. The methyl-bearing alkene carbon is bonded to the tetralin aromatic carbon one CH away from a ring-fusion carbon (position 2), as in the reference. Two gem-dimethyl carbons sit next to the fusion carbons.",
+    "overlaps_or_ambiguities": [
+      "The first O of EtOOC is a tall oval resembling D"
+    ],
+    "notes": "Handwritten, black ink. One drawn double bond (alkene); aromatic rings drawn with circles. No E/Z label, same as the reference."
+  },
+  "molecule_240/ref": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "Ac",
+      "N",
+      "N",
+      "OMe",
+      "EtOOC"
+    ],
+    "abbreviations": [
+      "Ac",
+      "OMe",
+      "EtOOC"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      5,
+      6
+    ],
+    "aromatic_ring_depiction": "alternating_double_bonds",
+    "double_bonds": 3,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Pyrrolidine-type five-membered ring fused to a pyridine: ring N1 bears Ac; C2 (adjacent to N1) bears EtOOC; C3 is an unsubstituted CH2 next to the lower fusion carbon. In the pyridine, the ring N is separated by one CH from the fusion carbon bonded to N1, and OMe is on the carbon adjacent to the ring N.",
+    "overlaps_or_ambiguities": [],
+    "notes": "Typeset. Three double bonds in the six-membered ring (two C=C, one C=N)."
+  },
+  "molecule_240/wrong": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "Ac",
+      "N",
+      "N",
+      "OMe",
+      "EtOOC"
+    ],
+    "abbreviations": [
+      "Ac",
+      "OMe",
+      "EtOOC"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      5,
+      6
+    ],
+    "aromatic_ring_depiction": "circle",
+    "double_bonds": 0,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Five-membered ring: N(Ac), then an unsubstituted CH2 vertex, then the carbon bearing EtOOC, which is bonded to the lower fusion carbon (C3 position). Six-membered ring (circle): ring N separated by one CH from the fusion carbon bonded to N(Ac); OMe on the carbon adjacent to the ring N.",
+    "overlaps_or_ambiguities": [],
+    "notes": "Handwritten black ink on grey paper. Ac written with an upper-case-looking c, still readable as Ac."
+  },
+  "molecule_240/correct": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "Ac",
+      "N",
+      "N",
+      "OMe",
+      "EtOOC"
+    ],
+    "abbreviations": [
+      "Ac",
+      "OMe",
+      "EtOOC"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      5,
+      6
+    ],
+    "aromatic_ring_depiction": "circle",
+    "double_bonds": 0,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Five-membered ring: N(Ac), C2 bearing EtOOC (adjacent to N), CH2, then the fusion carbons. Six-membered ring (circle): ring N separated by one CH from the fusion carbon bonded to N(Ac); OMe on the carbon adjacent to the ring N.",
+    "overlaps_or_ambiguities": [],
+    "notes": "Handwritten black ink. Small ink blobs at the EtOOC and OMe vertices are pen marks, not wedges."
+  },
+  "molecule_263/ref": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "Boc",
+      "N",
+      "O",
+      "N",
+      "N",
+      "OMe"
+    ],
+    "abbreviations": [
+      "Boc",
+      "OMe"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      5,
+      5,
+      6,
+      6
+    ],
+    "aromatic_ring_depiction": "alternating_double_bonds",
+    "double_bonds": 7,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Spiro carbon shared by an N-Boc pyrrolidine and a five-membered lactam (C=O next to spiro carbon, then lactam N) fused to a pyridine whose ring N is adjacent to the fusion carbon bonded to the lactam N (7-azaoxindole). The lactam N carries CH2 to a benzene bearing OMe para to the CH2.",
+    "overlaps_or_ambiguities": [],
+    "notes": "Typeset. Double bonds: C=O (1), pyridine (3), benzene (3)."
+  },
+  "molecule_263/wrong": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "Boc",
+      "N",
+      "O",
+      "N",
+      "OCH3"
+    ],
+    "abbreviations": [
+      "Boc"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      5,
+      5,
+      6,
+      6
+    ],
+    "aromatic_ring_depiction": "circle",
+    "double_bonds": 1,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Spiro carbon shared by an N-Boc pyrrolidine and a five-membered lactam (C=O, lactam N) fused to an all-carbon circled benzene ring (oxindole; no ring N). The lactam N carries CH2 to a circled benzene bearing OCH3 para to the CH2.",
+    "overlaps_or_ambiguities": [],
+    "notes": "Handwritten black ink. Only drawn double bond is C=O. OCH3 written vertically (O above CH3)."
+  },
+  "molecule_263/correct": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "Boc",
+      "N",
+      "O",
+      "N",
+      "N",
+      "OMe"
+    ],
+    "abbreviations": [
+      "Boc",
+      "OMe"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      5,
+      5,
+      6,
+      6
+    ],
+    "aromatic_ring_depiction": "both",
+    "double_bonds": 4,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Spiro carbon shared by an N-Boc pyrrolidine and a five-membered lactam (C=O, lactam N) fused to a pyridine whose ring N is adjacent to the fusion carbon bonded to the lactam N. Lactam N carries CH2 to a circled benzene bearing OMe para to the CH2.",
+    "overlaps_or_ambiguities": [
+      "C7a=N double bond drawn as a short inner stroke"
+    ],
+    "notes": "Handwritten black ink. Pyridine drawn Kekule (3 double bonds), benzyl ring with a circle; plus C=O = 4 double bonds."
+  },
+  "molecule_294/ref": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "MeO",
+      "Me",
+      "N",
+      "N",
+      "N",
+      "N",
+      "N",
+      "N",
+      "NH",
+      "OEt"
+    ],
+    "abbreviations": [
+      "MeO",
+      "Me",
+      "OEt"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      5,
+      6,
+      4,
+      6,
+      6
+    ],
+    "aromatic_ring_depiction": "alternating_double_bonds",
+    "double_bonds": 9,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Benzene: NH at C1, OEt at C2 (ortho to NH), 4-methyl-1,2,4-triazol-3-yl at C4 (para to NH). NH bonded to the ring N of a 2,7-naphthyridine-type bicycle (N-CH2-C8a and N-CH=CH-C4a); the pyridine ring has a methyl line next to its ring N and a 3-methoxy-2,2-dimethylazetidin-1-yl on the carbon between ring N and C8a.",
+    "overlaps_or_ambiguities": [],
+    "notes": "Typeset. Double bonds: triazole 2, benzene 3, bicycle 4 (C1=C8a, N2=C3, C4=C4a, CH=CH). Methyls on azetidine and pyridine drawn as plain lines."
+  },
+  "molecule_294/wrong": {
+    "drawing_style": "mixed",
+    "atom_labels": [
+      "CH3",
+      "N",
+      "N",
+      "N",
+      "CH3O",
+      "CH3",
+      "CH3",
+      "N",
+      "N",
+      "CH3",
+      "N",
+      "NH",
+      "O",
+      "CH2",
+      "CH3"
+    ],
+    "abbreviations": [],
+    "r_labels": [],
+    "ring_sizes": [
+      5,
+      6,
+      4,
+      6,
+      6
+    ],
+    "aromatic_ring_depiction": "both",
+    "double_bonds": 3,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Benzene (circle): NH at C1, O-CH2-CH3 at C2 (ortho to NH), and the 4-CH3-1,2,4-triazol-3-yl at C3 (ortho to the ethoxy, meta to NH). NH bonded to the ring N of the partially saturated ring of the bicycle, drawn as N-CH2-CH2-C8a and N-CH=C4a (double bond to the fusion carbon). The circled pyridine ring has CH3 next to its ring N and an N-azetidine with two CH3 on C2 and CH3O on C3.",
+    "overlaps_or_ambiguities": [],
+    "notes": "Handwritten, black. Me, MeO, OEt written out as CH3, CH3O, O-CH2-CH3; skeletal methyl lines labelled CH3. Double bonds: triazole 2, one in the non-aromatic ring of the bicycle (CH=C fusion). Benzene and pyridine ring drawn with circles."
+  },
+  "molecule_294/correct": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "Me",
+      "N",
+      "N",
+      "MeO",
+      "N",
+      "N",
+      "N",
+      "NH",
+      "OEt"
+    ],
+    "abbreviations": [
+      "Me",
+      "MeO",
+      "OEt"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      5,
+      6,
+      4,
+      6,
+      6
+    ],
+    "aromatic_ring_depiction": "both",
+    "double_bonds": 6,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "minor_issues",
+    "substituent_description": "Benzene (circle): NH at C1, OEt at C2, and at C4 (para to NH) a five-membered ring containing only two N (N(Me)-CH=N-CH=C), i.e. imidazolyl rather than triazolyl. NH bonded to the ring N of the bicycle (N-CH2-C8a, N-CH=CH-C4a); pyridine ring with a methyl line next to the ring N and the azetidin-1-yl (MeO carbon, CMe2 drawn as a crossing of lines) on the carbon between ring N and C8a.",
+    "overlaps_or_ambiguities": [
+      "azetidine C2: the horizontal methyl-to-N line crosses the vertical C3-to-methyl line, so the quaternary carbon is drawn as a plus-shaped crossing",
+      "five-membered heteroaryl ring shows only two N labels (reference triazole has three)"
+    ],
+    "notes": "Handwritten, black. Double bonds: 2 in the five-membered ring, 4 in the bicycle (C1=C8a short stub, N=C3, C4=C4a, CH=CH)."
+  },
+  "molecule_32/ref": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "NHBoc",
+      "MeOOC",
+      "OPh"
+    ],
+    "abbreviations": [
+      "NHBoc",
+      "MeOOC",
+      "OPh"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6
+    ],
+    "aromatic_ring_depiction": "alternating_double_bonds",
+    "double_bonds": 3,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 1,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Para-disubstituted benzene: OPh on one ring carbon and CH2 on the opposite (para) carbon. The CH2 joins a stereocentre CH bearing NHBoc (plain bond, up) and MeOOC (hashed bond, left).",
+    "overlaps_or_ambiguities": [],
+    "notes": "Typeset. Benzene with three Kekule double bonds; one hashed bond from the stereocentre to MeOOC."
+  },
+  "molecule_32/wrong": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "OPh",
+      "NHBoc",
+      "MeOOC"
+    ],
+    "abbreviations": [
+      "OPh",
+      "NHBoc",
+      "MeOOC"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6
+    ],
+    "aromatic_ring_depiction": "circle",
+    "double_bonds": 0,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 1,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "minor_issues",
+    "substituent_description": "Circled benzene with OPh at the top vertex and the CH2 at the lower-left vertex, i.e. meta (1,3) to OPh. The CH2 joins a CH bearing NHBoc (plain bond, up) and MeOOC (hashed bond, left).",
+    "overlaps_or_ambiguities": [
+      "The OO of MeOOC is heavily retraced/smudged but readable",
+      "Hashed bond strokes run up against the C of MeOOC",
+      "Ink is very dark purple-black on grey paper; read as black"
+    ],
+    "notes": "Handwritten photo on grey paper. Small ink dots at some ring vertices are pen blots, not bonds."
+  },
+  "molecule_32/correct": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "NHBoc",
+      "OPh",
+      "MeOOC"
+    ],
+    "abbreviations": [
+      "NHBoc",
+      "OPh",
+      "MeOOC"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6
+    ],
+    "aromatic_ring_depiction": "circle",
+    "double_bonds": 0,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 1,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "minor_issues",
+    "substituent_description": "Hexagon with a small inner circle: OPh at the upper-right vertex and CH2 at the lower-left vertex (para). The CH2 joins a CH bearing NHBoc (plain bond, up) and MeOOC (hashed bond, left).",
+    "overlaps_or_ambiguities": [
+      "OO and final C of MeOOC are written as open loops but read as MeOOC",
+      "Dark ink blot on the lower-right ring bond, not a wedge",
+      "Small gap at the upper-left ring vertex"
+    ],
+    "notes": "Handwritten black ink on white paper. Aromatic ring shown with a small circle; one hashed bond to MeOOC."
+  },
+  "molecule_324/ref": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "NH",
+      "O",
+      "O",
+      "O",
+      "N",
+      "O",
+      "O",
+      "F",
+      "F"
+    ],
+    "abbreviations": [],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      6,
+      6
+    ],
+    "aromatic_ring_depiction": "alternating_double_bonds",
+    "double_bonds": 9,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 1,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "3,4-Difluorophenyl (F meta and para to the NH carbon) -NH-C(=O)-CH(hashed methyl)-O-C(=O)-CH2-CH2- bonded to the N of a 2H-1,4-benzoxazin-3(4H)-one (N-C(=O)-CH2-O fused to benzene).",
+    "overlaps_or_ambiguities": [],
+    "notes": "Typeset. Double bonds: 3 C=O plus 3 Kekule C=C in each benzene ring. NH written with H above N."
+  },
+  "molecule_324/wrong": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "NH",
+      "O",
+      "O",
+      "O",
+      "N",
+      "O",
+      "O",
+      "F",
+      "F"
+    ],
+    "abbreviations": [],
+    "r_labels": [],
+    "ring_sizes": [
+      5,
+      6,
+      6
+    ],
+    "aromatic_ring_depiction": "alternating_double_bonds",
+    "double_bonds": 9,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 1,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "minor_issues",
+    "substituent_description": "Left ring drawn with only five vertices and three inner double lines; NH on one vertex, F on the adjacent vertex (ortho) and F on the next (meta). Chain NH-C(=O)-CH(hashed methyl)-O-C(=O)-CH2-CH2-N into a benzoxazinone (N, C=O, CH2, O fused to Kekule benzene).",
+    "overlaps_or_ambiguities": [
+      "Left aryl ring has five vertices but three double bonds (impossible valence)"
+    ],
+    "notes": "Handwritten black pen. NH written H above N. Double bonds: 3 in left ring, 3 C=O, 3 in benzo ring."
+  },
+  "molecule_324/correct": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "NH",
+      "O",
+      "O",
+      "O",
+      "N",
+      "O",
+      "O",
+      "F",
+      "F"
+    ],
+    "abbreviations": [],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      6,
+      6
+    ],
+    "aromatic_ring_depiction": "circle",
+    "double_bonds": 3,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 1,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Benzene (circle) with NH at C1, F at C3 and C4 (meta and para). NH-C(=O)-CH(hashed methyl)-O-C(=O)-CH2-CH2- bonded to the N of a benzoxazinone (N-C(=O)-CH2-O fused to a circled benzene).",
+    "overlaps_or_ambiguities": [],
+    "notes": "Handwritten black pen. NH written H above N. Three C=O; both benzene rings drawn with circles."
+  },
+  "molecule_387/ref": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "N",
+      "NH",
+      "Me",
+      "O",
+      "NHBn"
+    ],
+    "abbreviations": [
+      "Me",
+      "NHBn"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      6,
+      6
+    ],
+    "aromatic_ring_depiction": "alternating_double_bonds",
+    "double_bonds": 9,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Quinoline with NH (N with H below) at C2, linking to a benzene that has Me ortho to the NH-bearing carbon, and C(=O)NHBn at C4.",
+    "overlaps_or_ambiguities": [],
+    "notes": "Typeset. 9 double bonds: 5 in the quinoline, 3 in the tolyl ring and 1 C=O."
+  },
+  "molecule_387/wrong": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "N",
+      "NH",
+      "CH3",
+      "O",
+      "NH",
+      "CH2"
+    ],
+    "abbreviations": [],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      6,
+      6,
+      6
+    ],
+    "aromatic_ring_depiction": "both",
+    "double_bonds": 6,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Quinoline (Kekule lines) with NH (N with H below) at C2, linking to a benzene (circle) that has CH3 ortho to the NH-bearing carbon. C(=O)-NH-CH2-phenyl (phenyl drawn as a circled benzene) sits at C3, the carbon next to C2, not at C4.",
+    "overlaps_or_ambiguities": [],
+    "notes": "Handwritten in dark grey/graphite (counted as black). Quinoline double bonds: 2 in the benzo ring and 3 in the pyridine ring, plus 1 C=O."
+  },
+  "molecule_387/correct": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "NH",
+      "Me",
+      "N",
+      "O",
+      "NHBn"
+    ],
+    "abbreviations": [
+      "Me",
+      "NHBn"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      6,
+      6
+    ],
+    "aromatic_ring_depiction": "both",
+    "double_bonds": 3,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "minor_issues",
+    "substituent_description": "Benzene (circle) with NH on one carbon and Me on the adjacent (ortho) carbon. The NH is bonded to C2 of a quinoline, the carbon next to the ring N; C(=O)NHBn is at C4, the carbon next to the ring-fusion carbon.",
+    "overlaps_or_ambiguities": [
+      "The ring N label is slightly detached from the C2 bond line",
+      "The pyridine ring is drawn with a circle while the fused benzo ring has two explicit double-bond lines (mixed depiction)"
+    ],
+    "notes": "Handwritten. NH written inline (not stacked). Double bonds: 2 inner lines in the benzo ring plus C=O."
+  },
+  "molecule_476/ref": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "Et",
+      "NH",
+      "O",
+      "N",
+      "O",
+      "NH",
+      "N",
+      "Me",
+      "Me"
+    ],
+    "abbreviations": [
+      "Et",
+      "Me",
+      "Me"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      6,
+      6
+    ],
+    "aromatic_ring_depiction": "alternating_double_bonds",
+    "double_bonds": 8,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Et then a zigzag chain of 10 unlabelled vertices to an amide NH-C(=O) on a para-disubstituted benzene; the para position carries CH2CH2 to C4 of a piperidine. The piperidine N forms a urea N-C(=O)-NH to a second benzene bearing N(Me)2 para to the NH.",
+    "overlaps_or_ambiguities": [],
+    "notes": "Typeset. Chain vertex count (10 between Et and NH) checked on a magnified crop. Double bonds: 3 + 3 aromatic, 2 C=O. Amide NH written with H above N."
+  },
+  "molecule_476/wrong": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "Et",
+      "NH",
+      "O",
+      "N",
+      "O",
+      "N",
+      "Me",
+      "Me"
+    ],
+    "abbreviations": [
+      "Et",
+      "Me",
+      "Me"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      6,
+      6
+    ],
+    "aromatic_ring_depiction": "circle",
+    "double_bonds": 2,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Et then a zigzag chain of 10 unlabelled vertices to NH-C(=O) on a para-disubstituted benzene (circle); para CH2CH2 to C4 of a piperidine. The piperidine N bears C(=O)-CH2- (an unlabelled vertex, no NH) attached to a second benzene (circle) bearing N(Me)2 para to it.",
+    "overlaps_or_ambiguities": [],
+    "notes": "Handwritten black ink on grey paper. NH written with H above N. Chain vertex count (10) checked on a magnified crop."
+  },
+  "molecule_476/correct": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "Et",
+      "NH",
+      "O",
+      "N",
+      "O",
+      "NH",
+      "N",
+      "Me",
+      "Me"
+    ],
+    "abbreviations": [
+      "Et",
+      "Me",
+      "Me"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      6,
+      6
+    ],
+    "aromatic_ring_depiction": "circle",
+    "double_bonds": 2,
+    "triple_bonds": 0,
+    "wedge_bonds": 0,
+    "hashed_bonds": 0,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Et then a zigzag chain of 10 unlabelled vertices to NH-C(=O) on a para-disubstituted benzene (circle); para CH2CH2 to C4 of a piperidine. The piperidine N forms a urea N-C(=O)-NH to a second benzene (circle) bearing N(Me)2 para to the NH.",
+    "overlaps_or_ambiguities": [],
+    "notes": "Handwritten black ink, thin lines with small dots at some vertices. Chain vertex count (10) checked on a magnified crop."
+  },
+  "molecule_485/ref": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "EtO",
+      "N",
+      "MeO",
+      "O",
+      "NH",
+      "HO2C",
+      "NHAc"
+    ],
+    "abbreviations": [
+      "EtO",
+      "MeO",
+      "NHAc"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      6,
+      6,
+      5
+    ],
+    "aromatic_ring_depiction": "alternating_double_bonds",
+    "double_bonds": 7,
+    "triple_bonds": 0,
+    "wedge_bonds": 1,
+    "hashed_bonds": 1,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Piperidine with EtO on C4 (solid wedge) and an aryl on C2 (hashed bond); ring N bonded via CH2 to indole C4. The aryl has O-CH2-CH2-NHAc ortho (C2) and HO2C para (C4) to the piperidine attachment. The indole has MeO at C5, an unlabelled methyl stub at C7, and NH in the five-membered ring.",
+    "overlaps_or_ambiguities": [],
+    "notes": "Typeset. Double bonds: benzene 3, indole 4 (3 in benzo ring + C2=C3). The O-to-NHAc chain has two CH2 carbons."
+  },
+  "molecule_485/wrong": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "EtO",
+      "N",
+      "MeO",
+      "O",
+      "NH",
+      "HO2C",
+      "NHAc"
+    ],
+    "abbreviations": [
+      "EtO",
+      "MeO",
+      "NHAc"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      6,
+      6,
+      5
+    ],
+    "aromatic_ring_depiction": "both",
+    "double_bonds": 1,
+    "triple_bonds": 0,
+    "wedge_bonds": 1,
+    "hashed_bonds": 1,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Piperidine with EtO on C4 (solid wedge) and a circled aryl on C2 (hashed bond); ring N bonded via CH2 to indole C4. The aryl has an O-CH2-CH2-CH2-NHAc chain ortho (C2) and HO2C para (C4) to the piperidine attachment. Indole (circled benzo ring, C2=C3 drawn) has MeO at C5, unlabelled methyl at C7, NH in the five-membered ring.",
+    "overlaps_or_ambiguities": [],
+    "notes": "Handwritten black ink. The O-to-NHAc zigzag has three carbon vertices (O, C, C, C, N). Only drawn double bond is indole C2=C3."
+  },
+  "molecule_485/correct": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "EtO",
+      "N",
+      "MeO",
+      "O",
+      "NH",
+      "HO2C",
+      "NHAc"
+    ],
+    "abbreviations": [
+      "EtO",
+      "MeO",
+      "NHAc"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      6,
+      6,
+      6,
+      5
+    ],
+    "aromatic_ring_depiction": "both",
+    "double_bonds": 1,
+    "triple_bonds": 0,
+    "wedge_bonds": 1,
+    "hashed_bonds": 1,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Piperidine with EtO on C4 (solid wedge) and a circled aryl on C2 (hashed bond); ring N bonded via CH2 to indole C4. The aryl has O-CH2-CH2-NHAc ortho (C2) and HO2C para (C4) to the piperidine attachment. Indole (circled benzo ring, C2=C3 drawn) has MeO at C5, unlabelled methyl at C7, NH in the five-membered ring.",
+    "overlaps_or_ambiguities": [
+      "Small stray tick on the piperidine N label"
+    ],
+    "notes": "Handwritten black ink. O-to-NHAc chain has two carbon vertices. Only drawn double bond is indole C2=C3."
+  },
+  "molecule_89/ref": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "Me",
+      "N",
+      "N",
+      "N",
+      "I",
+      "O",
+      "HO",
+      "N",
+      "O",
+      "Ph",
+      "N",
+      "Boc"
+    ],
+    "abbreviations": [
+      "Me",
+      "Ph",
+      "Boc"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      5,
+      6,
+      6,
+      6
+    ],
+    "aromatic_ring_depiction": "alternating_double_bonds",
+    "double_bonds": 5,
+    "triple_bonds": 0,
+    "wedge_bonds": 1,
+    "hashed_bonds": 1,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Pyrrolo[2,3-d]pyrimidin-4-one: pyrrole N bears Me, the adjacent carbon bears I; pyrimidinone N3 carries CH2 to C4 of a 4-hydroxypiperidine. The piperidine N is acylated by C(=O) attached by a solid wedge to C4 of a second piperidine, whose C3 bears Ph on a hashed bond and whose N bears Boc.",
+    "overlaps_or_ambiguities": [],
+    "notes": "Typeset. Double bonds: N=CH, C7a=C4a, C(I)=CH, ring C=O, amide C=O."
+  },
+  "molecule_89/wrong": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "I",
+      "N",
+      "N",
+      "N",
+      "O",
+      "HO",
+      "N",
+      "O",
+      "Ph",
+      "N",
+      "Boc"
+    ],
+    "abbreviations": [
+      "Ph",
+      "Boc"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      5,
+      6,
+      6,
+      6
+    ],
+    "aromatic_ring_depiction": "alternating_double_bonds",
+    "double_bonds": 5,
+    "triple_bonds": 0,
+    "wedge_bonds": 1,
+    "hashed_bonds": 1,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "minor_issues",
+    "substituent_description": "Same pyrrolopyrimidinone with I on the carbon next to the pyrrole N, but the pyrrole N has no substituent (no Me). N3-CH2 to C4 of 4-hydroxypiperidine; amide C(=O) on a solid wedge to C4 of N-Boc piperidine with Ph on a hashed bond at C3.",
+    "overlaps_or_ambiguities": [
+      "I drawn as a bare vertical stroke",
+      "hashed wedge to Ph is a dense fan of lines that does not clearly touch the ring carbon or Ph"
+    ],
+    "notes": "Handwritten, black. Double bonds: N=CH, fusion C=C, C(I)=CH, ring C=O, amide C=O."
+  },
+  "molecule_89/correct": {
+    "drawing_style": "skeletal",
+    "atom_labels": [
+      "Me",
+      "N",
+      "N",
+      "N",
+      "I",
+      "O",
+      "HO",
+      "N",
+      "O",
+      "Ph",
+      "N",
+      "Boc"
+    ],
+    "abbreviations": [
+      "Me",
+      "Ph",
+      "Boc"
+    ],
+    "r_labels": [],
+    "ring_sizes": [
+      5,
+      6,
+      6,
+      6
+    ],
+    "aromatic_ring_depiction": "alternating_double_bonds",
+    "double_bonds": 5,
+    "triple_bonds": 0,
+    "wedge_bonds": 1,
+    "hashed_bonds": 1,
+    "stereo_labels": [],
+    "charges": [],
+    "ink_colour": "black",
+    "legibility": "clear",
+    "substituent_description": "Pyrrole N bears Me, adjacent carbon bears I; pyrimidinone N3-CH2 to C4 of 4-hydroxypiperidine; piperidine N-C(=O) on a solid wedge to C4 of N-Boc piperidine with Ph on a hashed bond at C3.",
+    "overlaps_or_ambiguities": [],
+    "notes": "Handwritten, black. Double bonds: N=CH, fusion C=C, C(I)=CH, ring C=O, amide C=O."
+  }
+}

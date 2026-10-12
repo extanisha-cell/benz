@@ -1,0 +1,39 @@
+{
+  "pass": "B",
+  "batch": 6,
+  "output_file": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\transcribers\\B6.json",
+  "images": [
+    {
+      "token": "743899565b",
+      "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_743899565b.jpg"
+    },
+    {
+      "token": "69cefac752",
+      "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_69cefac752.jpg"
+    },
+    {
+      "token": "4e89d6d1bb",
+      "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_4e89d6d1bb.png"
+    },
+    {
+      "token": "003b281edc",
+      "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_003b281edc.jpg"
+    },
+    {
+      "token": "ab90ded6b9",
+      "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_ab90ded6b9.jpg"
+    },
+    {
+      "token": "abab5cb525",
+      "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_abab5cb525.jpg"
+    },
+    {
+      "token": "c9a3df35bd",
+      "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_c9a3df35bd.jpg"
+    },
+    {
+      "token": "5fa2ce62c7",
+      "path": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\blind\\img_5fa2ce62c7.jpg"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{"molecule": "BZ2435", "status": "confirmed",
+ "claim_checks": [
+  {"claim": "errors_in_wrong[0]: substituent_position - wrong drawing has Cl meta (1,3) to the triazolone N1 attachment instead of para as in the reference", "verdict": "confirmed", "evidence": "Wrong: left hexagon vertices approx top (385,225), upper-right (545,320), lower-right (550,450), bottom (480,520), lower-left (325,465), left (315,340). Cl bond enters the left vertex; the N1 bond leaves the upper-right vertex (continuing the top edge to N at ~650,390). Left and upper-right are separated by only the top vertex -> 1,3 (meta). Reference has Cl and N on opposite vertices (para)."},
+  {"claim": "correct_version_issues is empty: the corrected drawing has no other issue", "verdict": "confirmed", "evidence": "Correct: Cl on left vertex and N1 bond on right vertex of the left ring (para); triazolone N1-C(=O)-NH-C(=N2)-N1 with C=O and ring C=N double bonds; exocyclic NH with H below; right ring with CO2H (subscript 2) para to the NH. Black ink, legible. Circles for aromatic rings are allowed."},
+  {"claim": "Transcription: atom_labels ref/wrong/correct = O, NH, Cl, N, N, NH, CO2H (all three)", "verdict": "confirmed", "evidence": "All three images show Cl, O, two ring N, ring NH, exocyclic N with H below, CO2H."},
+  {"claim": "Transcription: abbreviations [CO2H] in all; r_labels none", "verdict": "confirmed", "evidence": "CO2H written as C O subscript-2 H in all three; no R labels."},
+  {"claim": "Transcription: ring_sizes [6,5,6] in all", "verdict": "confirmed", "evidence": "Two benzene hexagons and a five-membered triazolone ring in each image."},
+  {"claim": "Transcription: wedge_bonds 0, hashed_bonds 0 in all", "verdict": "confirmed", "evidence": "No wedge or hash bonds visible in any image."},
+  {"claim": "Transcription: ink_colour black (wrong and correct)", "verdict": "confirmed", "evidence": "Both handwritten drawings are in black/dark grey ink on white paper."},
+  {"claim": "Transcription: substituent descriptions (ref para-Cl; wrong meta-Cl; correct para-Cl; CO2H para to NH in all)", "verdict": "confirmed", "evidence": "As described in the checks above; in wrong, CO2H on upper-right vertex and NH on lower-left vertex of the right ring (para)."}
+ ],
+ "missed_differences": [],
+ "transcription_disputes": [],
+ "notes": "Wrong drawing's left ring is irregular but the meta relationship is readable. No other differences found; corrected drawing matches the reference."}

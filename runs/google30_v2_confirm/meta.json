@@ -1,0 +1,30 @@
+{
+  "name": "google30_v2_confirm",
+  "kind": "pairs",
+  "prompt_name": "chem_equiv_confirm_v1",
+  "prompt_sha": "e7bacc7f70c5689d",
+  "format": "claim_json",
+  "settings": {
+    "model": "google/gemini-3.1-pro-preview",
+    "temperature": null,
+    "thinking_level": "low",
+    "media_resolution": null,
+    "max_output_tokens": null,
+    "seed_base": null,
+    "response_mime_type": null,
+    "backend": "openrouter",
+    "route_to": null,
+    "data_collection": null
+  },
+  "settings_fp": "bea468497233",
+  "runs": 1,
+  "created": "2026-10-12T02:48:01+00:00",
+  "data": "google30",
+  "labelled": false,
+  "labels": "on",
+  "stage": "confirm",
+  "policy": "chem-equiv-1",
+  "decision_version": "chem-decision-2",
+  "schema_version": "2",
+  "approved_prompt_sha": "e7bacc7f70c5"
+}

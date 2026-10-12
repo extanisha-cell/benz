@@ -1,0 +1,82 @@
+{
+  "molecule": "molecule_135",
+  "transcriptions": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": ["Ac", "O", "iPr", "N", "N", "O", "NH", "F", "Cl", "O", "N", "F", "F"],
+      "abbreviations": ["Ac", "iPr"],
+      "r_labels": [],
+      "ring_sizes": [6, 5, 6, 6],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 10,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A 3-chloro-2-fluorobenzyl group (CH2 at C1, F at C2, Cl at C3) is joined via NH-C(=O)-CH2-N(iPr)-C(=O)-CH2- to indole N1. The indole has Ac at C3 and, at C5 of the benzo ring, a CH2-C(=O)- group acylating the N of a 3,3-difluoropiperidine.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset. Double bonds: 3 C=O, indole C2=C3, 3 Kekule in the indole benzo ring, 3 Kekule in the halophenyl ring."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": ["Ac", "N", "O", "iPr", "N", "O", "NH", "F", "Cl", "O", "N", "F", "F"],
+      "abbreviations": ["Ac", "iPr"],
+      "r_labels": [],
+      "ring_sizes": [5, 6, 6, 6],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 4,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Indole (pyrrole ring with one drawn C2=C3, benzo ring drawn with a circle) has Ac at C3; N1 carries CH2-C(=O)-N(iPr)-CH2-C(=O)-NH-CH2-aryl, the aryl being a circled benzene with F ortho (C2) and Cl meta (C3) to the CH2. The CH2-C(=O)-N(3,3-difluoropiperidine) group is drawn on the benzo-ring carbon adjacent to the N-bearing fusion carbon (indole C7), not C5.",
+      "overlaps_or_ambiguities": [
+        "Photo is cropped at the right edge through the indole benzo ring; a short bond stub at the edge vertex (indole C5) may be a cut-off line and cannot be read",
+        "iPr label is small and the r is smudged",
+        "Photo is rotated with slight perspective"
+      ],
+      "notes": "Handwritten black ink on grey paper. Three C=O plus the pyrrole C=C drawn as double bonds; both benzene rings shown as circles. Dark dots at some bond ends are pen pressure, not wedges."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": ["O", "iPr", "N", "O", "NH", "F", "Cl", "N", "Ac", "N", "O", "F", "F"],
+      "abbreviations": ["iPr", "Ac"],
+      "r_labels": [],
+      "ring_sizes": [6, 5, 6, 6],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 4,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Circled benzene with CH2 at C1, F at C2 and Cl at C3; the CH2 leads to NH-C(=O)-CH2-N(iPr)-C(=O)-CH2- on indole N1. The indole (C2=C3 drawn, circled benzo ring) has Ac at C3 and CH2-C(=O)-N(3,3-difluoropiperidine) at C5 of the benzo ring.",
+      "overlaps_or_ambiguities": [
+        "Cl is written in cursive and looks like 'cl'",
+        "Ac is written loosely (c looks like an 'L')",
+        "Piperidine ring is irregular freehand but has six vertices"
+      ],
+      "notes": "Handwritten black ink on white paper. Three C=O plus pyrrole C=C as double bonds; both benzene rings drawn with circles."
+    }
+  },
+  "errors_in_wrong": [
+    {
+      "category": "substituent_position",
+      "description": "The reference has the CH2-C(=O)-N(3,3-difluoropiperidinyl) group at indole C5 (benzo-ring carbon para to the N-bearing fusion carbon C7a, meta to C3a). The wrong drawing attaches it to the benzo-ring carbon directly adjacent to the N-bearing fusion carbon (indole C7).",
+      "severity": "high"
+    }
+  ],
+  "correct_version_issues": [],
+  "primary_error_category": "substituent_position",
+  "confidence": "high",
+  "needs_user_review": false,
+  "review_notes": "Wrong drawing moves the CH2C(=O)-difluoropiperidine amide from indole C5 to C7; everything else matches. The wrong photo is cropped at the right edge with an unreadable stub at C5, which does not change the finding. Corrected drawing has the group at C5 and matches the reference; Cl and Ac are written loosely but readable."
+}

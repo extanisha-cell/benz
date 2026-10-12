@@ -1,0 +1,204 @@
+{
+  "molecule": "BZ2435",
+  "images": {
+    "ref": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\BZ2435\\ref.png",
+    "wrong": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\BZ2435\\wrong.jpg",
+    "correct": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\BZ2435\\correct.jpg"
+  },
+  "transcriber_1": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Cl",
+        "O",
+        "N",
+        "N",
+        "NH",
+        "NH",
+        "CO2H"
+      ],
+      "abbreviations": [
+        "CO2H"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 8,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A five-membered ring (triazolone type: ring N, N, NH, with C=O and C=N) has a para-chlorophenyl (Cl para to the point of attachment) on the ring N next to the C=O carbon, and an NH linker on the ring carbon opposite the C=O. That NH links to a second benzene ring that carries CO2H para (1,4) to the NH.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset reference-style drawing. Double bonds: 3 in each benzene ring, 1 C=O in the five-membered ring, 1 C=N in the five-membered ring. The linking NH is drawn with H below the N."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Cl",
+        "O",
+        "N",
+        "NH",
+        "N",
+        "NH",
+        "CO2H"
+      ],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 2,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Left benzene ring (drawn with an inner circle) has Cl on one carbon and, on a ring carbon separated from it by one ring carbon (meta, 1,3), a bond to the ring N of a five-membered ring N-N=C(NH-aryl)-NH-C(=O) (ring atoms N, C=O, NH, C, N: the C=O is flanked by the aryl-bearing N and an NH; the other carbon is double-bonded to the second ring N and carries an exocyclic NH, written N over H, leading to a second benzene ring). That second benzene (circle) has the NH at one carbon and CO2H at the opposite carbon (para).",
+      "overlaps_or_ambiguities": [
+        "Hand-drawn left benzene ring is irregular and stretched, so the Cl versus ring-N attachment relationship was judged meta from vertex order and is slightly uncertain",
+        "Exocyclic NH written as N with H stacked below"
+      ],
+      "notes": "Handwritten. Double bonds: one C=O and one C=N in the five-membered ring. Both benzene rings are drawn as circles. CO2H written with a subscript 2 that is underlined."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Cl",
+        "N",
+        "N",
+        "O",
+        "NH",
+        "NH",
+        "CO2H"
+      ],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 2,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A five-membered ring containing N, N, NH, and carbons: one ring N is bonded to a circle-depicted benzene ring bearing Cl para (position 4) to the point of attachment; the ring carbon at the top bears =O, and the ring carbon at the bottom right (double bonded to the lower N) bears an NH linker to a second circle-depicted benzene ring, which carries CO2H para (position 4) to the NH.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Handwritten black ink. Double bonds: one C=O (top of five-membered ring) and one C=N in the five-membered ring. NH linker written with H below N."
+    }
+  },
+  "transcriber_2": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "O",
+        "NH",
+        "N",
+        "N",
+        "NH",
+        "Cl",
+        "CO2H"
+      ],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 8,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Central five-membered ring with three N atoms and an exocyclic C=O: one ring N (left) is bonded to a benzene ring bearing Cl para to the attachment point; one ring N is NH; the ring carbon opposite the C=O carries an NH linker to a second benzene ring that has CO2H para to the NH attachment. A C=N double bond is in the five-membered ring.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset drawing. Double bonds: 1 C=O, 1 ring C=N, 3 in the chlorophenyl ring, 3 in the benzoic acid ring. The linking NH has its H drawn below the N."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Cl",
+        "O",
+        "N",
+        "NH",
+        "N",
+        "NH",
+        "CO2H"
+      ],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 2,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Left benzene ring (circle) has Cl and the ring-N attachment on carbons separated by one carbon (meta, 1,3). The five-membered ring contains N, N, a C=O carbon, an NH and a C=N carbon; the ring carbon doubly bonded to N carries an exocyclic NH linked to a second benzene ring (circle) that bears CO2H para (1,4) to the NH.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Handwritten, scanned. Double bonds: C=O and the ring C=N."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Cl",
+        "O",
+        "NH",
+        "N",
+        "N",
+        "NH",
+        "CO2H"
+      ],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 2,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Left benzene ring (circle) has Cl at one vertex and the five-membered ring N at the para vertex (4-chlorophenyl). The five-ring is N(aryl)-N=C(NH-Ar)-NH-C(=O): the C=O carbon is bonded to N(aryl) and to ring NH, and the C=N carbon bears an exocyclic NH linked to a second benzene ring (circle) that has CO2H at the para position relative to that NH.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Double bonds counted: the C=O and the C=N inside the five-ring. The five-ring has no circle."
+    }
+  },
+  "output_file": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\by_molecule\\BZ2435.json"
+}

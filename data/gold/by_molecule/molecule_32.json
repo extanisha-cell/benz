@@ -1,0 +1,82 @@
+{
+  "molecule": "molecule_32",
+  "transcriptions": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": ["NHBoc", "MeOOC", "OPh"],
+      "abbreviations": ["NHBoc", "MeOOC", "OPh"],
+      "r_labels": [],
+      "ring_sizes": [6],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 3,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Para-disubstituted benzene: OPh on one ring carbon and CH2 on the opposite (para) carbon. The CH2 joins a stereocentre CH bearing NHBoc (plain bond, up) and MeOOC (hashed bond, left).",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset. Benzene with three Kekule double bonds; one hashed bond from the stereocentre to MeOOC."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": ["OPh", "NHBoc", "MeOOC"],
+      "abbreviations": ["OPh", "NHBoc", "MeOOC"],
+      "r_labels": [],
+      "ring_sizes": [6],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 0,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Circled benzene with OPh at the top vertex and the CH2 at the lower-left vertex, i.e. meta (1,3) to OPh. The CH2 joins a CH bearing NHBoc (plain bond, up) and MeOOC (hashed bond, left).",
+      "overlaps_or_ambiguities": [
+        "The OO of MeOOC is heavily retraced/smudged but readable",
+        "Hashed bond strokes run up against the C of MeOOC",
+        "Ink is very dark purple-black on grey paper; read as black"
+      ],
+      "notes": "Handwritten photo on grey paper. Small ink dots at some ring vertices are pen blots, not bonds."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": ["NHBoc", "OPh", "MeOOC"],
+      "abbreviations": ["NHBoc", "OPh", "MeOOC"],
+      "r_labels": [],
+      "ring_sizes": [6],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 0,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Hexagon with a small inner circle: OPh at the upper-right vertex and CH2 at the lower-left vertex (para). The CH2 joins a CH bearing NHBoc (plain bond, up) and MeOOC (hashed bond, left).",
+      "overlaps_or_ambiguities": [
+        "OO and final C of MeOOC are written as open loops but read as MeOOC",
+        "Dark ink blot on the lower-right ring bond, not a wedge",
+        "Small gap at the upper-left ring vertex"
+      ],
+      "notes": "Handwritten black ink on white paper. Aromatic ring shown with a small circle; one hashed bond to MeOOC."
+    }
+  },
+  "errors_in_wrong": [
+    {
+      "category": "substituent_position",
+      "description": "The reference has OPh para (1,4) to the CH2 side chain on the benzene ring. The wrong drawing puts OPh at the top vertex and the CH2 at the lower-left vertex, i.e. meta (1,3).",
+      "severity": "high"
+    }
+  ],
+  "correct_version_issues": [],
+  "primary_error_category": "substituent_position",
+  "confidence": "high",
+  "needs_user_review": false,
+  "review_notes": "Wrong drawing has OPh meta to the side chain instead of para. Labels, hashed bond and chain otherwise match. Corrected drawing restores para and matches the reference; handwriting is loose but readable."
+}

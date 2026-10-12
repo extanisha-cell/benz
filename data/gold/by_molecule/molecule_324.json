@@ -1,0 +1,118 @@
+{
+  "molecule": "molecule_324",
+  "transcriptions": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "NH",
+        "O",
+        "O",
+        "O",
+        "N",
+        "O",
+        "O",
+        "F",
+        "F"
+      ],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 9,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "3,4-Difluorophenyl (F meta and para to the NH carbon) -NH-C(=O)-CH(hashed methyl)-O-C(=O)-CH2-CH2- bonded to the N of a 2H-1,4-benzoxazin-3(4H)-one (N-C(=O)-CH2-O fused to benzene).",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset. Double bonds: 3 C=O plus 3 Kekule C=C in each benzene ring. NH written with H above N."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "NH",
+        "O",
+        "O",
+        "O",
+        "N",
+        "O",
+        "O",
+        "F",
+        "F"
+      ],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 9,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Left ring drawn with only five vertices and three inner double lines; NH on one vertex, F on the adjacent vertex (ortho) and F on the next (meta). Chain NH-C(=O)-CH(hashed methyl)-O-C(=O)-CH2-CH2-N into a benzoxazinone (N, C=O, CH2, O fused to Kekule benzene).",
+      "overlaps_or_ambiguities": [
+        "Left aryl ring has five vertices but three double bonds (impossible valence)"
+      ],
+      "notes": "Handwritten black pen. NH written H above N. Double bonds: 3 in left ring, 3 C=O, 3 in benzo ring."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "NH",
+        "O",
+        "O",
+        "O",
+        "N",
+        "O",
+        "O",
+        "F",
+        "F"
+      ],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 3,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Benzene (circle) with NH at C1, F at C3 and C4 (meta and para). NH-C(=O)-CH(hashed methyl)-O-C(=O)-CH2-CH2- bonded to the N of a benzoxazinone (N-C(=O)-CH2-O fused to a circled benzene).",
+      "overlaps_or_ambiguities": [],
+      "notes": "Handwritten black pen. NH written H above N. Three C=O; both benzene rings drawn with circles."
+    }
+  },
+  "errors_in_wrong": [
+    {
+      "category": "ring_size_or_fusion",
+      "description": "The 3,4-difluorophenyl ring of the reference (six-membered) is drawn as a five-membered ring with three double bonds; one ring vertex is missing between the NH-bearing carbon and the F-bearing carbon, so as drawn the two F atoms sit ortho and meta to the NH carbon instead of meta and para.",
+      "severity": "high"
+    }
+  ],
+  "correct_version_issues": [],
+  "primary_error_category": "ring_size_or_fusion",
+  "confidence": "high",
+  "needs_user_review": false,
+  "review_notes": "Wrong drawing's difluorophenyl ring has only five vertices; the F positions shift as a consequence. Corrected drawing has a six-membered ring with F meta/para and matches the reference (circle depiction instead of Kekule)."
+}

@@ -1,0 +1,166 @@
+{
+  "molecule": "molecule_294",
+  "transcriptions": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "MeO",
+        "Me",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "NH",
+        "OEt"
+      ],
+      "abbreviations": [
+        "MeO",
+        "Me",
+        "OEt"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        4,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 9,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Benzene: NH at C1, OEt at C2 (ortho to NH), 4-methyl-1,2,4-triazol-3-yl at C4 (para to NH). NH bonded to the ring N of a 2,7-naphthyridine-type bicycle (N-CH2-C8a and N-CH=CH-C4a); the pyridine ring has a methyl line next to its ring N and a 3-methoxy-2,2-dimethylazetidin-1-yl on the carbon between ring N and C8a.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset. Double bonds: triazole 2, benzene 3, bicycle 4 (C1=C8a, N2=C3, C4=C4a, CH=CH). Methyls on azetidine and pyridine drawn as plain lines."
+    },
+    "wrong": {
+      "drawing_style": "mixed",
+      "atom_labels": [
+        "CH3",
+        "N",
+        "N",
+        "N",
+        "CH3O",
+        "CH3",
+        "CH3",
+        "N",
+        "N",
+        "CH3",
+        "N",
+        "NH",
+        "O",
+        "CH2",
+        "CH3"
+      ],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        4,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 3,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Benzene (circle): NH at C1, O-CH2-CH3 at C2 (ortho to NH), and the 4-CH3-1,2,4-triazol-3-yl at C3 (ortho to the ethoxy, meta to NH). NH bonded to the ring N of the partially saturated ring of the bicycle, drawn as N-CH2-CH2-C8a and N-CH=C4a (double bond to the fusion carbon). The circled pyridine ring has CH3 next to its ring N and an N-azetidine with two CH3 on C2 and CH3O on C3.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Handwritten, black. Me, MeO, OEt written out as CH3, CH3O, O-CH2-CH3; skeletal methyl lines labelled CH3. Double bonds: triazole 2, one in the non-aromatic ring of the bicycle (CH=C fusion). Benzene and pyridine ring drawn with circles."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Me",
+        "N",
+        "N",
+        "MeO",
+        "N",
+        "N",
+        "N",
+        "NH",
+        "OEt"
+      ],
+      "abbreviations": [
+        "Me",
+        "MeO",
+        "OEt"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        4,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 6,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Benzene (circle): NH at C1, OEt at C2, and at C4 (para to NH) a five-membered ring containing only two N (N(Me)-CH=N-CH=C), i.e. imidazolyl rather than triazolyl. NH bonded to the ring N of the bicycle (N-CH2-C8a, N-CH=CH-C4a); pyridine ring with a methyl line next to the ring N and the azetidin-1-yl (MeO carbon, CMe2 drawn as a crossing of lines) on the carbon between ring N and C8a.",
+      "overlaps_or_ambiguities": [
+        "azetidine C2: the horizontal methyl-to-N line crosses the vertical C3-to-methyl line, so the quaternary carbon is drawn as a plus-shaped crossing",
+        "five-membered heteroaryl ring shows only two N labels (reference triazole has three)"
+      ],
+      "notes": "Handwritten, black. Double bonds: 2 in the five-membered ring, 4 in the bicycle (C1=C8a short stub, N=C3, C4=C4a, CH=CH)."
+    }
+  },
+  "errors_in_wrong": [
+    {
+      "category": "substituent_position",
+      "description": "Reference benzene has the triazolyl para to the NH (and meta to OEt). Wrong drawing attaches the triazolyl to the vertex adjacent to the OEt carbon, i.e. ortho to OEt and meta to NH (1,2,3-trisubstituted pattern).",
+      "severity": "high"
+    },
+    {
+      "category": "connectivity",
+      "description": "Reference partially saturated ring of the bicycle is N-CH2-C8a and N-CH=CH-C4a. Wrong drawing has N-CH2-CH2-C8a (two sp3 carbons on the C8a side) and N-CH=C4a, with the double bond going to the aromatic fusion carbon; ring atoms are arranged differently and the CH=CH double bond is misplaced.",
+      "severity": "high"
+    },
+    {
+      "category": "abbreviation_changed",
+      "description": "Reference abbreviations Me (on triazole N), MeO (azetidine) and OEt (benzene) are expanded to CH3, CH3O and O-CH2-CH3.",
+      "severity": "medium"
+    },
+    {
+      "category": "other",
+      "description": "Methyl groups drawn as unlabelled skeletal lines in the reference (two on azetidine C2, one on the pyridine ring) are written out as explicit CH3 labels, so the reference notation is not preserved.",
+      "severity": "medium"
+    }
+  ],
+  "correct_version_issues": [
+    {
+      "category": "missing_atom_or_group",
+      "description": "Reference has a 4-methyl-1,2,4-triazol-3-yl (three ring N: N-Me plus an N=N side). Corrected drawing's five-membered ring has only two N (N-Me and one other N); the ring atom adjacent to the attachment carbon on the lower side is drawn as carbon with a C=C double bond instead of N, giving an imidazole.",
+      "severity": "high"
+    },
+    {
+      "category": "legibility",
+      "description": "Azetidine C2 quaternary carbon is drawn as two straight lines crossing (methyl line running straight through to N), making the vertex harder to read than in the reference.",
+      "severity": "low"
+    }
+  ],
+  "primary_error_category": "substituent_position",
+  "confidence": "medium",
+  "needs_user_review": true,
+  "review_notes": "Wrong has several errors: triazole moved to meta of NH (ortho to OEt), bicycle ring atoms rearranged (CH2-CH2 / CH=C fusion), and Me/MeO/OEt and methyl lines written out as CH3. The corrected drawing fixes these but its triazole has only two ring N (drawn as an imidazole), so it is not fully correct."
+}

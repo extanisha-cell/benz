@@ -1,0 +1,266 @@
+{
+  "molecule": "molecule_294",
+  "images": {
+    "ref": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_294\\ref.png",
+    "wrong": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_294\\wrong.jpg",
+    "correct": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_294\\correct.jpg"
+  },
+  "transcriber_1": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Me",
+        "N",
+        "N",
+        "N",
+        "MeO",
+        "N",
+        "N",
+        "N",
+        "NH",
+        "OEt"
+      ],
+      "abbreviations": [
+        "Me",
+        "MeO",
+        "OEt"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        4,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 9,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A 4-methyl-1,2,4-triazole (N-Me, three N atoms) is joined through its carbon next to the N-Me to C4 of a benzene ring; that benzene has OEt at C2 (ortho to the NH) and NH at C1 (para to the triazole). The NH is bonded to the ring N (N-N link) of a bicyclic 6-6 system that has a methyl (unlabelled line) on the pyridine-type ring and an azetidine N attached at the carbon next to the ring fusion; the azetidine has an unlabelled gem-dimethyl carbon next to N and a MeO-bearing carbon next to that.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset structure. The bicycle has a pyridine-like ring (N=C, two C=C) fused to a ring containing a CH2, the NH-bearing N and one C=C. Double bonds: two in the triazole, three in the benzene, four in the bicycle."
+    },
+    "wrong": {
+      "drawing_style": "mixed",
+      "atom_labels": [
+        "CH3O",
+        "CH3",
+        "CH3",
+        "N",
+        "N",
+        "N",
+        "CH3",
+        "NH",
+        "O",
+        "CH2",
+        "CH3",
+        "CH3",
+        "N",
+        "N",
+        "N"
+      ],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        6,
+        6,
+        4
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 3,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A circled benzene has NH at C1, OCH2CH3 (O, CH2, CH3 written out) at C2 (ortho to the NH) and a 4-methyl-4H-1,2,4-triazol-3-yl at C3 (the triazole ring has three N, an N-CH3, and two drawn double bonds). The NH is bonded to a ring N (N-N bond) of a bicyclic: a circled six-membered ring with one ring N is fused to a second six-membered ring (CH2, CH2, N, CH=C with one C=C drawn). On the circled ring, the carbon between the fusion carbon and the ring N carries a 2,2-dimethyl-3-methoxy azetidin-1-yl (N-azetidine, two CH3 on the carbon next to N, CH3O on the next carbon), and the carbon on the other side of the ring N carries CH3.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Handwritten black ink on white paper. NH is written with H beneath N. Aromatic: circles in the benzene and in the six-membered ring with N; the triazole is drawn with alternating double bonds. Double bonds: two in the triazole, one in the fused second ring. The ring N of the bicyclic is directly bonded to the NH (N-N bond as drawn)."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "Me",
+        "N",
+        "N",
+        "MeO",
+        "N",
+        "N",
+        "N",
+        "NH",
+        "OEt"
+      ],
+      "abbreviations": [
+        "Me",
+        "MeO",
+        "OEt"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        6,
+        6,
+        4
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 6,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "partially_illegible",
+      "substituent_description": "A five-membered ring with two N (one carrying Me, two explicit C=C/C=N bonds) is bonded to a benzene ring (circle); going round the benzene from that carbon (position 1): NH at position 4 (para) and OEt at position 5 (ortho to NH, meta to the first substituent). The NH is bonded to a ring N of a fused bicyclic (two six-membered rings, ring N atoms in both) in which the other ring carries a methyl stub next to a ring N and, on the carbon on the other side of that ring N, a ring-N-bonded four-membered ring with MeO and two methyl stubs.",
+      "overlaps_or_ambiguities": [
+        "two lines cross at the four-membered ring carbon next to N (horizontal line from the left methyl stub to N crossing the vertical bond), so it is unclear whether it is a quaternary carbon with two methyls or two crossing bonds",
+        "NH is joined to a ring N, giving an N-N bond as drawn",
+        "ring-atom vertices have small dots and the fused bicycle is freehand, so ring-N and double-bond positions are uncertain"
+      ],
+      "notes": "Handwritten; crossing lines make the top four-membered ring hard to interpret. Double bonds: two in the five-membered ring, three in one six-ring of the fused bicycle, one in the other six-ring. Methyl groups are unlabeled line stubs (one on the bicycle, two on the four-membered ring)."
+    }
+  },
+  "transcriber_2": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "MeO",
+        "Me",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "NH",
+        "OEt"
+      ],
+      "abbreviations": [
+        "MeO",
+        "Me",
+        "OEt"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        4,
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 9,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A central benzene ring carries, relative to the NH-bearing carbon (C1): the NH at C1, an OEt at C2 (ortho to the NH) and a 4-methyl-1,2,4-triazol-3-yl group at C4 (para to the NH). The NH is bonded to the ring N (the lower N) of a bicyclic 6-6 diaza-naphthalene-type system (one ring contains a CH2 next to that N); the upper ring of the bicycle has a ring N, a CH3 line (unlabelled) on the carbon next to it, and on the other side a 3-methoxy-2,2-dimethylazetidin-1-yl group (N-attached, CMe2 next to the N, CH(OMe) next to CMe2) attached to the carbon adjacent to the ring fusion.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset drawing. Triazole: three N labels (two ring N plus the N bearing Me). Four unlabelled methyl line ends (two on azetidine C, one ring methyl on the bicycle, plus Me label on triazole N). Bicycle has four drawn double bonds (C=C, C=N, C=C, CH=CH); triazole two; benzene three."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "N",
+        "N",
+        "N",
+        "CH3",
+        "O",
+        "CH2",
+        "CH3",
+        "NH",
+        "N",
+        "N",
+        "CH3",
+        "N",
+        "CH3",
+        "CH3",
+        "CH3O"
+      ],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        6,
+        6,
+        4
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 3,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "The central benzene ring (drawn with a circle) is 1,2,3-trisubstituted: NH on the lower-right vertex (C1), an O-CH2-CH3 group on the bottom vertex (C2, ortho to the NH), and a 4-methyl triazole ring (5-membered ring containing three N, one of them bearing CH3) on the lower-left vertex (C3, ortho to the ethoxy and meta to the NH), joined through the triazole carbon that sits between the N-CH3 and a ring N. The NH is bonded directly to a ring N (N-N bond) in the left, partly saturated ring of a fused 6/6 bicycle; the right ring of the bicycle (circle) contains a second ring N, has CH3 on the carbon next to that N, and on the carbon on the other side of that N carries an N-linked 4-membered ring (azetidine N) bearing two CH3 on the carbon next to N and CH3O on the next carbon.",
+      "overlaps_or_ambiguities": [
+        "The left ring of the fused bicycle has one double bond drawn on the bond leading to a fusion carbon of the circled ring",
+        "NH is joined directly to a ring N (N-N link)",
+        "Triazole is drawn with Kekule double bonds while the benzene and the circled bicycle ring use circles"
+      ],
+      "notes": "Handwritten, black ink on white. Triazole has 2 double bonds, the left bicycle ring has 1; circles are not counted as double bonds. The ethoxy is drawn as O, CH2 (with a bond down) and CH3."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "MeO",
+        "Me",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "NH",
+        "OEt"
+      ],
+      "abbreviations": [
+        "MeO",
+        "Me",
+        "OEt"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        5,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 6,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "A central benzene ring (drawn with an aromatic circle) carries, para to each other, a 5-membered two-nitrogen ring (attached through a ring carbon; its other ring N bears Me) and an N-H group; an OEt group sits on the ring carbon next to the NH-bearing carbon (meta to the five-membered ring). The NH is drawn bonded to an N atom of a fused bicyclic 6-6 system (one ring N at the fusion-adjacent corner, one ring with a C=N and a methyl line); that bicycle also bears, on the carbon next to its ring N, an N atom that is part of a 5-membered ring with an OMe on one ring carbon and unlabeled lines (methyls) on the adjacent carbon.",
+      "overlaps_or_ambiguities": [
+        "Top right N-containing ring: five-membered ring containing N, with a MeO on one carbon and two unlabeled line stubs (methyls) on a neighbouring carbon, with lines crossing at that carbon",
+        "The bond between the NH and the bicyclic ring N reads as an N-N bond",
+        "Bicycle: double bonds drawn inconsistently (one ring has three inner lines, the other only one), short stub inside a ring",
+        "Unlabeled line ends (methyl groups) on bicycle and on the five-membered ring"
+      ],
+      "notes": "Handwritten, black ink on white paper, very freehand. Double-bond count: 2 in the two-N five-membered ring, 3 in the upper bicycle ring (including a short vertical stub), 1 in the lower bicycle ring."
+    }
+  },
+  "output_file": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\by_molecule\\molecule_294.json"
+}

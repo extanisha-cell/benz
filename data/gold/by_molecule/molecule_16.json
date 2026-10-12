@@ -1,0 +1,148 @@
+{
+  "molecule": "molecule_16",
+  "transcriptions": {
+    "ref": {
+      "drawing_style": "mixed",
+      "atom_labels": [
+        "COOtBu",
+        "N",
+        "N",
+        "BocNH",
+        "H2N",
+        "N",
+        "N",
+        "CO2H"
+      ],
+      "abbreviations": [
+        "COOtBu",
+        "BocNH"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 4,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 2,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Purine: COOtBu on C2 (between N1 and N3), H2N on C6, N9 bonded by a solid wedge to cyclohexane C1. Cyclohexane C2 carries BocNH on a hashed bond; C4 (para to C1) carries a hashed bond to CH2-CO2H.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset. Four double bonds in the purine (two C=N in six-ring, C4=C5, N7=C8); carbonyls of COOtBu/CO2H implicit in labels."
+    },
+    "wrong": {
+      "drawing_style": "mixed",
+      "atom_labels": [
+        "H",
+        "N",
+        "H",
+        "N",
+        "N",
+        "COO",
+        "C",
+        "CH3",
+        "CH3",
+        "CH3",
+        "N",
+        "N",
+        "BocNH",
+        "CO2H"
+      ],
+      "abbreviations": [
+        "BocNH"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 1,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 2,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Fused 6-5 bicycle: six-ring (circle) has two adjacent N atoms at the top (N-N bond); left carbon bears NH2 (drawn H-N-H vertically), right carbon (adjacent to the lower-right fusion carbon) bears COO-C(CH3)3. Five-ring: N=CH-N, the right N joined by a solid wedge to cyclohexane C1; C2 has hashed BocNH; C4 (para to C1) has hashed bond to CH2-CO2H.",
+      "overlaps_or_ambiguities": [
+        "Amino group drawn as H, N, H stacked vertically with bonds"
+      ],
+      "notes": "Handwritten black pen. tert-butyl written out as C with three CH3. Six-ring uses a circle, five-ring one explicit N=C."
+    },
+    "correct": {
+      "drawing_style": "mixed",
+      "atom_labels": [
+        "COOtBu",
+        "N",
+        "N",
+        "NH2",
+        "N",
+        "N",
+        "BocNH",
+        "CO2H"
+      ],
+      "abbreviations": [
+        "COOtBu",
+        "BocNH"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 1,
+      "triple_bonds": 0,
+      "wedge_bonds": 1,
+      "hashed_bonds": 2,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Purine: COOtBu on the carbon between the two six-ring N atoms, NH2 on C6, N9 (bonded to the fusion carbon next to N3) joined by a solid wedge to cyclohexane C1; C2 has hashed BocNH; C4 (para to C1) has a hashed bond to a CH2 vertex then CO2H.",
+      "overlaps_or_ambiguities": [
+        "Small gap between the end of the hashed bond and the line to CO2H, so the CH2 vertex is slightly ambiguous",
+        "Solid wedge blurs into the N label"
+      ],
+      "notes": "Handwritten black pen. Six-ring drawn with a circle, five-ring with one explicit N7=C8. Amino written NH2 (reference H2N, same group)."
+    }
+  },
+  "errors_in_wrong": [
+    {
+      "category": "connectivity",
+      "description": "Six-membered ring heteroatoms rearranged: the reference ring is N1-C2(COOtBu)-N3-C4(fusion, bears N9)-C5-C6(NH2); the wrong drawing has the two N atoms adjacent (N-N bond) at the top, and the ester-bearing carbon sits next to the fusion carbon where N3 should be, so COOtBu is no longer on the carbon between the two ring nitrogens.",
+      "severity": "high"
+    },
+    {
+      "category": "abbreviation_changed",
+      "description": "Reference label COOtBu is expanded in the wrong drawing to COO-C(CH3)3 (tBu written out as C with three CH3).",
+      "severity": "medium"
+    },
+    {
+      "category": "abbreviation_changed",
+      "description": "Reference condensed label H2N is expanded to an explicit H-N-H drawn vertically with bonds on the left six-ring carbon.",
+      "severity": "medium"
+    }
+  ],
+  "correct_version_issues": [
+    {
+      "category": "legibility",
+      "description": "The hashed bond from cyclohexane C4 stops short of the line leading to CO2H, leaving a small gap; the CH2 vertex (reference CH2-CO2H) is readable from the change in direction but slightly ambiguous.",
+      "severity": "low"
+    }
+  ],
+  "primary_error_category": "connectivity",
+  "confidence": "high",
+  "needs_user_review": false,
+  "review_notes": "Wrong drawing turns the pyrimidine part of the purine into an N-N ring with the ester moved next to the fusion carbon, and expands tBu and H2N. Corrected drawing matches the reference; only a small gap at the CH2-CO2H hashed bond. Both handwritten copies use an aromatic circle in the six-ring instead of the reference Kekule bonds; treated as acceptable depiction."
+}

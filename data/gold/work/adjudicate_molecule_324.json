@@ -1,0 +1,221 @@
+{
+  "molecule": "molecule_324",
+  "images": {
+    "ref": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_324\\ref.png",
+    "wrong": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_324\\wrong.jpg",
+    "correct": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\molecule_324\\correct.jpg"
+  },
+  "transcriber_1": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "NH",
+        "O",
+        "O",
+        "O",
+        "N",
+        "O",
+        "O",
+        "F",
+        "F"
+      ],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 9,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A 3,4-difluorophenyl ring (F on two adjacent carbons, meta and para to the NH-bearing carbon) is bonded through NH to a C(=O) that is attached to a CH carrying a hashed-bond methyl and an O-C(=O)-CH2-CH2- ester; that chain ends on the N of a 3-oxo benzoxazine ring (N, C=O, CH2, O fused to a benzene ring).",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset. Double bonds: three C=O plus three Kekule C=C in each of two benzene rings. One hashed bond (to a methyl); no stereo letters."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "NH",
+        "O",
+        "O",
+        "O",
+        "N",
+        "O",
+        "O",
+        "F",
+        "F"
+      ],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 9,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "A ring (drawn with five vertices and three inner double lines) bears NH at one vertex, an F on the adjacent vertex (ortho to the NH carbon) and a second F on the next vertex (meta). The NH is acylated: NH-C(=O)-CH(hashed unlabelled methyl)-O-C(=O)-CH2-CH2-N, where N is the ring nitrogen of a benzene-fused six-membered ring containing N, O, CH2 and C(=O) (a benzoxazinone-type ring, N and O on adjacent benzo carbons).",
+      "overlaps_or_ambiguities": [
+        "The left aryl ring is drawn with only five vertices (a pentagon) although it has three inner double lines; it looks like an intended benzene ring",
+        "The H and N of the amide NH are written stacked, with H above N",
+        "The hashed bond is unlabelled and carries only a methyl end"
+      ],
+      "notes": "Handwritten drawing in black pen on white paper. Described literally: the left ring has five ring atoms as drawn. Double bonds: three C=O (amide, ester, ring lactam), three inner lines in the left ring, three in the right benzene."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "NH",
+        "O",
+        "O",
+        "O",
+        "N",
+        "O",
+        "O",
+        "F",
+        "F"
+      ],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 3,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A 3,4-difluorophenyl (circled benzene; NH at C1, F at C3 and F at C4, i.e. meta and para) is bonded through NH to C(=O)-CH, where the CH has a hashed bond to an unlabelled terminal carbon and an O-C(=O)-CH2-CH2-N chain. The terminal N is the ring N of a six-membered N,O lactam ring fused to a circled benzene: N is bonded to one benzo carbon, the ring O is bonded to the ortho benzo carbon, and the ring is closed through CH2 and C(=O) (benzoxazinone-type).",
+      "overlaps_or_ambiguities": [],
+      "notes": "Handwritten black ink on white paper. NH is written with H above N. Three C=O double bonds (amide, ester, lactam). The single hashed bond ends at an unlabelled vertex near the top of the drawing (implicit methyl). Both benzene rings are circles."
+    }
+  },
+  "transcriber_2": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "NH",
+        "O",
+        "O",
+        "O",
+        "N",
+        "O",
+        "O",
+        "F",
+        "F"
+      ],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 9,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A 3,4-difluorophenyl ring (F on the meta and para positions relative to the ring carbon bearing NH) is attached through NH to an amide C(=O), which connects to a stereocentre CH carrying a hashed-bond methyl and an ester O. That O is acylated by C(=O)-CH2-CH2- whose end is bonded to the N of a 2H-1,4-benzoxazin-3-one (benzene fused to a 6-membered ring containing O and N; the carbon next to N is C=O and the CH2 sits between that C=O and the ring O).",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset structure. Double bonds: 3 in difluorophenyl, 3 in the benzo ring, 3 C=O (amide, ester, lactam). The methyl on the stereocentre is a plain hashed-bond line with no label. No written stereo descriptors."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "F",
+        "F",
+        "HN",
+        "O",
+        "O",
+        "O",
+        "N",
+        "O",
+        "O"
+      ],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [
+        5,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 9,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Left ring is drawn with five vertices and three inner double-bond lines; the NH is on one ring carbon, F on the adjacent carbon (ortho) and a second F on the next carbon (meta to the NH), i.e. 2,3-difluoro relative to NH. NH-C(=O)-CH(hashed unlabeled methyl)-O-C(=O)-CH2CH2-N, where the N is the nitrogen of a six-membered ring fused to a benzene ring (N, C(=O), CH2, O, and two aromatic carbons: a benzoxazinone).",
+      "overlaps_or_ambiguities": [
+        "Left ring is drawn with only five vertices yet has three inner double-bond lines (looks like a benzene with a missing vertex)",
+        "Hashed bond goes to an unlabeled terminal end (methyl) on the stereocentre carbon"
+      ],
+      "notes": "Handwritten. Double bonds: 3 in left five-membered ring, 3 C=O (amide, ester, lactam), 3 in the benzo ring. H is written above N in the left amide label."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "NH",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "N",
+        "F",
+        "F"
+      ],
+      "abbreviations": [],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        6,
+        6
+      ],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 3,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 1,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Left benzene ring (circle) is attached through its C1 to an NH, with F atoms on C3 and C4 (the two adjacent ring carbons next to each other on the side away from C2; i.e. meta and para to the NH). The NH is bonded to a C(=O) which is bonded to a CH carrying a hashed bond to an unlabelled terminus (methyl) and an O that forms an ester with a C(=O)-CH2-CH2- chain leading to the N of a six-membered benzo-fused ring (N, C(=O), CH2, O, and two ortho-fused aromatic carbons), i.e. a benzoxazinone whose N bears the chain.",
+      "overlaps_or_ambiguities": [
+        "NH written as H stacked above N",
+        "hashed bond ends at an unlabelled atom (looks like a methyl line)"
+      ],
+      "notes": "Handwritten. Three C=O double bonds (amide, ester, lactam), each drawn as two parallel lines. Both benzene rings drawn with a circle; the right ring is lighter ink."
+    }
+  },
+  "output_file": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\by_molecule\\molecule_324.json"
+}

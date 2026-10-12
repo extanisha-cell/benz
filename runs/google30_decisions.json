@@ -1,0 +1,898 @@
+{
+  "policy_version": "chem-equiv-1",
+  "decisions": {
+    "molecule_144": {
+      "outcome": "REJECT",
+      "rule": "supported_reject",
+      "failure_categories": [
+        "substituent_position"
+      ],
+      "evidence": [
+        {
+          "category": "substituent_position",
+          "location": "phenyl ring",
+          "reference": "para-methyl group (1,4-substitution)",
+          "annotated": "meta-methyl group (1,3-substitution)",
+          "detail": "",
+          "votes": 1
+        }
+      ],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [
+        "legacy_reject_not_structured",
+        "legacy_reject_structural_claim"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 0,
+        "REJECT": 1,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 1,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.5,
+      "model_confidence": 0.95,
+      "structured_calls": 1,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_79": {
+      "outcome": "REJECT",
+      "rule": "supported_reject",
+      "failure_categories": [
+        "element_mismatch"
+      ],
+      "evidence": [
+        {
+          "category": "element_mismatch",
+          "location": "ester substituent on the top-right nitrogen",
+          "reference": "COOBn (benzyl group)",
+          "annotated": "C(=O)OBr (bromine atom in place of benzyl group)",
+          "detail": "",
+          "votes": 1
+        }
+      ],
+      "notation_differences": [
+        "abbreviation_expansion"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 0,
+        "REJECT": 1,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 1,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.5,
+      "model_confidence": 0.99,
+      "structured_calls": 1,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_484": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 1,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.67,
+      "model_confidence": 0.97,
+      "structured_calls": 2,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_55": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 1,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.67,
+      "model_confidence": 1.0,
+      "structured_calls": 2,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_218": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction",
+        "label_format"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 1,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.67,
+      "model_confidence": 0.99,
+      "structured_calls": 2,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_123": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction",
+        "implicit_explicit_atoms"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 1,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.67,
+      "model_confidence": 0.99,
+      "structured_calls": 2,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_249": {
+      "outcome": "UNCERTAIN",
+      "rule": "contested_reject",
+      "failure_categories": [
+        "contested_reject",
+        "escalation_exhausted"
+      ],
+      "evidence": [
+        {
+          "category": "stereochemistry",
+          "location": "alpha carbon of the leucine residue (connected to BocNH)",
+          "reference": "(S)-configuration (dashed wedge with backbone on right)",
+          "annotated": "(R)-configuration (dashed wedge with backbone on left)",
+          "detail": "",
+          "votes": 1
+        },
+        {
+          "category": "stereochemistry",
+          "location": "alpha carbon of the tryptophan residue (connected to BnOOC)",
+          "reference": "(R)-configuration (solid wedge with backbone on left)",
+          "annotated": "(S)-configuration (solid wedge with backbone on right)",
+          "detail": "",
+          "votes": 1
+        }
+      ],
+      "notation_differences": [
+        "abbreviation_expansion",
+        "aromatic_depiction",
+        "label_format"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": true,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 1,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 1,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.0,
+      "model_confidence": null,
+      "structured_calls": 3,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_2": {
+      "outcome": "REJECT",
+      "rule": "supported_reject",
+      "failure_categories": [
+        "ring_size_or_fusion"
+      ],
+      "evidence": [
+        {
+          "category": "ring_size_or_fusion",
+          "location": "left aromatic ring",
+          "reference": "6-membered aromatic ring",
+          "annotated": "5-membered aromatic ring",
+          "detail": "",
+          "votes": 1
+        }
+      ],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 0,
+        "REJECT": 1,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 1,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.5,
+      "model_confidence": 0.99,
+      "structured_calls": 1,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_149": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [
+        "legacy_accept_unverified"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 3,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "vote_agreement": 1.0,
+      "model_confidence": 0.97,
+      "structured_calls": 2,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_475": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [
+        "legacy_reject_not_structured",
+        "legacy_reject_structural_claim",
+        "accept_overrides_legacy_structural_claim"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 3,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 1,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.75,
+      "model_confidence": 0.96,
+      "structured_calls": 3,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_334": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "abbreviation_expansion",
+        "aromatic_depiction"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 1,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.67,
+      "model_confidence": 0.97,
+      "structured_calls": 2,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_65": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "abbreviation_expansion",
+        "aromatic_depiction"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 1,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.67,
+      "model_confidence": 1.0,
+      "structured_calls": 2,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_191": {
+      "outcome": "REJECT",
+      "rule": "supported_reject",
+      "failure_categories": [
+        "ring_size_or_fusion"
+      ],
+      "evidence": [
+        {
+          "category": "ring_size_or_fusion",
+          "location": "second ring from the left (between the cyclohexadiene and the NH group)",
+          "reference": "a 6-membered benzene ring",
+          "annotated": "a 5-membered ring",
+          "detail": "",
+          "votes": 1
+        }
+      ],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 0,
+        "REJECT": 1,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 1,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.5,
+      "model_confidence": 0.95,
+      "structured_calls": 1,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_48": {
+      "outcome": "REJECT",
+      "rule": "supported_reject",
+      "failure_categories": [
+        "bond_order"
+      ],
+      "evidence": [
+        {
+          "category": "bond_order",
+          "location": "middle 5-membered ring",
+          "reference": "has a double bond between the rightmost vertex (attached to the linker) and the bottom vertex",
+          "annotated": "has a double bond between the rightmost vertex (attached to the linker) and the top-right vertex",
+          "detail": "",
+          "votes": 1
+        }
+      ],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 0,
+        "REJECT": 1,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 1,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.5,
+      "model_confidence": 0.95,
+      "structured_calls": 1,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_423": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "abbreviation_expansion",
+        "drawing_style"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 1,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.67,
+      "model_confidence": 1.0,
+      "structured_calls": 2,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_419": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "abbreviation_expansion",
+        "implicit_explicit_atoms"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 1,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.67,
+      "model_confidence": 1.0,
+      "structured_calls": 2,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_273": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [],
+      "flags": [
+        "legacy_accept_unverified"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 3,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "vote_agreement": 1.0,
+      "model_confidence": 0.97,
+      "structured_calls": 2,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_53": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "drawing_style"
+      ],
+      "flags": [
+        "legacy_accept_unverified"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 3,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "vote_agreement": 1.0,
+      "model_confidence": 1.0,
+      "structured_calls": 2,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_14": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [
+        "legacy_accept_unverified"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 3,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "vote_agreement": 1.0,
+      "model_confidence": 0.99,
+      "structured_calls": 2,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_22": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction",
+        "drawing_style"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 1,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.67,
+      "model_confidence": 0.97,
+      "structured_calls": 2,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_461": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "abbreviation_expansion"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 1,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.67,
+      "model_confidence": 0.97,
+      "structured_calls": 2,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_499": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "abbreviation_expansion",
+        "aromatic_depiction",
+        "label_format"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 1,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.67,
+      "model_confidence": 1.0,
+      "structured_calls": 2,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_36": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 1,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.67,
+      "model_confidence": 1.0,
+      "structured_calls": 2,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_236": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 1,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.67,
+      "model_confidence": 0.97,
+      "structured_calls": 2,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_416": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "drawing_style"
+      ],
+      "flags": [
+        "legacy_accept_unverified"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 3,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "vote_agreement": 1.0,
+      "model_confidence": 0.99,
+      "structured_calls": 2,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_257": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 1,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.67,
+      "model_confidence": 0.99,
+      "structured_calls": 2,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_316": {
+      "outcome": "REJECT",
+      "rule": "supported_reject",
+      "failure_categories": [
+        "ring_size_or_fusion"
+      ],
+      "evidence": [
+        {
+          "category": "ring_size_or_fusion",
+          "location": "central ring",
+          "reference": "5-membered ring (pyrrolidine)",
+          "annotated": "6-membered ring (piperidine)",
+          "detail": "",
+          "votes": 2
+        }
+      ],
+      "notation_differences": [
+        "drawing_style",
+        "label_format"
+      ],
+      "flags": [
+        "legacy_accept_unverified"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 2,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.5,
+      "model_confidence": 0.99,
+      "structured_calls": 3,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_326": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "abbreviation_expansion",
+        "implicit_explicit_atoms"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 1,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.67,
+      "model_confidence": 0.99,
+      "structured_calls": 2,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_75": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 1,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.67,
+      "model_confidence": 1.0,
+      "structured_calls": 2,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    },
+    "molecule_172": {
+      "outcome": "UNCERTAIN",
+      "rule": "contested_reject",
+      "failure_categories": [
+        "contested_reject",
+        "escalation_exhausted"
+      ],
+      "evidence": [
+        {
+          "category": "substituent_position",
+          "location": "top-left fluorophenyl ring",
+          "reference": "the CH2 macrocycle linker is para to the fluorine atom and meta to the chiral centre",
+          "annotated": "the CH2 macrocycle linker is meta to the fluorine atom and para to the chiral centre",
+          "detail": "",
+          "votes": 1
+        }
+      ],
+      "notation_differences": [
+        "aromatic_depiction",
+        "drawing_style"
+      ],
+      "flags": [
+        "legacy_accept_unverified"
+      ],
+      "needs_escalation": false,
+      "requires_review": true,
+      "votes": {
+        "ACCEPT": 3,
+        "REJECT": 1,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 0,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.0,
+      "model_confidence": null,
+      "structured_calls": 3,
+      "legacy_calls": 1,
+      "graph": "not_provided"
+    }
+  }
+}

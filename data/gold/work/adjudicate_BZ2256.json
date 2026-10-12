@@ -1,0 +1,250 @@
+{
+  "molecule": "BZ2256",
+  "images": {
+    "ref": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\BZ2256\\ref.png",
+    "wrong": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\BZ2256\\wrong.jpg",
+    "correct": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\images\\BZ2256\\correct.jpg"
+  },
+  "transcriber_1": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "AcNH",
+        "O",
+        "S",
+        "O",
+        "N",
+        "Bn",
+        "O",
+        "NH",
+        "N",
+        "N"
+      ],
+      "abbreviations": [
+        "AcNH",
+        "Bn"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 6,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "A para-disubstituted benzene ring (circle) bears AcNH at C1 and a sulfonyl S(=O)2 at C4. The sulfonamide N carries a line to a CH2 vertex that ends in a Bn label, and CH2-C(=O)-NH-N=CH- leading to C3 of a pyrrole. The pyrrole has methyl groups at C2 and C5, and its N1 is bonded to a 2,4-dimethylphenyl ring (circle; methyls ortho and para to the attachment).",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset structure. Both benzene rings are drawn as circles while the pyrrole uses alternating double bonds. Double bonds: two S=O, one C=O, one C=N, two in the pyrrole."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "AcNH",
+        "O",
+        "S",
+        "O",
+        "N",
+        "Bn",
+        "O",
+        "NH",
+        "N",
+        "N"
+      ],
+      "abbreviations": [
+        "AcNH",
+        "Bn"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 6,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "A circled benzene carries the sulfonyl S at C1 and AcNH at C3 (meta); S has two =O (drawn as double bonds) and is bonded to N. That N bears a one-carbon vertex leading to Bn, and CH2-C(=O)-NH-N=CH- (hydrazone, C=N double bond). The CH is bonded to C3 of a five-membered N ring (pyrrole drawn with two C=C) that has plain-line methyl stubs on both carbons next to the ring N, and whose N is bonded to a circled benzene with methyl stubs ortho and para to the N attachment (2,4-dimethylphenyl).",
+      "overlaps_or_ambiguities": [
+        "Bn is joined to the sulfonamide N through a kinked line, so N-CH2-Bn versus N-Bn is slightly unclear",
+        "Four methyl groups are drawn only as unlabelled line stubs"
+      ],
+      "notes": "Handwritten thin dark-grey ink on white paper. Double bonds: two S=O, one C=O, one C=N, two in the five-membered ring. Two benzene rings are circles."
+    },
+    "correct": {
+      "drawing_style": "mixed",
+      "atom_labels": [
+        "AcNH",
+        "S",
+        "O",
+        "O",
+        "N",
+        "Bn",
+        "O",
+        "NH",
+        "N",
+        "N"
+      ],
+      "abbreviations": [
+        "AcNH",
+        "Bn"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 6,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "A para-disubstituted benzene (circle) carries AcNH on one carbon and S(=O)2 on the carbon opposite (para); S is bonded to N, which bears Bn and a CH2-C(=O)-NH-N=CH- chain. The CH is bonded to C3 of a five-membered ring with one N and two explicit C=C bonds, with methyl stubs on the two ring carbons next to the ring N (2,5-dimethyl, so the CH= is on C3), and that ring N is bonded to a benzene ring (circle) bearing two methyl stubs (ortho and para to the ring N).",
+      "overlaps_or_ambiguities": [
+        "the bond from the sulfonamide N to Bn has a bend (extra vertex) so it could be read as N-CH2-Bn",
+        "right-hand aryl ring is near the image edge; methyl positions (ortho and para) read from short stubs",
+        "NH written as N with H below it"
+      ],
+      "notes": "Double bonds: two S=O, one C=O, one N=CH, two in the five-membered ring. Methyl groups are unlabeled line stubs (four stubs: two on the five-ring, two on the right benzene). Bn label is written as Bn."
+    }
+  },
+  "transcriber_2": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "AcNH",
+        "S",
+        "O",
+        "O",
+        "N",
+        "Bn",
+        "O",
+        "NH",
+        "N",
+        "N"
+      ],
+      "abbreviations": [
+        "AcNH",
+        "Bn"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 9,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Left benzene ring (aromatic circle) is para-substituted with AcNH and a sulfonyl group S(=O)2; the S is bonded to an N that carries a CH2-Bn and a CH2-C(=O)-NH-N=CH chain. The CH= carbon is attached to the 3-position of a pyrrole bearing methyl groups at both carbons next to the ring N (2,5-dimethyl), and the pyrrole N is bonded to a 2,4-dimethylphenyl ring (methyl ortho and methyl para to the attachment).",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset. Methyl groups are unlabelled line stubs (four in total). Double bonds: two S=O, one C=O, one C=N, two in pyrrole, three in the right aryl ring (Kekule), while the left benzene uses a circle."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": [
+        "AcNH",
+        "O",
+        "S",
+        "O",
+        "N",
+        "Bn",
+        "O",
+        "NH",
+        "N",
+        "N"
+      ],
+      "abbreviations": [
+        "AcNH",
+        "Bn"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 6,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Left benzene ring (circle) has S at the right vertex and AcNH at the lower-left vertex, meta (1,3) to each other. S has two double-bonded O (one above, one below) and is bonded to N, which carries CH2-Bn and a CH2 leading to C(=O)-NH-N=CH. The CH is attached to C3/C4 of a pyrrole with a methyl stick on each carbon next to the ring N (2,5-dimethyl); the pyrrole N is bonded to a benzene ring (circle) carrying unlabelled methyl sticks at ortho and para to the N.",
+      "overlaps_or_ambiguities": [
+        "the n of Bn looks like a cursive r",
+        "methyl groups are drawn as bare sticks with no label",
+        "pencil-grey ink, some strokes faint"
+      ],
+      "notes": "Double bonds counted: two S=O, one C=O, one N=C of the hydrazone, and two C=C in the pyrrole. No E/Z label written."
+    },
+    "correct": {
+      "drawing_style": "mixed",
+      "atom_labels": [
+        "AcNH",
+        "S",
+        "O",
+        "O",
+        "N",
+        "Bn",
+        "O",
+        "NH",
+        "N",
+        "N"
+      ],
+      "abbreviations": [
+        "AcNH",
+        "Bn"
+      ],
+      "r_labels": [],
+      "ring_sizes": [
+        6,
+        5,
+        6
+      ],
+      "aromatic_ring_depiction": "both",
+      "double_bonds": 6,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "minor_issues",
+      "substituent_description": "Left benzene ring (circle) is para-disubstituted: AcNH at one end and a sulfonyl S (two S=O, drawn above and below) at the other. S is bonded to N, which carries a line that bends and ends at 'Bn' and also a CH2 vertex leading to a C(=O) (O drawn above), then NH, then N=CH (C=N double bond) ending at a five-membered ring. The five-membered ring has one N labelled, two ring double bonds, one methyl stub on each carbon flanking the N, and the CH= attached to the ring carbon adjacent to one of the methyl-bearing carbons (i.e. 2,5-dimethylpyrrol-3-yl). The ring N is bonded to a benzene ring (circle) carrying a methyl stub ortho and a methyl stub para to the N attachment (2,4-dimethylphenyl).",
+      "overlaps_or_ambiguities": [
+        "The line from the sulfonamide N goes up, bends, then runs to 'Bn', so there is an extra unlabelled vertex between N and Bn.",
+        "Methyl groups on the pyrrole and aryl rings are drawn as bare line stubs with no label.",
+        "The pyrrole ring has only one labelled heteroatom (N)."
+      ],
+      "notes": "Handwritten black pen. 6 double bonds: two S=O, one C=O, one N=CH, two in the five-membered ring. Both six-membered rings use a hand-drawn circle; the five-membered ring uses explicit double bonds. Stacked NH labels (N over H) on the hydrazide are recorded as NH."
+    }
+  },
+  "output_file": "C:\\Users\\anysh\\OneDrive\\Benz\\data\\gold\\by_molecule\\BZ2256.json"
+}

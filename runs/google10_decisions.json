@@ -1,0 +1,309 @@
+{
+  "policy_version": "chem-equiv-1",
+  "decisions": {
+    "molecule_213": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction",
+        "label_format"
+      ],
+      "flags": [
+        "legacy_accept_unverified",
+        "legacy_reject_not_structured",
+        "legacy_reject_structural_claim",
+        "accept_overrides_legacy_structural_claim"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 5,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 3,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.62,
+      "model_confidence": 0.99,
+      "structured_calls": 3,
+      "legacy_calls": 5,
+      "graph": "not_provided"
+    },
+    "molecule_470": {
+      "outcome": "REJECT",
+      "rule": "supported_reject",
+      "failure_categories": [
+        "ring_size_or_fusion"
+      ],
+      "evidence": [
+        {
+          "category": "ring_size_or_fusion",
+          "location": "spiro-fused ring",
+          "reference": "cyclohexane ring (6-membered)",
+          "annotated": "cyclopentane ring (5-membered)",
+          "detail": "",
+          "votes": 1
+        },
+        {
+          "category": "ring_size_or_fusion",
+          "location": "spiro-fused ring on the right",
+          "reference": "6-membered ring (cyclohexane)",
+          "annotated": "5-membered ring (cyclopentane)",
+          "detail": "",
+          "votes": 1
+        }
+      ],
+      "notation_differences": [
+        "abbreviation_expansion",
+        "drawing_style",
+        "implicit_explicit_atoms"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 1,
+        "REJECT": 2,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 5,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.25,
+      "model_confidence": 0.97,
+      "structured_calls": 3,
+      "legacy_calls": 5,
+      "graph": "not_provided"
+    },
+    "molecule_5": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "abbreviation_expansion",
+        "drawing_style",
+        "label_format"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 5,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.29,
+      "model_confidence": 0.99,
+      "structured_calls": 2,
+      "legacy_calls": 5,
+      "graph": "not_provided"
+    },
+    "molecule_252": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "abbreviation_expansion",
+        "aromatic_depiction",
+        "label_format"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 5,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.29,
+      "model_confidence": 0.99,
+      "structured_calls": 2,
+      "legacy_calls": 5,
+      "graph": "not_provided"
+    },
+    "molecule_25": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [
+        "legacy_accept_unverified",
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 6,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 1,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.86,
+      "model_confidence": 0.99,
+      "structured_calls": 2,
+      "legacy_calls": 5,
+      "graph": "not_provided"
+    },
+    "molecule_132": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 5,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.29,
+      "model_confidence": 1.0,
+      "structured_calls": 2,
+      "legacy_calls": 5,
+      "graph": "not_provided"
+    },
+    "molecule_353": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "aromatic_depiction",
+        "drawing_style"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 5,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.29,
+      "model_confidence": 0.97,
+      "structured_calls": 2,
+      "legacy_calls": 5,
+      "graph": "not_provided"
+    },
+    "molecule_118": {
+      "outcome": "REJECT",
+      "rule": "supported_reject",
+      "failure_categories": [
+        "ring_size_or_fusion"
+      ],
+      "evidence": [
+        {
+          "category": "ring_size_or_fusion",
+          "location": "leftmost ring (from PhOOC group)",
+          "reference": "6-membered ring (implied by Ph abbreviation)",
+          "annotated": "5-membered ring",
+          "detail": "",
+          "votes": 1
+        }
+      ],
+      "notation_differences": [
+        "abbreviation_expansion",
+        "aromatic_depiction"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 0,
+        "REJECT": 1,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 5,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.17,
+      "model_confidence": 0.99,
+      "structured_calls": 1,
+      "legacy_calls": 5,
+      "graph": "not_provided"
+    },
+    "molecule_390": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "abbreviation_expansion"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 5,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.29,
+      "model_confidence": 1.0,
+      "structured_calls": 2,
+      "legacy_calls": 5,
+      "graph": "not_provided"
+    },
+    "molecule_455": {
+      "outcome": "ACCEPT",
+      "rule": "verified_equivalence",
+      "failure_categories": [],
+      "evidence": [],
+      "notation_differences": [
+        "abbreviation_expansion",
+        "implicit_explicit_atoms"
+      ],
+      "flags": [
+        "legacy_reject_not_structured"
+      ],
+      "needs_escalation": false,
+      "requires_review": false,
+      "votes": {
+        "ACCEPT": 2,
+        "REJECT": 0,
+        "UNCERTAIN": 0,
+        "EXCLUDED": 5,
+        "INVALID": 0
+      },
+      "vote_agreement": 0.29,
+      "model_confidence": 0.99,
+      "structured_calls": 2,
+      "legacy_calls": 5,
+      "graph": "not_provided"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "molecule": "molecule_240",
+  "transcriptions": {
+    "ref": {
+      "drawing_style": "skeletal",
+      "atom_labels": ["Ac", "N", "N", "OMe", "EtOOC"],
+      "abbreviations": ["Ac", "OMe", "EtOOC"],
+      "r_labels": [],
+      "ring_sizes": [5, 6],
+      "aromatic_ring_depiction": "alternating_double_bonds",
+      "double_bonds": 3,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Pyrrolidine-type five-membered ring fused to a pyridine: ring N1 bears Ac; C2 (adjacent to N1) bears EtOOC; C3 is an unsubstituted CH2 next to the lower fusion carbon. In the pyridine, the ring N is separated by one CH from the fusion carbon bonded to N1, and OMe is on the carbon adjacent to the ring N.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Typeset. Three double bonds in the six-membered ring (two C=C, one C=N)."
+    },
+    "wrong": {
+      "drawing_style": "skeletal",
+      "atom_labels": ["Ac", "N", "N", "OMe", "EtOOC"],
+      "abbreviations": ["Ac", "OMe", "EtOOC"],
+      "r_labels": [],
+      "ring_sizes": [5, 6],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 0,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Five-membered ring: N(Ac), then an unsubstituted CH2 vertex, then the carbon bearing EtOOC, which is bonded to the lower fusion carbon (C3 position). Six-membered ring (circle): ring N separated by one CH from the fusion carbon bonded to N(Ac); OMe on the carbon adjacent to the ring N.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Handwritten black ink on grey paper. Ac written with an upper-case-looking c, still readable as Ac."
+    },
+    "correct": {
+      "drawing_style": "skeletal",
+      "atom_labels": ["Ac", "N", "N", "OMe", "EtOOC"],
+      "abbreviations": ["Ac", "OMe", "EtOOC"],
+      "r_labels": [],
+      "ring_sizes": [5, 6],
+      "aromatic_ring_depiction": "circle",
+      "double_bonds": 0,
+      "triple_bonds": 0,
+      "wedge_bonds": 0,
+      "hashed_bonds": 0,
+      "stereo_labels": [],
+      "charges": [],
+      "ink_colour": "black",
+      "legibility": "clear",
+      "substituent_description": "Five-membered ring: N(Ac), C2 bearing EtOOC (adjacent to N), CH2, then the fusion carbons. Six-membered ring (circle): ring N separated by one CH from the fusion carbon bonded to N(Ac); OMe on the carbon adjacent to the ring N.",
+      "overlaps_or_ambiguities": [],
+      "notes": "Handwritten black ink. Small ink blobs at the EtOOC and OMe vertices are pen marks, not wedges."
+    }
+  },
+  "errors_in_wrong": [
+    {
+      "category": "substituent_position",
+      "description": "The reference has EtOOC on C2 of the five-membered ring, directly adjacent to N(Ac); the wrong drawing places EtOOC on C3 (the carbon bonded to the lower ring-fusion carbon), with an unsubstituted CH2 between N(Ac) and the EtOOC-bearing carbon.",
+      "severity": "high"
+    }
+  ],
+  "correct_version_issues": [],
+  "primary_error_category": "substituent_position",
+  "confidence": "high",
+  "needs_user_review": false,
+  "review_notes": "Wrong drawing moves the ethyl ester from C2 (next to N-Ac) to C3 of the five-membered ring; the pyridine N and OMe positions are right. The corrected drawing puts EtOOC back on C2 and matches the reference. Aromatic ring drawn as a circle in both handwritten versions (same compound)."
+}

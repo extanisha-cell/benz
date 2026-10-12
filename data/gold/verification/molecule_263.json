@@ -1,0 +1,15 @@
+{"molecule": "molecule_263", "status": "confirmed",
+ "claim_checks": [
+  {"claim": "errors_in_wrong: pyridine ring N (7-aza position) omitted; fused six-membered ring drawn as all-carbon benzene (oxindole instead of 7-azaoxindole)", "verdict": "confirmed", "evidence": "Ref has 'N' in the fused six-membered ring adjacent to the carbon bonded to the lactam N. Wrong: the fused six-membered ring (bottom centre, ~(710-1095, 575-890)) is a plain hexagon with a circle and no N label anywhere in it."},
+  {"claim": "errors_in_wrong: OMe expanded to OCH3", "verdict": "confirmed", "evidence": "Wrong far right: 'O' with 'CH3' written below it; ref and correct show 'OMe'."},
+  {"claim": "correct_version_issues is empty (corrected drawing has no other issue)", "verdict": "confirmed", "evidence": "Correct: Boc-N pyrrolidine (5), spiro to lactam (C=O, N-CH2), pyridine N at ~(1020,720) adjacent to C7a, Kekule pyridine double bonds C7a=N, C3a=C4, C5=C6 matching ref, PMB ring with circle and OMe para to CH2, black ink."},
+  {"claim": "Transcription: atom_labels ref/correct [Boc,N,O,N,N,OMe]; wrong [Boc,N,O,N,OCH3]", "verdict": "confirmed", "evidence": "Labels read as stated."},
+  {"claim": "Transcription: abbreviations ref/correct [Boc,OMe], wrong [Boc]; r_labels []", "verdict": "confirmed", "evidence": "Boc kept in all; OMe only in ref/correct; no R labels."},
+  {"claim": "Transcription: ring_sizes [5,5,6,6] in all three", "verdict": "confirmed", "evidence": "Pyrrolidine 5, lactam 5, fused 6, benzyl 6 in every image."},
+  {"claim": "Transcription: no wedge or hashed bonds", "verdict": "confirmed", "evidence": "No stereo bonds in any image."},
+  {"claim": "Transcription: ink_colour black (wrong and correct)", "verdict": "confirmed", "evidence": "Both drawn in black ink."},
+  {"claim": "Transcription: substituent_description (spiro N-Boc pyrrolidine/lactam; ring N adjacent to C7a in ref/correct, none in wrong; OMe/OCH3 para to CH2)", "verdict": "confirmed", "evidence": "PMB ring: CH2 vertex to OMe/OCH3 vertex is three ring bonds (para) in all images; ring N position as stated."}
+ ],
+ "missed_differences": [],
+ "transcription_disputes": [],
+ "notes": "All claims hold. In correct, 'Boc' is written with a capital-looking B and smallish o/c ('BOC'-like) but still reads as Boc; the C7a=N inner stroke is detached but readable. Not counted as issues."}
